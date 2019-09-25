@@ -28,9 +28,12 @@
           "alt": "Hotel Exterior entrance",
           "caption": "",
           "description": ""
-        }
+        },
+        "title": "Test",
+        "sub_title": "test2"
       }
     ],
-    "controls": true
+    "controls": true,
+    "autoplay_button_output": true
   }
 ]
