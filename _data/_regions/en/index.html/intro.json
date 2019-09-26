@@ -88,6 +88,9 @@
     },
     "header_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "footer_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     }
   }
 ]
