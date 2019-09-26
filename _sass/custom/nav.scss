@@ -56,6 +56,15 @@
   
   
 }
+
+.nav--top {
+  .nav__item {
+    .nav__link {
+      font-size: 14px;
+    }
+  }
+}
+
 .nav--footer {
   margin: 1rem 0;
   .nav__item {
