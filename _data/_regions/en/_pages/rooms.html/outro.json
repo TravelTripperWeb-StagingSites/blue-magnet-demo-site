@@ -26,7 +26,8 @@
         "alt": "Mickey and Girl with Balloons",
         "caption": "",
         "description": ""
-      }
+      },
+      "full_bleed": true
     },
     "include_header": true,
     "include_footer": true,
@@ -47,6 +48,6 @@
     "footer_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     },
-    "container_classes": "container-fluid"
+    "container_classes": ""
   }
 ]
