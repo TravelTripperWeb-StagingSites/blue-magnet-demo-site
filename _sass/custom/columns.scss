@@ -13,3 +13,8 @@
   }
 }
 
+.c-2-col {
+  &--dark {
+    background-color: $secondary;
+  }
+}
