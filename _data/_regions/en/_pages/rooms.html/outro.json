@@ -40,6 +40,9 @@
         "inner: w-100 d-flex flex-column h-100 justify-content-center"
       ],
       "style": "white text-primary"
+    },
+    "header_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     }
   }
 ]
