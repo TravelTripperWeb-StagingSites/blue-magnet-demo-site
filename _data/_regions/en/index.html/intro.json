@@ -40,5 +40,8 @@
         "inner: p-4"
       ]
     }
+  },
+  {
+    "_template": "2_col"
   }
 ]
