@@ -7,7 +7,7 @@ items:
   - id: offers
   - id: dining
   - id: attractions
-      label: Explore Attractions
+    label: Explore Attractions
   - id: events
   - id: __galleries__
   - id: reviews
