@@ -1,4 +1,6 @@
 en:
+  dining:
+    hours: Hours of Operation
   room:
     amenities: Amenities
   book_now: Reserve

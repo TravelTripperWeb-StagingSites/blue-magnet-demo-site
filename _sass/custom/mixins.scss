@@ -30,3 +30,44 @@
   }  
   
 }
+
+@mixin overflow-carousel() {
+  height: 100%;
+  .tns-controls {
+    button {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      transform: translateY(-50%);        
+      border:0;
+      display: block;
+      appearance: none;
+      height: 79px;
+      width: 54px;
+      background: $primary;
+      color: white;
+    }
+    button[data-controls="next"] {
+      right: 0;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    height: calc(100% + 3rem);
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+  }
+  .tns-outer, .tns-inner, .tns-ovh {
+    height: 100%;
+  }
+  .tiny-slider {
+    height: 100%;
+    .item {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  
+}
