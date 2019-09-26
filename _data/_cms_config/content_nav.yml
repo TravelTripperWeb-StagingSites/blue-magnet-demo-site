@@ -1,0 +1,13 @@
+items:
+  - id: __pages__
+  - id: __menus__
+  - id: rooms
+    label: 
+      en: Suites
+  - id: offers
+  - id: dining
+  - id: attractions
+      label: Explore Attractions
+  - id: events
+  - id: __galleries__
+  - id: reviews
