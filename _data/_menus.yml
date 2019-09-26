@@ -10,7 +10,6 @@ main:
   depth: 2
   name: Main Menu
   items:
-  - page_id: index.html
   - page_id: _pages/about.html
   - page_id: _pages/rooms.html
   - page_id: _pages/offers.html
