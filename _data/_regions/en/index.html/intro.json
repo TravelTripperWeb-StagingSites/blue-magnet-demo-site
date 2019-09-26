@@ -102,6 +102,7 @@
   {
     "_template": "2_col",
     "advanced_options": {
+      "custom_classes": "col-items-with-top-images"
     },
     "style": "dark text-white",
     "container_classes": "",
