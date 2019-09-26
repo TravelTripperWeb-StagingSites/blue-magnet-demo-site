@@ -22,3 +22,7 @@ main:
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
+foorer:
+  depth: 1
+  name: Footer Menu
+  items: []
