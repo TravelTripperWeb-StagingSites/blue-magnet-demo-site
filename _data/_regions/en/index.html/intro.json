@@ -35,5 +35,8 @@
     ],
     "controls": true,
     "autoplay_button_output": true
+  },
+  {
+    "_template": "hero_slider"
   }
 ]
