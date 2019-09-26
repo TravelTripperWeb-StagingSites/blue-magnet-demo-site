@@ -100,6 +100,13 @@
     }
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+    },
+    "style": "dark text-white",
+    "container_classes": "container-fluid",
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html"
   }
 ]
