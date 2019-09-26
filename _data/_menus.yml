@@ -22,6 +22,9 @@ main:
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/accessibility.html
 foorer:
   depth: 1
   name: Footer Menu
