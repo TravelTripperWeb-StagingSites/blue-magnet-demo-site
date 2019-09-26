@@ -29,26 +29,34 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/contact.html
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/reviews.html
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/faq.html
-  - folder: false
-    url_localized: ''
-    page_id: _pages/user_created/careers.html
-  - folder: false
-    url_localized: ''
-    page_id: _pages/terms.html
-  - folder: false
-    url_localized: ''
-    page_id: _pages/sitemap.html
-  - folder: false
-    url_localized: ''
-    page_id: _pages/user_created/travel-agents.html
+    items: 
   - folder: false
     url_localized:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/careers.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/travel-agents.html
+    items: 
