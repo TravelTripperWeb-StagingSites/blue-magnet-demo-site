@@ -44,3 +44,6 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/sitemap.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/travel-agents.html
