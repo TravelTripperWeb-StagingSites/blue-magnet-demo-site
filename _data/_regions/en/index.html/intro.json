@@ -104,7 +104,7 @@
     "advanced_options": {
     },
     "style": "dark text-white",
-    "container_classes": "container-fluid",
+    "container_classes": "",
     "include_gap": true,
     "col1_type": "html",
     "col2_type": "html"
