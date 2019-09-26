@@ -12,9 +12,12 @@
   }
   .btn--primary {
     font-size: 17px;
+    letter-spacing: 6.8px;
     height: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
+    @include inner-border(2px);
+    
   }
   
   @include media-breakpoint-down(sm) {

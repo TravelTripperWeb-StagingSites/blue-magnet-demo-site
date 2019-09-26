@@ -1,0 +1,15 @@
+.col {
+  &--border {
+    @include inner-border(1rem, 2px, $border-color-light);
+    .col-html-content {
+      z-index: 1;
+      position: relative;
+    }    
+  }
+  &--white.text-primary {
+    p:not(.h3) {
+      color: $base-text-color;
+    }
+  }
+}
+

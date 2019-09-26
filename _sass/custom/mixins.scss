@@ -1,0 +1,14 @@
+@mixin inner-border($padding: 3px, $bw: $border-width, $bc: $border-color) {
+  &:before {
+    display: block;
+    position: absolute;
+    content: "";
+    z-index: 0;
+    top: $padding;
+    left: $padding;
+    width: calc(100% - #{2 * $padding});
+    height: calc(100% - #{2 * $padding});
+    border: $bw solid $bc;
+  }  
+  
+}
