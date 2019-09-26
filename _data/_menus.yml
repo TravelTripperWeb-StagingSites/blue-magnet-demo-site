@@ -41,3 +41,6 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/terms.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
