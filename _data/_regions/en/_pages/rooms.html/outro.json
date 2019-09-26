@@ -46,6 +46,7 @@
     },
     "footer_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
-    }
+    },
+    "container_classes": "container-fluid"
   }
 ]
