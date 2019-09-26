@@ -1,5 +1,8 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\">Join our <a href=\"members/\">PRIVATE MEMBER</a>&nbsp;club for exclusive rates and offers.&nbsp;</p>"
+    }
   }
 ]
