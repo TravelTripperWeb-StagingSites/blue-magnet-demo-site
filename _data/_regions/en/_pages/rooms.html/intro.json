@@ -8,7 +8,11 @@
     },
     "layout": "1_col",
     "h1_text_alignment": "text-center",
-    "h1_header_type": "h1"
+    "h1_header_type": "h1",
+    "header": {
+      "content": "explore Our Orlando Hotel Suites",
+      "_template": "header"
+    }
   },
   {
     "_template": "intro"
