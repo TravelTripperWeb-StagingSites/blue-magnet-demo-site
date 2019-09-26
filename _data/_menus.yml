@@ -35,3 +35,6 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/faq.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/careers.html
