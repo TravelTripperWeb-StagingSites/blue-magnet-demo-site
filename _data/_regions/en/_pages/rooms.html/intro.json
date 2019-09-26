@@ -35,7 +35,8 @@
           "height": 1308
         }
       }
-    }
+    },
+    "skip_h1": true
   },
   {
     "_template": "intro",
