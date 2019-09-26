@@ -47,3 +47,8 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/travel-agents.html
+  - folder: false
+    url_localized:
+      en: http://www.crrsv.com/bvs/index.html
+    label_localized:
+      en: Pay Online
