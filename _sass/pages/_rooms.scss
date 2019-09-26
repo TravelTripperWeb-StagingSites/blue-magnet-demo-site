@@ -34,7 +34,7 @@
   .room__image-group {
     max-height: 450px;
     .room__images {
-      .ttweb-room-image-list {
+      &.ttweb-room-image-list {
         picture {
           img {
             width: 100%;
