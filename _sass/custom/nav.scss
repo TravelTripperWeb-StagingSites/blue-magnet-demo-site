@@ -2,8 +2,11 @@
   .navbar-brand {
     .nav__logo {
       img {
-        width: 330px;
+        width: 190px;
         height: auto;
+        @include media-breakpoint-up(md) {
+          width: 330px;
+        }        
       }
     }
   }
@@ -13,4 +16,40 @@
     padding-top: 1em;
     padding-bottom: 1em;
   }
+  
+  @include media-breakpoint-down(sm) {
+    &.is-fixed-top {
+      height: calc(74px + 3rem);
+      padding: .25rem 0;
+      
+    }
+    
+    .nav--device {
+      top: 74px;
+    }
+    
+    .booking-button {
+      width: 100%;
+      .ttweb-booking-widget-button {
+        display: block;
+        width: 100%;
+      }
+      .btn--primary {
+        width: 100%;
+        border: none;
+        background: $secondary;
+        color: white;
+        height: 2.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }        
+  
+  
 }

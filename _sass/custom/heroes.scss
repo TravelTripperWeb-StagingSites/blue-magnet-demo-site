@@ -1,0 +1,10 @@
+.hero {
+  height: 70vh;
+  max-height: 326px;    
+  @include media-breakpoint-up(lg) {
+    max-height: 475px;    
+  }
+  @include media-breakpoint-up(xl) {
+    max-height: 650px;    
+  }
+}
