@@ -42,6 +42,40 @@
     }
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+    },
+    "background_image": {
+      "image": {
+        "name": "Queen bed with painting and large window",
+        "content_type": "image/png",
+        "date_added": "2019-09-26-095014",
+        "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "width": 2930,
+        "height": 1252,
+        "format": "png",
+        "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "resource_type": "image",
+        "size": 4021092,
+        "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569505815/mlnozv4i7w80cx0otuh7.png",
+        "file_size": null,
+        "alt": "Queen bed with painting and large window",
+        "caption": "",
+        "description": ""
+      },
+      "full_bleed": true
+    },
+    "include_header": true,
+    "include_footer": true,
+    "breakpoint": "sm",
+    "layout": "7_5",
+    "col1_type": "html",
+    "col2_type": "html"
   }
 ]
