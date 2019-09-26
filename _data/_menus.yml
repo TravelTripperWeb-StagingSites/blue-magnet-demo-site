@@ -25,4 +25,7 @@ main:
 foorer:
   depth: 1
   name: Footer Menu
-  items: []
+  items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/contact.html
