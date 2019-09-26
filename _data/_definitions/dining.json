@@ -1,0 +1,45 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "tagline": {},
+  "short_description": {
+    "type": "text",
+    "localizable": true
+  },
+  "images": {
+    "type": "image",
+    "multiple": true
+  },
+  "hours": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "day": {
+        "type": "string"
+      },
+      "hours": {
+        "type": "string",
+      }
+    }    
+  },
+  "menus": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "label": {
+        "type": "string"
+      },
+      "url": {
+        "type": "url",
+      }
+    }
+  },
+  "reservations_url": {
+    "type": "url"
+  },
+  "order": {
+    "type": "order"
+  }
+}
