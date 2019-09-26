@@ -19,3 +19,6 @@ main:
   - folder: false
     url_localized: ''
     page_id: _pages/attractions.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/events.html
