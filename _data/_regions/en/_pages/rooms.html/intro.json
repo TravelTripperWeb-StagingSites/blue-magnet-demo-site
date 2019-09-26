@@ -3,6 +3,11 @@
     "_template": "intro",
     "pre_header": {
       "content": "<p class=\"h1\" style=\"text-align: center;\">Explore Our Orlando Hotel Suites</p>"
-    }
+    },
+    "advanced_options": {
+    },
+    "layout": "1_col",
+    "h1_text_alignment": "text-center",
+    "h1_header_type": "h1"
   }
 ]
