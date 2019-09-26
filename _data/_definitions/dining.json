@@ -8,27 +8,38 @@
     "type": "text",
     "localizable": true
   },
-  "description": {
-    "type": "richtext",
-    "required": true,
-    "localizable": true,
-    "required": true
+  "images": {
+    "type": "image",
+    "multiple": true
   },
-  "image": {
-    "type": "image"
+  "hours": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "day": {
+        "type": "string"
+      },
+      "hours": {
+        "type": "string",
+      }
+    }    
   },
-  "menu_url": {
-    "type": "url",
-    "localizable": true
+  "menus": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "label": {
+        "type": "string"
+      },
+      "url": {
+        "type": "url",
+      }
+    }
   },
   "reservations_url": {
     "type": "url"
   },
   "order": {
     "type": "order"
-  },
-  "featured_order": {
-    "type": "order",
-    "display_field": "image"
   }
 }
