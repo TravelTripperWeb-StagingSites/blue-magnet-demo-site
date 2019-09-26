@@ -33,7 +33,7 @@
     "col1_type": "html",
     "col2_type": "html",
     "col2_html": {
-      "content": "<p class=\"h3\" style=\"text-align: center;\">Experience Orlando&rsquo;s Top Attractions</p>\n<p style=\"text-align: center;\">There&rsquo;s a reason why Orlando is one of the world&rsquo;s most popular vacation destinations. There&rsquo;s no shortage of wonderful things to do here &ndash; from the thrilling theme parks at Walt Disney World&reg; Resort to upscale shopping at Orlando Vineland Premium Outlets and Lake Buena Vista Factory Stores and live sporting events at the Amway Center and Exploria Stadium.</p>",
+      "content": "<p class=\"h3\" style=\"text-align: center;\">Experience Orlando&rsquo;s Top Attractions</p>\n<p style=\"text-align: center;\">There&rsquo;s a reason why Orlando is one of the world&rsquo;s most popular vacation destinations. There&rsquo;s no shortage of wonderful things to do here &ndash; from the thrilling theme parks at Walt Disney World&reg; Resort to upscale shopping at Orlando Vineland Premium Outlets and Lake Buena Vista Factory Stores and live sporting events at the Amway Center and Exploria Stadium.</p>\n<p style=\"text-align: center;\"><a class=\"btn btn--primary\" href=\"../explore/\">Learn More</a></p>",
       "custom_classes": [
         "inner: p-4",
         "outer: col--border",
