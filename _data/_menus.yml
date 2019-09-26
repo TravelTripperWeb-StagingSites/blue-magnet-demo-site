@@ -29,3 +29,6 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/contact.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/reviews.html
