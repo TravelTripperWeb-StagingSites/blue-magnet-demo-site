@@ -38,3 +38,6 @@ foorer:
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/careers.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
