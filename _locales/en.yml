@@ -1,6 +1,11 @@
 en:
+  room:
+    amenities: Amenities
   book_now: Reserve
+  buttons:
+    book: Book Now
   cta_primary: Learn More
+  
   footer:
     social_header: Stay Connected
     member_line_1: Get Our Best Rates

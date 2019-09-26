@@ -1,0 +1,48 @@
+---
+layout: generic
+---
+
+{% if site.data._models.rooms %}
+  {% assign rooms = site.data._models.rooms | sort:"order" %}
+  <section class="room-list">
+    <div class="room-list__items">
+      {% for room in rooms %}
+        {% include components/room sync_content=page.sync_room_content %}
+      {% endfor %}
+    </div>
+  </section>
+{% else %}
+  {% regionblock no_list_items, type:html %}
+    {% t 'rooms.none' %}
+  {% endregionblock %}
+{% endif %}
+
+{{ content }}
+
+{% comment %}
+
+  Name:
+
+    Room List Page
+
+  Description:
+
+    Displays a list of room models enhanced with dynamic data from reztrip. 
+    Allows user editable regions via the generic layout.
+
+  Usage:
+
+    In a page that uses this layout, you can add `sync_room_content: true` to the front matter
+    which will make all of the content (e.g. name, sizing, description, etc) display the latest 
+    content from reztrip (in addition to pricing and availability) instead of the generated HTML 
+    from the offer model.
+    
+    To customize the rendering of each room model, create your own _includes/components/room file.
+    
+    In general, use the editable regions available from the "generic" layout to add content 
+    above and below the rooms list.
+    To add custom components/content to the page, write that content in the body of the page that uses this 
+    layout and it will be included after the room list.
+
+
+{% endcomment %}

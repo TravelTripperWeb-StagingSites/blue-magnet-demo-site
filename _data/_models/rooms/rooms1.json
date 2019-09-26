@@ -50,7 +50,8 @@
     }
   ],
   "amenities": [
-    "room_amenities1"
+    "room_amenities1",
+    "room_amenities2"
   ],
   "name": "Superior King Room Interior View",
   "order": 0

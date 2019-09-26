@@ -1,0 +1,102 @@
+{% comment %}
+
+  Name:
+
+      Room with live rate
+
+  Description:
+
+      Display content from a room model with live-rates from reztrip
+
+  Usage:
+
+      Pass provider and video id through the include to render on page.
+          {% assign room = *RoomModelInstance* %}
+      eg. {% include components/room sync_content=true %}
+
+      The below example includes all available offer-component types.
+
+  TODO: Add microdata?
+
+{% endcomment %}
+
+{% assign sync = include.sync_content %}
+
+
+<div class="room" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" {% tabindex %}>
+  <div class="room__columns">
+    <div class="container">
+      <div class="row">
+        <div class="room__text-group col-md-6">
+          <div class=" d-flex flex-column w-100 h-100 justify-content-center">
+            <div class="room__name h3" >
+              <a href="{{ room.id | permalink: model_dir: 'rooms' }}" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</a>
+            </div>
+            <div class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
+
+            <div class="room__short-description" {% if sync %}ttweb-room-component="RoomShortDescription"{% endif %}>
+              {{ room.short_description }}
+            </div>
+            <div class="room__description" {% if sync %}ttweb-room-component="RoomDescription"{% endif %}>
+              {{ room.description }}
+            </div>
+
+            <div class="room__size" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>
+              {{ room.size }}
+            </div>
+            <div class="room__bed-arrangement" {% if sync %}ttweb-room-component="RoomBedArrangement"{% endif %}>
+              {{ room.bed_arrangement }}
+            </div>
+            <div class="room__select">
+              <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
+                {% t 'rooms.buttons.book' %}
+              </div>
+            </div>    
+          </div>
+        </div>
+        <div class="room__image-group  col-md-6 ">
+          <div class=" d-flex flex-column w-100 h-100 justify-content-center">
+        
+            <div class="room__featured-image" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
+              {% assign featured_image = room.featured_image | default: room.images[0] %}
+              {% include components/image image=featured_image max_width=600 %}
+            </div>
+            <div class="room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
+              {% assign sliderImages = room.images %}
+              {% assign sliderId = "room" | append: room.id | append: "slider" %}
+            
+              {% capture slide_list %}
+                {% for image in sliderImages %}
+                  <div class="item" {{itemStyle}}>
+                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+                  </div>
+                {% endfor %}
+              {% endcapture %}
+              {% include _jekyll_includes/slider.html id=sliderId slide_list=slide_list controls=true autoplay=false nav=true autoplay_button_output=false%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="room__amenities text-center" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="h3">
+            <span {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</span>
+            {% t 'room.amenities' %}
+          </p>
+          <div {% if sync %}ttweb-room-component="RoomAmenities"{% endif %}>
+            <ul>
+              {% for amenity in room.amenities %}
+                <li>{{ amenity.name }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
