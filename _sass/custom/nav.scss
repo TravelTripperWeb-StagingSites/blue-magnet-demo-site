@@ -56,3 +56,12 @@
   
   
 }
+.nav--footer {
+  margin: 1rem 0;
+  .nav__item {
+    .nav__link {
+      margin: 0 1em 0 0;
+      font-size: .75rem;
+    }    
+  }
+}

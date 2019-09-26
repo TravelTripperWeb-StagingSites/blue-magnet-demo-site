@@ -32,7 +32,7 @@ main:
     url_localized: ''
     page_id: _pages/events.html
     items: 
-foorer:
+footer:
   depth: 1
   name: Footer Menu
   items:
@@ -53,6 +53,7 @@ foorer:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
+    target: "_NEW"
     items: 
   - folder: false
     url_localized: ''

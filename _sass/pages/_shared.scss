@@ -1,2 +1,32 @@
 // Shared Page Elements
 // ==========================================================================
+footer {
+  .footer-cross-sell {
+    padding: 50px;
+  }
+  .social-links {
+    margin: 1rem 0;
+    a {
+      margin: 0 1rem;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+  strong {
+    text-transform: uppercase;
+  }
+  .copyright {
+    font-size: 80%;
+  }
+  .logo-badges {
+    text-align: right;
+    img.green-lodging {
+      height: 99px;
+    }
+    img.disney-hotel-neighbor {
+      height: 83px;
+    }
+  }
+}

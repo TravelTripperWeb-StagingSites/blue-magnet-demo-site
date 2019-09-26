@@ -1,2 +1,11 @@
 en:
   book_now: Reserve
+  cta_primary: Learn More
+  footer:
+    social_header: Stay Connected
+    member_line_1: Get Our Best Rates
+    member_line_2: Become a Private Member
+    copyright: Copyright %{time} Buena Vista Suites | Orlando, Florida. All rights reserved
+    contact:
+      direct: "Direct Line:"
+      reservations: "Reservations:"

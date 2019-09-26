@@ -1,3 +1,74 @@
-<div class="copyright m-2">
-  &copy; {{ "now" | date: "%Y" }}
+<div class="bg-secondary  text-white footer-cross-sell ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <div class="w-100 d-flex flex-column h-100 justify-content-center">
+          <p class="h5">
+            {% t 'footer.social_header', editable:true %}
+          </p>
+          <div class="d-flex justify-content-center social-links">
+            <a href="https://www.facebook.com/{{site.data.social.facebook.username}}/" target="_NEW">
+              <img src="/assets/images/facebook-seeklogo.com.svg" alt="Facebook Icon"/>
+            </a>
+            <a href="https://www.instagram.com/{{site.data.social.instagram.username}}/" target="_NEW">Insta</a>
+            <a href="#">
+              <img src="/assets/images/tripadvisor-logotype.svg" alt="Trip Advisor Icon"/>            
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="w-100 d-flex flex-column h-100 justify-content-center">
+          <p class="h6">
+            {% t 'footer.member_line_1', editable:true %}
+          </p>      
+          <p class="h5">
+            {% t 'footer.member_line_2', editable:true %}
+          </p>
+          <br/>
+          <p class="mb-0">
+            <a class="btn btn--primary" href="{{ '_pages/user_created/private-members.html' | permalink }}">
+              {%t 'cta_primary', editable: true %}
+            </a>
+          <p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container small">    
+  <div class="row">
+    <div class="col-12">
+      <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start">
+        {% assign items = site.data._menus.footer.items %}
+        {% include nav/nav-item-list.html items=items %}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <strong>
+        {{ site.data.hotel_settings.name}}
+      </strong>
+      <br/>
+      {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
+      <br/>
+      {% t 'footer.contact.direct', editable:true %}
+      {{ site.data.hotel_settings.phone }} |
+      {% t 'footer.contact.reservations', editable:true %}
+      {{ site.data.hotel_settings.reservations_phone }}
+      <div class="copyright mt-2 text-xsmall small">
+        {% capture year %}
+          &copy; {{ "now" | date: "%Y" }}
+        {% endcapture %}
+        {% t 'footer.copyright', time:year %}
+      </div>
+    </div>
+    <div class="col-md-4 logo-badges">
+      <img class="green-lodging" src="/assets/images/green-lodging-medium@2x.png" />
+      <img class="disney-hotel-neighbor" src="/assets/images/disney-hotel-medium@2x.png" />
+    </div>
+  </div>
 </div>

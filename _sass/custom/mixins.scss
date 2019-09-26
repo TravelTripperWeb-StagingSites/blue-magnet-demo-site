@@ -12,3 +12,21 @@
   }  
   
 }
+@mixin outer-border($padding: 3px, $bw: $border-width, $bc: $border-color) {
+  $newPadding: $padding + 2px;
+  z-index: 1;
+  transform-style: preserve-3d;
+  &:before {
+    display: block;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    transform: translateZ(-1px);
+    top: - $newPadding;
+    left: - $newPadding;
+    width: calc(100% + #{2 * $newPadding});
+    height: calc(100% + #{2 * $newPadding});
+    border: $bw solid $bc;
+  }  
+  
+}
