@@ -9,6 +9,16 @@
     padding-bottom: 1em;
     @include inner-border(2px);    
   }
+  .nav__item {
+    a.nav__link.active {
+      color: $primary;
+    }
+  }
+  .subnav {
+    .nav__item {
+      background-color: $light;
+    }
+  }
 }
 
 .nav--top {
@@ -191,6 +201,10 @@ $min-menu-width: 1120px;
           .nav__item {
             width: 100%;
             text-align: center;
+            .subnav {
+              display: block;
+              position: relative;
+            }
             .nav__link {
               text-align: center;
               width: 100%;
@@ -207,7 +221,20 @@ $min-menu-width: 1120px;
             .nav__link {
               padding: 1em 0;
               border-bottom: $border-width solid $border-color;
+              border-top: $border-width solid $border-color;
+              margin-top: -1px;
             }
+            &.has-subnav {
+              .nav__link {
+                border-bottom: 0;                
+              }
+              .subnav {
+                .nav__link {
+                  border: 0;                  
+                }
+              }
+            }
+            
           }
           
         }
@@ -218,7 +245,10 @@ $min-menu-width: 1120px;
       display: block;
     }
     
-    
+    .subnav {
+      .nav__item {
+      }
+    }
     
   }          
 }

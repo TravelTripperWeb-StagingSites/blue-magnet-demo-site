@@ -61,7 +61,7 @@
               {% assign featured_image = room.featured_image | default: room.images[0] %}
               {% include components/image image=featured_image max_width=600 %}
             </div>
-            <div class="room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
+            <div class="room__images" {% if sync and false %}ttweb-room-component="RoomImageList"{% endif %}>
               {% assign sliderImages = room.images %}
               {% assign sliderId = "room" | append: room.id | append: "slider" %}
             

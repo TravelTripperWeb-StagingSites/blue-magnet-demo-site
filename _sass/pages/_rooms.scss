@@ -32,6 +32,9 @@
     }
   }
   .room__image-group {
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
     max-height: 450px;
     .room__images {
       &.ttweb-room-image-list {
@@ -71,13 +74,21 @@
     width: 100%;
   }
   .room {
-    &:nth-child(odd) {
-      .room__image-group {
-        order: 0;
+    .room__image-group {
+      order: 0;
+    }
+    .room__text-group {
+      order: 1;
+    }      
+    @include media-breakpoint-up(md) {
+      &:nth-child(even) {
+        .room__image-group {
+          order: 1;
+        }
+        .room__text-group {
+          order: 0;
+        }      
       }
-      .room__text-group {
-        order: 1;
-      }      
     }    
   }
   .room__amenities {
