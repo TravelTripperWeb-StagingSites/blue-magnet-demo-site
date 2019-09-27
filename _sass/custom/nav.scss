@@ -1,30 +1,14 @@
 
 .navbar {
   background-color: $white;
-  .navbar-brand {
-    .nav__logo {
-      img {
-        width: 190px;
-        height: auto;
-        @include media-breakpoint-up(md) {
-          width: 330px;
-        }        
-      }
-    }
-  }
   .btn--primary {
     font-size: 17px;
     letter-spacing: 6.8px;
     height: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
-    @include inner-border(2px);
-    
+    @include inner-border(2px);    
   }
-  
-  
-  
-  
 }
 
 .nav--top {
@@ -32,6 +16,9 @@
     .nav__link {
       font-size: 14px;
     }
+  }
+  input#search {
+    margin-right: .5rem;
   }
 }
 
@@ -45,6 +32,13 @@ $min-menu-width: 1120px;
     height: 100%;
     display: flex;
     align-items: center;
+    .nav__logo {
+      img {
+        width: 330px;
+        height: auto;
+      }
+    }
+    
   }
   .menu-container {
     height: calc(124px - 1.5rem);
@@ -59,6 +53,7 @@ $min-menu-width: 1120px;
   }
   .nav--top {
     height: 40%;
+    align-items: flex-end;
   }
   .nav--primary {
     height: 60%;
@@ -76,6 +71,11 @@ $min-menu-width: 1120px;
     height: 124px;
     .navbar-brand {
       height: auto;
+      .nav__logo {
+        img {
+          width: 280px;
+        }
+      }
     }
     .menu-container {
       flex-direction: row;      
@@ -87,6 +87,10 @@ $min-menu-width: 1120px;
       height: auto;
       width: auto;
       flex-grow: 1;
+      align-items: center;
+    }
+    .nav--primary {
+      justify-content: space-around !important;
     }
   }
 }
@@ -102,6 +106,15 @@ $min-menu-width: 1120px;
         justify-content: space-between;
       }
     }
+    
+    .navabar-brand {
+      .nav__logo {
+        img {
+          width: 190px;
+        }
+      }
+    }
+    
   
     .nav--device {
       top: 74px;
