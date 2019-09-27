@@ -4,6 +4,11 @@ en:
   room:
     amenities: Amenities
   book_now: Reserve
+  offers:
+    name: OFFERS
+    back: Back to %{link}
+    buttons:
+      book: Book Now 
   buttons:
     book: Book Now
   cta_primary: Learn More

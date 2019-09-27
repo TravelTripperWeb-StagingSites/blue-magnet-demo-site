@@ -31,6 +31,14 @@
   
 }
 
+@mixin overflow-image() {
+  @include media-breakpoint-up(md) {
+    height: calc(100% + 3rem);
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+  }
+}
+
 @mixin overflow-carousel() {
   height: 100%;
   .tns-controls {
@@ -52,11 +60,8 @@
     }
   }
   
-  @include media-breakpoint-up(md) {
-    height: calc(100% + 3rem);
-    margin-top: -1.5rem;
-    margin-bottom: -1.5rem;
-  }
+  @include overflow-image;
+  
   .tns-outer, .tns-inner, .tns-ovh {
     height: 100%;
   }

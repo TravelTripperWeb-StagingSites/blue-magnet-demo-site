@@ -32,7 +32,7 @@
             <div class="room__name h3" >
               <a href="{{ room.id | permalink: model_dir: 'rooms' }}" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</a>
             </div>
-            <div class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
+            <!-- <div class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div> //-->
 
             <div class="room__short-description" {% if sync %}ttweb-room-component="RoomShortDescription"{% endif %}>
               {{ room.short_description }}

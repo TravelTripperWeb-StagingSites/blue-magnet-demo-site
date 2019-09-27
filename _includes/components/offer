@@ -1,0 +1,70 @@
+{% comment %}
+
+  Name:
+
+      Offer with live rate
+
+  Description:
+
+      Display content from a offer model if active on reztrip
+
+  Usage:
+
+      Pass provider and video id through the include to render on page.
+          {% assign offer = *OfferModelInstance* %}
+      eg. {% include components/offer sync_content=true %}
+      
+      The below example includes all available offer-component types.
+
+  TODO: Add microdata?
+
+{% endcomment %}
+
+{% assign sync = include.sync_content %}
+{% assign is_detail = include.detail %}
+
+<div class="c-offer-wrap">
+  <div class="c-offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer" {% tabindex %}>
+    <div class="c-offer__image-group   {% if is_detail != true %}col-md-6{% endif %} ">
+      <div class="c-offer__image" {% if sync %}ttweb-offer-component="OfferImage"{% endif %}>
+        {% include components/image image=offer.image max_width=600 %}
+      </div>
+    </div>
+    {% if is_detail %}
+      <div class="col-md-12 back-link">
+        {% capture link %}<a class='btn btn--secondary' href="{{ '_pages/offers.html' | permalink }}">{% t 'offers.name', editable: true %}</a>{% endcapture %}
+        <p><span class="fas fa-long-arrow-alt-left"></span> {% t 'offers.back', link:link %}</p>
+      </div>
+    {% endif %}
+    <div class="c-offer__content  {% if is_detail %}col-12{%else%}col-md-6{% endif %}">
+      <div class="c-offer__name">
+        {% if is_detail %}
+          <span {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</span>
+        {% else %}
+          <a href="{{ offer.id | permalink: model_dir: 'offers' }}" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</a>
+        {% endif %}
+      </div>
+      <div class="c-offer__rate" ttweb-offer-component="CrossOutRateError">{% t 'offers.not_available' %}</div>    
+      <div class="c-offer__rate" ttweb-offer-component="CrossOutRate" data-tt-pre-html="<span class='c-offer__rate-pre-label'>{% t 'offers.rate_pre_label' %}</span>" data-tt-post-html="<span class='c-offer__rate-post-label'>{% t 'offers.rate_post_label' %}</span>"></div>    
+      {% if is_detail %}
+        <div class="c-offer__description" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>
+          {{ offer.description | default: offer.short_description }}
+        </div>
+      {% else %}
+        <div class="c-offer__short-description"  {% if sync %}ttweb-offer-component="OfferShortDescription"{% endif %}>
+          {{ offer.short_description }}
+        </div>
+      {% endif %}
+      <div class="c-offer__select">
+        <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
+          {% t 'offers.buttons.book' %}
+        </a>
+        {% if is_detail != true %}
+          <a class="btn btn--primary" href="{{offer.id | permalink: model_dir: 'offers' }}">{% t 'cta_primary', editable:true %}</a>
+        {% endif %}
+      </div>    
+    
+    
+    </div>
+  </div>
+</div>
