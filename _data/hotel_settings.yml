@@ -11,7 +11,7 @@ address:
   zip_code: '32821'
 default_currency: USD
 default_timezone: America/New_York
-_hotel_id: KEY24N
+_hotel_id: BVSO
 _portal_id: 24northhotel
 __EDITABLE_FIELDS__:
   name:
