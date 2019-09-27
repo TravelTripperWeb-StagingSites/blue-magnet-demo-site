@@ -2,42 +2,41 @@
   note the nav.is-fixed-top must immediately precede div.main for div.main top-margin to work property
 {% endcomment %}
 
-<nav class="navbar greedy is-fixed-top nav--main" id="js-navbar--main">
-  <div class="container-fluid p-0 d-flex flex-md-nowrap">
-    <a class="nav__link navbar-brand" href="/">
-      <span class="nav__logo"
-        data-live-edit-settings='hotel_settings'
-        data-live-edit-settings-field='logo'
-        data-live-editable-type='image'
-      >
-        {% if site.data.hotel_settings.logo and site.data.hotel_settings.logo.url and site.data.hotel_settings.logo.url != '' %}
-          {% assign logo_url = site.data.hotel_settings.logo.url_small | default: site.data.hotel_settings.logo.url %}
-          <img src="{{logo_url}}" alt="{{site.data.hotel_settings.logo.alt | default: 'Logo' }}" />
-        {% else %}
-          <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
-        {% endif %}
-      </span>
-    </a>
-    <div class="align-self-stretch d-flex flex-column justify-content-between">
-      <ul class="nav nav--top align-items-center text-uppercase justify-content-end pr-2">
+<nav class="navbar is-fixed-top nav--main" id="js-navbar--main">
+  <div class="container-fluid p-0 d-flex  flex-md-nowrap">
+    <div class="menu-container">
+      <a class="nav__link navbar-brand" href="/">
+        <span class="nav__logo"
+          data-live-edit-settings='hotel_settings'
+          data-live-edit-settings-field='logo'
+          data-live-editable-type='image'
+        >
+          {% if site.data.hotel_settings.logo and site.data.hotel_settings.logo.url and site.data.hotel_settings.logo.url != '' %}
+            {% assign logo_url = site.data.hotel_settings.logo.url_small | default: site.data.hotel_settings.logo.url %}
+            <img src="{{logo_url}}" alt="{{site.data.hotel_settings.logo.alt | default: 'Logo' }}" />
+          {% else %}
+            <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+          {% endif %}
+        </span>
+      </a>
+      <div class="break-column"></div>
+      <ul class="nav nav--top flex-row align-items-center text-uppercase justify-content-end pr-2">
         {% assign items = site.data._menus.top.items %}
         {% include nav/nav-item-list.html items=items %}
+        <input name="search" id="search" placeholder="Search" type="text"/>
       </ul>
-      <div class="d-flex flex-md-nowrap">
-        <ul class="nav greedy-nav__links align-items-center text-uppercase justify-content-end pr-2">
-          {% assign items = site.data._menus.main.items %}
-          {% include nav/nav-item-list.html items=items %}
-          {% include nav/language-nav.html %}
-        </ul>
-        <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger greedy-nav--menu mr-2">
+      <ul class="nav nav--primary flex-row  align-items-center text-uppercase justify-content-end pr-2">
+        {% assign items = site.data._menus.main.items %}
+        {% include nav/nav-item-list.html items=items %}
+        {% include nav/language-nav.html %}
+      </ul>
+      <div class="d-flex flex-nowrap navbar__burger-wrap">
+        <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger mr-2">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
-        <ul class="nav--device greedy__hidden-links" navMenu>
-        </ul>
       </div>
-      
     </div>
     <div class="flex-shrink-0 booking-button">
       {% include components/booking-widget-button %}
