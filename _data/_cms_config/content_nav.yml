@@ -2,6 +2,7 @@ items:
   - id: __pages__
   - id: __menus__
   - id: suites
+    folder: true
     label: 
       en: Suites
       items:
