@@ -12,7 +12,7 @@ address:
 default_currency: USD
 default_timezone: America/New_York
 _hotel_id: BVSO
-_portal_id: 24northhotel
+_portal_id: buenavistasuites
 __EDITABLE_FIELDS__:
   name:
     required: true
