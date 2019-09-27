@@ -1,0 +1,35 @@
+{
+  "name_localized": {
+    "en": "Allman Betts Concert Package - General Admission"
+  },
+  "short_description_localized": {
+    "en": "Welcome to 24 North Hotel Key West! Stay with us October 28th, 2019 and book this package for General Admission Tickets to see Allman Betts, with special guest JD Simo LIVE on the Sunset Green!"
+  },
+  "description_localized": {
+    "en": null
+  },
+  "image": {
+    "name": "Allman-Betts-Concert-Package---General-Admission-",
+    "content_type": null,
+    "date_added": "2019-09-27-140250",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "width": 900,
+    "height": 500,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569607370/wdmwl9bdpnzoan0h5fyg.jpg",
+    "resource_type": "image",
+    "size": 616959,
+    "caption": "",
+    "description": "",
+    "alt": "",
+    "original_url": "https://d31f902anbz5po.cloudfront.net/986/282979_2_master.jpg",
+    "git_file_name": "_assets/image_data/Allman-Betts-Concert-Package---General-Admission-.json"
+  },
+  "reztrip_offer_id": "ABETGA"
+}
