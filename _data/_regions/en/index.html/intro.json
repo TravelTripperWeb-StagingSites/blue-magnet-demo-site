@@ -79,7 +79,7 @@
     },
     "include_header": true,
     "include_footer": true,
-    "breakpoint": "sm",
+    "breakpoint": "",
     "layout": "7_5",
     "col1_type": "html",
     "col2_type": "html",
