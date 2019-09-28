@@ -1,5 +1,5 @@
 ---
-layout: contact_layout
+layout: generic
 title_localized:
   en: Contact Us
 meta_description_localized:
@@ -12,3 +12,44 @@ published_localized:
   en: true
 
 ---
+  <div class="leaflet-map leaflet-map--contact">
+    <div class="leaflet-map__map"
+      data-latitude="{{site.data.hotel_settings.latitude}}" 
+      data-longitude="{{site.data.hotel_settings.longitude}}"
+      data-zoom="12"
+      data-custom-icons="true"
+      data-custom-main-icon="true"
+      data-max-zoom="18"
+      data-min-zoom="10"
+      data-auto-fit-bounds="true"
+      data-tile-style="rastertiles/voyager"      
+    >
+    </div>
+    <div class="leaflet-map__locations">
+      <!-- location object for the hotel //-->
+      <div class="location location--main" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}">
+        <div class="location-text">
+          <div class="location-label">{{site.data.hotel_settings.name}}</div>
+          <div class="location-address">{% include components/hotel-address %}</div>        
+        </div>
+        <div class="location-popup">
+          {% assign locationDirectionUrl = site.data.hotel_settings.google_location.google_place.url %}
+          <span class="location-popup__name">{{site.data.hotel_settings.name}}</span>
+          <div class="location-popup__address">{% include components/hotel-address %}</div>
+          <a class="location-popup__directions" href="{{locationDirectionUrl}}">{% t 'attractions.buttons.get_directions' %}</a>
+        </div>    
+        <div class="location-image">
+          <img src="/assets/images/marker.svg">
+        </div>
+          
+      </div>
+    </div>
+    <div class="leaflet-map__categories">
+      <ul>
+        <li data-select-category="__ALL__">{% t 'attractions.categories.all' %}</li>
+      </ul>
+    </div>
+    
+  </div>
+
+Form
