@@ -2,6 +2,7 @@
 // ==========================================================================
 .leaflet-map--contact {
   display: block;
+  margin: 0;
   .leaflet-map__map {
     height: 500px;
     max-width: 100%;
@@ -20,4 +21,8 @@
     border:0;
     height: 60px  !important; 
   }
+}
+.contact-info {
+  padding: 2rem 0;
+  background: $light;
 }

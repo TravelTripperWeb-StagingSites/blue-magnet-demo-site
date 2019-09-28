@@ -21,8 +21,8 @@ published_localized:
       data-custom-main-icon="true"
       data-max-zoom="18"
       data-min-zoom="10"
-      data-auto-fit-bounds="true"
-      data-tile-style="rastertiles/voyager"      
+      data-auto-fit-bounds="false"
+      data-tile-style="rastertiles/voyager"
     >
     </div>
     <div class="leaflet-map__locations">
@@ -52,4 +52,43 @@ published_localized:
     
   </div>
 
-Form
+<div class="contact-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        Form
+      </div>
+      <div class="col-md-6">
+        <p class="h5">Hotel Info</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Address<br/>
+              {% include components/hotel-address %}
+            </p>
+            <p>etc.</p>
+          </div>
+          <div class="col-md-6">
+            {% regionblock extra-contacts %}
+              <p>
+                Convention Services<br/>
+                (407) 238-6106
+              </p>
+              <p>
+                Sales & Marketing<br/>
+                (407) 238-6107<br/>
+                Fax (407) 239-1401<br/>
+                reservations@bvsuites.com
+              </p>
+              <p>
+                UPS Package Services (Shipping/Receiving)<br/>
+                (407) 238-8436<br/>
+                store6855@theupsstore.com
+              </p>
+            {% endregionblock %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
