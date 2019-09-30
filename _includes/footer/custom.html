@@ -58,7 +58,8 @@
       {% t 'footer.contact.direct', editable:true %}
       {{ site.data.hotel_settings.phone }} |
       {% t 'footer.contact.reservations', editable:true %}
-      {{ site.data.hotel_settings.reservations_phone }}
+      <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        
       <div class="copyright mt-2 text-xsmall small">
         {% capture year %}
           &copy; {{ "now" | date: "%Y" }}
