@@ -55,18 +55,41 @@ published_localized:
 <div class="contact-info">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        Form
+      <div class="col-lg-6">
+        <form class="w-80 contact-form">
+          <input name="name" type="text" placeholder="Name*" required="true" />
+          <textarea name="address" placeholder="Address*" required="true" ></textarea>
+          <input name="email" type="email" placeholder="Email*" required="true" />
+          <textarea name="message" placeholder="Message*" required="true" ></textarea>
+          <label for="contact_form_accept_privacy_policy" class="checkbox-label">
+            <input type="checkbox" value="1" name="accept_privacy_policy" required="true"  id="contact_form_accept_privacy_policy">
+            I have read an accept the privacy policy. *
+          </label>
+          <button class="btn btn--primary mt-2">Submit</button>
+        </form>
       </div>
-      <div class="col-md-6">
-        <p class="h5">Hotel Info</p>
+      <div class="col-lg-6">
+        <p class="h5 mb-2">Hotel Info</p>
         <div class="row">
           <div class="col-md-6">
-            <p>
+            <div class="mb-1">
               Address<br/>
               {% include components/hotel-address %}
+            </div>
+            <p>
+              {% t 'footer.contact.direct', editable:true %}<br/>
+              {{ site.data.hotel_settings.phone }}
             </p>
-            <p>etc.</p>
+            <p>
+              {% t 'footer.contact.reservations', editable:true %}<br/>
+              {{ site.data.hotel_settings.reservations_phone }}
+            </p>
+            {% regionblock extra-phones %}
+              <p>
+                Administration<br/>
+                (407) 239-8588
+              </p>
+            {% endregionblock %} 
           </div>
           <div class="col-md-6">
             {% regionblock extra-contacts %}
@@ -78,12 +101,12 @@ published_localized:
                 Sales & Marketing<br/>
                 (407) 238-6107<br/>
                 Fax (407) 239-1401<br/>
-                reservations@bvsuites.com
+                <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
               </p>
               <p>
                 UPS Package Services (Shipping/Receiving)<br/>
                 (407) 238-8436<br/>
-                store6855@theupsstore.com
+                <a href="mailto:store6855@theupsstore.com">store6855@theupsstore.com</a>                
               </p>
             {% endregionblock %}
           </div>

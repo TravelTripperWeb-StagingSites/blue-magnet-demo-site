@@ -1,0 +1,79 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "url_friendly_name": {
+    "label": "URL Friendly Name",
+    "type": "url_slug",
+    "localizable": true
+  },  
+  "short_description": {
+    "localizable": true,
+    "type": "text"
+  },  
+  "description": {
+    "localizable": true,
+    "type": "richtext"
+  },
+  "experience": {
+    "localizable": true,
+    "type": "richtext",
+    "label": "Suite Experience"
+  },
+  "size": {
+    "type": "string",
+    "instructions": "Enter room size e.g. '350sq ft'"
+  },
+  "ada_room": {
+    "label": "ADA Compliant",
+    "type": "boolean"
+  },
+  "guest_size_max": {
+    "type": "integer"
+  },
+  
+  "bed_types": {
+    "type": "model",
+    "multiple": true,
+    "display_field": "name",
+    "model_name": "room_bed_types",
+    "can_create": true
+  },
+  "room_category": {
+    "type": "open_select",
+    "options": "room_categories"
+  },
+  "view": {
+    "type": "select",
+    "options": {}
+  },
+  
+  "amenities": {
+    "type": "model",
+    "multiple": true,
+    "display_field": "name",
+    "model_name": "room_amenities",
+    "can_create": true
+  },
+  "featured_image": {
+    "type": "image"
+  },
+  "images": {
+    "type": "image",
+    "multiple": true
+  },
+  "reztrip_room_id": {
+    "Label": "Reztrip ID",
+    "instructions": "The reztrip ID for this room"
+  },
+  "order": {
+    "type": "order"
+  },
+  "__META__": {
+    "remote": {
+      "type": "reztrip_rooms",
+      "key": "reztrip_room_id"
+    }
+  }
+}

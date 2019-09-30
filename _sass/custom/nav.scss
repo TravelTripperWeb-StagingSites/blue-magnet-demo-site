@@ -36,6 +36,9 @@
 
 // Customize these breakpoints when menu is changed to handle different sizes
 $min-menu-width: 1120px;
+
+
+
 .navbar {
   height: 124px;
   .navbar-brand {
@@ -110,6 +113,10 @@ $min-menu-width: 1120px;
     display: block;
     &.is-fixed-top {
       height: calc(74px + 2.5rem);
+      &+.main {
+        padding-top: calc(74px + 2.5rem);
+      }
+      
       padding: 0;
       .menu-container {
         height: calc(74px);

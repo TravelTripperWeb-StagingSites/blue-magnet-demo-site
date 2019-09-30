@@ -3,6 +3,10 @@ en:
     hours: Hours of Operation
   room:
     amenities: Amenities
+    suite_amenities: Suite Amenities
+    experience: The Experience
+    name: SUITES
+    back: Back to %{link}
   book_now: Reserve
   offers:
     name: OFFERS

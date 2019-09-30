@@ -31,7 +31,7 @@
       </div>
     </div>
     {% if is_detail %}
-      <div class="col-md-12 back-link">
+      <div class="col-12 back-link">
         {% capture link %}<a class='btn btn--secondary' href="{{ '_pages/offers.html' | permalink }}">{% t 'offers.name', editable: true %}</a>{% endcapture %}
         <p><span class="fas fa-long-arrow-alt-left"></span> {% t 'offers.back', link:link %}</p>
       </div>
