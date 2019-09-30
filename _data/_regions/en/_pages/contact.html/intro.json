@@ -43,6 +43,11 @@
     "header": {
       "content": "Contact Us &amp; Directions",
       "_template": "header"
-    }
+    },
+    "advanced_options": {
+      "tabindex": "0"
+    },
+    "h1_header_type": "h1",
+    "h1_text_alignment": "text-center"
   }
 ]
