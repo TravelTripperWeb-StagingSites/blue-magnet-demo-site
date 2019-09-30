@@ -39,6 +39,10 @@
     "skip_h1": true
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Contact Us &amp; Directions",
+      "_template": "header"
+    }
   }
 ]
