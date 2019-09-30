@@ -48,6 +48,9 @@
       "tabindex": "0"
     },
     "h1_header_type": "h1",
-    "h1_text_alignment": "text-center"
+    "h1_text_alignment": "text-center",
+    "post_header": {
+      "content": "<p style=\"text-align: center;\">The team at Buena Vista Suites is looking forward to making your hotel stay here in Orlando truly special. If you have any questions regarding a past or upcoming stay, please feel free to get in touch with us via the contact form below, or call us directly. We&rsquo;re ready to go the extra smile for you.</p>"
+    }
   }
 ]
