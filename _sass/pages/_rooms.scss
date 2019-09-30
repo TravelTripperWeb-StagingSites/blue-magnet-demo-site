@@ -11,26 +11,6 @@
   .room__featured-image {
     display: none;
   }
-  .room__images {
-    .tns-controls {
-      button {
-        position: absolute;
-        z-index: 10;
-        top: 50%;
-        transform: translateY(-50%);        
-        border:0;
-        display: block;
-        appearance: none;
-        height: 79px;
-        width: 54px;
-        background: $primary;
-        color: white;
-      }
-      button[data-controls="next"] {
-        right: 0;
-      }
-    }
-  }
   .room__image-group {
     @include media-breakpoint-down(md) {
       padding: 0;
@@ -47,24 +27,13 @@
           }
         }
       }
-      height: 100%;
       @include media-breakpoint-up(md) {
         height: calc(100% + 3rem);
         margin-top: -1.5rem;
         margin-bottom: -1.5rem;
       }
-      .tns-outer, .tns-inner, .tns-ovh {
-        height: 100%;
-      }
-      .tiny-slider {
-        height: 100%;
-        .item {
-          height: 100%;
-          img {
-            height: 100%;
-          }
-        }
-      }
+      @include overflow-carousel();
+      
     }
   }
 
@@ -89,6 +58,30 @@
           order: 0;
         }      
       }
+    }    
+  }
+  .room__details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    .room__size, .room__bed-arrangement {
+      @extend .h6;
+      height: auto;
+      padding: .5em 0 .5em 3rem;
+      margin: .5rem;
+      min-height: 2em;
+      line-height: 1em;
+      background: url("/assets/images/bed-icon.svg") left center no-repeat;
+      background-size: 2rem auto;
+      ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    }
+    .room__size {
+      background-image: url("/assets/images/ruller-icon.svg");
     }    
   }
   .room__amenities {

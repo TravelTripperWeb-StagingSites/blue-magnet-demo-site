@@ -8,4 +8,25 @@ meta_tags:
   robots:
 ---
 
-
+<div class="bg-light home-features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-content objectfit">
+          {% region home-feature-col1-image, type:image %}          
+        </div>
+        <div class="text-content d-flex flex-column justify-content-between text-center p-2">
+          {% region home-feature-col1-content, type: html %}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="image-content objectfit">
+          {% region home-feature-col2-image, type:image %}          
+        </div>
+        <div class="text-content d-flex flex-column justify-content-between text-center p-2">
+          {% region home-feature-col2-content, type: html %}
+        </div>
+      </div>
+      
+    </div>
+</div>

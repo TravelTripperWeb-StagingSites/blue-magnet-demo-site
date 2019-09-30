@@ -53,10 +53,30 @@
       height: 79px;
       width: 54px;
       background: $primary;
-      color: white;
+      color: rgba(0,0,0,0);
+      &:after {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        color: white;
+        font-family: "Font Awesome 5 Free"; font-weight: 900; 
+        content: "\f053";
+        font-size: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+      }
     }
     button[data-controls="next"] {
       right: 0;
+      &:after {
+        content: "\f054";
+      }
     }
   }
   
