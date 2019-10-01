@@ -42,7 +42,11 @@
     }
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "WELCOME TO BUENA VISTA SUITES",
+      "_template": "header"
+    }
   },
   {
     "_template": "1_col",
