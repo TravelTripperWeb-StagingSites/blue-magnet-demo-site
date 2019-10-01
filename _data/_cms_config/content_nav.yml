@@ -1,0 +1,18 @@
+items:
+  - id: __pages__
+  - id: __menus__
+  - id: suites
+    label: 
+      en: Suites
+    items:
+    - id: rooms
+    - id: room_amenities
+    - id: room_bed_types
+      
+  - id: offers
+  - id: dining
+  - id: attractions
+    label: Explore Attractions
+  - id: events
+  - id: __galleries__
+  - id: reviews

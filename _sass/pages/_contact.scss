@@ -1,2 +1,33 @@
 // Contact Page Elements
 // ==========================================================================
+.leaflet-map--contact {
+  display: block;
+  margin: 0;
+  .leaflet-map__map {
+    height: 500px;
+    max-width: 100%;
+  }
+  .leaflet-map__locations {
+    display: none;
+  }
+  .leaflet-map__categories {
+    display: none;
+  }
+  .leaflet-div-icon--main {
+    background: url('/assets/images/marker.svg') no-repeat 0 0 transparent;
+    width: 45px !important;
+    margin-left: -22.5px !important;
+    margin-top: -60px  !important;
+    border:0;
+    height: 60px  !important; 
+  }
+}
+.contact-info {
+  padding: 2rem 0;
+  background: $light;
+}
+
+form.contact-form {
+  max-width: 400px;
+  @extend .mb-4;
+}

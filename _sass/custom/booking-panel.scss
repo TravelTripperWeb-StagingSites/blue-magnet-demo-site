@@ -1,0 +1,25 @@
+.ttweb-booking-widget, .ttweb-slide-out-widget {
+  font-family: $family-primary;
+  &__header {
+    background: $secondary;
+  }
+  .ttweb-calendar-month {
+    &__grid {
+      .ttweb-day--in-selection {
+        background: $secondary;
+      }
+    }
+  }
+  &__footer {
+    &__powered-by {
+      display: none;
+    }
+    a.ttweb-booking-button {
+      width: auto;
+      @extend .btn, .btn--primary;
+      padding: 1rem 2rem;
+      margin: 1rem 10px;
+      display: block;
+    }
+  }
+}

@@ -10,8 +10,8 @@
 //    $gray-900: #212529 !default;
 //
 //    // colors
-//    $primary: #007bff !default;
-//    $secondary: $gray-600;
+      $primary: #53785D !default;
+      $secondary: #739F7F;
 //    $black: #16141a;
 //    $white: #fff;
 //
@@ -24,8 +24,8 @@
 //    $info: $cyan !default;
 //    $warning: $yellow !default;
 //    $danger: $red !default;
-//    $light: $gray-100 !default;
-//    $dark: $gray-800 !default;
+      $light: #EEEEEE !default;
+      $dark: #727376;
 //
 //    $theme-colors: () !default;
 //    $theme-colors: map-merge(
@@ -43,7 +43,7 @@
 //    );
 //
 //    $body-bg: $white;
-//    $base-text-color: $black;
+      $base-text-color: #333333;
 //    $secondary-hover: #1e1c23;
 //    $background-gray: $gray-100;
 //    $footer-color: $black;
@@ -67,7 +67,9 @@
 //    $link-hover-decoration: underline !default;
 //
 //    // Fonts
-//    $family-primary: "Open Sans", sans-serif;
+      $family-primary: 'Red Hat Display', sans-serif;
+      $family-secondary: 'Red Hat Display', sans-serif;
+      $family-terciary: 'Red Hat Display', sans-serif;
 //    $family-secondary: "Playfair Display", serif;
 //    $family-terciary: "Roboto", sans-serif;
 //
@@ -165,13 +167,14 @@
 //    $speed: 86ms !default;
 //
 //    $border-width: 1px !default;
-//    $border-color: $base-text-color;
-//    $border-radius: 0.25rem !default;
+      $border-color: $dark;
+      $border-color-light: #999999;
+      $border-radius: 0rem !default;
 //
-//    $input-btn-padding-y: 0.5rem !default;
-//    $input-btn-padding-x: 1rem !default;
+      $input-btn-padding-y: 0.6rem !default;
+      $input-btn-padding-x: 2rem !default;
 //    $input-btn-font-size: $base-font-size !default;
-//    $input-btn-line-height: $base-line-height !default;
+      $input-btn-line-height: 1 !default;
 //
 //    $input-btn-focus-width: 0.2rem !default;
 //    $input-btn-focus-color: rgba($border-color, 0.25) !default;
@@ -426,8 +429,8 @@
 //    //navbar
 //    $navbar-z: 30 !default;
 //    $navbar-fixed-z: 30 !default;
-//    $navbar-main-height: 124px;
-//    $navbar-device-height: 88px;
+      $navbar-main-height: 124px !default;
+      $navbar-device-height: 124px !default;
 //    $navbar-background: transparent;
 //    $navbar-sticky-background: $white;
 //    $navbar-padding-y: ($spacer / 2) !default;
@@ -451,6 +454,14 @@
 //
 //    $nav-link-padding-y: $spacer !default;
 //    $nav-link-padding-x: 2rem !default;
+
+
+$nav-link-padding-y: 0 !default;
+$nav-link-padding-x: 0 !default;
+$nav-link-margin-y: 0 !default;
+$nav-link-margin-x: .5rem !default;
+
+
 //
 //    $subnav-item-padding-y: 0 !default;
 //    $subnav-item-padding-x: 0 !default;

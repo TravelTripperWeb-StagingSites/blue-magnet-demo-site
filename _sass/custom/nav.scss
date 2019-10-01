@@ -1,0 +1,271 @@
+
+.navbar {
+  background-color: $white;
+  .btn--primary {
+    font-size: 17px;
+    letter-spacing: 6.8px;
+    height: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    @include inner-border(2px);    
+  }
+  .nav__item {
+    a.nav__link.active {
+      color: $primary;
+    }
+  }
+  .subnav {
+    .nav__item {
+      background-color: $light;
+    }
+  }
+}
+
+.nav--top {
+  .nav__item {
+    .nav__link {
+      font-size: 14px;
+    }
+  }
+  input#search {
+    margin-right: .5rem;
+  }
+}
+
+
+
+// Customize these breakpoints when menu is changed to handle different sizes
+$min-menu-width: 1120px;
+
+
+
+.navbar {
+  height: 124px;
+  .navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .nav__logo {
+      img {
+        width: 330px;
+        height: auto;
+      }
+    }
+    
+  }
+  .menu-container {
+    height: calc(124px - 1.5rem);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .break-column {
+    width: 0;
+    flex-basis: 100%;
+  }
+  .nav--top {
+    height: 40%;
+    align-items: flex-end;
+  }
+  .nav--primary {
+    height: 60%;
+  }
+
+  
+  .navbar__burger {
+    display: none;
+  }
+}
+  
+@media (max-width: $min-menu-width) { 
+  // Place the menu last
+  .navbar.is-fixed-top {
+    height: 124px;
+    .navbar-brand {
+      height: auto;
+      .nav__logo {
+        img {
+          width: 280px;
+        }
+      }
+    }
+    .menu-container {
+      flex-direction: row;      
+    }
+    .break-column {
+      display: none;
+    }
+    .nav--top, .nav--primary {
+      height: auto;
+      width: auto;
+      flex-grow: 1;
+      align-items: center;
+    }
+    .nav--primary {
+      justify-content: space-around !important;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar {
+    display: block;
+    &.is-fixed-top {
+      height: calc(74px + 2.5rem);
+      &+.main {
+        padding-top: calc(74px + 2.5rem);
+      }
+      
+      padding: 0;
+      .menu-container {
+        height: calc(74px);
+        justify-content: space-between;
+      }
+    }
+    
+    .navabar-brand {
+      .nav__logo {
+        img {
+          width: 190px;
+        }
+      }
+    }
+    
+  
+    .nav--device {
+      top: 74px;
+    }
+  
+    .booking-button {
+      width: 100%;
+      .ttweb-booking-widget-button {
+        display: block;
+        width: 100%;
+      }
+      .btn--primary {
+        width: 100%;
+        border: none;
+        background: $secondary;
+        color: white;
+        height: 2.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .nav--primary, .nav--top {
+      display: none;
+    }
+    .nav--primary {
+      top: 0;
+      bottom: 0;
+    }
+    .nav--top {
+      bottom: 0;
+      height: auto;
+    }
+    
+    &.nav--active {
+      .menu-container {
+        position: fixed;
+        padding: 0 !important;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        height: auto;
+        width: auto;
+        z-index: 31;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        background: white;
+        .navbar-brand {
+          display: none;
+        }
+        .navbar__burger-wrap {
+          order: 0;
+        }
+        .nav--primary {
+          order: 1;
+        }
+        .nav--top {
+          order: 2;
+        }
+        .nav--primary, .nav--top {
+          display: flex;
+          flex-grow: 0;
+          padding: 0 !important;
+          flex-direction: column !important;
+          justify-content: flex-start !important;
+          width: 100%;
+          height: auto;
+          .nav__item {
+            width: 100%;
+            text-align: center;
+            .subnav {
+              display: block;
+              position: relative;
+            }
+            .nav__link {
+              text-align: center;
+              width: 100%;
+              margin: 0;
+              padding: 1em 0 0;
+            }
+            input#search {
+              margin-top: 1em;
+            }
+          }
+        }
+        .nav--primary {
+          .nav__item {
+            .nav__link {
+              padding: 1em 0;
+              border-bottom: $border-width solid $border-color;
+              border-top: $border-width solid $border-color;
+              margin-top: -1px;
+            }
+            &.has-subnav {
+              .nav__link {
+                border-bottom: 0;                
+              }
+              .subnav {
+                .nav__link {
+                  border: 0;                  
+                }
+              }
+            }
+            
+          }
+          
+        }
+        
+      }
+    }
+    .navbar__burger {
+      display: block;
+    }
+    
+    .subnav {
+      .nav__item {
+      }
+    }
+    
+  }          
+}
+
+.nav--footer {
+  margin: 1rem 0;
+  .nav__item {
+    .nav__link {
+      margin: 0 1em 0 0;
+      font-size: .75rem;
+    }    
+  }
+}

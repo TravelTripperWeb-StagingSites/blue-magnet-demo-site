@@ -1,11 +1,117 @@
 ---
-layout: contact_layout
-title_localized: 
-  en: Contact
+layout: generic
+title_localized:
+  en: Contact Us
 meta_description_localized:
   en: 
-permalink_localized: 
-  en: /contact/
+permalink_localized:
+  en: "/contact/"
 meta_tags:
-  robots:
+  robots: 
+published_localized:
+  en: true
+
 ---
+  <div class="leaflet-map leaflet-map--contact">
+    <div class="leaflet-map__map"
+      data-latitude="{{site.data.hotel_settings.latitude}}" 
+      data-longitude="{{site.data.hotel_settings.longitude}}"
+      data-zoom="12"
+      data-custom-icons="true"
+      data-custom-main-icon="true"
+      data-max-zoom="18"
+      data-min-zoom="10"
+      data-auto-fit-bounds="false"
+      data-tile-style="rastertiles/voyager"
+    >
+    </div>
+    <div class="leaflet-map__locations">
+      <!-- location object for the hotel //-->
+      <div class="location location--main" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}">
+        <div class="location-text">
+          <div class="location-label">{{site.data.hotel_settings.name}}</div>
+          <div class="location-address">{% include components/hotel-address %}</div>        
+        </div>
+        <div class="location-popup">
+          {% assign locationDirectionUrl = site.data.hotel_settings.google_location.google_place.url %}
+          <span class="location-popup__name">{{site.data.hotel_settings.name}}</span>
+          <div class="location-popup__address">{% include components/hotel-address %}</div>
+          <a class="location-popup__directions" href="{{locationDirectionUrl}}">{% t 'attractions.buttons.get_directions' %}</a>
+        </div>    
+        <div class="location-image">
+          <img src="/assets/images/marker.svg">
+        </div>
+          
+      </div>
+    </div>
+    <div class="leaflet-map__categories">
+      <ul>
+        <li data-select-category="__ALL__">{% t 'attractions.categories.all' %}</li>
+      </ul>
+    </div>
+    
+  </div>
+
+<div class="contact-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form class="w-80 contact-form">
+          <input name="name" type="text" placeholder="Name*" required="true" />
+          <textarea name="address" placeholder="Address*" required="true" ></textarea>
+          <input name="email" type="email" placeholder="Email*" required="true" />
+          <textarea name="message" placeholder="Message*" required="true" ></textarea>
+          <label for="contact_form_accept_privacy_policy" class="checkbox-label">
+            <input type="checkbox" value="1" name="accept_privacy_policy" required="true"  id="contact_form_accept_privacy_policy">
+            I have read an accept the privacy policy. *
+          </label>
+          <button class="btn btn--primary mt-2">Submit</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <p class="h5 mb-2">Hotel Info</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-1">
+              Address<br/>
+              {% include components/hotel-address %}
+            </div>
+            <p>
+              {% t 'footer.contact.direct', editable:true %}<br/>
+              {{ site.data.hotel_settings.phone }}
+            </p>
+            <p>
+              {% t 'footer.contact.reservations', editable:true %}<br/>
+              {{ site.data.hotel_settings.reservations_phone }}
+            </p>
+            {% regionblock extra-phones %}
+              <p>
+                Administration<br/>
+                (407) 239-8588
+              </p>
+            {% endregionblock %} 
+          </div>
+          <div class="col-md-6">
+            {% regionblock extra-contacts %}
+              <p>
+                Convention Services<br/>
+                (407) 238-6106
+              </p>
+              <p>
+                Sales & Marketing<br/>
+                (407) 238-6107<br/>
+                Fax (407) 239-1401<br/>
+                <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
+              </p>
+              <p>
+                UPS Package Services (Shipping/Receiving)<br/>
+                (407) 238-8436<br/>
+                <a href="mailto:store6855@theupsstore.com">store6855@theupsstore.com</a>                
+              </p>
+            {% endregionblock %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

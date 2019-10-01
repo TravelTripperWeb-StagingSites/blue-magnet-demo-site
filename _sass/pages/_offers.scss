@@ -1,0 +1,119 @@
+.offer-detail .c-offer-wrap {
+  margin: 2rem 0;
+  .c-offer__image-group {
+    width: 100%;
+    max-width: 100%;
+    
+    height: 50vh;
+    max-height: 300px;
+    .c-offer__image {
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: "contain";
+      font-family: "object-fit";
+    }
+  }
+  .c-offer {
+    &__name {
+      @extend .h1
+    }
+    &__content {
+      text-align: center;
+      @include make-col(12);    
+    }
+    &__description {
+      margin: 1rem auto;
+      max-width: 600px;
+    }
+    &__select .ttweb-booking-button-offer{
+      margin-top: 1rem;      
+      align-items: center;
+    }
+  }
+}
+
+
+.c-offer-list {
+  &__items {
+    display: block;    
+  }
+  .c-offer-wrap {
+    background: $light;
+    margin: 4rem 0;
+    width: 100%;    
+    &:nth-child(even) {
+      .c-offer__content {
+        order: 0;
+      }
+      .c-offer__image-group {
+        order: 1;
+      }      
+    }    
+    
+  }
+  .c-offer {
+    max-width: 100%;
+    display: flex;
+    align-items: stretch;
+    
+    
+    .ttweb-offer {
+      display: flex;
+    }
+    &__image-group {
+      height: 100%;
+    }
+    &__image {
+      @include overflow-image;
+      picture {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: "contain";
+          font-family: "object-fit";
+        }
+      }      
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      
+    }
+    &__name {
+      @extend .h3;
+    }
+    &__description {
+      display: none;
+    }
+    &__short-description {
+      margin: 1rem 0;
+    }
+    &__rate {
+      display: none;
+    }
+    &__select {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      .ttweb-booking-button-offer {
+        flex: 0 0 50%;
+        .ttweb-booking-button {
+          order: 0;
+        }
+        &__unavailable-message {
+          font-size: 75%;
+        }
+      }
+    }
+  }
+}

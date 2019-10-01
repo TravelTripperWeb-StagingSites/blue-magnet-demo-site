@@ -1,0 +1,63 @@
+.btn {
+  text-transform: uppercase;
+  &--secondary {
+    // These are just styled links
+    display: inline;
+    background: none;
+    border: none;
+    font-size: inherit;
+    font-weight: 500;
+    vertical-align: inherit;
+    line-height: inherit;
+    padding: 0;
+    margin: 0;
+    color: $primary;
+    &:hover {
+      font-weight: 500;
+      text-decoration: underline;
+      background: none;
+      color: $primary;
+    }
+  }
+  &--primary {
+    font-size: 14px;
+    line-height: 1em;
+    border-color: $dark;
+    background: $white;
+    color: $dark;
+    border-color: $dark;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+    position: relative;
+    @include inner-border(2px);
+    &:hover {
+      background: $primary;
+      border-color: $primary;
+      color: $white;
+      &:before {
+        display: none;
+      }
+    }
+    
+  }
+}
+
+.bg-secondary, .col--dark {
+  .btn--primary {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 16px;
+    @include outer-border(2px, 1px $white);
+    &:before {
+      background: $white;    
+    }
+    &:hover {
+      background: $primary;
+      border-color: $primary;
+      color: $white;
+      &:before {
+        display: block;
+      }
+    }
+  }
+}
