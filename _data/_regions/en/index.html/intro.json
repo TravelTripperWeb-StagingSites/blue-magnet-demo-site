@@ -49,7 +49,10 @@
     },
     "advanced_options": {
     },
-    "h1_text_alignment": "text-center"
+    "h1_text_alignment": "text-center",
+    "post_header": {
+      "content": "<p class=\"h2\" style=\"text-align: center;\">SPACIOUS ORLANDO SUITES NEAR DISNEY WORLD</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Buena Vista Suites welcomes guests to an all-suite Orlando hotel located just 1.5 miles from Walt Disney World&reg; Resort. Whether you&rsquo;re visiting Orlando for a fun-filled family getaway or looking for a spacious suite to unwind for the weekend, you&rsquo;ll find everything you need for the perfect stay right here &ndash; starting with our complimentary full American breakfast, free self-parking, and resort-style amenities including an outdoor pool, tennis and basketball courts, a fitness room and more.</p>\n<p style=\"text-align: center;\">Buena Vista Suites is also proud to be a Walt Disney World Good Neighbor&reg; Hotel, which means along with complimentary shuttle service to and from the Walt Disney World&reg; Ticket &amp; Transportation Center and Disney Springs&trade;, you can purchase your Walt Disney World&reg; theme parks tickets in our hotel lobby.</p>"
+    }
   },
   {
     "_template": "1_col",
