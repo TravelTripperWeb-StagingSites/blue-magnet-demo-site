@@ -10,8 +10,8 @@ function displaySearchResults(term, results, store) {
     for (var i = 0; i < results.length; i++) {
       // Iterate over the results
       var item = store[results[i].ref];
-      appendString += '<div class="search-item row"><div class="col-12"><p class="h4 mb-2">' + item.title + '</p>';
-      appendString += '<p class="paragraph-small">' + item.content.substring(0, 150) + '...</p> <p class="mb-0"><a class="arrow-btn" href="' + item.url + '"><span class="fas fa-angle-right"></span> Learn More</a> </p></div></div>';
+      appendString += '<div class="search-item col-12 mb-2"><a class="h5 mb-1"  href="' + item.url + '">' + item.title + '</a>';
+      appendString += '<p class="paragraph-small">' + item.content.substring(0, 150) + '...</p></div>';
     }
 
     searchResults.innerHTML = appendString;
@@ -36,10 +36,9 @@ function getQueryVariable(variable) {
 document.ready(function () {
 
   var searchTerm = getQueryVariable('query');
-  console.log("searchTerm", searchTerm);
   if (searchTerm) {
-    if (document.getElementById('search-box')) {
-      document.getElementById('search-box').setAttribute("value", searchTerm);
+    if (document.getElementById('search')) {
+      document.getElementById('search').setAttribute("value", searchTerm);
     }
 
     // Initalize lunr with the fields it will be searching on. I've given title

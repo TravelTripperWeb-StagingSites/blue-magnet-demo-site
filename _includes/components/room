@@ -20,32 +20,26 @@
 
 {% endcomment %}
 
-{% assign sync = include.sync_content %}
-
 
 <div class="room"  {% tabindex %}>
   <div class="room__columns">
     <div class="container">
       <div class="row">
-        <div class="room__text-group col-md-6" {% if sync %}ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}"{% endif %} >
+        <div class="room__text-group col-md-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
           <div class=" d-flex flex-column w-100 h-100 justify-content-center">
             <div class="room__name h3" >
-              <a href="{{ room.id | permalink: model_dir: 'rooms' }}" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</a>
+              <a href="{{ room.id | permalink: model_dir: 'rooms' }}">{{ room.name }}</a>
             </div>
             <div class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
 
-            <div class="room__short-description" {% if sync %}ttweb-room-component="RoomShortDescription"{% endif %}>
+            <div class="room__short-description">
               {{ room.short_description }}
             </div>
-            <div class="room__description" {% if sync %}ttweb-room-component="RoomDescription"{% endif %}>
-              {{ room.description }}
-            </div>
-            
             <div class="room__details">
-              <div class="room__size" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>
+              <div class="room__size">
                 {{ room.size }}
               </div>
-              <div class="room__bed-arrangement" {% if sync %}ttweb-room-component="RoomBedArrangement"{% endif %}>
+              <div class="room__bed-arrangement">
                 {{ room.bed_arrangement }}
               </div>
             </div>
@@ -58,11 +52,17 @@
         </div>
         <div class="room__image-group  col-md-6 ">
           <div class=" d-flex flex-column w-100 h-100 justify-content-center">
-            <div class="room__images" {% if sync and false %}ttweb-room-component="RoomImageList"{% endif %}>
+            <div class="room__images">
               {% assign sliderImages = room.images %}
               {% assign sliderId = "room" | append: room.id | append: "slider" %}
             
               {% capture slide_list %}
+                {% if room.featured_image %}
+                  {% assign image = room.featured_image %}
+                  <div class="item" {{itemStyle}}>
+                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+                  </div>
+                {% endif %}
                 {% for image in sliderImages %}
                   <div class="item" {{itemStyle}}>
                     <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
@@ -81,10 +81,10 @@
       <div class="row">
         <div class="col-12">
           <p class="h3">
-            <span {% if sync %}ttweb-component="RoomName" data-tt-selected-room="{{room.reztrip_room_id}}"{% endif %}>{{ room.name }}</span>
+            <span>{{ room.name }}</span>
             {% t 'room.amenities' %}
           </p>
-          <div {% if sync %}ttweb-component="RoomAmenities" data-tt-selected-room="{{room.reztrip_room_id}}"{% endif %}>
+          <div>
             <ul>
               {% for amenity in room.amenities %}
                 <li>{{ amenity.name }}</li>

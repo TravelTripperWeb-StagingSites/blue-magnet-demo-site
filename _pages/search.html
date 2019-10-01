@@ -1,0 +1,116 @@
+---
+layout: generic
+title_localized: 
+  en: Search Results
+meta_description_localized:
+  en:
+permalink_localized: 
+  en: /search/
+meta_tags:
+  robots: noindex, follow
+---
+
+<section class="search-results container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="h1 mb-3">Your Search Results: </h2>
+    </div>
+  </div>
+  <div id="search-results" class="row"></div>
+</section>
+<script type="text/javascript">
+  window.lunrDocs = {
+      {% for room in site.data._models.rooms %}
+        "Room_{{ room.reztrip_room_id }}": {
+          "title": "{{ room.name | xml_escape }}",
+          "content": {{ room.description | strip_html | strip_newlines | jsonify }},
+          "url": "{{ room.id | permalink: model_dir: 'rooms' }}"
+        }
+      ,
+      {% endfor %}
+      {% for offer in site.data._models.offers %}
+        "Offer_{{ offer.reztrip_offer_id }}": {
+          "title": "{{ offer.name | xml_escape }}",
+          "content": {{ offer.short_description | strip_html | strip_newlines | jsonify }},
+          "url": "{{ offer.id | permalink: model_dir: 'offers'}}"
+        }
+        ,
+      {% endfor %}
+      {% for diningItem in site.data._models.dining %}
+        "Dining_{{ diningItem.id  | remove: ' ' }}": {
+          "title": "{{ diningItem.name | xml_escape }}",
+          "content": {{ diningItem.short_description | strip_html | strip_newlines | jsonify }},
+          "url": "{{ '_pages/dining.html' | permalink }}"
+        }
+        ,
+      {% endfor %}
+      {% for eventItem in site.data._models.events %}
+        "Event_{{ eventItem.title  | remove: ' ' }}": {
+          "title": "{{ eventItem.title | xml_escape }}",
+          "content": {{ eventItem.description | strip_html | strip_newlines | jsonify }},
+          "url": "/happenings/#Event_{{ eventItem.title  | remove: ' ' }}"
+        }
+        ,
+      {% endfor %}
+      {% for amenity in site.data._models.amenities %}
+        "Amenity_{{ amenity.name | replace:' ','_' | replace: '&','' }}": {
+          "title": "{{ amenity.name | xml_escape }}",
+          "content": {{ amenity.description | strip_html | strip_newlines | jsonify }},
+          "url": "/amenities/#Amenity_{{ amenity.name | replace:' ','_' | replace: '&','' }}"
+        }
+        ,
+      {% endfor %}
+      {% for review in site.data._models.reviews %}
+        "Review_{{ review.reviewer_name | replace:' ','_' | replace: '&','' }}": {
+          "title": "{{ review.reviewer_name | xml_escape }}",
+          "content": {{ review.text| strip_html | strip_newlines | jsonify }},
+          "url": "/newport-occasions/#testimonials"
+        }
+        ,
+      {% endfor %}
+      {% for faqItem in site.data._models.faq %}
+        'Faq_{{ faqItem.name | replace:" ","_" | replace: "'","" | replace: "&","&" }}': {
+          'title': '{{ faqItem.name | xml_escape | replace: "'","" }}',
+          'content': {{ faqItem.answer | strip_html | strip_newlines | jsonify }},
+          'url': '/faqs/#{{ faqItem.name | replace:" ","_" | replace: "'","" | replace: "&","" | replace: "?","" }}'
+        }
+        ,
+      {% endfor %}
+      {% for foodDrinkItem in site.data._models.food-drink %}
+        'FoodDrink_{{foodDrinkItem.name | replace:" ","_" | replace: "'","" | replace: "&",""}}': {
+          'title': '{{ foodDrinkItem.name | xml_escape | replace: "'","" }}',
+          'content': {{ foodDrinkItem.short_description | strip_html | strip_newlines | jsonify }},
+          'url': '/food-drink/#{{foodDrinkItem.name | replace:" ","_" | replace: "'","" | replace: "&",""}}'
+        }
+        ,
+        {% endfor %}
+        {% for pagesFullContent in site.data._regions[site.active_lang]._pages %}
+          {% for pageSection in pagesFullContent[1] %}
+            {% for sectionContent in pageSection[1] %}
+              {% assign requiredHTMLContent = sectionContent.header.content | append: sectionContent.post_header.content | append: sectionContent.col1_html.content | append: sectionContent.col2_html.content | append: sectionContent.content | append: sectionContent.html.content | replace: "'", "" | strip %}
+              {% assign firstCharacter = requiredHTMLContent | slice: 0 %}
+              {% if firstCharacter != "{" and requiredHTMLContent != undefined and requiredHTMLContent != "" %}
+                {% assign foundPage = '' %}
+                {% for page in site.pages %}
+                  {% assign page_name = page.path | split: "." %}
+                  {% assign page_name = page_name[0] %}
+                  {% assign region_page_name = "_pages/" | append: pagesFullContent[0] %}
+                  //{{page_name}}, {{region_page_name}}
+                  {% if page_name == region_page_name %}
+                    {% assign foundPage = page %}
+                  {% endif %}
+                {% endfor %}
+                {% if foundPage and foundPage != '' %}
+                  'Page_{{pagesFullContent[0]}}_{{pageSection[0]}}': {
+                    'title': '{{ foundPage.title }}',
+                    'content': '{{ requiredHTMLContent | newline_to_br | strip_newlines | replace: "<br />", " " | strip_html | strip }}',
+                    'url': '{{foundPage | permalink }}'
+                  }
+                  ,
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+      {% endfor %}
+    };
+</script>

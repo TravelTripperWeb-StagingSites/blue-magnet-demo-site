@@ -2,7 +2,7 @@
 // ==========================================================================
 
 form {
-  input[type="text"] {
+  input[type="text"], input[type="email"] {
     width: 100%;
     display: block;
   }
@@ -24,6 +24,13 @@ form {
   }
   input[type="submit"], button {
     display: block;
+  }
+  &.search-form {
+    input[type="text"] {
+      font-size: 80%;
+      padding: 2px !important;
+      margin: 0 !important;
+    }
   }
 }
 

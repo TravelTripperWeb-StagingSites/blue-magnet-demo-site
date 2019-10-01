@@ -23,7 +23,9 @@
       <ul class="nav nav--top flex-row  text-uppercase justify-content-end pr-2">
         {% assign items = site.data._menus.top.items %}
         {% include nav/nav-item-list.html items=items %}
-        <input name="search" id="search" placeholder="Search" type="text"/>
+        <form class="search-form" action="{{ '_pages/search.html' | permalink }}">
+          <input name="query" id="search" placeholder="Search" type="text"/>
+        </form>
       </ul>
       <ul class="nav nav--primary flex-row  align-items-center text-uppercase justify-content-end pr-2">
         {% assign items = site.data._menus.main.items %}
