@@ -2,8 +2,8 @@
   {% for card in item.cards %}
     {% assign url = null %}
     {% assign link_text = null %}
-    {% if card.custom_url %}
-      {% assign url = card.custom_url %}
+    {% if card.url %}
+      {% assign url = card.url %}
     {% elsif card.page %}
       {% for page in site.pages %}
         {% if page.path == card.page %}
@@ -16,18 +16,18 @@
       {% assign link_text = card.link_text %}
     {% endif %}
   
-  
-    <div class="image-content objectfit">
-      <img src="{{card.image.url_medium}}" alt="{{card.image.alt}}" />
+    <div class="col-md-6 d-flex flex-column justify-content-between">    
+      <div class="image-content objectfit">
+        <img src="{{card.image.url_medium}}" alt="{{card.image.alt}}" />
+      </div>
+      <div class="text-content d-flex flex-column justify-content-between text-center p-4  flex-grow-1  bg-white">
+        <p class="h5 mb-2">{{card.title}}</p>
+        {{card.body}}
+        {% if url %}
+          <a class="btn btn--primary" href="{{url}}" {% if card.target %}target="{{card.target}}"{% endif %}>{{ link_text }}</a>  
+        {% endif %}
+      </div>
     </div>
-    <div class="text-content d-flex flex-column justify-content-between text-center p-4  flex-grow-1  bg-white">
-      <p class="h5">{{card.title}}</p>
-      {{card.body}}
-      {% if url %}
-        <a class="btn btn--primary" href="{{url}}" {% if card.target %}target="{{card.target}}"{% endif %}>{{ link_text }}</a>  
-      {% endif %}
-    </div>
-  
   {% endfor %}
 {% endcapture %}
 
