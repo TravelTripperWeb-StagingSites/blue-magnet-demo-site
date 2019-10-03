@@ -4,12 +4,12 @@
     {% assign link_text = null %}
     {% if card.custom_url %}
       {% assign url = card.custom_url %}
-    {% else if card.page %}
+    {% elsif card.page %}
       {% for page in site.pages %}
         {% if page.path == card.page %}
           {% assign url = page | permalink %}
           {% assign link_text = page.title %}
-        {% endif }
+        {% endif %}
       {% endfor %}
     {% endif %}
     {% if card.link_text and card.link_text != '' %}
