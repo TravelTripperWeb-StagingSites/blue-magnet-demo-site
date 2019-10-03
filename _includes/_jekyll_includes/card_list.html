@@ -4,7 +4,7 @@
     {% assign link_text = null %}
     {% if card.custom_url %}
       {% assign url = card.custom_url %}
-    {% elseif card.page %}
+    {% else if card.page %}
       {% for page in site.pages %}
         {% if page.path == card.page %}
           {% assign url = page | permalink %}
