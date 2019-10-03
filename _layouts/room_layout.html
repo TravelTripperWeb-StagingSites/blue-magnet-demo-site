@@ -4,7 +4,19 @@ layout: default
 
 {% assign room = page.data %}
 
-{% assign featured_image = room.images[0] %}
+{% assign image1 = null %}
+{% assign image2 = null %}
+
+{% assign featured_image = room.featured_image %}
+{% if featured_image %}
+  {% assign image1 = room.images[0] %}
+  {% assign image2 = room.images[1] %}
+{% else %}
+  {% assign featured_image = room.images[0] %}
+  {% assign image1 = room.images[1] %}
+  {% assign image2 = room.images[2] %}
+{% endif %}
+
 <div class="hero">
   <img class="objectfit" src="{{ featured_image.url_xlarge }}" alt="{{featured_image.alt}}"/>
 </div>
@@ -17,13 +29,11 @@ layout: default
     </div>
     
     <div class="row text-center m-4">
-      <h3 class="room_name text-center mr-auto ml-auto" ttweb-room-component="RoomName">{{room.name}}</h3>
-      <div class="room__description" ttweb-room-component="RoomDescription">
+      <h3 class="room_name text-center mr-auto ml-auto">{{room.name}}</h3>
+      <div class="room__description">
         {{ room.description }}
       </div>
     </div>
-    {% assign image1 = room.images[1] %}
-    {% assign image2 = room.images[2] %}
     {% if image1 %}
       <div class="row">
         <div class="{% if image2 %}col-md-6{% else %}col-12{% endif %}">
@@ -53,7 +63,7 @@ layout: default
             <p class="h5  mb-1">
               {% t 'room.suite_amenities' %}
             </p>
-            <div ttweb-room-component="RoomAmenities" data-tt-selected-room="{{room.reztrip_room_id}}">
+            <div data-tt-selected-room="{{room.reztrip_room_id}}">
               <ul>
                 {% for amenity in room.amenities %}
                   <li>{{ amenity.name }}</li>
