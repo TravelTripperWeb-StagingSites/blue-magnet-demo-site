@@ -1,0 +1,30 @@
+name: Card List
+settings:
+  cards:
+    label: Cards
+    type: nested
+    multiple: true
+    fields:
+      image:
+        type: image
+      title:
+        type: string
+      body:
+        type: rich_text
+      link_text:
+        type: string
+      url:
+        type: string
+  advanced_options:
+    label: Advanced Options
+    type: Nested
+    fields:
+      custom_id:
+        label: Custom ID
+      custom_classes:
+        label: Custom Class Names
+      tabindex:
+        label: Tab Index
+        type: integer    
+template_file: _jekyll_includes/card_list.html
+

@@ -29,8 +29,8 @@ layout: default
     </div>
     
     <div class="row text-center m-4">
-      <h3 class="room_name text-center mr-auto ml-auto" ttweb-room-component="RoomName">{{room.name}}</h3>
-      <div class="room__description" ttweb-room-component="RoomDescription">
+      <h3 class="room_name text-center mr-auto ml-auto">{{room.name}}</h3>
+      <div class="room__description">
         {{ room.description }}
       </div>
     </div>
@@ -63,7 +63,7 @@ layout: default
             <p class="h5  mb-1">
               {% t 'room.suite_amenities' %}
             </p>
-            <div ttweb-room-component="RoomAmenities" data-tt-selected-room="{{room.reztrip_room_id}}">
+            <div data-tt-selected-room="{{room.reztrip_room_id}}">
               <ul>
                 {% for amenity in room.amenities %}
                   <li>{{ amenity.name }}</li>
