@@ -11,11 +11,9 @@ settings:
         type: string
       body:
         type: rich_text
-      page:
-        type: page
       link_text:
         type: string
-      custom_url:
+      url:
         type: string
   advanced_options:
     label: Advanced Options
