@@ -15,8 +15,14 @@
     {% if card.link_text and card.link_text != '' %}
       {% assign link_text = card.link_text %}
     {% endif %}
-  
-    <div class="col-md-6 d-flex flex-column justify-content-between">    
+    {% assign col_class = 'col-md-6' %}
+    {% if forloop.last %}
+      {% assign remainder = forloop.length | modulo:2 %}
+      {% if remainder == 1 %}
+        {% assign col_class='col-12' %}
+      {% endif %}
+    {% endif %}
+    <div class="{{col_class}} d-flex flex-column justify-content-between mt-2 mb-2">    
       <div class="image-content objectfit">
         <img src="{{card.image.url_medium}}" alt="{{card.image.alt}}" />
       </div>
