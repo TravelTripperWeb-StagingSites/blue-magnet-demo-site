@@ -1,2 +1,78 @@
 // Shared Page Elements
 // ==========================================================================
+
+form {
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    display: block;
+  }
+  textarea {
+    width: 100%;
+  }
+  input, textarea {
+    @extend .p-2;
+    @extend .mb-2;
+    font-size: 100%;
+    border: $border-width solid $border-color;
+    appearance: none;
+    
+  }
+  label.checkbox-label {
+    font-size: 80%;
+    display: block;
+    vertical-align: bottom;
+  }
+  input[type="submit"], button {
+    display: block;
+  }
+  &.search-form {
+    input[type="text"] {
+      font-size: 80%;
+      padding: 2px !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+
+.back-link p {
+  font-size: 80%;
+  margin: 1rem 0;
+}
+
+ul {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+
+footer {
+  .footer-cross-sell {
+    padding: 50px;
+  }
+  .social-links {
+    margin: 1rem 0;
+    a {
+      margin: 0 1rem;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+  strong {
+    text-transform: uppercase;
+  }
+  .copyright {
+    font-size: 80%;
+  }
+  .logo-badges {
+    text-align: right;
+    img.green-lodging {
+      height: 99px;
+    }
+    img.disney-hotel-neighbor {
+      height: 83px;
+    }
+  }
+}

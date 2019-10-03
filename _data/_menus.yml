@@ -1,28 +1,73 @@
+---
+top:
+  depth: 1
+  name: Super Menu
+  items:
+  - page_id: _pages/gallery.html
+  - page_id: _pages/user_created/private-members.html
+    url_localized: ''
 main:
   depth: 2
-  name: Top Menu
+  name: Main Menu
   items:
-    - page_id: index.html
-    - page_id: _pages/about.html
-    - page_id: _pages/rooms.html
-    - page_id: _pages/offers.html
-    - page_id: _pages/gallery.html
-    - page_id: _pages/contact.html
-    # - url_localized:
-    #     en: https://www.google.com
-    #     es: https://www.google.es
-    #   label_localized:
-    #     en: g-US
-    #     es: g-ES
-    #   target: _NEW
-    # - label_localized:
-    #     en: Group
-    #     es: Group (ES)
-    #   folder: true
-    #   items:
-    #     - page_id: _pages/about.html
-    #     - url: /test/
-    #       label_localized:
-    #         en: Test
-    #         es: Prueba
-    
+  - page_id: _pages/about.html
+    items: 
+  - page_id: _pages/rooms.html
+    items:
+    - folder: false
+      url_localized: ''
+      page_id: _pages/user_created/accessibility.html
+      items: 
+  - page_id: _pages/offers.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/dining.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/attractions.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/events.html
+    items: 
+footer:
+  depth: 1
+  name: Footer Menu
+  items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/contact.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/reviews.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/faq.html
+    items: 
+  - folder: false
+    url_localized:
+      en: http://www.crrsv.com/bvs/index.html
+    label_localized:
+      en: Pay Online
+    target: "_NEW"
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/careers.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/travel-agents.html
+    items: 

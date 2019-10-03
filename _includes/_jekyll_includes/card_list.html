@@ -1,0 +1,47 @@
+{% capture rendered_cards %}
+  {% for card in item.cards %}
+    {% assign url = null %}
+    {% assign link_text = null %}
+    {% if card.url %}
+      {% assign url = card.url %}
+    {% elsif card.page %}
+      {% for page in site.pages %}
+        {% if page.path == card.page %}
+          {% assign url = page | permalink %}
+          {% assign link_text = page.title %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if card.link_text and card.link_text != '' %}
+      {% assign link_text = card.link_text %}
+    {% endif %}
+    {% assign col_class = 'col-md-6' %}
+    {% if forloop.last %}
+      {% assign remainder = forloop.length | modulo:2 %}
+      {% if remainder == 1 %}
+        {% assign col_class='col-12' %}
+      {% endif %}
+    {% endif %}
+    <div class="{{col_class}} d-flex flex-column justify-content-between mt-2 mb-2">    
+      <div class="image-content objectfit">
+        <img src="{{card.image.url_medium}}" alt="{{card.image.alt}}" />
+      </div>
+      <div class="text-content d-flex flex-column justify-content-between text-center p-4  flex-grow-1  bg-white">
+        <p class="h5 mb-2">{{card.title}}</p>
+        {{card.body}}
+        {% if url %}
+          <a class="btn btn--primary" href="{{url}}" {% if card.target %}target="{{card.target}}"{% endif %}>{{ link_text }}</a>  
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endcapture %}
+
+{% comment %}TODO: Allow background class to be customized by user {% endcomment %}
+<div class="bg-brand-alt home-features p-4">
+  <div class="container">
+    <div class="row align-items-stretch">
+      {{ rendered_cards}}
+    </div>
+  </div>
+</div>

@@ -27,8 +27,8 @@
     "uglify-js": "^2.6.1"
   },
   "scripts": {
-    "babel": "babel --presets es2015 _jssrc/app.js -o _jssrc/main.bundle.js",
-    "uglify": "uglifyjs _jssrc/main.bundle.js -c -m -o _assets/js/main.min.js",
+    "babel": "babel --presets es2015 _jssrc/app.js -o _assets/js/main.bundle.js",
+    "uglify": "uglifyjs _assets/js/main.bundle.js -c -m -o _assets/js/main.min.js",
     "build:css": "npm run sass",
     "build:js": "npm run babel && npm run uglify",
     "build:jekyll": "bundle exec jekyll build",
@@ -38,7 +38,7 @@
     "bs": "browser-sync init",
     "watch:css": "chokidar '_sass/**/*' -c 'npm run sass'",
     "watch:css:templates": "chokidar '_sass/**/*' '_ttio_templates/**/*.scss' -c 'npm run sass'",
-    "watch:js": "chokidar '_jssrc/**/*' -c 'npm run uglify'",
+    "watch:js": "chokidar '_jssrc/**/*' -c 'npm run babel && npm run uglify'",
     "watch:jekyll": "chokidar 'index.html' '_includes/**/*' '_layouts/**/*' '_locales/**/*' '_data/**/*' '_pages/**/*' '_assets/**/*' -c 'npm run build:jekyll && browser-sync reload --port 21212'",
     "watch:jekyll:templates": "chokidar '_plugins-38/**/*' '_ttio_templates/**/*' 'index.html' '_includes/**/*.html' '_layouts/**/*.html' '_locales/**/*' '_data/**/*' '_pages/**/*' '_assets/**/*' -c 'npm run build:jekyll && browser-sync reload --port 21212'",
     "serve": "browser-sync start --server _site --port 21212",

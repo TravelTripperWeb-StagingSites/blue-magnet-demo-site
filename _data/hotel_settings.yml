@@ -1,0 +1,274 @@
+---
+latitude: 28.35793959999999
+longitude: -81.4957291
+map_zoom: 12
+name: Buena Vista Suites, Orlando
+email: ''
+address:
+  street1: 8203 World Center Drive
+  state: FL
+  city: Orlando
+  zip_code: '32821'
+default_currency: USD
+default_timezone: America/New_York
+_hotel_id: BVSO
+_portal_id: buenavistasuites
+__EDITABLE_FIELDS__:
+  name:
+    required: true
+  logo:
+    type: image
+  email:
+    type: string
+  phone:
+    label: Direct Line Phone Number
+    type: string
+  reservations_phone:
+    label: Reservations Phone Number
+    type: string
+  default_currency:
+    required: true
+  address:
+    type: complex
+    fields:
+      street1:
+        type: string
+      state:
+        type: string
+      city:
+        type: string
+      zip_code:
+        type: string
+  google_location:
+    type: location
+  map_zoom:
+    type: integer
+  latitude:
+    type: float
+  longitude:
+    type: float
+logo:
+  name: LOGO@2x
+  content_type: image/png
+  date_added: 2019-09-25-175810
+  url_thumb: "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1569448690/ixjcapqyleaauyodntdh.png"
+  url_xsmall: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1569448690/ixjcapqyleaauyodntdh.png"
+  url_small: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1569448690/ixjcapqyleaauyodntdh.png"
+  url_medium: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1569448690/ixjcapqyleaauyodntdh.png"
+  url_large: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1569448690/ixjcapqyleaauyodntdh.png"
+  url_xlarge: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1569448690/ixjcapqyleaauyodntdh.png"
+  url: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569448690/ixjcapqyleaauyodntdh.png"
+  width: 661
+  height: 129
+  format: png
+  url_raw: "//res.cloudinary.com/traveltripperweb/image/upload/v1569448690/ixjcapqyleaauyodntdh.png"
+  resource_type: image
+  size: 23434
+  path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569448690/ixjcapqyleaauyodntdh.png"
+  file_size: 
+  alt: Buena Vista Suites, Orlando
+  caption: ''
+  description: ''
+phone: "(407) 239-8588"
+reservations_phone: "(800) 537 7737"
+google_location:
+  name: Buena Vista Suites
+  address: 8203 World Center Dr, Orlando, FL 32821, USA
+  phone: "(407) 239-8588"
+  place_id: ChIJTaCUZMqB3YgR_TrrbcxESFk
+  reference: ChIJTaCUZMqB3YgR_TrrbcxESFk
+  latitude: 28.35793959999999
+  longitude: -81.4957291
+  google_place:
+    address_components:
+    - long_name: '8203'
+      short_name: '8203'
+      types:
+      - street_number
+    - long_name: World Center Drive
+      short_name: World Center Dr
+      types:
+      - route
+    - long_name: Orlando
+      short_name: Orlando
+      types:
+      - locality
+      - political
+    - long_name: Orange County
+      short_name: Orange County
+      types:
+      - administrative_area_level_2
+      - political
+    - long_name: Florida
+      short_name: FL
+      types:
+      - administrative_area_level_1
+      - political
+    - long_name: United States
+      short_name: US
+      types:
+      - country
+      - political
+    - long_name: '32821'
+      short_name: '32821'
+      types:
+      - postal_code
+    adr_address: <span class="street-address">8203 World Center Dr</span>, <span class="locality">Orlando</span>,
+      <span class="region">FL</span> <span class="postal-code">32821</span>, <span
+      class="country-name">USA</span>
+    formatted_address: 8203 World Center Dr, Orlando, FL 32821, USA
+    formatted_phone_number: "(407) 239-8588"
+    geometry:
+      location:
+        lat: 28.35793959999999
+        lng: -81.4957291
+      viewport:
+        south: 28.35646881970849
+        west: -81.4970821802915
+        north: 28.3591667802915
+        east: -81.49438421970848
+    icon: https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png
+    id: 14d3a7cee2367125b786efa70714aa8e2732da1a
+    international_phone_number: "+1 407-239-8588"
+    name: Buena Vista Suites
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+          hours: 0
+          minutes: 0
+          nextDate: 1569729600000
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    photos:
+    - height: 1836
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111662039238622069858/photos">Udo
+        Möller</a>
+      width: 3264
+    - height: 2988
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/116898641203970083996/photos">Jessica
+        Velasco</a>
+      width: 5312
+    - height: 4032
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111613351604542352245/photos">popsi
+        Kiemkodogo</a>
+      width: 3024
+    - height: 4032
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/114136665093731073764/photos">Chris
+        Nguyen</a>
+      width: 3024
+    - height: 3456
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/115144741391940844625/photos">Fabiano
+        Britto</a>
+      width: 4608
+    - height: 3024
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/107639927102629411145/photos">Alicia
+        Oates</a>
+      width: 4032
+    - height: 2988
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/108791830838134702879/photos">moshe
+        karako</a>
+      width: 5312
+    - height: 2162
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/109957543690624511096/photos">Brianna
+        Pitts</a>
+      width: 3482
+    - height: 1960
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/107417224441823956993/photos">ruben
+        reyes</a>
+      width: 4032
+    - height: 2285
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/109957543690624511096/photos">Brianna
+        Pitts</a>
+      width: 4168
+    place_id: ChIJTaCUZMqB3YgR_TrrbcxESFk
+    plus_code:
+      compound_code: 9G53+5P Orlando, Florida, United States
+      global_code: 76WW9G53+5P
+    rating: 4.1
+    reference: ChIJTaCUZMqB3YgR_TrrbcxESFk
+    reviews:
+    - author_name: Elvis Quintero
+      author_url: https://www.google.com/maps/contrib/116588597635554854952/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AAuE7mDuqCsC22ARFbOGuW082bX5H9PfyG9xK_ozu0lwLA=s128-c0x00000000-cc-rp-mo-ba3
+      rating: 4
+      relative_time_description: a month ago
+      text: This is a nice business style hotel. They have nice rooms (suite style
+        with a small living room), that are more than just comfortable. The staff
+        is really nice and service oriented. The only reason I rate 4* is because
+        of their included breakfast... It is such a shame that they advertise their
+        restaurants as really good and can't provide a decent breakfast. Also they
+        don't include a resort fee in the room fare, so watch out for that.
+      time: 1565729023
+    - author_name: MARGIE DANIELS
+      author_url: https://www.google.com/maps/contrib/108544157285999698008/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AAuE7mC_AveVzmmJZsanN69HaCMHmE4OLXWQxMBM973NZg=s128-c0x00000000-cc-rp-mo-ba3
+      rating: 4
+      relative_time_description: a month ago
+      text: A nice place. Location is good and the rooms are clean.  Breakfast was
+        a mad house, and the space to sit very limited.  I would stay again, good
+        for a mini get away.   Not so sure if I could or would stay beyond 4 days.
+      time: 1566233122
+    - author_name: Katelyn Painter
+      author_url: https://www.google.com/maps/contrib/101843035387913214189/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AAuE7mBpXLhezYYllxXZkaG68SscbXYkQ6c0nhxZCNcaYA=s128-c0x00000000-cc-rp-mo-ba2
+      rating: 5
+      relative_time_description: 2 weeks ago
+      text: The newly remodeled rooms are very modern and clean. Customer Service
+        is great. Location is also super close to Disney and very convenient for taking
+        a break during the hot Florida day.
+      time: 1567873994
+    - author_name: Judas_The_Maccabean_Zealot
+      author_url: https://www.google.com/maps/contrib/114189763640051781704/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AAuE7mCGea44dSZ3qOO8i6huoqluDRvRuN1zg6NA6lnRlA=s128-c0x00000000-cc-rp-mo-ba3
+      rating: 5
+      relative_time_description: in the last week
+      text: My 1st time to Orlando was w/The Make a Wish Foundation. I enjoyed my
+        stay at Buena Vista Suites all expenses paid. All of the Disney Resorts were
+        within a 12 mile radius and I even saw a shuttle bus loading and unloading
+        passengers right in front of the hotel. All of the staff were bilingual and
+        very polite. 7/11 and CVS are right across the street.
+      time: 1569431940
+    - author_name: Lisa Sanders
+      author_url: https://www.google.com/maps/contrib/102498367135213003287/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AAuE7mCjf-SY4-ZdkX_i4gZNEwr39c32YmBDaDTvOfiE3Q=s128-c0x00000000-cc-rp-mo
+      rating: 5
+      relative_time_description: in the last week
+      text: Lovely stay..would definitely recommend staying here... full breakfast
+        included.. little pool area.. but cozy and clean
+      time: 1569276981
+    scope: GOOGLE
+    types:
+    - lodging
+    - point_of_interest
+    - establishment
+    url: https://maps.google.com/?cid=6433467712506903293
+    user_ratings_total: 1707
+    utc_offset: -240
+    vicinity: 8203 World Center Drive, Orlando
+    website: http://www.buenavistasuites.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect-featured
+    html_attributions: 
+    utc_offset_minutes: -240
