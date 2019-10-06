@@ -1,0 +1,19 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Valencia Room "
+  },
+  "short_description_localized": {
+    "en": "Kick-start your day with a complimentary full American breakfast buffet. This bright and cheerful dining room features views of the outdoor pool. Menu choices include eggs cooked to order, pastries, and much more."
+  },
+  "hours": [
+    {
+      "day": "Monday – Friday",
+      "hours": "6:30 AM – 10:00 AM"
+    },
+    {
+      "day": "Saturday – Sunday   ",
+      "hours": "7:00 AM – 10:30 AM"
+    }
+  ]
+}
