@@ -48,7 +48,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\">Join our <a class=\"btn btn--secondary\" href=\"members/\">PRIVATE MEMBER</a>&nbsp;club for exclusive rates and offers.&nbsp;</p>"
+      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\"><a class=\"btn btn--secondary\" href=\"members/\">BECOME A PRIVATE MEMBER</a>&nbsp;for access to our lowest available rates and benefits.&nbsp;</p>"
     }
   },
   {
