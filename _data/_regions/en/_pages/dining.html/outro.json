@@ -38,6 +38,9 @@
     "col2_type": "html",
     "header_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "footer_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     }
   }
 ]
