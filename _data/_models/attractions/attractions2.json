@@ -1,0 +1,14 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Disney's Animal Kingdom"
+  },
+  "sub_title_localized": {
+    "en": "Disney"
+  },
+  "featured": true,
+  "category": [
+    "Amusment Park"
+  ],
+  "website_url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/"
+}
