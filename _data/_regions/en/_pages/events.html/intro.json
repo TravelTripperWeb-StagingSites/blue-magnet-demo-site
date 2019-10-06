@@ -22,6 +22,10 @@
     },
     "col2_html": {
       "content": "<ul>\n<li>Professional Planning Services&nbsp;</li>\n<li>Creative Catering&nbsp;</li>\n<li>Audiovisual Services from PSAV&reg;</li>\n<li>Custom Meeting, Wedding &amp; Event Packages</li>\n<li>Planning for Off-Site Group Outings, Teambuilding Activities, and Local Tours</li>\n<li>Special Group Rates for Overnight Guests</li>\n<li>Complimentary Self-Parking</li>\n</ul>"
-    }
+    },
+    "advanced_options": {
+    },
+    "col1_type": "html",
+    "col2_type": "html"
   }
 ]
