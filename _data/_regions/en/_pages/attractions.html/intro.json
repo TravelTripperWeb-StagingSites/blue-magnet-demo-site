@@ -1,5 +1,9 @@
 [
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Explore Orlando's Top Attractions",
+      "_template": "header"
+    }
   }
 ]
