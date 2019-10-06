@@ -18,6 +18,8 @@ main:
       url_localized: ''
       page_id: _pages/user_created/accessibility.html
       items: 
+  - page_id: _pages/offers.html
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/dining.html
@@ -25,8 +27,6 @@ main:
   - folder: false
     url_localized: ''
     page_id: _pages/attractions.html
-    items: 
-  - page_id: _pages/offers.html
     items: 
   - folder: false
     url_localized: ''
