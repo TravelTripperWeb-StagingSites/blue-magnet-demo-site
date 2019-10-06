@@ -5,7 +5,7 @@
   },
   "tagline": "Nearby Dining",
   "short_description_localized": {
-    "en": "Located next door at Caribe Royale, the Venetian Chop House has been awarded the prestigious AAA 4-Diamond rating. Reservations are recommended. You can also charge your meal at Caribe Royale to your folio at Buena Vista Suites."
+    "en": "Located next door at Caribe Royale, the Venetian Chop House has been awarded the prestigious AAA 4-Diamond rating. This celebrated restaurant offers premium steaks, chops, seafood and an exceptional wine list with reserve wine selections. Reservations are recommended. You can also charge your meal at Caribe Royale to your folio at Buena Vista Suites."
   },
   "hours": [
     {
@@ -13,12 +13,12 @@
       "hours": "6:00 PM - 10:00 PM"
     },
     {
-      "day": "Closed on Sundays"
+      "day": "(This restaurant is closed on Sundays)"
     }
   ],
   "menus": [
     {
-      "label": "Menu",
+      "label": "Dinner Menu",
       "url": "#"
     }
   ]
