@@ -14,5 +14,8 @@
     "html": {
       "content": "<p class=\"h2\" style=\"text-align: center;\">Hotel Venues &amp; Event Services&nbsp;</p>"
     }
+  },
+  {
+    "_template": "2_col"
   }
 ]
