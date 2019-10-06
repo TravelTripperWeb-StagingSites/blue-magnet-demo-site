@@ -16,6 +16,9 @@
     }
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<ul>\n<li>Over 3,000 Sq. Ft. of Function Space</li>\n<li>Buena Vista I &amp; II (860 sq. ft. each or 1,720 sq. ft. combined)</li>\n<li>992 Sq. Ft. Reception Foyer</li>\n<li>Meetings for up to 200 Attendees</li>\n<li>Banquets for up to 150 Attendees</li>\n<li>Executive Boardroom</li>\n<li>Valencia Room and Vista Bistro Available for Events</li>\n</ul>"
+    }
   }
 ]
