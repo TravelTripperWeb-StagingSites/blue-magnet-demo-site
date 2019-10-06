@@ -18,11 +18,11 @@ main:
       url_localized: ''
       page_id: _pages/user_created/accessibility.html
       items: 
-  - page_id: _pages/offers.html
-    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/dining.html
+    items: 
+  - page_id: _pages/offers.html
     items: 
   - folder: false
     url_localized: ''
@@ -53,7 +53,7 @@ footer:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
-    target: "_NEW"
+    target: _NEW
     items: 
   - folder: false
     url_localized: ''
