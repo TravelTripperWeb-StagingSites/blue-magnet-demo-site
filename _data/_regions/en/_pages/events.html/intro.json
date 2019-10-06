@@ -19,6 +19,9 @@
     "_template": "2_col",
     "col1_html": {
       "content": "<ul>\n<li>Over 3,000 Sq. Ft. of Function Space</li>\n<li>Buena Vista I &amp; II (860 sq. ft. each or 1,720 sq. ft. combined)</li>\n<li>992 Sq. Ft. Reception Foyer</li>\n<li>Meetings for up to 200 Attendees</li>\n<li>Banquets for up to 150 Attendees</li>\n<li>Executive Boardroom</li>\n<li>Valencia Room and Vista Bistro Available for Events</li>\n</ul>"
+    },
+    "col2_html": {
+      "content": "<ul>\n<li>Professional Planning Services&nbsp;</li>\n<li>Creative Catering&nbsp;</li>\n<li>Audiovisual Services from PSAV&reg;</li>\n<li>Custom Meeting, Wedding &amp; Event Packages</li>\n<li>Planning for Off-Site Group Outings, Teambuilding Activities, and Local Tours</li>\n<li>Special Group Rates for Overnight Guests</li>\n<li>Complimentary Self-Parking</li>\n</ul>"
     }
   }
 ]
