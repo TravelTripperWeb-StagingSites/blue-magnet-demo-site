@@ -48,7 +48,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\">Join our <a class=\"btn btn--secondary\" href=\"members/\">PRIVATE MEMBER</a>&nbsp;club for exclusive rates and offers.&nbsp;</p>"
+      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\"><a class=\"btn btn--secondary\" href=\"members/\">BECOME A PRIVATE MEMBER</a>&nbsp;for access to our lowest available rates and benefits.&nbsp;</p>"
     }
   },
   {
@@ -102,7 +102,7 @@
         "inner: p-4"
       ],
       "style": "white text-primary",
-      "content": "<p class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</p>\n<p style=\"text-align: center;\">Kick back and make yourself at home in one of our spacious Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>"
+      "content": "<p class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</p>\n<p style=\"text-align: center;\">Kick back and make yourself at home in our newly renovated&nbsp;Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>"
     },
     "header_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"

@@ -53,11 +53,15 @@ footer:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
-    target: "_NEW"
+    target: _NEW
     items: 
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/careers.html
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/travel-agents.html
     items: 
   - folder: false
     url_localized: ''
@@ -66,8 +70,4 @@ footer:
   - folder: false
     url_localized: ''
     page_id: _pages/sitemap.html
-    items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/user_created/travel-agents.html
     items: 

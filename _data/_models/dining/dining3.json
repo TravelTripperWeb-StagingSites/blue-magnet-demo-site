@@ -1,0 +1,25 @@
+{
+  "order": 1,
+  "name_localized": {
+    "en": "The Bistro Pizza Express"
+  },
+  "short_description_localized": {
+    "en": "Need a quick bite on the go? Pick up a fresh, hot pizza from the Bistro Pizza Express, which offers fresh pizza, sandwiches, salads, wings and more. "
+  },
+  "hours": [
+    {
+      "day": "Sunday - Thursday",
+      "hours": "5:00 PM - 12:00 AM"
+    },
+    {
+      "day": "Friday - Saturday",
+      "hours": "5:00 PM - 1:00 AM"
+    }
+  ],
+  "menus": [
+    {
+      "label": "Menu",
+      "url": "#"
+    }
+  ]
+}

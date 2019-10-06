@@ -6,12 +6,20 @@
     "en": "1 separate bedroom with 2 queen size beds, living area with a pullout sleeper sofa, coffee maker, refrigerator and microwave"
   },
   "description_localized": {
-    "en": "Our Queen Suites are 432 square feet and offers two queen beds and a flat-screen TV in the bedroom. The separate living area includes a pullout sofa bed, a flat-screen TV, an ergonomic work desk and chair, a coffee maker, microwave and mini refrigerator.\r\n\r\n  \r\n\r\n\r\n\r\n"
+    "en": "<p class=\"MsoNormal\" style=\"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;\">Our inviting 432 sq. ft. Queen Suites feature a bedroom with two queen beds, as well as a separate living room with a microwave, mini-fridge, and queen-size sofa bed. You&rsquo;ll also enjoy additional amenities including high-speed Wi-Fi, and flat-screen TVs in both the bedroom and the living room.</p>"
   },
   "amenities": [
+    "room_amenities10",
+    "room_amenities6",
+    "room_amenities8",
+    "room_amenities9",
+    "room_amenities12",
+    "room_amenities3",
+    "room_amenities4",
+    "room_amenities5",
+    "room_amenities7",
     "room_amenities1"
   ],
-  "experience": "<p>Designed for both style and comfort, our luxurious rooms feature a custom-made bed with 400-thread-count linens, a chic marble bathroom with a separate bathtub, shower and high-tech toilet, and several entertainment options including a 46” smart TV.</p>",
   "images": [
     {
       "name": "Queen-Suite--Double-Queen-Suite-Bedroom",
@@ -52,9 +60,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617450/erkh6piwzehebogkezz7.jpg",
       "resource_type": "image",
       "size": 207047,
-      "caption": "",
+      "caption": "Double Queen Suite nightstand ",
       "description": "",
-      "alt": "",
+      "alt": "Double Queen Suite nightstand",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/78873_2_master.jpg"
     },
     {
@@ -96,9 +104,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617451/gjyivzhd9pmgteuse9rh.jpg",
       "resource_type": "image",
       "size": 257360,
-      "caption": "",
+      "caption": "In room coffee machine and microwave",
       "description": "",
-      "alt": "",
+      "alt": "In room coffee machine and microwave",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270976_1_master.jpg"
     },
     {
@@ -118,9 +126,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617451/hkjkruj5t8i1c4fjicd6.jpg",
       "resource_type": "image",
       "size": 217600,
-      "caption": "",
+      "caption": "Double Queen Suite Bathroom ",
       "description": "",
-      "alt": "",
+      "alt": "Double Queen Suite Bathroom",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270977_1_master.jpg"
     },
     {
@@ -154,5 +162,8 @@
   "ada_room": false,
   "bed_types": [
     "bed_type_2QB"
-  ]
+  ],
+  "experience_localized": {
+    "en": "<p>Designed for both style and comfort, our luxurious rooms feature a custom-made bed with 400-thread-count linens, a chic marble bathroom with a separate bathtub, shower and high-tech toilet, and several entertainment options including a 46” smart TV.</p>"
+  }
 }
