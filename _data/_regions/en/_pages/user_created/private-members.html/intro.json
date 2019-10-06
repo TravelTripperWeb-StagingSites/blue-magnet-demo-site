@@ -1,5 +1,9 @@
 [
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Enjoy Exclusive savings in orlando",
+      "_template": "header"
+    }
   }
 ]
