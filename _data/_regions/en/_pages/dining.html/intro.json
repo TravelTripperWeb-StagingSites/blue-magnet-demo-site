@@ -32,6 +32,10 @@
     }
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Enjoy the Great Dinning at our Orlando Hotel",
+      "_template": "header"
+    }
   }
 ]
