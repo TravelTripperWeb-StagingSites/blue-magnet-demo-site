@@ -10,6 +10,9 @@
     }
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h2\" style=\"text-align: center;\">Hotel Venues &amp; Event Services&nbsp;</p>"
+    }
   }
 ]
