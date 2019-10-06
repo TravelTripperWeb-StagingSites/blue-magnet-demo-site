@@ -1,10 +1,5 @@
 [
   {
-    "_template": "1_col",
-    "advanced_options": {
-    }
-  },
-  {
     "_template": "intro"
   }
 ]
