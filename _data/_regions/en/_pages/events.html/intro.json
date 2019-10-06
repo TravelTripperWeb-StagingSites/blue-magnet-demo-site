@@ -29,6 +29,9 @@
     "col2_type": "html"
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "custom_classes": ""
+    }
   }
 ]
