@@ -35,6 +35,9 @@
     "include_footer": true,
     "layout": "7_5",
     "col1_type": "html",
-    "col2_type": "html"
+    "col2_type": "html",
+    "header_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    }
   }
 ]
