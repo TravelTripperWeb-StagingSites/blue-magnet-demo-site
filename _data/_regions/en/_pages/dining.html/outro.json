@@ -43,7 +43,13 @@
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     },
     "col2_html": {
-      "content": "<p class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</p>\n<p style=\"text-align: center;\">Kick back and make yourself at home in our newly renovated&nbsp;Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>"
+      "content": "<p class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</p>\n<p style=\"text-align: center;\">Kick back and make yourself at home in our newly renovated&nbsp;Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center",
+        "inner: p-4",
+        "outer: col--border"
+      ],
+      "style": "white text-primary"
     }
   }
 ]
