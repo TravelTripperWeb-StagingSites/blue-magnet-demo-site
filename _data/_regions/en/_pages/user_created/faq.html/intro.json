@@ -1,5 +1,9 @@
 [
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "General Hotel Information",
+      "_template": "header"
+    }
   }
 ]
