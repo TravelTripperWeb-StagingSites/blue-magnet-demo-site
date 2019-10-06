@@ -27,5 +27,8 @@
     },
     "col1_type": "html",
     "col2_type": "html"
+  },
+  {
+    "_template": "1_col"
   }
 ]
