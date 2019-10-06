@@ -1,7 +1,7 @@
 {
   "order": "",
   "name_localized": {
-    "en": "Walt Disney World"
+    "en": "Disney's Magic Kingdom Park&copy;"
   },
   "sub_title_localized": {
     "en": "Disney"
@@ -226,5 +226,6 @@
       "html_attributions": null,
       "utc_offset_minutes": -240
     }
-  }
+  },
+  "website_url": "https://disneyworld.disney.go.com/destinations/magic-kingdom/"
 }
