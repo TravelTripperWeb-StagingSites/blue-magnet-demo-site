@@ -1,5 +1,9 @@
 [
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Explore Our Orlando Hotel Photo Gallery",
+      "_template": "header"
+    }
   }
 ]
