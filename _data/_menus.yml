@@ -57,10 +57,6 @@ footer:
     items: 
   - folder: false
     url_localized: ''
-    page_id: _pages/user_created/careers.html
-    items: 
-  - folder: false
-    url_localized: ''
     page_id: _pages/user_created/travel-agents.html
     items: 
   - folder: false
