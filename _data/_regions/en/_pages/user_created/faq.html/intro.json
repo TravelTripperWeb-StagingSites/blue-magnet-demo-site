@@ -4,6 +4,9 @@
     "header": {
       "content": "General Hotel Information",
       "_template": "header"
-    }
+    },
+    "advanced_options": {
+    },
+    "h1_text_alignment": "text-center"
   }
 ]
