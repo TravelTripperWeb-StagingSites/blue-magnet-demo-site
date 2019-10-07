@@ -38,6 +38,9 @@
     },
     "post_header": {
       "content": "<p class=\"h2\" style=\"text-align: center;\">Everything You Need for the Perfect Orlando Getaway</p>"
-    }
+    },
+    "advanced_options": {
+    },
+    "h1_text_alignment": "text-center"
   }
 ]
