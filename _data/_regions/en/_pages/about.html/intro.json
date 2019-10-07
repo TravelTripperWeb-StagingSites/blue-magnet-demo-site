@@ -44,6 +44,9 @@
     "h1_text_alignment": "text-center"
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h3\" style=\"text-align: center;\">Visit Walt Disney World&reg; Resort and More</p>\n<p style=\"text-align: center;\">Buena Vista Suites is a Walt Disney World Good Neighbor&reg; Hotel, which means guests can purchase tickets to Disney theme parks directly from the Guest Services Desk in our hotel lobby. We also offer scheduled shuttle service to and from the Walt Disney World&reg; Ticket &amp; Transportation Center and Disney Springs&trade; as well as the Orlando Vineland Premium Outlets and Lake Buena Vista Factory Stores. Please visit our <a href=\"../faq/\">FAQ page</a> for additional details and shuttle times. For more information about purchasing attractions tickets, please contact us directly at <a href=\"tel:+14072837766\" target=\"_blank\" rel=\"noopener noreferrer\">407-238-7766</a>.</p>\n<p style=\"text-align: center;\">Our friendly team is also happy to help make your Orlando getaway unforgettable with local recommendations and directions, dining reservations and more.</p>"
+    }
   }
 ]
