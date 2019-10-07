@@ -10,5 +10,362 @@
   "category": [
     "Amusment Park"
   ],
-  "website_url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/"
+  "website_url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/",
+  "location": {
+    "name": "Disney's Animal Kingdom Theme Park",
+    "address": "2901 Osceola Pkwy, Orlando, FL 32830, USA",
+    "phone": "(407) 939-5277",
+    "place_id": "ChIJ_eH9PaOB3YgRuz8jIkYEODQ",
+    "reference": "ChIJ_eH9PaOB3YgRuz8jIkYEODQ",
+    "latitude": 28.359719,
+    "longitude": -81.59131300000001,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "2901",
+          "short_name": "2901",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Osceola Parkway",
+          "short_name": "Osceola Pkwy",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32830",
+          "short_name": "32830",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">2901 Osceola Pkwy</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32830</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "2901 Osceola Pkwy, Orlando, FL 32830, USA",
+      "formatted_phone_number": "(407) 939-5277",
+      "geometry": {
+        "location": {
+          "lat": 28.359719,
+          "lng": -81.59131300000001
+        },
+        "viewport": {
+          "south": 28.34289275,
+          "west": -81.59221015000003,
+          "north": 28.36532775,
+          "east": -81.58862154999997
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "0f346ec03a3e39c393736ce1a3378b96a89999ec",
+      "international_phone_number": "+1 407-939-5277",
+      "name": "Disney's Animal Kingdom Theme Park",
+      "opening_hours": {
+        "open_now": true,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571014800000
+            },
+            "open": {
+              "day": 0,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570968000000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1570496400000
+            },
+            "open": {
+              "day": 1,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571054400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1570582800000
+            },
+            "open": {
+              "day": 2,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570536000000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1570669200000
+            },
+            "open": {
+              "day": 3,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570622400000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1570752000000
+            },
+            "open": {
+              "day": 4,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570708800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1570842000000
+            },
+            "open": {
+              "day": 5,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570795200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1570924800000
+            },
+            "open": {
+              "day": 6,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1570881600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 8:00 AM – 9:00 PM",
+          "Tuesday: 8:00 AM – 9:00 PM",
+          "Wednesday: 8:00 AM – 9:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 9:00 PM",
+          "Saturday: 8:00 AM – 8:00 PM",
+          "Sunday: 8:00 AM – 9:00 PM"
+        ]
+      },
+      "photos": [
+        {
+          "height": 2576,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107357382920688267920/photos\">Alex F</a>"
+          ],
+          "width": 4592
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102280675291528739384/photos\">Peter Brown</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108601818651273121600/photos\">John Chumney</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100588389187314669138/photos\">Luiz Rocha cidadão do mundo</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117704746397068275555/photos\">David O&#39;Brien</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4618,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116810365800550414921/photos\">Edward Simpson</a>"
+          ],
+          "width": 3464
+        },
+        {
+          "height": 3968,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109674022982569976303/photos\">B Wayne Walker</a>"
+          ],
+          "width": 2976
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114973030654979198654/photos\">Steven Page</a>"
+          ],
+          "width": 3264
+        },
+        {
+          "height": 4128,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100745134259943497791/photos\">Ashley Williams-Edwards</a>"
+          ],
+          "width": 2322
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108548124663848899339/photos\">Gonzalo Catalano</a>"
+          ],
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJ_eH9PaOB3YgRuz8jIkYEODQ",
+      "plus_code": {
+        "compound_code": "9C55+VF Orlando, Florida, United States",
+        "global_code": "76WW9C55+VF"
+      },
+      "price_level": 3,
+      "rating": 4.7,
+      "reference": "ChIJ_eH9PaOB3YgRuz8jIkYEODQ",
+      "reviews": [
+        {
+          "author_name": "Claudio Artigas",
+          "author_url": "https://www.google.com/maps/contrib/105647177101263993572/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBo6oOuATbSqggvGEIRU8E-3vwEgQ-RDyfK0Odjwg=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 5,
+          "relative_time_description": "3 weeks ago",
+          "text": "Always a great experience at this park. Pandora ride was great, mount Everest was out of service, so my fast pass was lost. And no other fast pass were available... This path has live music and nice places to eat. They also have mini shows at a few sides of the park, pretty neat. The rides are awesome as usual. The Avatar ride was awesome and realistic. The end of the day show is a must, but you need to plan on getting there earlier to get a good seat.",
+          "time": 1568559777
+        },
+        {
+          "author_name": "Dawn Woods",
+          "author_url": "https://www.google.com/maps/contrib/101004441748395447284/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-47JirxWVfzs/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reA-BvTUvoKi8JbtNkqDk8ND0zwaQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a week ago",
+          "text": "The safari adventure gets better every year. The animals now walk right up to your safari jeep! The rides are great and there is plenty for all ages. The park is full of shaded areas (many more than the other parks) so it helps for a hot spring or summer day not to be too exhausting. Definitely get one of the dole pineapple ice cream drinks (which there is an adult version) - if you haven't had it you're missing a treat.",
+          "time": 1569546844
+        },
+        {
+          "author_name": "Eliza Aleksandra",
+          "author_url": "https://www.google.com/maps/contrib/113473220293479311819/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mA2ptu-lsfLjg0d7v-dXWQBikuHDNLdadXz41HpSso=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Me and my daughter love this park! It's by far our favorite of all the Disney parks. The scenery is beautiful and there's trees everywhere, its simply a beautiful place to walk through. The train ride to the petting zoo area was by far our favorite attraction there. There's lots to do and of course plenty of animals! ALTHOUGH, to see some of the more exotic larger animals you need to go on the safari ride, and the wait time was almost 2hrs for most of the day (time we were not willing to stand in line unfortunately) But despite the regular downsides to any crowded Disney park, I would recommend checking this one out.",
+          "time": 1570034123
+        },
+        {
+          "author_name": "Marshall Smith",
+          "author_url": "https://www.google.com/maps/contrib/105417722838100640815/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-1k8PQU4_THQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rco3naCqwPju_SrX2fZZwdiZbRotA/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "The ride \"Flight of Passage\" inspired by the movie Avatar, was probably the best ride in the whole theme park.  It is all in 3D and have a virtual reality feel to it. You can actually feel the Banshee breathing as you are riding the giant bird like creature. I give this ride 5 stars....a must do while at Disney",
+          "time": 1570221714
+        },
+        {
+          "author_name": "Iago Rosa",
+          "author_url": "https://www.google.com/maps/contrib/117696997366193021875/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mB7jwoYOw5pGd8qdY4tfoP37r0-jXsezdRlrndkxA=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 4,
+          "relative_time_description": "2 weeks ago",
+          "text": "Till this day, Animal Kingdom still remains an amazing Disney Park with some beautiful sights, a lot to see and some fun stuff for thrill seekers, Disney has gone above and beyond for many of the attractions here and it shows. \n\nThe new Pandora area they made with the floating islands is absolutely gorgeous, you'll be at a loss if you didn't go and take some photos there.\nThe new Avatar rides are really nice and fun to experience as well but I doubt you'll get a huge thrill out of them if that's what you're looking for. \n\nI'm happy with how far Disney has gone with Animal Kingdom over the years and all the effort they've put into this park.",
+          "time": 1568659753
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=3762762187935006651",
+      "user_ratings_total": 76931,
+      "utc_offset": -240,
+      "vicinity": "2901 Osceola Parkway, Orlando",
+      "website": "https://disneyworld.disney.go.com/parks/animal-kingdom/?CMP=OKC-wdw_themeparks_gmap_118",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
 }

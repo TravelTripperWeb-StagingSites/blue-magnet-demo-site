@@ -10,6 +10,14 @@
       {
         "label": "Suites",
         "gallery": "suites"
+      },
+      {
+        "label": "Restaurants",
+        "gallery": "restaurants"
+      },
+      {
+        "label": "Functional Space",
+        "gallery": "function_space"
       }
     ],
     "_template": "galleries"
