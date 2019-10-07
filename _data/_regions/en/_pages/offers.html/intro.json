@@ -1,18 +1,5 @@
 [
   {
-    "_template": "intro",
-    "header": {
-      "content": "Special Offers",
-      "_template": "header"
-    },
-    "post_header": {
-      "content": "<p class=\"h2\" style=\"text-align: center;\">Find The Best Orlando Hotel Deals and Vacation Packages</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">With a stellar location close to famous theme parks, spacious suites with the comforts of home, and complimentary perks including free daily breakfast buffet and free parking, it&rsquo;s easy to see why Buena Vista Suites offers unmatched value among hotels in Orlando. If you&rsquo;re looking for even more incredible savings for your next family vacation or weekend getaway, check out our latest special offers and exclusive Orlando vacation packages below and start booking your next escape to our all-suite retreat.&nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">We also invite you to <a href=\"../members/\">become a Private Member</a> for access to our lowest available rates and benefits.&nbsp;</p>"
-    },
-    "advanced_options": {
-    },
-    "h1_text_alignment": "text-center"
-  },
-  {
     "_template": "hero",
     "advanced_options": {
     },
@@ -50,5 +37,18 @@
         "description": ""
       }
     }
+  },
+  {
+    "_template": "intro",
+    "header": {
+      "content": "Special Offers",
+      "_template": "header"
+    },
+    "post_header": {
+      "content": "<p class=\"h2\" style=\"text-align: center;\">Find The Best Orlando Hotel Deals and Vacation Packages</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">With a stellar location close to famous theme parks, spacious suites with the comforts of home, and complimentary perks including free daily breakfast buffet and free parking, it&rsquo;s easy to see why Buena Vista Suites offers unmatched value among hotels in Orlando. If you&rsquo;re looking for even more incredible savings for your next family vacation or weekend getaway, check out our latest special offers and exclusive Orlando vacation packages below and start booking your next escape to our all-suite retreat.&nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">We also invite you to <a href=\"../members/\">become a Private Member</a> for access to our lowest available rates and benefits.&nbsp;</p>"
+    },
+    "advanced_options": {
+    },
+    "h1_text_alignment": "text-center"
   }
 ]
