@@ -38,6 +38,9 @@
     "header": {
       "content": "Enjoy exclusive savings in Orlanda",
       "_template": "header"
-    }
+    },
+    "advanced_options": {
+    },
+    "h1_text_alignment": "text-center"
   }
 ]
