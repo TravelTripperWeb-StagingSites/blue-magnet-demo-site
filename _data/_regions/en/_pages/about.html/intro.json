@@ -42,5 +42,8 @@
     "advanced_options": {
     },
     "h1_text_alignment": "text-center"
+  },
+  {
+    "_template": "1_col"
   }
 ]
