@@ -31,6 +31,10 @@
     }
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Explore Our Orlando Hotel Amenities",
+      "_template": "header"
+    }
   }
 ]
