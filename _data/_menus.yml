@@ -56,6 +56,12 @@ footer:
     target: _NEW
     items: 
   - folder: false
+    url_localized:
+      en: http://www.crrsv.com/careers/
+    label_localized:
+      en: Careers
+    items: 
+  - folder: false
     url_localized: ''
     page_id: _pages/user_created/travel-agents.html
     items: 
@@ -67,8 +73,3 @@ footer:
     url_localized: ''
     page_id: _pages/sitemap.html
     items: 
-  - folder: false
-    url_localized:
-      en: http://www.crrsv.com/careers/
-    label_localized:
-      en: Careers
