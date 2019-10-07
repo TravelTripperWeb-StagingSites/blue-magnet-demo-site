@@ -54,6 +54,9 @@
     "advanced_options": {
     },
     "include_header": true,
-    "include_footer": true
+    "include_footer": true,
+    "header_html": {
+      "content": "<p></p>\n<p class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;</p>"
+    }
   }
 ]
