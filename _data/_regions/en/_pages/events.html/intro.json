@@ -1,15 +1,5 @@
 [
   {
-    "_template": "intro",
-    "header": {
-      "content": "Unforgettable Orlando Events",
-      "_template": "header"
-    },
-    "post_header": {
-      "content": "<p class=\"h2\" style=\"text-align: center;\">Find the Perfect Venue for Your Next Meeting or Celebration</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Productive meetings and joyful celebrations are our specialty here at Buena Vista Suites. With over 3,000 square feet of sophisticated function space, along with the option to reserve our hotel restaurants for private events, we have just the right venue for gatherings with up to 200 guests.</p>\n<p class=\"h2\" style=\"text-align: center;\">Meetings &amp; Corporate Events&nbsp;</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Our experienced event planners will work with you to ensure every detail is customized to your unique tastes and preferences. That means picture-perfect presentations thanks to our audiovisual provider, PSAV&reg;, and delicious custom menus crafted by our talented catering team. At Buena Vista Suites, we believe meeting planning should be easy, which is why we offer custom meeting packages, special group rates, and assistance with planning off-site activities for your group.&nbsp;</p>\n<p class=\"h2\" style=\"text-align: center;\">Orlando Wedding Celebrations</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Say &ldquo;I Do&rdquo; to your dream wedding at Buena Vista Suites. Choose from several elegant and contemporary spaces for your special day, as well as your rehearsal dinner, bridal shower and farewell brunch, including the beautiful Buena Vista Room and our hotel restaurants. Our friendly and professional wedding specialists will ensure that your celebration is exactly the way you want it, from start to finish &ndash; complete with personalized service, special suite rates for your guests, and all-inclusive packages that take the stress out of wedding planning.</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;Social Events, Family Reunions, and Sports Groups</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">The flexible venues at Buena Vista Suites offer a fantastic backdrop for a variety of group gatherings. Join us for your anniversary celebration, family reunion, birthday party, or other social event here in Orlando. Our all-suite hotel is perfect for sports teams and bands performing at the nearby ESPN Wide World of Sports. Along with our spacious, residential-style suites, your group will love our complimentary daily breakfast buffet, outdoor pool, basketball and tennis courts, fitness room and scheduled&nbsp;shuttle service to the Disney parks and some of Orlando&rsquo;s best shopping.&nbsp;</p>"
-    }
-  },
-  {
     "_template": "hero",
     "advanced_options": {
     },
@@ -38,6 +28,16 @@
         "caption": "Buena Vista Suites  Meeting Room",
         "description": ""
       }
+    }
+  },
+  {
+    "_template": "intro",
+    "header": {
+      "content": "Unforgettable Orlando Events",
+      "_template": "header"
+    },
+    "post_header": {
+      "content": "<p class=\"h2\" style=\"text-align: center;\">Find the Perfect Venue for Your Next Meeting or Celebration</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Productive meetings and joyful celebrations are our specialty here at Buena Vista Suites. With over 3,000 square feet of sophisticated function space, along with the option to reserve our hotel restaurants for private events, we have just the right venue for gatherings with up to 200 guests.</p>\n<p class=\"h2\" style=\"text-align: center;\">Meetings &amp; Corporate Events&nbsp;</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Our experienced event planners will work with you to ensure every detail is customized to your unique tastes and preferences. That means picture-perfect presentations thanks to our audiovisual provider, PSAV&reg;, and delicious custom menus crafted by our talented catering team. At Buena Vista Suites, we believe meeting planning should be easy, which is why we offer custom meeting packages, special group rates, and assistance with planning off-site activities for your group.&nbsp;</p>\n<p class=\"h2\" style=\"text-align: center;\">Orlando Wedding Celebrations</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">Say &ldquo;I Do&rdquo; to your dream wedding at Buena Vista Suites. Choose from several elegant and contemporary spaces for your special day, as well as your rehearsal dinner, bridal shower and farewell brunch, including the beautiful Buena Vista Room and our hotel restaurants. Our friendly and professional wedding specialists will ensure that your celebration is exactly the way you want it, from start to finish &ndash; complete with personalized service, special suite rates for your guests, and all-inclusive packages that take the stress out of wedding planning.</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;Social Events, Family Reunions, and Sports Groups</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">The flexible venues at Buena Vista Suites offer a fantastic backdrop for a variety of group gatherings. Join us for your anniversary celebration, family reunion, birthday party, or other social event here in Orlando. Our all-suite hotel is perfect for sports teams and bands performing at the nearby ESPN Wide World of Sports. Along with our spacious, residential-style suites, your group will love our complimentary daily breakfast buffet, outdoor pool, basketball and tennis courts, fitness room and scheduled&nbsp;shuttle service to the Disney parks and some of Orlando&rsquo;s best shopping.&nbsp;</p>"
     }
   },
   {
