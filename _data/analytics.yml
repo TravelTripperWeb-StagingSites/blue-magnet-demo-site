@@ -1,0 +1,25 @@
+---
+ga_tracking_id: 
+gtm_tracking_id: 
+custom_head: "<!--START Flipto Integration--> <script async src=“https://integration.flip.to/57P6LVC“></script>
+  <!--END Flipto Integration-->"
+custom_body: ''
+__EDITABLE_FIELDS__:
+  ga_tracking_id:
+    type: string
+    label: Google Analytics ID
+    instructions: Leave blank if not using google analytics
+  gtm_tracking_id:
+    type: string
+    label: Google Tag Manager ID
+    instructions: Leave blank if not using google tag manager
+  custom_head:
+    type: text
+    label: Custom Analytics (Head section)
+    instructions: Paste in any custom analytics code that needs to be inserted in
+      the page <head> tag.
+  custom_body:
+    type: text
+    label: Custom Analytics (Body section)
+    instructions: Paste in any custom analytics code that needs to be inserted in
+      the page <body> tag.
