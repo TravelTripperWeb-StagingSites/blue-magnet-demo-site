@@ -50,6 +50,10 @@
     }
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+    },
+    "include_header": true,
+    "include_footer": true
   }
 ]
