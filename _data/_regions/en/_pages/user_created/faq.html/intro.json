@@ -1,15 +1,5 @@
 [
   {
-    "_template": "intro",
-    "header": {
-      "content": "General Hotel Information",
-      "_template": "header"
-    },
-    "advanced_options": {
-    },
-    "h1_text_alignment": "text-center"
-  },
-  {
     "_template": "hero",
     "advanced_options": {
     },
@@ -39,5 +29,15 @@
         "description": ""
       }
     }
+  },
+  {
+    "_template": "intro",
+    "header": {
+      "content": "General Hotel Information",
+      "_template": "header"
+    },
+    "advanced_options": {
+    },
+    "h1_text_alignment": "text-center"
   }
 ]
