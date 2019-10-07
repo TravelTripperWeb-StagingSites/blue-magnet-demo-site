@@ -67,5 +67,8 @@
     "footer_html": {
       "content": "<p style=\"text-align: center;\">The perks don&rsquo;t end there! Guests at Buena Vista Suites can walk next door to our sister property, Caribe Royale, to enjoy additional dining options, relax with the spa services at The Island Spa, handle any shipping needs at the UPS Store&reg; business center, or rent a vehicle from the Enterprise/National Car Rental located in Caribe Royale&rsquo;s main lobby.</p>\n<p style=\"text-align: center;\">Please visit our <a href=\"../faq/\">FAQ page</a> for additional information on check-in and check-out times, hotel policies, and much more.</p>"
     }
+  },
+  {
+    "_template": "1_col"
   }
 ]
