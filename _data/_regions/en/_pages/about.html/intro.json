@@ -57,6 +57,9 @@
     "include_footer": true,
     "header_html": {
       "content": "<p></p>\n<p class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;</p>"
+    },
+    "col1_html": {
+      "content": "<ul>\n<li>100% Non-Smoking Suites</li>\n<li>Complimentary Full American Breakfast Buffet&nbsp;</li>\n<li>Complimentary Parking</li>\n<li>Scheduled Shuttle Service To/From Walt Disney World&reg; Ticket &amp; Transportation Center</li>\n<li>Scheduled Shuttle Service To/From Orlando Vineland PremiumOutlets and Lake Buena Vista Factory Stores</li>\n</ul>"
     }
   }
 ]
