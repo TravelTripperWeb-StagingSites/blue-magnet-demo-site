@@ -35,6 +35,9 @@
     "header": {
       "content": "Explore Our Orlando Hotel Amenities",
       "_template": "header"
+    },
+    "post_header": {
+      "content": "<p class=\"h2\" style=\"text-align: center;\">Everything You Need for the Perfect Orlando Getaway</p>"
     }
   }
 ]
