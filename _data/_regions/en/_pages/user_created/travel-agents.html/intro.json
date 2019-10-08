@@ -43,6 +43,9 @@
     "header": {
       "content": "Travel Agents",
       "_template": "header"
+    },
+    "post_header": {
+      "content": "<p style=\"text-align: center;\"><span style=\"color: #222222; font-family: proxima-nova, sans-serif; letter-spacing: 1px; word-spacing: -1px;\">Travel agents are eligible for special rates throughout the year when booking accommodations here at Buena Vista Suites! <a href=\"../contact/\">Contact us</a> at <a href=\"tel:+018005377737\">(800) 537-7737 </a>and ask to speak with a Reservations Specialist to learn more about these discounted rates</span></p>"
     }
   }
 ]
