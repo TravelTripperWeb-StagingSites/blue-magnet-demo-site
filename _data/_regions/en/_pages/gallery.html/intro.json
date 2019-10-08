@@ -1,5 +1,8 @@
 [
   {
+    "_template": "hero_slider"
+  },
+  {
     "_template": "intro",
     "header": {
       "content": "Explore Our Orlando Hotel Photo Gallery",
@@ -11,8 +14,5 @@
     "advanced_options": {
     },
     "h1_text_alignment": "text-center"
-  },
-  {
-    "_template": "hero_slider"
   }
 ]
