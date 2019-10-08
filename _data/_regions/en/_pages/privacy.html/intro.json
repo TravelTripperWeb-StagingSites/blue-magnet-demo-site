@@ -51,5 +51,8 @@
     },
     "h1_text_alignment": "text-center",
     "layout": "1_col"
+  },
+  {
+    "_template": "1_col"
   }
 ]
