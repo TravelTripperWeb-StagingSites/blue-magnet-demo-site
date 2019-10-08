@@ -39,6 +39,9 @@
     }
   },
   {
+    "_template": "hero_slider"
+  },
+  {
     "_template": "intro",
     "header": {
       "content": "Special Offers",
@@ -50,8 +53,5 @@
     "advanced_options": {
     },
     "h1_text_alignment": "text-center"
-  },
-  {
-    "_template": "hero_slider"
   }
 ]
