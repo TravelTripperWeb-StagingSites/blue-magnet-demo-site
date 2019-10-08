@@ -67,9 +67,5 @@ footer:
     items: 
   - folder: false
     url_localized: ''
-    page_id: _pages/terms.html
-    items: 
-  - folder: false
-    url_localized: ''
     page_id: _pages/sitemap.html
     items: 
