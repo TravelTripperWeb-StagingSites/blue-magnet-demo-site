@@ -52,6 +52,9 @@
     "h1_text_alignment": "text-center"
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<p class=\"h3\">Buena Vista Suites GDS Codes</p>\n<p>Amadeus WVDWS239</p>\n<p>Apollo WV41690</p>\n<p>Sabre WV36375</p>\n<p>Worldspan WV10239</p>"
+    }
   }
 ]
