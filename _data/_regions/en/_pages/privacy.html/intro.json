@@ -39,6 +39,10 @@
     "_template": "hero"
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Privacy Policy",
+      "_template": "header"
+    }
   }
 ]
