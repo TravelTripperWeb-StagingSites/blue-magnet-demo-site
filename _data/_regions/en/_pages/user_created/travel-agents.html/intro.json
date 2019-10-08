@@ -57,7 +57,7 @@
       "content": "<p class=\"h3\">Buena Vista Suites GDS Codes</p>\n<p class=\"h3\">&nbsp;</p>\n<p><strong>Amadeus</strong> WVDWS239</p>\n<p><strong>Apollo</strong> WV41690</p>\n<p><strong>Sabre</strong> WV36375</p>\n<p><strong>Worldspan</strong> WV10239</p>"
     },
     "col2_html": {
-      "content": "<p class=\"h3 h4\">COMMISSIONS ARE PAID PROMPTLY</p>",
+      "content": "<p class=\"h3 h6\" style=\"text-align: center;\">COMMISSIONS ARE PAID PROMPTLY</p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center"
       ]
