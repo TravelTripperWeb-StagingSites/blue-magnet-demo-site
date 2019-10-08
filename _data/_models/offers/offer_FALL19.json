@@ -6,7 +6,7 @@
     "en": "Package includes Dinner for 2 at Vista Bistro, $25 WDW Gift Card, 1pm late checkout"
   },
   "description_localized": {
-    "en": null
+    "en": "<p>Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! Getaway this fall and receive:</p>\n<ul>\n<li>Dinner for two at The Vista Bistro - Italian Eatery (one antipasti and dessert to share and two entrees - $80 value)</li>\n<li>$25.00 Disney gift card</li>\n<li>1pm late checkout</li>\n<li>Plus, our daily signature hot breakfast buffet and parking are always FREE!</li>\n<li>For travel September 1 - November 30, 2019</li>\n</ul>\n<p>3-night minimum stay.&nbsp; Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
   },
   "image": {
     "name": "Fall-Getaway-Package-",
@@ -27,9 +27,10 @@
     "size": 364178,
     "caption": "",
     "description": "",
-    "alt": "",
+    "alt": "pool",
     "original_url": "https://d31f902anbz5po.cloudfront.net/1516/278069_1_master.jpg",
     "git_file_name": "_assets/image_data/Fall-Getaway-Package-.json"
   },
-  "reztrip_offer_id": "FALL19"
+  "reztrip_offer_id": "FALL19",
+  "featured_order": ""
 }
