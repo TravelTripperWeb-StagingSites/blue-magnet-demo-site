@@ -1,5 +1,8 @@
 [
   {
+    "_template": "hero_slider"
+  },
+  {
     "_template": "hero",
     "advanced_options": {
     },
@@ -38,9 +41,6 @@
       }
     },
     "skip_h1": true
-  },
-  {
-    "_template": "hero_slider"
   },
   {
     "_template": "intro",
