@@ -78,7 +78,13 @@ $min-menu-width: 1145px;
   }
   .nav--primary {
     height: 17px;
-    margin-top: 33px;
+    margin-top: 30px;
+    .nav__item {
+      a.nav__link {
+//        margin-right:0;
+//        margin-left: 1rem;
+      }
+    }
   }
 
   
