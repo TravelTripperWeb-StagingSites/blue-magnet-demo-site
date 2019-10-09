@@ -41,6 +41,9 @@
     "include_header": true,
     "include_footer": true,
     "col1_type": "html",
-    "col2_type": "html"
+    "col2_type": "html",
+    "header_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    }
   }
 ]
