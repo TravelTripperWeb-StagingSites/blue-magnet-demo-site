@@ -2,6 +2,7 @@ en:
   dining:
     hours: Hours of Operation
   room:
+    wifi: High-Speed WIFI
     amenities: Amenities
     suite_amenities: Suite Amenities
     experience: The Experience

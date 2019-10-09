@@ -1,15 +1,18 @@
-
 .navbar {
   background-color: $white;
+  border-bottom: 1px solid #BBB9B9DE;
   .btn--primary {
     font-size: 17px;
     letter-spacing: 6.8px;
-    height: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    @include inner-border(2px);    
+    height: $primary-button-height;
+    padding: 24px 44px;
+    @include inner-border(4px);    
   }
   .nav__item {
+    a.nav__link {
+      height: 1em;
+      line-height: 1em;
+    }
     a.nav__link.active {
       color: $primary;
     }
@@ -23,28 +26,27 @@
 
 .nav--top {
   .nav__item {
-    .nav__link {
+    a.nav__link {
       font-size: 14px;
+      height: 17px;
+      letter-spacing: .7px;
     }
-  }
-  input#search {
-    margin-right: .5rem;
   }
 }
 
 
 
 // Customize these breakpoints when menu is changed to handle different sizes
-$min-menu-width: 1120px;
+$min-menu-width: 1145px;
 
 
 
 .navbar {
-  height: 124px;
   .navbar-brand {
     height: 100%;
     display: flex;
     align-items: center;
+    margin: 0;
     .nav__logo {
       img {
         width: 330px;
@@ -54,22 +56,19 @@ $min-menu-width: 1120px;
     
   }
   .menu-container {
-    height: calc(124px - 1.5rem);
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-  }
-  .break-column {
-    width: 0;
-    flex-basis: 100%;
   }
   .nav--top {
     height: 40%;
     align-items: flex-end;
   }
   .nav--primary {
-    height: 60%;
+    height: 17px;
+    margin-top: 33px;
   }
 
   
@@ -81,7 +80,6 @@ $min-menu-width: 1120px;
 @media (max-width: $min-menu-width) { 
   // Place the menu last
   .navbar.is-fixed-top {
-    height: 124px;
     .navbar-brand {
       height: auto;
       .nav__logo {
@@ -103,7 +101,7 @@ $min-menu-width: 1120px;
       align-items: center;
     }
     .nav--primary {
-      justify-content: space-around !important;
+      justify-content: flex-end !important;
     }
   }
 }
@@ -148,11 +146,10 @@ $min-menu-width: 1120px;
         border: none;
         background: $secondary;
         color: white;
-        height: 2.5rem;
+        height: 68px;
         font-size: 1rem;
         line-height: 1rem;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
+        padding: 24px 44px;
         &:before {
           display: none;
         }
@@ -219,6 +216,7 @@ $min-menu-width: 1120px;
               padding: 1em 0 0;
             }
             input#search {
+              padding: 3px 6px;
               margin-top: 1em;
             }
           }
@@ -261,7 +259,7 @@ $min-menu-width: 1120px;
 }
 
 .nav--footer {
-  margin: 1rem 0;
+  margin: 1rem 0 34px;
   .nav__item {
     .nav__link {
       margin: 0 1em 0 0;

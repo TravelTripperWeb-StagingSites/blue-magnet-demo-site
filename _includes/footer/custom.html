@@ -25,8 +25,7 @@
           <p class="h5">
             {% t 'footer.member_line_2', editable:true %}
           </p>
-          <br/>
-          <p class="mb-0">
+          <p class="m-0">
             <a class="btn btn--primary" href="{{ '_pages/user_created/private-members.html' | permalink }}">
               {%t 'cta_primary', editable: true %}
             </a>
@@ -38,7 +37,7 @@
   </div>
 </div>
 
-<div class="container small">    
+<div class="container">    
   <div class="row">
     <div class="col-12">
       <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start">
@@ -52,14 +51,14 @@
       <strong>
         {{ site.data.hotel_settings.name}}
       </strong>
-      <br/>
-      {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
-      <br/>
-      {% t 'footer.contact.direct', editable:true %}
-      {{ site.data.hotel_settings.phone }} |
-      {% t 'footer.contact.reservations', editable:true %}
-      <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
-        
+      <div class="small-spaced">
+        {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
+        <br/>
+        {% t 'footer.contact.direct', editable:true %}
+        {{ site.data.hotel_settings.phone }} |
+        {% t 'footer.contact.reservations', editable:true %}
+        <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+      </div>
       <div class="copyright mt-2 text-xsmall small">
         {% capture year %}
           &copy; {{ "now" | date: "%Y" }}

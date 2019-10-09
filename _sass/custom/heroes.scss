@@ -1,6 +1,8 @@
 .hero {
+  margin-bottom: 46px;
   height: 70vh;
   max-height: 326px;    
+  
   @include media-breakpoint-up(lg) {
     max-height: 475px;    
   }

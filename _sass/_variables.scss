@@ -7,13 +7,14 @@
 //    $gray-600: #6c757d !default;
 //    $gray-700: #495057 !default;
 //    $gray-800: #343a40 !default;
-//    $gray-900: #212529 !default;
+      $gray-900: #1c1c1c !default;
 //
+
 //    // colors
       $primary: #53785D !default;
       $secondary: #739F7F;
 //    $black: #16141a;
-//    $white: #fff;
+      $white: #fff;
 //
 //    $green: #28a745 !default;
 //    $cyan: #17a2b8 !default;
@@ -148,6 +149,12 @@
 //      $spacers
 //    );
 //
+
+
+$image-bleed: 32px;
+$max-image-bleed-row-width: 1000px;
+
+
 //    // This variable affects the `.h-*` and `.w-*` classes.
 //    $sizes: () !default;
 //
@@ -171,7 +178,7 @@
       $border-color-light: #999999;
       $border-radius: 0rem !default;
 //
-      $input-btn-padding-y: 0.6rem !default;
+      $input-btn-padding-y: .6666rem !default;
       $input-btn-padding-x: 2rem !default;
 //    $input-btn-font-size: $base-font-size !default;
       $input-btn-line-height: 1 !default;
@@ -427,15 +434,20 @@
 //    $table-border-level:          -6 !default;
 //
 //    //navbar
+
+$primary-button-height: 68px;
+$primary-button-padding: 20px;
+
+
 //    $navbar-z: 30 !default;
 //    $navbar-fixed-z: 30 !default;
-      $navbar-main-height: 124px !default;
-      $navbar-device-height: 124px !default;
-//    $navbar-background: transparent;
-//    $navbar-sticky-background: $white;
+      $navbar-main-height: $primary-button-height + 2*$primary-button-padding !default;
+      $navbar-device-height: $primary-button-height + 2*$primary-button-padding !default;
+      $navbar-background: $white;
+      $navbar-sticky-background: $white;
 //    $navbar-padding-y: ($spacer / 2) !default;
-//    $navbar-padding-x: $spacer !default;
-//    $navbar-link-font-size: 0.875rem;
+      $navbar-padding-x: 95px;
+      $navbar-link-font-size: 17px;
 //    $navbar-link-color: $link-color;
 //    $navbar-link-hover: $link-hover-color;
 //    $navbar-group-font-size: 0.875rem;

@@ -26,32 +26,39 @@
     <div class="container">
       <div class="row">
         <div class="room__text-group col-md-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
-          <div class=" d-flex flex-column w-100 h-100 justify-content-center">
-            <div class="room__name h3" >
-              <a href="{{ room.id | permalink: model_dir: 'rooms' }}">{{ room.name }}</a>
-            </div>
-            <div class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
+          <div class="room__text-wrap">
+            <div class=" d-flex flex-column w-100 h-100 justify-content-center room__text">
+              <div class="room__name h3" >
+                <a href="{{ room.id | permalink: model_dir: 'rooms' }}">{{ room.name }}</a>
+              </div>
+              <p class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></p>
 
-            <div class="room__short-description">
-              {{ room.short_description }}
-            </div>
-            <div class="room__details">
-              <div class="room__size">
-                {{ room.size }}
+              <p class="room__short-description">
+                {{ room.short_description }}
+              </p>
+              <div class="room__details">
+                <div class="room__size">
+                  {{ room.size }}
+                </div>
+                <div class="room__wifi">
+                  {% t 'room.wifi' %}
+                </div>
+                <div class="room__bed-arrangement">
+                  {% for type in room.bed_types %}
+                    {{ type.name }}
+                  {% endfor %}
+                </div>
               </div>
-              <div class="room__bed-arrangement">
-                {{ room.bed_arrangement }}
-              </div>
-            </div>
-            <div class="room__select">
-              <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
-                {% t 'rooms.buttons.book' %}
-              </div>
-            </div>    
+              <div class="room__select">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
+                  {% t 'rooms.buttons.book' %}
+                </div>
+              </div>    
+            </div>            
           </div>
         </div>
         <div class="room__image-group  col-md-6 ">
-          <div class=" d-flex flex-column w-100 h-100 justify-content-center">
+          <div class="room__image-wrap">
             <div class="room__images">
               {% assign sliderImages = room.images %}
               {% assign sliderId = "room" | append: room.id | append: "slider" %}

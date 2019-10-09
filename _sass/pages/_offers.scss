@@ -1,12 +1,12 @@
-.offer-detail .c-offer-wrap {
+.offer-detail .offer-wrap {
   margin: 2rem 0;
-  .c-offer__image-group {
+  .offer__image-group {
     width: 100%;
     max-width: 100%;
     
     height: 50vh;
     max-height: 300px;
-    .c-offer__image {
+    .offer__image {
       width: 100%;
       height: 100%;
     }
@@ -17,7 +17,7 @@
       font-family: "object-fit";
     }
   }
-  .c-offer {
+  .offer {
     &__name {
       @extend .h1
     }
@@ -38,25 +38,50 @@
 
 
 .c-offer-list {
+  width: 100%;
+  max-width: none;
   &__items {
     display: block;    
   }
-  .c-offer-wrap {
-    background: $light;
-    margin: 4rem 0;
+  
+  .offer-wrap {
+    margin: $image-bleed 0;
     width: 100%;    
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      background: $light;
+      display: block;
+      top: $image-bleed;
+      bottom: $image-bleed;
+      left: 0; right: 0;
+    }
     &:nth-child(even) {
-      .c-offer__content {
+      .offer__content {
         order: 0;
+        padding: 1rem 80px 1rem 0px;
       }
-      .c-offer__image-group {
+      .offer__image-group {
         order: 1;
       }      
     }    
     
   }
-  .c-offer {
-    max-width: 100%;
+  .offer {
+    width: 100%;
+    .ttweb-offer {
+      @include make-container();
+      max-width: $max-image-bleed-row-width;      
+    }
+    
+    .offer__content-wrap,   .offer__image-wrap {
+      padding-top: 100%;
+      position: relative;
+      width: 100%;
+    }
+    
+    
     display: flex;
     align-items: stretch;
     
@@ -66,9 +91,19 @@
     }
     &__image-group {
       height: 100%;
+      padding: 0;
     }
     &__image {
-      @include overflow-image;
+      position: absolute; 
+      top: -$image-bleed; 
+      left: -$image-bleed; 
+      bottom: -$image-bleed; 
+      right: -$image-bleed; 
+      height: auto;
+      
+      top: 0; left: 0; right: 0; bottom: 0;
+      
+      
       picture {
         img {
           width: 100%;
@@ -81,11 +116,13 @@
     &__content {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+      position: absolute; 
+      top: 0; left: 0; right: 0; bottom: 0;
+      height: auto;
       
+      padding: 1rem 0px 1rem 80px;      
     }
     &__name {
       @extend .h3;

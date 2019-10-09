@@ -33,14 +33,13 @@
 
 @mixin overflow-image() {
   @include media-breakpoint-up(md) {
-    height: calc(100% + 3rem);
-    margin-top: -1.5rem;
-    margin-bottom: -1.5rem;
+    height: calc(100% + 2 * #{$image-bleed});
+    margin-top: - $image-bleed;
+    margin-bottom: - $image-bleed;
   }
 }
 
 @mixin overflow-carousel() {
-  height: 100%;
   .tns-controls {
     button {
       position: absolute;
@@ -80,7 +79,7 @@
     }
   }
   
-  @include overflow-image;
+  //@include overflow-image;
   
   .tns-outer, .tns-inner, .tns-ovh {
     height: 100%;
