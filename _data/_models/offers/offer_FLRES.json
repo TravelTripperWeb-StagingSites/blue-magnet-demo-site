@@ -1,12 +1,12 @@
 {
   "name_localized": {
-    "en": "Florida/Georgia Resident Rate"
+    "en": "Florida/Georgia Resident Suite Special"
   },
   "short_description_localized": {
     "en": "Exclusive rate for Florida and Georgia Residents\r\nValid Florida Resident or Georgia Resident ID required at check-in."
   },
   "description_localized": {
-    "en": null
+    "en": "<p>Book direct and save more! Florida &amp; Georgia residents save up to&nbsp;<strong>15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
   },
   "image": {
     "name": "Florida-Georgia-Resident-Rate-",
@@ -25,11 +25,12 @@
     "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617611/m66oocubk0mavqjcxw3u.jpg",
     "resource_type": "image",
     "size": 167638,
-    "caption": "",
+    "caption": "luggage",
     "description": "",
-    "alt": "",
+    "alt": "Luggage",
     "original_url": "https://d31f902anbz5po.cloudfront.net/1516/254813_4_master.jpg",
     "git_file_name": "_assets/image_data/Florida-Georgia-Resident-Rate-.json"
   },
-  "reztrip_offer_id": "FLRES"
+  "reztrip_offer_id": "FLRES",
+  "featured_order": ""
 }

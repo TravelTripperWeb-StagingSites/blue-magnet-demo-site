@@ -1,6 +1,6 @@
 [
   {
-    "content": "<p class=\"h3\">Our Amenities</p>\n<p>Enjoy the perfect Orlando getaway with our complimentary full American breakfast, free parking and Disney shuttles, an outdoor swimming pool and more!</p>\n<p><a class=\"btn btn--primary\" href=\"our-hotel/\">Learn More</a></p>",
+    "content": "<p class=\"h5\">Our Amenities</p>\n<p>Enjoy the perfect Orlando getaway with our complimentary full American breakfast buffet, free parking and Disney shuttles, an outdoor swimming pool and more!</p>\n<p><a class=\"btn btn--primary\" href=\"our-hotel/\">Learn More</a></p>",
     "_template": "html"
   }
 ]
