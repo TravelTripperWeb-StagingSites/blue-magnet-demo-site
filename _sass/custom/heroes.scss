@@ -10,3 +10,42 @@
     max-height: 650px;    
   }
 }
+
+.c-hero-slider {
+  .tns-outer {
+    button[data-action=stop] {
+      position: absolute;
+      z-index: 10;
+      bottom: 2rem;
+      right: 2rem;
+      border:0;
+      display: block;
+      appearance: none;
+      height: 50px;
+      width: 50px;
+      color: rgba(0,0,0,0);
+      background: transparent url('/assets/images/icon-pause.svg') no-repeat center center;
+    }
+  }
+  .tns-controls {
+    button {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      transform: translateY(-50%);        
+      border:0;
+      display: block;
+      appearance: none;
+      height: 79px;
+      width: 100px;
+      color: rgba(0,0,0,0);
+      background: transparent url('/assets/images/icon-arrow-back.svg') no-repeat center center;
+      background-size: 25%;
+
+    }
+    button[data-controls="next"] {
+      right: 0;
+      background-image: url('/assets/images/icon-arrow-forward.svg');
+    }
+  }  
+}
