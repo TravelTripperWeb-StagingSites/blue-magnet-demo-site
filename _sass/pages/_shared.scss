@@ -27,8 +27,12 @@ form {
   }
   &.search-form {
     margin: 0px .5rem 0px 18px;
-    vertical-align: center;
+    vertical-align: top;
+    display: inline;
+    height: 22px;
+    position: relative;
     input[type="text"] {
+      vertical-align: top;
       padding: 3px 6px !important;
       margin: 0 !important;
       text-transform: uppercase;
@@ -37,14 +41,17 @@ form {
       letter-spacing: .6px;
       display: inline;
       width: 177px;
+      height: 22px;
     }
     #search-icon {
       position: relative;
-      margin-left: -22px;
-      display: inline;
+      display: block;
+      right: 3px;
+      top: 3px;
       width: 17px;
       font-weight: normal;
       font-size: 14px;
+      position: absolute;
       color: $dark;
       height: 17px;
     }

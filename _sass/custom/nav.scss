@@ -1,4 +1,9 @@
 .navbar {
+  &--inner {
+    width: $max-menu-width;
+    flex-wrap: nowrap !important;
+    height: $primary-button-height;
+  }
   background-color: $white;
   border-bottom: 1px solid #BBB9B9DE;
   .btn--primary {
@@ -38,7 +43,9 @@
   .nav__item {
     a.nav__link {
       font-size: 14px;
-      height: 17px;
+      line-height: 1em;
+      height: 22px;
+      padding: 4px 0;
       letter-spacing: .7px;
     }
   }
@@ -47,9 +54,6 @@
 
 
 // Customize these breakpoints when menu is changed to handle different sizes
-$min-menu-width: 1145px;
-
-
 
 .navbar {
   .navbar-brand {
@@ -73,14 +77,15 @@ $min-menu-width: 1145px;
     width: 100%;
   }
   .nav--top {
-    height: 40%;
+    height: 22px;
     align-items: flex-end;
   }
   .nav--primary {
     height: 17px;
-    margin-top: 30px;
+    margin-top: 29px;
     .nav__item {
       a.nav__link {
+        height: 15px;
 //        margin-right:0;
 //        margin-left: 1rem;
       }
@@ -93,8 +98,12 @@ $min-menu-width: 1145px;
   }
 }
   
-@media (max-width: $min-menu-width) { 
+@media (max-width: $max-menu-width + 10) { 
   // Place the menu last
+  .navbar--inner {
+    width: $min-menu-width;
+  }
+  
   .navbar.is-fixed-top {
     .navbar-brand {
       height: auto;
@@ -122,9 +131,13 @@ $min-menu-width: 1145px;
   }
 }
 
-@include media-breakpoint-down(sm) {
+@media (max-width: 1065px) { 
   .navbar {
     display: block;
+    &--inner {
+      width: 100%;
+      flex-wrap: wrap !important;
+    }
     &.is-fixed-top {
       height: calc(74px + 2.5rem);
       &+.main {
@@ -144,6 +157,10 @@ $min-menu-width: 1145px;
           width: 190px;
         }
       }
+    }
+    
+    .menu-container {
+      width: auto;
     }
     
   

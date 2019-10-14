@@ -21,13 +21,37 @@
 {% endcomment %}
 
 
-<div class="room"  {% tabindex %}>
+<div class="room-rows"  {% tabindex %}>
   <div class="room__columns">
-    <div class="container">
-      <div class="row">
-        <div class="room__text-group col-md-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
-          <div class="room__text-wrap">
-            <div class=" d-flex flex-column w-100 h-100 justify-content-center room__text">
+    <div class="room">
+      <div class="room-inner">
+        <div class="room__image-group  col-md-6 ">
+          <div class="room__image-wrap">
+            <div class="room__image">
+              {% assign sliderImages = room.images %}
+              {% assign sliderId = "room" | append: room.id | append: "slider" %}
+            
+              {% capture slide_list %}
+                {% if room.featured_image %}
+                  {% assign image = room.featured_image %}
+                  <div class="item" {{itemStyle}}>
+                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+                  </div>
+                {% endif %}
+                {% for image in sliderImages %}
+                  <div class="item" {{itemStyle}}>
+                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+                  </div>
+                {% endfor %}
+              {% endcapture %}
+              {% include _jekyll_includes/slider.html id=sliderId slide_list=slide_list controls=true autoplay=false nav=false autoplay_button_output=false%}
+            </div>
+          </div>          
+        </div>
+        
+        <div class="room__content-group col-md-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
+          <div class="room__content-wrap">
+            <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content">
               <div class="room__name h3" >
                 <a href="{{ room.id | permalink: model_dir: 'rooms' }}">{{ room.name }}</a>
               </div>
@@ -55,29 +79,6 @@
                 </div>
               </div>    
             </div>            
-          </div>
-        </div>
-        <div class="room__image-group  col-md-6 ">
-          <div class="room__image-wrap">
-            <div class="room__images">
-              {% assign sliderImages = room.images %}
-              {% assign sliderId = "room" | append: room.id | append: "slider" %}
-            
-              {% capture slide_list %}
-                {% if room.featured_image %}
-                  {% assign image = room.featured_image %}
-                  <div class="item" {{itemStyle}}>
-                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
-                  </div>
-                {% endif %}
-                {% for image in sliderImages %}
-                  <div class="item" {{itemStyle}}>
-                    <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
-                  </div>
-                {% endfor %}
-              {% endcapture %}
-              {% include _jekyll_includes/slider.html id=sliderId slide_list=slide_list controls=true autoplay=false nav=false autoplay_button_output=false%}
-            </div>
           </div>
         </div>
       </div>

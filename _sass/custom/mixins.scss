@@ -115,6 +115,77 @@
   
 }
 
+@mixin overflow-image-item($item-class) {  
+    margin: $image-bleed 0;
+    width: 100%;    
+    position: relative;
+    @media (max-width: $max-image-bleed-row-width) { 
+      background: $light;
+    }
+  
+    @media (min-width: $max-image-bleed-row-width) { 
+      &:before {
+        content: "";
+        position: absolute;
+        background: $light;
+        display: block;
+        top: $image-bleed;
+        bottom: $image-bleed;
+        left: 0; right: 0;
+      }
+      
+      &:nth-child(even) {
+        .#{$item-class}__content {
+          order: 0;
+          padding: 1rem 80px 1rem 0px;
+        }
+        .#{$item-class}__image-group {
+          order: 1;
+        }      
+      }    
+      .#{$item-class} {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        &__content-wrap,   &__image-wrap {
+          padding-top: 100%;
+          position: relative;
+          width: 100%;
+        }
+        &__image-group {
+          height: 100%;
+          padding: 0;
+        }
+        &__image, &__content {
+          position: absolute; 
+          height: auto;
+          top: 0; left: 0; right: 0; bottom: 0;
+        }
+        &__image {
+          picture {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: "contain";
+              font-family: "object-fit";
+            }
+          }            
+        }
+        &__content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 1rem 0px 1rem 80px;      
+        }
+      }
+    }
+  
+  
+  
+
+  
+}
+
 @mixin overflow-image() {
   @include media-breakpoint-up(md) {
     height: calc(100% + 2 * #{$image-bleed});
@@ -137,29 +208,13 @@
       width: 54px;
       background: $primary;
       color: rgba(0,0,0,0);
-      &:after {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        color: white;
-        font-family: "Font Awesome 5 Free"; font-weight: 900; 
-        content: "\f053";
-        font-size: 2rem;
-        height: 2rem;
-        line-height: 2rem;
-      }
+      background: $primary url('/assets/images/icon-arrow-back.svg') no-repeat center center;
+      background-size: 25%;
+
     }
     button[data-controls="next"] {
       right: 0;
-      &:after {
-        content: "\f054";
-      }
+      background-image: url('/assets/images/icon-arrow-forward.svg');
     }
   }
   

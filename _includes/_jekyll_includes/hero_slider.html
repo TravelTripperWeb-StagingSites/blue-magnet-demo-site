@@ -1,6 +1,6 @@
 {% assign slides = item.slides %}
 {% assign container_style = '' %}
-<section class="c-hero-slider tiny-slider {{item.advanced_options.custom_classes}}" {% if item.advanced_options.custom_id and item.advanced_options.custom_id != "" %}id="{{item.advanced_options.custom_id}}"{% endif %}  data-tns-controls="false" data-tns-nav="false" data-tns-autoplay-button-output="false" {{container_style}} >
+<section class="c-hero-slider tiny-slider {{item.advanced_options.custom_classes}}" {% if item.advanced_options.custom_id and item.advanced_options.custom_id != "" %}id="{{item.advanced_options.custom_id}}"{% endif %}  data-tns-controls="true" data-tns-nav="false" data-tns-autoplay-button-output="true" {{container_style}} >
     {% for slide in slides %}
       {% assign image=slide.image %}
       {% assign image_url = image.url_xlarge | default: image.url %}

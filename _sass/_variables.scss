@@ -1,3 +1,7 @@
+$max-menu-width: 1140px;
+$min-menu-width: 1055px;
+
+
 //    //grays
 //    $gray-100: #f8f9fa !default;
 //    $gray-200: #e9ecef !default;
@@ -152,7 +156,7 @@
 
 
 $image-bleed: 32px;
-$max-image-bleed-row-width: 1000px;
+$max-image-bleed-row-width: $min-menu-width;
 
 
 //    // This variable affects the `.h-*` and `.w-*` classes.
@@ -446,7 +450,7 @@ $primary-button-padding: 20px;
       $navbar-background: $white;
       $navbar-sticky-background: $white;
 //    $navbar-padding-y: ($spacer / 2) !default;
-      $navbar-padding-x: 95px;
+      $navbar-padding-x: auto;
       $navbar-link-font-size: 17px;
 //    $navbar-link-color: $link-color;
 //    $navbar-link-hover: $link-hover-color;
