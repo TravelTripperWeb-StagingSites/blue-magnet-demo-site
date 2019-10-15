@@ -53,7 +53,7 @@
           <div class="room__content-wrap">
             <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content">
               <div class="room__name h3" >
-                <a href="{{ room.id | permalink: model_dir: 'rooms' }}">{{ room.name }}</a>
+                {{ room.name }}
               </div>
               <p class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></p>
 
@@ -77,6 +77,7 @@
                 <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
                   {% t 'rooms.buttons.book' %}
                 </div>
+                <a class="btn btn--primary" href="{{ room.id | permalink: model_dir: 'rooms' }}">{% t 'cta_primary' %}</a>
               </div>    
             </div>            
           </div>
@@ -92,7 +93,7 @@
             <span>{{ room.name }}</span>
             {% t 'room.amenities' %}
           </p>
-          <div>
+          <div class="amenity-list-wrap">
             <ul>
               {% for amenity in room.amenities %}
                 <li>{{ amenity.name }}</li>

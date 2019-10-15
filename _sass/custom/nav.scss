@@ -1,4 +1,8 @@
 .navbar {
+  z-index: 300;
+  &.is-fixed-top {
+    z-index: 5000;    
+  }
   &--inner {
     width: $max-menu-width;
     flex-wrap: nowrap !important;
