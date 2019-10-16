@@ -10,5 +10,249 @@
   "featured": true,
   "category": [
     "Stadium"
-  ]
+  ],
+  "location": {
+    "name": "Exploria Stadium",
+    "address": "655 W Church St, Orlando, FL 32805, USA",
+    "phone": "(407) 480-4702",
+    "place_id": "ChIJLfUtmFR654gRqMF4MQ2HX88",
+    "reference": "ChIJLfUtmFR654gRqMF4MQ2HX88",
+    "latitude": 28.5411106,
+    "longitude": -81.38927819999998,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "655",
+          "short_name": "655",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "West Church Street",
+          "short_name": "W Church St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Parramore",
+          "short_name": "Parramore",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32805",
+          "short_name": "32805",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "2207",
+          "short_name": "2207",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">655 W Church St</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32805-2207</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "655 W Church St, Orlando, FL 32805, USA",
+      "formatted_phone_number": "(407) 480-4702",
+      "geometry": {
+        "location": {
+          "lat": 28.5411106,
+          "lng": -81.38927819999998
+        },
+        "viewport": {
+          "south": 28.53921764999999,
+          "west": -81.39596365,
+          "north": 28.54294545,
+          "east": -81.38423145000002
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "4e05aaf311a408d5db3d34c9986f5ee80fd8329c",
+      "international_phone_number": "+1 407-480-4702",
+      "name": "Exploria Stadium",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105507801318290109699/photos\">Courtney W. May</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105507801318290109699/photos\">Courtney W. May</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110665750267167209455/photos\">Carolyn Webber</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102221532550652019993/photos\">D Boyd</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110898795667612899235/photos\">Ricardo Santos Consultor de Vendas</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102832982308069677255/photos\">Jorge Castro Tamez</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111063603201467892644/photos\">Esmeralda Arroyo</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1728,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103361680569084977202/photos\">Breanna McDaniel</a>"
+          ],
+          "width": 3072
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102733304157247227708/photos\">Luisa Sanchez</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2560,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103617521718861627765/photos\">Onflipside - The Insurance School</a>"
+          ],
+          "width": 1440
+        }
+      ],
+      "place_id": "ChIJLfUtmFR654gRqMF4MQ2HX88",
+      "plus_code": {
+        "compound_code": "GJR6+C7 Orlando, Florida, United States",
+        "global_code": "76WWGJR6+C7"
+      },
+      "rating": 4.699999999999999,
+      "reference": "ChIJLfUtmFR654gRqMF4MQ2HX88",
+      "reviews": [
+        {
+          "author_name": "Michael Napier",
+          "author_url": "https://www.google.com/maps/contrib/105748594351839288733/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-nls4sGWbnIA/AAAAAAAAAAI/AAAAAAAAAAA/hexylrKcQOY/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "What an awesome venue!  This is how soccer stadiums should be built when they can't pack into NFL stadiums.  \n\nThe food was great, atmosphere was amazing.  And Atlanta United won!  Really had a great time exploring the area and seeing the walk into the stadium led by those rowdy fans.  \n\nThe stadium is in a great location to make a whole day out of the affair as well!",
+          "time": 1568139397
+        },
+        {
+          "author_name": "Nate Patrick",
+          "author_url": "https://www.google.com/maps/contrib/109828519813220462299/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-ZJW8Hl4Af_U/AAAAAAAAAAI/AAAAAAAAAAA/YXbULGNQOIE/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a week ago",
+          "text": "First time to the Exploria Stadium for an Orlando City Lions soccer game. It was a lot of fun, even though the home team lost. The atmosphere is great. It's a nice enough stadium, with enough of the amenities and facilities if expect at a sporting venue like this. I really enjoyed having the Ruckus drum line there, they really add to the atmosphere. If only the team could improve and our fan base improve I think we could have one heck of a soccer atmosphere for a major league sport. The general design of the stadium allows for a great place to watch a match, especially when it's not too hot here in Orlando.\n\nFood prices were high as expected, but not quite as bad as other places I've been to. If you are a season ticket holder or a member of the special club Lion Nation (about $60 per year) you get a discount on the food.",
+          "time": 1570413126
+        },
+        {
+          "author_name": "Terri D",
+          "author_url": "https://www.google.com/maps/contrib/108129109080236924827/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-XHgI9QrW8Gk/AAAAAAAAAAI/AAAAAAAAAAA/-mmRmENi_-I/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Gorgeous stadium! Super friendly and helpful staff. The restrooms are not only plentiful (there are a lot of stalls and sinks!) but they are also very well maintained. I’m heading back this Wednesday for a game and will report back on my Suite (food and beverage included!). Can’t wait!",
+          "time": 1567942312
+        },
+        {
+          "author_name": "Antonio Lopez",
+          "author_url": "https://www.google.com/maps/contrib/118227334294733869769/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-zDEaAmm_oO4/AAAAAAAAAAI/AAAAAAAAAAA/sVDdAdARr18/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "Awesome stadium! I have been a soccer fan my whole life, and was so excited to recently move to Orlando because I had never lived in a city with a MLS team. The service is good here and the bathrooms are very clean, something that is a big time plus when not all stadiums have those features!",
+          "time": 1569885797
+        },
+        {
+          "author_name": "William Dodson",
+          "author_url": "https://www.google.com/maps/contrib/113224541922186125125/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-rVL3iIfbVGg/AAAAAAAAAAI/AAAAAAAAAAA/TzdoUaFRu1o/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "3 weeks ago",
+          "text": "Nice.  Nice. Nice stadium.  Great customer service.  Soccer games getting too expensive for the area, go while you can because if the prices keep going up, the place will be empty soon.",
+          "time": 1568928060
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "stadium",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=14942810579372917160",
+      "user_ratings_total": 2500,
+      "vicinity": "655 West Church Street, Orlando",
+      "website": "https://www.exploriastadium.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
 }
