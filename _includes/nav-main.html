@@ -3,28 +3,28 @@
 {% endcomment %}
 
 <nav class="navbar is-fixed-top nav--main" id="js-navbar--main">
-  <div class="container-fluid p-0 d-flex  flex-md-nowrap">
+  <div class="container-fluid p-0 d-flex navbar--inner">
+    <a class="nav__link navbar-brand" href="/">
+      <span class="nav__logo"
+        data-live-edit-settings='hotel_settings'
+        data-live-edit-settings-field='logo'
+        data-live-editable-type='image'
+      >
+        {% if site.data.hotel_settings.logo and site.data.hotel_settings.logo.url and site.data.hotel_settings.logo.url != '' %}
+          {% assign logo_url = site.data.hotel_settings.logo.url_small | default: site.data.hotel_settings.logo.url %}
+          <img src="{{logo_url}}" alt="{{site.data.hotel_settings.logo.alt | default: 'Logo' }}" />
+        {% else %}
+          <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+        {% endif %}
+      </span>
+    </a>
     <div class="menu-container">
-      <a class="nav__link navbar-brand" href="/">
-        <span class="nav__logo"
-          data-live-edit-settings='hotel_settings'
-          data-live-edit-settings-field='logo'
-          data-live-editable-type='image'
-        >
-          {% if site.data.hotel_settings.logo and site.data.hotel_settings.logo.url and site.data.hotel_settings.logo.url != '' %}
-            {% assign logo_url = site.data.hotel_settings.logo.url_small | default: site.data.hotel_settings.logo.url %}
-            <img src="{{logo_url}}" alt="{{site.data.hotel_settings.logo.alt | default: 'Logo' }}" />
-          {% else %}
-            <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
-          {% endif %}
-        </span>
-      </a>
-      <div class="break-column"></div>
       <ul class="nav nav--top flex-row  text-uppercase justify-content-end pr-2">
         {% assign items = site.data._menus.top.items %}
         {% include nav/nav-item-list.html items=items %}
         <form class="search-form" action="{{ '_pages/search.html' | permalink }}">
           <input name="query" id="search" placeholder="Search" type="text"/>
+          <span id="search-icon" class="fas fa-search"></span>
         </form>
       </ul>
       <ul class="nav nav--primary flex-row  align-items-center text-uppercase justify-content-end pr-2">

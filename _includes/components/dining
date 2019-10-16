@@ -1,48 +1,52 @@
-<div class="dining">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 dining__text-group">
-        <div class=" d-flex flex-column w-100 h-100 justify-content-center">      
-          {% if dining.tagline != '' %}
-            <p class='dining__tagline'>{{dinging.tagline}}</p>
-          {% endif %}
-          <h3 class='dining__name'>{{dining.name}}</h3>
-          <p>{{dining.short_description}}</p>
-          {% if dining.hours and dining.hours.size > 0 %}
-            <div class='dining__hours'>
-              <strong>{% t 'dining.hours' %}</strong>
-              <ul class='dining__hours-list'>
-                {% for hour in dining.hours %}
-                  <li class="dining-hour-item">
-                    <span class="dining-hour__day">{{hour.day}}</span>
-                    <span class="dining-hour__hour">{{hour.hours}}</span>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
-          {% if dining.menus and dining.menus.size > 0 %}
-            <p>
-              {% for menu in dining.menus %}
-                <a class="btn btn--primary" href="{{menu.url}}">{{menu.label}}</a>
+<div class="dining-wrap">
+  <div class="dining">
+    <div class="dining-inner">
+      <div class="dining__image-group col-md-6">
+        <div class="dining__image-wrap">
+          <div class="dining__image">
+            {% assign sliderImages = dining.images %}
+            {% assign sliderId = "dining" | append: dining.id | append: "slider" %}
+            {% capture slide_list %}
+              {% for image in sliderImages %}
+                <div class="item" {{itemStyle}}>
+                  <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+                </div>
               {% endfor %}
-            </p>
-          {% endif %}
-        </div>
+            {% endcapture %}
+            {% include _jekyll_includes/slider.html id=sliderId slide_list=slide_list controls=true autoplay=false nav=false autoplay_button_output=false %}
+          </div>    
+        </div>  
       </div>
-      <div class="col-md-6 dining__image-group">
-        <div class="dining__images">
-          {% assign sliderImages = dining.images %}
-          {% assign sliderId = "dining" | append: dining.id | append: "slider" %}
-          {% capture slide_list %}
-            {% for image in sliderImages %}
-              <div class="item" {{itemStyle}}>
-                <img src="{{image.url_small }}" alt="{{image.alt}}" class='h-100 w-100 objectfit d-block' />
+      <div class="dining__content-group col-md-6">
+        <div class="offer__content-wrap">    
+          <div class="dining__content">
+            {% if dining.tagline != '' %}
+              <p class='dining__tagline'>{{dinging.tagline}}</p>
+            {% endif %}
+            <h3 class='dining__name'>{{dining.name}}</h3>
+            <p>{{dining.short_description}}</p>
+            {% if dining.hours and dining.hours.size > 0 %}
+              <div class='dining__hours'>
+                <strong>{% t 'dining.hours' %}</strong>
+                <ul class='dining__hours-list'>
+                  {% for hour in dining.hours %}
+                    <li class="dining-hour-item">
+                      <span class="dining-hour__day">{{hour.day}}</span>
+                      <span class="dining-hour__hour">{{hour.hours}}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
               </div>
-            {% endfor %}
-          {% endcapture %}
-          {% include _jekyll_includes/slider.html id=sliderId slide_list=slide_list controls=true autoplay=false nav=true autoplay_button_output=false %}
-        </div>      
+            {% endif %}
+            {% if dining.menus and dining.menus.size > 0 %}
+              <p>
+                {% for menu in dining.menus %}
+                  <a class="btn btn--primary" href="{{menu.url}}">{{menu.label}}</a>
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
