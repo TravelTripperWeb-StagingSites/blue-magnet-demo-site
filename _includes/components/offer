@@ -63,9 +63,11 @@
             <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
               {% t 'offers.buttons.book' %}
             </a>
+            {% comment %}
             {% if is_detail != true %}
               <a class="btn btn--primary" href="{{offer.id | permalink: model_dir: 'offers' }}">{% t 'cta_primary', editable:true %}</a>
             {% endif %}
+            {% endcomment %}
           </div>    
         </div>
       </div>
