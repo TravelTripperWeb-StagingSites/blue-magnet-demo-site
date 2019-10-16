@@ -6,5 +6,362 @@
   "website_url": "https://www.legoland.com/florida/",
   "sub_title_localized": {
     "en": "Legoland® Florida"
+  },
+  "location": {
+    "name": "LEGOLAND® Florida Resort",
+    "address": "1 Legoland Way, Winter Haven, FL 33884, USA",
+    "phone": "(888) 690-5346",
+    "place_id": "ChIJ38rlfogN3YgRGic46M9dbLw",
+    "reference": "ChIJ38rlfogN3YgRGic46M9dbLw",
+    "latitude": 27.9889188,
+    "longitude": -81.69107400000001,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1",
+          "short_name": "1",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Legoland Way",
+          "short_name": "Legoland Way",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Winter Haven",
+          "short_name": "Winter Haven",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Polk County",
+          "short_name": "Polk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "33884",
+          "short_name": "33884",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1 Legoland Way</span>, <span class=\"locality\">Winter Haven</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">33884</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "1 Legoland Way, Winter Haven, FL 33884, USA",
+      "formatted_phone_number": "(888) 690-5346",
+      "geometry": {
+        "location": {
+          "lat": 27.9889188,
+          "lng": -81.69107400000001
+        },
+        "viewport": {
+          "south": 27.9816577,
+          "west": -81.70144719999996,
+          "north": 27.9976044,
+          "east": -81.68126919999997
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "330ebb5fec4997713b2bf716f88f2dd994c05ce6",
+      "international_phone_number": "+1 888-690-5346",
+      "name": "LEGOLAND® Florida Resort",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1571608800000
+            },
+            "open": {
+              "day": 0,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571580000000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571691600000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571778000000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571259600000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571346000000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571432400000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1571522400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 5:00 PM",
+          "Tuesday: 10:00 AM – 5:00 PM",
+          "Wednesday: 10:00 AM – 5:00 PM",
+          "Thursday: 10:00 AM – 5:00 PM",
+          "Friday: 10:00 AM – 5:00 PM",
+          "Saturday: 10:00 AM – 6:00 PM",
+          "Sunday: 10:00 AM – 6:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115380526814654518238/photos\">Shadd Boucher</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 2952,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114475127966617176521/photos\">Jonathan Ridgeway</a>"
+          ],
+          "width": 5248
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106745196663763087222/photos\">Carltons Dee</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115896320980179448568/photos\">Itzamary Caban</a>"
+          ],
+          "width": 3120
+        },
+        {
+          "height": 2560,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108200744837896956959/photos\">Carlos Lopez</a>"
+          ],
+          "width": 1440
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108603027036441291388/photos\">Dallas Heemeryck</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107289118146606268960/photos\">Reema Gandhi</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113472488192788299625/photos\">Wen Liu</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114878669624007657830/photos\">Tiago Piva Clemente</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110088192834072322028/photos\">Jennifer Jones</a>"
+          ],
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJ38rlfogN3YgRGic46M9dbLw",
+      "plus_code": {
+        "compound_code": "X8Q5+HH Winter Haven, Florida, United States",
+        "global_code": "76VWX8Q5+HH"
+      },
+      "rating": 4.399999999999999,
+      "reference": "ChIJ38rlfogN3YgRGic46M9dbLw",
+      "reviews": [
+        {
+          "author_name": "CHANCE LACHMAN",
+          "author_url": "https://www.google.com/maps/contrib/100645636296421953446/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAMY-vMdZQmS-bGclcNRo30o0L3-T987kOCeBTtHQ=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Very interesting and unique park. I was always interested in coming here as a kid and on my vacation here, I had to stop in for a day and take it all in. Well worth it. The crowds were small and quiet today and there's lot to see here, my favorite part is the area with iconic landmarks built with nothing but LEGO bricks, you'll be stunned and must see this area. Of course, the water park was great, too. The pool water was warm, which wasn't very helpful since the weather was warm as well, but at least in the kids area the water was cooler. The wave pool was a cool experience as well and it's a nice touch that there's LEGO bricks in the pool for you to stack together and build something, but there was also building outside the pool on the sand. I'd say I enjoyed this park more than I've enjoyed amusement parks in a long while. This was a great treat, and I hope to be back sometime.",
+          "time": 1568336255
+        },
+        {
+          "author_name": "Holly Rockbrune",
+          "author_url": "https://www.google.com/maps/contrib/102285719830374612113/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDLBMoVfb2es4tmtZDyqN75idqegzsrDPId9bY=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "This place is great for kids but a total snooze for adults.  Going in September was perfect. No lines, no waiting! The staff aid back to school time is always quiet. It is a pricey park. They charge $100pp even though there is little for adults to do. The hotel (where we did not stay) is very close. Would recommend staying there if you have kids that nap.",
+          "time": 1570823738
+        },
+        {
+          "author_name": "Joey Kiker",
+          "author_url": "https://www.google.com/maps/contrib/115751526506515261477/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mC1pCGRRzvpOomWOx2ybrBQcFFLbfwOs_zEPsC0Vaw=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "a week ago",
+          "text": "We had a great time at LEGOLAND! Our kids have had this on their bucket list for quite sometime. We got a fantastic deal for a Beach Retreat stay that included an amazing breakfast buffet, two nights and park tickets. The crowds were a breath of fresh air compared to Disney and the rides were actually a lot of fun and worth the time. The water show was great and really impressed us. Make sure to take time to soak up the grounds. The gardens are perfectly kept and the LEGO city’s and displays are something you’ll only see at the park. I had heard about Granny’s Apple fries before and they were just as good as billed. I might have stopped for them three times!",
+          "time": 1570501472
+        },
+        {
+          "author_name": "Murray Fox",
+          "author_url": "https://www.google.com/maps/contrib/100322496833142161876/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mCYXe1N_PjeQka5hNhNpG0wXnkKn5FAr8MT-ZAnJA=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 4,
+          "relative_time_description": "a week ago",
+          "text": "Makes visiting Legoland a breeze. Service very good, rooms awesome. Definitively for kids, expect a lot of them and to be loud, all good fun. The pool is great, the mini golf amazing and the view over the water past that is magic. The food in the Skyline Lounge is not cheap in our opinion so be aware of that.",
+          "time": 1570317860
+        },
+        {
+          "author_name": "RED RUMBO_OFFICIAL",
+          "author_url": "https://www.google.com/maps/contrib/114552223139733770076/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mALBNcqr3P0sS4wSxvgPYPNGEJm0k6wxAEG7P_zSA=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "The Lego land Florida Resort deserves to be a five-star hotel! First of all, the breakfast service is GREAT! They include a wide variety of assorted foods! Plus, a little surprise for little ones! In your room, there will be a treasure chest hunt in which there will be a box with a lock on it that looks like a safe. I bet you that your kids will have hours of fun with the free legos inside! You are also provide enough beds to support family of 7! This includes a child bunk bed, along with another bed to be folded out on the bottom, a queen size bed for a couple, including space fro a younger child, and a chair that transforms into ANOTHER bed! This also includes an early entrance if having a  ticket purchase to Lego Land Theme park. I'm not even sure if I described all the amazing features! One more thing is budget. This hotel is at an very cheap one to afford, yet an amazing one. However, i did have a little disappointment that the room was pretty much a plain room with Lego wallpaper. But, to boost it up, they have brick built Lego models all over the room! In fact, you should go there to see how amazing it is for yourself.",
+          "time": 1570750260
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=13577330124150810394",
+      "user_ratings_total": 17387,
+      "vicinity": "1 Legoland Way, Winter Haven",
+      "website": "http://www.legoland.com/florida/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
   }
 }
