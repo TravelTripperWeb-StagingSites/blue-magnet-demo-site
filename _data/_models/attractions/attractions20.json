@@ -10,5 +10,360 @@
   "category": [
     "Shopping Mall"
   ],
-  "website_url": "https://www.simon.com/mall/the-florida-mall"
+  "website_url": "https://www.simon.com/mall/the-florida-mall",
+  "location": {
+    "name": "The Florida Mall",
+    "address": "8001 S Orange Blossom Trail, Orlando, FL 32809, USA",
+    "phone": "(407) 851-6255",
+    "place_id": "ChIJJTjIGa1954gRg0QV3Aea0bc",
+    "reference": "ChIJJTjIGa1954gRg0QV3Aea0bc",
+    "latitude": 28.4451584,
+    "longitude": -81.39534019999996,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "8001",
+          "short_name": "8001",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "South Orange Blossom Trail",
+          "short_name": "S Orange Blossom Trail",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32809",
+          "short_name": "32809",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">8001 S Orange Blossom Trail</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32809</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "8001 S Orange Blossom Trail, Orlando, FL 32809, USA",
+      "formatted_phone_number": "(407) 851-6255",
+      "geometry": {
+        "location": {
+          "lat": 28.4451584,
+          "lng": -81.39534019999996
+        },
+        "viewport": {
+          "south": 28.44290440000001,
+          "west": -81.39690365000001,
+          "north": 28.44829159999999,
+          "east": -81.39078825000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "ffb0637f968a5d1d8692dd1f28a9bc6872d23bb4",
+      "international_phone_number": "+1 407-851-6255",
+      "name": "The Florida Mall",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1571616000000
+            },
+            "open": {
+              "day": 0,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1571587200000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571706000000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571792400000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571274000000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571360400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571446800000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571536800000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 9:00 PM",
+          "Tuesday: 10:00 AM – 9:00 PM",
+          "Wednesday: 10:00 AM – 9:00 PM",
+          "Thursday: 10:00 AM – 9:00 PM",
+          "Friday: 10:00 AM – 9:00 PM",
+          "Saturday: 10:00 AM – 10:00 PM",
+          "Sunday: 12:00 – 8:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105086237681001562920/photos\">Miosotis Jade</a>"
+          ],
+          "width": 800
+        },
+        {
+          "height": 628,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105394260227998701289/photos\">The Florida Mall</a>"
+          ],
+          "width": 1116
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101694908015242538740/photos\">Roberto Serna Diaz</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102140918243998181649/photos\">Amelia Early</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105086237681001562920/photos\">Miosotis Jade</a>"
+          ],
+          "width": 800
+        },
+        {
+          "height": 2240,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105394260227998701289/photos\">The Florida Mall</a>"
+          ],
+          "width": 3360
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103986287864611375304/photos\">Robert Crespo DeSousa</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106203867180067840826/photos\">Wong Wai Ping</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109993963057199854352/photos\">sammy vlogs</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1920,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105394260227998701289/photos\">The Florida Mall</a>"
+          ],
+          "width": 2880
+        }
+      ],
+      "place_id": "ChIJJTjIGa1954gRg0QV3Aea0bc",
+      "plus_code": {
+        "compound_code": "CJW3+3V Orlando, Florida, United States",
+        "global_code": "76WWCJW3+3V"
+      },
+      "rating": 4.5,
+      "reference": "ChIJJTjIGa1954gRg0QV3Aea0bc",
+      "reviews": [
+        {
+          "author_name": "Brandon Henderson",
+          "author_url": "https://www.google.com/maps/contrib/110458039510360103696/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-cGMln62iICM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfdgGdx2Gg-byZIvmFZ-7UlT5cs5A/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "The mall never fails to disappoint. It was very clean as usual and almost every storefront was open and accessible. The open parks were packed full of kids playing and the stores were conveniently located. The dining hall didnt disappoint either as there is tons of options to choose from and all of them smell and taste outstanding. I always love visiting the mall and can't wait to head back again.",
+          "time": 1570924357
+        },
+        {
+          "author_name": "Tiana Lady_Pickle Magee",
+          "author_url": "https://www.google.com/maps/contrib/106496877141181238906/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mCPdE0du2paqVKkyk3YLgz366xqeWV9dsdGprw44w=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a week ago",
+          "text": "Looking for apparel, shoes, dining, family fun and entertainment all in one spot? The Florida Mall is where it's at! I had the pleasure of travelling to Orlando, FL for my birthday vacation and I almost didn't return home! I was able to sight see a little bit and one of the places I made a personal goal to stop by was at the Florida Mall. This came highly recommended by my family who are residents of the area and my only regret was that I wished I spent much more time venturing around the mall. I didn't get far because there were already stores that caught my eye at the entrance. Talk about a kid in a candy store!\n\nIt's conveniently located on \"the OBT strip,\" or on Orange Blossom Trail. Those that are familiar with this area may already know, but I was thrilled to discover how close it was close to Disney World, Universal Studios, the Fun Spot, etc. There's both indoors and outdoors dining, also. They do an excellent job with the landscaping and cleanliness and it's definitely an ideal spot for all ages. I'll definitely be returning whenever I'm in the Orlando, FL area!",
+          "time": 1570580276
+        },
+        {
+          "author_name": "Carlos Banasco",
+          "author_url": "https://www.google.com/maps/contrib/108378162787774281578/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-cyEe_n7tDW4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdFzXb5IFeqEnsE-yI-Tl-SgmzkPA/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a week ago",
+          "text": "What can I say.  I like malls. Something to do if your bored. Walk around and look at store. No worries if it's raining outside.  You don't have to buy a thing. But most of times I  do.  Good exercise as well.",
+          "time": 1570536580
+        },
+        {
+          "author_name": "Leslie Hawkins",
+          "author_url": "https://www.google.com/maps/contrib/116344961323567107998/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mCCZ87e6qJ9Fusqj-ueWP7z0iK9yl9T-RKMMfznPQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "What a lovely mall - all the stores you'd want in an upscale mall! I went there specifically for the store BoxLunch. They have fun Disney themed paraphernalia and clothing that you can't find at Disney itself. Other retro shows too. Fun store. Great mall. It has a Tesla store - whoa!!",
+          "time": 1570671591
+        },
+        {
+          "author_name": "Caitlin Haulk",
+          "author_url": "https://www.google.com/maps/contrib/113900875097004322331/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAcQHnuMiSLwckCzTMmkOFv7uSiL57_SfjLuAVYTA=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 4,
+          "relative_time_description": "a month ago",
+          "text": "Florida Mall has a large selection of stores and dining options. It has both popular and unique stores. There is something for the whole family here. It's a great place to shop for yourself or buy gifts for others. There are a lot of dining and snack options throughout the mall, and trendy fashion and beauty stores. It has many stores that appeal to children as well. My daughter enjoys the children's play area. As a popular tourist spot, it can be crowded at certain times. The kiosk employees are be particularly annoying.",
+          "time": 1566506046
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=13245537337621169283",
+      "user_ratings_total": 28163,
+      "vicinity": "8001 South Orange Blossom Trail, Orlando",
+      "website": "https://www.simon.com/mall/the-florida-mall",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
 }
