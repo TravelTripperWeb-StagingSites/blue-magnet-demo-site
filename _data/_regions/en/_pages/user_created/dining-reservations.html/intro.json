@@ -29,5 +29,8 @@
         "description": ""
       }
     }
+  },
+  {
+    "_template": "1_col"
   }
 ]
