@@ -37,7 +37,7 @@
       "_template": "header"
     },
     "post_header": {
-      "content": "<p class=\"h2\" style=\"text-align: center;\">Everything You Need for the Perfect Orlando Getaway</p>\n<p class=\"h2\" style=\"text-align: center;\">&nbsp;</p>"
+      "content": "<p class=\"h2\" style=\"text-align: center;\">Everything You Need for the Perfect Orlando Getaway</p>"
     },
     "advanced_options": {
     },
@@ -56,16 +56,16 @@
     "include_header": true,
     "include_footer": true,
     "header_html": {
-      "content": "<p>&nbsp;</p>\n<p class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;</p>\n<p class=\"h3\" style=\"text-align: center;\">&nbsp;</p>"
+      "content": "<p>&nbsp;</p>\n<p class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;&nbsp;</p>"
     },
     "col1_html": {
-      "content": "<ul>\n<li>100% Non-Smoking Suites</li>\n<li>Complimentary Full American Breakfast Buffet&nbsp;</li>\n<li>Complimentary Parking</li>\n<li>Scheduled Shuttle Service To/From Walt Disney World&reg; Ticket &amp; Transportation Center</li>\n<li>Scheduled Shuttle Service To/From Orlando Vineland PremiumOutlets and Lake Buena Vista Factory Stores</li>\n</ul>"
+      "content": "<ul>\n<li>100% Non-Smoking Suites</li>\n<li>Complimentary Full American Breakfast Buffet&nbsp;</li>\n<li>Complimentary Parking</li>\n<li>Scheduled Shuttle Service To/From Walt Disney World&reg;&nbsp; &nbsp; Ticket &amp; Transportation Center</li>\n<li>Scheduled Shuttle Service To/From Orlando Vineland PremiumOutlets and Lake Buena Vista Factory Stores</li>\n</ul>"
     },
     "col2_html": {
       "content": "<ul>\n<li>Lighted Tennis and Basketball Courts</li>\n<li>Two Restaurants:&nbsp; The Vista Bistro - Italian Eatery and Bistro Pizza Express</li>\n<li>24-Hour In-Suite Dining</li>\n<li>Guest Laundry Facilities</li>\n<li>Gift Shop&nbsp;</li>\n<li>Outdoor Swimming Pool</li>\n<li>Fitness Room</li>\n<li>Express Check-Out Available&nbsp;</li>\n<li>Self-Service Business Center and Boarding Pass Printing in lobby</li>\n<li>Access to Island Spa, UPS Store&reg; Business Center, Car Rentals, and Restaurants located next door at Caribe Royale</li>\n</ul>"
     },
     "footer_html": {
-      "content": "<p style=\"text-align: center;\">The perks don&rsquo;t end there! Guests at Buena Vista Suites can walk next door to our sister property, Caribe Royale, to enjoy additional dining options, relax with the spa services at The Island Spa, handle any shipping needs at the UPS Store&reg; business center, or rent a vehicle from the Enterprise/National Car Rental located in Caribe Royale&rsquo;s main lobby.</p>\n<p style=\"text-align: center;\">Please visit our <a href=\"../faq/\">FAQ page</a> for additional information on check-in and check-out times, hotel policies, and much more.</p>\n<p style=\"text-align: center;\">&nbsp;</p>"
+      "content": "<p style=\"text-align: center;\">The perks don&rsquo;t end there! Guests at Buena Vista Suites can walk next door to our sister property, Caribe Royale, to enjoy additional dining options, relax with the spa services at The Island Spa, handle any shipping needs at the UPS Store&reg; business center, or rent a vehicle from the Enterprise/National Car Rental located in Caribe Royale&rsquo;s main lobby.</p>\n<p style=\"text-align: center;\">Please visit our <a href=\"../faq/\">FAQ page</a> for additional information on check-in and check-out times, hotel policies, and much more.&nbsp;</p>"
     }
   },
   {
