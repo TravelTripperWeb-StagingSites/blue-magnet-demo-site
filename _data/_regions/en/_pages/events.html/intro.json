@@ -46,7 +46,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p class=\"h1\" style=\"text-align: center;\">Hotel Venues &amp; Event Services</p>"
+      "content": "<p class=\"h1\" style=\"text-align: center;\">Hotel Venues &amp; Event Services</p>\n<p class=\"h1\" style=\"text-align: center;\">&nbsp;</p>"
     }
   },
   {
