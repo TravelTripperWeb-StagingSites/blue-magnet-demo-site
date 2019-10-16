@@ -19,7 +19,7 @@
   "menus": [
     {
       "label": "Menu",
-      "url": "#"
+      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257608/dkfwdan4vh6jkdbs5xnr.pdf"
     }
   ],
   "images": [
@@ -71,5 +71,6 @@
       "caption": "Buena Vista Suites - Bistro Pizza Express ",
       "description": ""
     }
-  ]
+  ],
+  "reservations_url": ""
 }
