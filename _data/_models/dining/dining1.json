@@ -1,5 +1,5 @@
 {
-  "order": 0,
+  "order": "",
   "name_localized": {
     "en": "The Vista Bistro - Italian Eatery"
   },
@@ -64,11 +64,15 @@
   ],
   "menus": [
     {
-      "label": "Lunch",
+      "label": "Lunch Menu",
       "url": "#"
     },
     {
-      "label": "Dinner",
+      "label": "Dinner Menu",
+      "url": "#"
+    },
+    {
+      "label": "Make A Reservation",
       "url": "#"
     }
   ]
