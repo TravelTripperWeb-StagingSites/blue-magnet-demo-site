@@ -7,5 +7,266 @@
     "en": "Disney"
   },
   "featured": true,
-  "website_url": "https://disneyworld.disney.go.com/destinations/blizzard-beach/"
+  "website_url": "https://disneyworld.disney.go.com/destinations/blizzard-beach/",
+  "location": {
+    "name": "Disney's Blizzard Beach Water Park",
+    "address": "1534 Blizzard Beach Drive, Orlando, FL 32836, USA",
+    "phone": "(407) 560-3400",
+    "place_id": "ChIJ0Q0aNe5-3YgRcLCOHwV45FQ",
+    "reference": "ChIJ0Q0aNe5-3YgRcLCOHwV45FQ",
+    "latitude": 28.3515968,
+    "longitude": -81.5752048,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1534",
+          "short_name": "1534",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Blizzard Beach Drive",
+          "short_name": "Blizzard Beach Drive",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32836",
+          "short_name": "32836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1534 Blizzard Beach Drive</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32836</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "1534 Blizzard Beach Drive, Orlando, FL 32836, USA",
+      "formatted_phone_number": "(407) 560-3400",
+      "geometry": {
+        "location": {
+          "lat": 28.3515968,
+          "lng": -81.5752048
+        },
+        "viewport": {
+          "south": 28.34959095,
+          "west": -81.57620629999997,
+          "north": 28.35761435,
+          "east": -81.57220030000002
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "d0ac158caaf2f32b2c26b18ccca629851fd24620",
+      "international_phone_number": "+1 407-560-3400",
+      "name": "Disney's Blizzard Beach Water Park",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571518800000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: Closed",
+          "Friday: Closed",
+          "Saturday: 10:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111775020822314570786/photos\">Memet Emin</a>"
+          ],
+          "width": 1600
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111358535896765199664/photos\">Maria Waldrep</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101562567631122503061/photos\">Wilfredo Rodriguez</a>"
+          ],
+          "width": 2988
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115994460278861311966/photos\">Chris Bohler</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108209835157532309675/photos\">Miguel Vazquez</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113136733391021476623/photos\">Oscar Cruz</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103508043286600042095/photos\">LUCY ALEXA</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1980,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111110934853444102236/photos\">Martin Jennings</a>"
+          ],
+          "width": 3520
+        },
+        {
+          "height": 1080,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113819137032460407479/photos\">Reinhard Badie</a>"
+          ],
+          "width": 1920
+        },
+        {
+          "height": 3456,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115387196783404929927/photos\">Jacob Bowen</a>"
+          ],
+          "width": 4592
+        }
+      ],
+      "place_id": "ChIJ0Q0aNe5-3YgRcLCOHwV45FQ",
+      "plus_code": {
+        "compound_code": "9C2F+JW Orlando, Florida, United States",
+        "global_code": "76WW9C2F+JW"
+      },
+      "price_level": 3,
+      "rating": 4.6,
+      "reference": "ChIJ0Q0aNe5-3YgRcLCOHwV45FQ",
+      "reviews": [
+        {
+          "author_name": "Henry Edvard",
+          "author_url": "https://www.google.com/maps/contrib/111884941501750949302/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDwfEeqreceYUfw5LBAW9kXiys2xlsqYS6O1TaF=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Thoroughly enjoyable visit. Busy bit plenty of room to move around unhurried and lots of places to relax. Summit Plummet is a must for thrill seekers. Although we really enjoyed it, we were unanimous in thinking that the rides were ever so slightly tamer than Wet n Wild, but still spent an enjoyable day. Highly recommended.",
+          "time": 1566894222
+        },
+        {
+          "author_name": "Corey Lehman",
+          "author_url": "https://www.google.com/maps/contrib/103511430020522184525/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-X1Pf4s5pzpE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reL22iKhxtu_TLSEiimWlhm4e8boA/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "2 months ago",
+          "text": "This was my first time here and we had a great time. There was more to do than I thought there would be. The wave pool was good as well as the seating, though finding seating wasn't very easy and I wish the chairs that lay almost all the way down were adjustable to set the seat back up. The lazy river was really nice, especially with the cold water coming from some of the places you pass under on a hot day. I didn't get a chance to do any of the slides or tube rides but they looked like they would be fun. The Tike's Peak area for smaller children is nice because it has smaller slides and a tube ride they can go on. I didn't get to see the Ski Patrol Training area but my kids kids loved it. Apparently that area is not for \"tweens\" so kids who are 13 or older might not be able to do everything there. The only problem is that the Florida summer weather cut our day short by a few hours. I would definitely expect this to be a possibility if you're visiting in summer. There's rain daily and a lot of time it's with an electric storm which they have to clear almost all of the park for. The ski lift was actually shut down well before anything else just because there was a thunderstorm reported somewhere in the area. Everything else ran until a while later when the storm was actually close enough to hear and lightning was seen.",
+          "time": 1565877375
+        },
+        {
+          "author_name": "Bee King",
+          "author_url": "https://www.google.com/maps/contrib/116660310058286806548/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mC0HL0F_UgPjFUuVPlLAPARsj9k_0s8CIsQ_5g=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Something for everyone! My 6 year old daughter didn't want to leave, and was crying at the prospect. An absolutely lovely cast member, Sydney, took the time to sit down with her and cheer her up before leaving. Thank you, it was enormously appreciated. \nGood food, great rides, great atmosphere.",
+          "time": 1566895891
+        },
+        {
+          "author_name": "Sarah Thorson",
+          "author_url": "https://www.google.com/maps/contrib/109574956294294417442/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAimNzwZn3LrTY8LhsMlNxaViXVb3YKBODH9D9IWj8=s128-c0x00000000-cc-rp-mo-ba6",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "We loved our time here! We really enjoyed the wave pool, it was fun to float on the inner tubes in the waves. We also really enjoyed the lazy river. The frozen lemonade and donuts with dipping sauce were amazing! Definitely a fun place to spend a hot day!",
+          "time": 1567884910
+        },
+        {
+          "author_name": "theaverage _guy",
+          "author_url": "https://www.google.com/maps/contrib/100463033842977578650/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-L7z0AJ9-7c0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcMxQH9i6ms1p9Lz4ZC5tq9oKj_2Q/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "My family and I loves our experience at Blizzard Beach! We went here to celebrate our son's first birthday and he went wild in the toddler play area.\n\nI could see it being a bit of a bummer having a child who can't walk yet, but Disney has ways to accommodate! The lazy river was nice and relaxing and they even have rafts with solid bottoms for sitters.\n\nIf you're at Blizzard Beach, then you're most likely in Florida in the summer. This was a really relaxing day for me and my family.",
+          "time": 1568202355
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=6117146157275590768",
+      "user_ratings_total": 6906,
+      "vicinity": "1534 Blizzard Beach Drive, Orlando",
+      "website": "https://disneyworld.disney.go.com/parks/blizzard-beach/?CMP=OKC-wdw_themeparks_gmap_36",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
 }
