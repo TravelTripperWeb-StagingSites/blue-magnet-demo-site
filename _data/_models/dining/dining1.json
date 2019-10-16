@@ -64,12 +64,17 @@
   ],
   "menus": [
     {
-      "label": "Lunch",
+      "label": "Lunch Menu",
       "url": "#"
     },
     {
-      "label": "Dinner",
+      "label": "Dinner Menu",
       "url": "#"
+    },
+    {
+      "label": "Reservations",
+      "url": "/dining-reservations/"
     }
-  ]
+  ],
+  "reservations_url": "/dining-reservations/"
 }
