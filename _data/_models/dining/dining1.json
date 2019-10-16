@@ -69,6 +69,10 @@
     },
     {
       "label": "Dinner Menu",
+      "url": "#"
+    },
+    {
+      "label": "Reservations",
       "url": "/dining-reservations/"
     }
   ],
