@@ -8,5 +8,360 @@
   },
   "featured": true,
   "category": null,
-  "website_url": "http://www.pointeorlando.com/"
+  "website_url": "http://www.pointeorlando.com/",
+  "location": {
+    "name": "Pointe Orlando",
+    "address": "9101 International Dr, Orlando, FL 32819, USA",
+    "phone": "(407) 248-2838",
+    "place_id": "ChIJAaUq3kp-54gRBOXS-D9eb2M",
+    "reference": "ChIJAaUq3kp-54gRBOXS-D9eb2M",
+    "latitude": 28.4323948,
+    "longitude": -81.47008719999997,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "9101",
+          "short_name": "9101",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "International Drive",
+          "short_name": "International Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32819",
+          "short_name": "32819",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">9101 International Dr</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32819</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "9101 International Dr, Orlando, FL 32819, USA",
+      "formatted_phone_number": "(407) 248-2838",
+      "geometry": {
+        "location": {
+          "lat": 28.4323948,
+          "lng": -81.47008719999997
+        },
+        "viewport": {
+          "south": 28.4281654,
+          "west": -81.47321605000002,
+          "north": 28.43597819999999,
+          "east": -81.46698264999998
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "35826eae93a136999a8e4c4cec7356c0c62189cb",
+      "international_phone_number": "+1 407-248-2838",
+      "name": "Pointe Orlando",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571619600000
+            },
+            "open": {
+              "day": 0,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571583600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571706000000
+            },
+            "open": {
+              "day": 1,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571670000000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571792400000
+            },
+            "open": {
+              "day": 2,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571756400000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571274000000
+            },
+            "open": {
+              "day": 3,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571842800000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571360400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571324400000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571446800000
+            },
+            "open": {
+              "day": 5,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571410800000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571533200000
+            },
+            "open": {
+              "day": 6,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571497200000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:00 AM – 9:00 PM",
+          "Tuesday: 11:00 AM – 9:00 PM",
+          "Wednesday: 11:00 AM – 9:00 PM",
+          "Thursday: 11:00 AM – 9:00 PM",
+          "Friday: 11:00 AM – 9:00 PM",
+          "Saturday: 11:00 AM – 9:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113741494210424697952/photos\">Dave McGruer</a>"
+          ],
+          "width": 3036
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107778282946236608728/photos\">mark Recycling</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 635,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110847957288923525256/photos\">Pointe Orlando</a>"
+          ],
+          "width": 640
+        },
+        {
+          "height": 1348,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110847957288923525256/photos\">Pointe Orlando</a>"
+          ],
+          "width": 900
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107778282946236608728/photos\">mark Recycling</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115171852888058307965/photos\">Dan Kaminsky</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4608,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109969032888266329487/photos\">Rich Diamondz</a>"
+          ],
+          "width": 3456
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107778282946236608728/photos\">mark Recycling</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102997288294699071776/photos\">Maxim Prokopenko</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113134565096102404927/photos\">Rafael Oliveira</a>"
+          ],
+          "width": 2268
+        }
+      ],
+      "place_id": "ChIJAaUq3kp-54gRBOXS-D9eb2M",
+      "plus_code": {
+        "compound_code": "CGJH+XX Orlando, Florida, United States",
+        "global_code": "76WWCGJH+XX"
+      },
+      "rating": 4.399999999999999,
+      "reference": "ChIJAaUq3kp-54gRBOXS-D9eb2M",
+      "reviews": [
+        {
+          "author_name": "Neil DeCamp",
+          "author_url": "https://www.google.com/maps/contrib/103593011018714490686/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-9KzZ1_mg4mM/AAAAAAAAAAI/AAAAAAAAAAA/ZykqPGVZE9c/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 1,
+          "relative_time_description": "a week ago",
+          "text": "Only night life. Most stores empty.  Clipped me for $5 parking for nothing. Looks like good entertainment spot only.",
+          "time": 1570213393
+        },
+        {
+          "author_name": "Frank Sepulveda",
+          "author_url": "https://www.google.com/maps/contrib/111909296130829552964/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-geO3O-RNb5M/AAAAAAAAAAI/AAAAAAAAAAA/fJHgJqYzr4I/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Overall great experience. Lots of activities located inside here. Never a dull moment. Wish some places would come back but on to new ones. Cant wait to see whats next to come.",
+          "time": 1570738640
+        },
+        {
+          "author_name": "R. Peters",
+          "author_url": "https://www.google.com/maps/contrib/111312409780819779154/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-CbLwc2jU5CM/AAAAAAAAAAI/AAAAAAAAAAA/K8uswew1xG4/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "2 months ago",
+          "text": "We had a good time here. We went to BB Kings club. Food was terrific. There was a live band that was excellent. We danced and ate. Good time. Will go again my next visit.",
+          "time": 1565092184
+        },
+        {
+          "author_name": "Jay D",
+          "author_url": "https://www.google.com/maps/contrib/108794904044499089421/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-1Mz2LYaobqw/AAAAAAAAAAI/AAAAAAAAAAA/UEx6Mb_FHjs/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "3 weeks ago",
+          "text": "Why is this place a ghost town? There is so much potential. I remember the nights when they had the best dance clubs Matrix and Metropolis. Everytime we go we always look forward to food trucks but they're never open.",
+          "time": 1569204115
+        },
+        {
+          "author_name": "kez Williams",
+          "author_url": "https://www.google.com/maps/contrib/104359874376931702632/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-_WGu8IB2bL8/AAAAAAAAAAI/AAAAAAAAAAA/qX-LLvKmj6g/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Do like point Orlando, although the state law about showing your ID at the age of 59 is a tad rediculous. But we visited The Pub today (well, one of many visits) and was very pleased to see they listened to what us customers would like to see, I wanted to see pink gin. Today I had my very first pink gin in America. Well done..The Pub..",
+          "time": 1567974668
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=7165049161020269828",
+      "user_ratings_total": 6790,
+      "vicinity": "9101 International Drive, Orlando",
+      "website": "http://www.pointeorlando.com/general-info/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
 }

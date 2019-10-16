@@ -7,5 +7,362 @@
   "sub_title_localized": {
     "en": "Disney"
   },
-  "featured": true
+  "featured": true,
+  "location": {
+    "name": "Epcot",
+    "address": "200 Epcot Center Dr, Orlando, FL 32821, USA",
+    "phone": "(407) 824-4321",
+    "place_id": "ChIJGzFs3q9_3YgRvZd1y2NSJOo",
+    "reference": "ChIJGzFs3q9_3YgRvZd1y2NSJOo",
+    "latitude": 28.374694,
+    "longitude": -81.54940399999998,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "200",
+          "short_name": "200",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Epcot Center Drive",
+          "short_name": "Epcot Center Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">200 Epcot Center Dr</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32821</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "200 Epcot Center Dr, Orlando, FL 32821, USA",
+      "formatted_phone_number": "(407) 824-4321",
+      "geometry": {
+        "location": {
+          "lat": 28.374694,
+          "lng": -81.54940399999998
+        },
+        "viewport": {
+          "south": 28.36347144999999,
+          "west": -81.55654909999998,
+          "north": 28.38811565,
+          "east": -81.54701069999999
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "897dd834bdba7aa852ca29fbd9452fba4814b79f",
+      "international_phone_number": "+1 407-824-4321",
+      "name": "Epcot",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571619600000
+            },
+            "open": {
+              "day": 0,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571576400000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571706000000
+            },
+            "open": {
+              "day": 1,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571662800000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571792400000
+            },
+            "open": {
+              "day": 2,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571749200000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571274000000
+            },
+            "open": {
+              "day": 3,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571835600000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571360400000
+            },
+            "open": {
+              "day": 4,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571317200000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571450400000
+            },
+            "open": {
+              "day": 5,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571403600000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571536800000
+            },
+            "open": {
+              "day": 6,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571490000000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 9:00 AM – 9:00 PM",
+          "Tuesday: 9:00 AM – 9:00 PM",
+          "Wednesday: 9:00 AM – 9:00 PM",
+          "Thursday: 9:00 AM – 9:00 PM",
+          "Friday: 9:00 AM – 10:00 PM",
+          "Saturday: 9:00 AM – 10:00 PM",
+          "Sunday: 9:00 AM – 9:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105403177590464363996/photos\">Maria Santos</a>"
+          ],
+          "width": 2988
+        },
+        {
+          "height": 4000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114505351129960445733/photos\">Hilary Rivero</a>"
+          ],
+          "width": 6016
+        },
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105403177590464363996/photos\">Maria Santos</a>"
+          ],
+          "width": 2988
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106710881333703495806/photos\">Jorge</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100026133193038841127/photos\">André Dravenau</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114254011080681059339/photos\">Michael Acevedo</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102310376181926964929/photos\">Mick Mantle</a>"
+          ],
+          "width": 3840
+        },
+        {
+          "height": 1541,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101258441508000324370/photos\">Christopher Acosta</a>"
+          ],
+          "width": 1234
+        },
+        {
+          "height": 750,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101924661850358523117/photos\">Matthew Coats</a>"
+          ],
+          "width": 1154
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101284263146306616446/photos\">Sean Mahoney</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJGzFs3q9_3YgRvZd1y2NSJOo",
+      "plus_code": {
+        "compound_code": "9FF2+V6 Orlando, Florida, United States",
+        "global_code": "76WW9FF2+V6"
+      },
+      "price_level": 3,
+      "rating": 4.699999999999999,
+      "reference": "ChIJGzFs3q9_3YgRvZd1y2NSJOo",
+      "reviews": [
+        {
+          "author_name": "Brady Crump",
+          "author_url": "https://www.google.com/maps/contrib/118403534174237535617/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mCPlYNFTIEb-0l1fCT4V8ccW_sozIMHZs51400F4Q=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "Epcot is pretty cool! We went during the food and wine testing season, and it was open until 9. We were able to test tons of different foods from multiple cultures. And the environment is just amazing. I don’t feel like the food is generally good quality at Disney, and is super over priced, but this was one of the better experiences. \n\nDisney is of course, amazing. They bring the magic, and their entertainment, decoration detail, and service is amazing. I’m not a huge fan of the price, especially to park hop, since most of the parks have just a few great rides, and to get the real experience, you kind of need to park hop (unless you got 4 days). Also, if you’re comparing to Disneyland, the transportation is a lot more stressful at Disney World (especially with kids), and at the end of the day, it’s a mad house. Overall, an enjoyable time! Even with long wait times.",
+          "time": 1570903566
+        },
+        {
+          "author_name": "Vanessa Ayola",
+          "author_url": "https://www.google.com/maps/contrib/110230079891586609777/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mA00uLPrEXN2EyZc-PXj3y9PaF-ggG4BphC57t3K9U=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "Of all the Disney parks this is one of my favorites, specially when it’s not that crowded, I’m talking about out of season nor summer or when they have festivals going on. it’s a nice place to stroll around, I have toddler so she cannot really go much into the big rides, we usually walk around the different showcases and when it comes to meeting the characters this park is more accessible to the them compared to the big one Magic Kingdom. Having a small child I’m all for strolling and enjoy it the scenery, and of course for the grown ups you can always try the drinks from around the world.",
+          "time": 1569863118
+        },
+        {
+          "author_name": "Katie Woellner",
+          "author_url": "https://www.google.com/maps/contrib/101622136606955822739/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBXFmq_FwyvJsFJvNRhz40UHAOpNHs1ta61TCCIuQ=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Lots of changes coming to EPCOT. A large portion of the front of the park is under construction. But the Food and Wine festival was fantastic. Grab a Food and Wine festival passport and consider eating and drinking around the world instead of a big meal at one of the restaurants.",
+          "time": 1571150555
+        },
+        {
+          "author_name": "theaverage _guy",
+          "author_url": "https://www.google.com/maps/contrib/100463033842977578650/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-L7z0AJ9-7c0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcMxQH9i6ms1p9Lz4ZC5tq9oKj_2Q/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "Epcot is definitely my favorite park of the Disney parks. And yes, I know everyone has their favorite, but Epcot is just wonderful this time of year. The Mrs and I have annual passes so we go with our boy or friends all the time, especially during food and wine, festival of the arts, and the flower and garden show. I basically go for the food because the portions of alcohol are a little small for the price, but to each own, really. The rides and features of the park are currently being updated, and definitely needed it here and there, so bare with Disney for the time being. Just go and enjoy what Epcot has to offer you!",
+          "time": 1569494823
+        },
+        {
+          "author_name": "Brandon Yawn",
+          "author_url": "https://www.google.com/maps/contrib/109702788187934085271/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBzNgk5hxD866rVpuO2wWUNcb98jGLH_4jknlp48A=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 4,
+          "relative_time_description": "a month ago",
+          "text": "I love ❤️ Epcot and Magic Kingdom overall.\nI have seen a lot change from the late 80’s to now. I would like to see some changes with regards to crowd size. No matter when I go now it’s to the point that it isn’t enjoyable anymore waiting in lines for hours. Yes fast passes help but even then sometimes there is a wait time and sometimes you want to ride more then 3 rides. Definitely room for improvement.",
+          "time": 1568519378
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=16871700692605441981",
+      "user_ratings_total": 81018,
+      "vicinity": "200 Epcot Center Drive, Orlando",
+      "website": "https://disneyworld.disney.go.com/destinations/epcot/?CMP=OKC-wdw_themeparks_gmap_39",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
 }

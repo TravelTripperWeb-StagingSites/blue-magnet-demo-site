@@ -71,9 +71,11 @@
       "label": "Dinner Menu",
       "url": "#"
     },
+
     {
-      "label": "Make A Reservation",
-      "url": "#"
+      "label": "Reservations",
+      "url": "/dining-reservations/"
     }
-  ]
+  ],
+  "reservations_url": "/dining-reservations/"
 }
