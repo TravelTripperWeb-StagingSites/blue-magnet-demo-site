@@ -64,11 +64,11 @@
   ],
   "menus": [
     {
-      "label": "Lunch",
+      "label": "Lunch Menu",
       "url": "#"
     },
     {
-      "label": "Dinner",
+      "label": "Dinner Menu",
       "url": "/dining-reservations/"
     }
   ],
