@@ -1,10 +1,54 @@
 .hero {
+  margin-bottom: 46px;
   height: 70vh;
   max-height: 326px;    
+  
   @include media-breakpoint-up(lg) {
     max-height: 475px;    
   }
   @include media-breakpoint-up(xl) {
     max-height: 650px;    
   }
+}
+
+.c-hero-slider {
+  .tns-outer {
+    button[data-action=stop], button[data-action=start] {
+      position: absolute;
+      z-index: 10;
+      bottom: 3rem;
+      right: 2rem;
+      border:0;
+      display: block;
+      appearance: none;
+      height: 50px;
+      width: 50px;
+      color: rgba(0,0,0,0);
+      background: transparent url('/assets/images/icon-pause.svg') no-repeat center center;
+    }
+    button[data-action=start] {
+      background-image: url('/assets/images/icon-play.svg') ;
+    }
+  }
+  .tns-controls {
+    button {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      transform: translateY(-50%);        
+      border:0;
+      display: block;
+      appearance: none;
+      height: 79px;
+      width: 100px;
+      color: rgba(0,0,0,0);
+      background: transparent url('/assets/images/icon-arrow-back.svg') no-repeat center center;
+      background-size: 25%;
+
+    }
+    button[data-controls="next"] {
+      right: 0;
+      background-image: url('/assets/images/icon-arrow-forward.svg');
+    }
+  }  
 }

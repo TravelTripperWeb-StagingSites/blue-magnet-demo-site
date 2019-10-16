@@ -1,2 +1,126 @@
 // Gallery Page Elements
 // ==========================================================================
+
+.filtered-galleries {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  .gallery-nav {
+    a {
+      @extend .h6;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 28px;
+      letter-spacing: 1px;
+      color: $base-text-color;
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+  .gallery-items {
+    @include make-container
+    background: $light;
+    padding: 2rem;
+    @include media-breakpoint-up(sm) {
+      .filter-item {
+        padding: $grid-gutter-width/4;
+        flex: 0 0 25%;
+        max-width: 25%;
+        height: calc(25vw - #{$grid-gutter-width/2} - .25rem);
+        img {
+          border: 1px solid $dark;        
+        }
+      }
+    }
+  }  
+}
+
+$lightbox-nav-height: 22px;
+$lightbox-nav-space: 50px;
+$lightbox-nav-padding: 20px;
+.lightbox {
+  
+  .close-box {
+    top: $lightbox-nav-space - $lightbox-nav-height;
+    right: calc(50% - #{3*($lightbox-nav-height+10)});  
+    display: inline-block;
+    font-size: $lightbox-nav-height;
+    height: $lightbox-nav-height;
+    line-height: $lightbox-nav-height;
+    width: $lightbox-nav-height;        
+    .fa-times {
+      display: inline-block;
+      font-size: $lightbox-nav-height;
+      height: $lightbox-nav-height;
+      line-height: $lightbox-nav-height;
+      width: $lightbox-nav-height;        
+      &:before {
+        display: inline-block;
+        font-size: $lightbox-nav-height;
+        height: $lightbox-nav-height;
+        line-height: $lightbox-nav-height;
+        width: $lightbox-nav-height;        
+      }
+    }
+  }
+  .slider-control-arrows__button {
+    &.arrow-right {
+      top: $lightbox-nav-space - $lightbox-nav-height;
+      right: calc(50% - #{2*($lightbox-nav-height+10)});  
+      i.fas.fa-arrow-right {
+        display: inline-block;
+        background: url("/assets/images/icon-arrow-forward.svg") no-repeat center center;
+        background-size: contain;
+        height: $lightbox-nav-height;
+        width: $lightbox-nav-height;
+        &:before {
+          display: none;
+        };
+      }
+    }
+    &.arrow-left {
+      top: $lightbox-nav-space - $lightbox-nav-height;
+      left: auto;
+      right: calc(50% - #{($lightbox-nav-height+10)});  
+      i.fas.fa-arrow-left {
+        display: inline-block;
+        background: url("/assets/images/icon-arrow-back.svg") no-repeat center center;
+        background-size: contain;
+        
+        height: $lightbox-nav-height;
+        width: $lightbox-nav-height;
+        &:before {
+          display: none;
+        };
+      }
+    }
+  }
+  .navigation-text {
+    display: block;
+    position: absolute;
+    top: $lightbox-nav-space - $lightbox-nav-height;
+    font-size: $lightbox-nav-height;
+    line-height: $lightbox-nav-height;
+    right: 50%;  
+    color: $white;
+    letter-spacing: 4.8px;
+    font-weight: 500;
+  }
+  
+  
+  .image-container {
+    margin-top: $lightbox-nav-space + $lightbox-nav-padding;
+    height: calc(100vh - 127px - #{$lightbox-nav-space + $lightbox-nav-padding});
+    .caption {
+      text-transform: uppercase;
+      width: 80%;
+      background: $white;
+      color: $base-text-color;
+      line-height: 26px;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      padding: 1em;
+    }
+  }
+}

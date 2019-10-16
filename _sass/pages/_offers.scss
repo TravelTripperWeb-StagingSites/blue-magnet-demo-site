@@ -1,12 +1,12 @@
-.offer-detail .c-offer-wrap {
+.offer-detail .offer-wrap {
   margin: 2rem 0;
-  .c-offer__image-group {
+  .offer__image-group {
     width: 100%;
     max-width: 100%;
     
     height: 50vh;
     max-height: 300px;
-    .c-offer__image {
+    .offer__image-wrap, .offer__image {
       width: 100%;
       height: 100%;
     }
@@ -17,7 +17,7 @@
       font-family: "object-fit";
     }
   }
-  .c-offer {
+  .offer {
     &__name {
       @extend .h1
     }
@@ -38,55 +38,22 @@
 
 
 .c-offer-list {
+  width: 100%;
+  max-width: none;
   &__items {
     display: block;    
   }
-  .c-offer-wrap {
-    background: $light;
-    margin: 4rem 0;
-    width: 100%;    
-    &:nth-child(even) {
-      .c-offer__content {
-        order: 0;
-      }
-      .c-offer__image-group {
-        order: 1;
-      }      
-    }    
-    
+  
+  .offer-wrap {
+    @include overflow-image-item("offer");
   }
-  .c-offer {
-    max-width: 100%;
-    display: flex;
-    align-items: stretch;
-    
-    
+  .offer {
     .ttweb-offer {
+      @include make-container();
       display: flex;
+      max-width: $max-image-bleed-row-width;      
     }
-    &__image-group {
-      height: 100%;
-    }
-    &__image {
-      @include overflow-image;
-      picture {
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: "contain";
-          font-family: "object-fit";
-        }
-      }      
-    }
-    &__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      
-    }
+
     &__name {
       @extend .h3;
     }
