@@ -31,6 +31,9 @@
     }
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h1\" style=\"text-align: center;\">Dining Reservations</p>"
+    }
   }
 ]
