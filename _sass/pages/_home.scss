@@ -1,5 +1,12 @@
 .home-features {
+  padding-top: 90px;
+  padding-bottom: 25px;
   .image-content {
     height: 300px;
   }
+  p {
+    font-size: 18px;
+  }
+  
+  @include standard-headers;
 }

@@ -21,7 +21,8 @@
       "git_file_name": "_assets/image_data/front-page-scroll-approximate-size-1-1600x600-2x.png.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569449042/dlqraygl2blmxpqlalfu.png",
       "file_size": null,
-      "alt": "front-page-scroll-approximate-size-1-1600x600@2x"
+      "alt": "front-page-scroll-approximate-size-1-1600x600@2x",
+      "caption": "Exterior View"
     },
     {
       "name": "Exterior Lobby Entrance",
@@ -42,7 +43,8 @@
       "size": 445147,
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569618936/vde73mnaas6vzqeggqpq.png",
       "file_size": null,
-      "alt": "Exterior Lobby Entrance"
+      "alt": "Exterior Lobby Entrance",
+      "caption": "Front Lobby Entrance"
     },
     {
       "name": "bmp.08 lower high res_rgb_hd.jpg",
