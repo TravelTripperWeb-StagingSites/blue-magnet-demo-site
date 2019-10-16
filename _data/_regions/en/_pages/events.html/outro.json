@@ -1,6 +1,9 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p>&nbsp;</p>\n<p class=\"h1\" style=\"text-align: center;\">Request for Proposal</p>\n<p>&nbsp;</p>"
+    }
   },
   {
     "_template": "1_col",
