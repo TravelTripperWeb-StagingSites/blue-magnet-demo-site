@@ -35,5 +35,8 @@
     "html": {
       "content": "<p class=\"h1\" style=\"text-align: center;\">Dining Reservations</p>"
     }
+  },
+  {
+    "_template": "1_col"
   }
 ]
