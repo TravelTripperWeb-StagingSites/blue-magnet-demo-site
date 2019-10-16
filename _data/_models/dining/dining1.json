@@ -69,7 +69,8 @@
     },
     {
       "label": "Dinner",
-      "url": "#"
+      "url": "/dining-reservations/"
     }
-  ]
+  ],
+  "reservations_url": "/dining-reservations/"
 }
