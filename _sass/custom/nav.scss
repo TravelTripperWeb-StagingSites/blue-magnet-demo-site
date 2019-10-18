@@ -16,6 +16,12 @@
     height: $primary-button-height;
     padding: 24px 44px;
     @include inner-border(4px);    
+    &:hover {
+      &:before {
+        display: none;
+      }
+    }
+    
   }
   .nav__item {
     a.nav__link {

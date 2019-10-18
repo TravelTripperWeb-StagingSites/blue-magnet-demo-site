@@ -39,11 +39,11 @@
               </div>
             {% endif %}
             {% if dining.menus and dining.menus.size > 0 %}
-              <p>
+              <div class="dining__menus">
                 {% for menu in dining.menus %}
                   <a class="btn btn--primary" href="{{menu.url}}">{{menu.label}}</a>
                 {% endfor %}
-              </p>
+              </div>
             {% endif %}
           </div>
         </div>

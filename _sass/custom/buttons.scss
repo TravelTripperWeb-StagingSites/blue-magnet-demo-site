@@ -33,6 +33,7 @@
     letter-spacing: 2.8px;
     position: relative;
     @include inner-border(3px);
+    
     &:hover {
       background: $primary;
       border-color: $primary;
@@ -40,9 +41,6 @@
       &:before {
         display: none;
       }
-    }
-    &+.btn--primary {
-      margin-left: 1rem;
     }
   }
 }

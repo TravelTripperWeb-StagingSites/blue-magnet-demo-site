@@ -1,2 +1,49 @@
 // Location Page Elements
 // ==========================================================================
+.leaflet-map {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  &__categories {
+    order: 0;
+    width: 100%;
+    ul {
+      display: flex;
+      margin: 0; padding: 0;
+      list-style: none;
+      justify-content: space-around;
+      li {
+        display: block;
+        @extend .h6;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 28px;
+        letter-spacing: 1px;
+        color: $base-text-color;
+        &.active {
+          color: $primary;
+        }
+        
+      }      
+    }
+  }
+  &__map {
+    order: 1;
+    width: 70%;
+    height: $map-height-min;
+    background: $light;
+  }
+  &__locations {
+    order: 2;
+    width: 30%;
+    height: $map-height-min;
+    overflow-y: scroll;
+    padding: 1rem;
+    .location {
+      padding-bottom: .5em;
+    }
+  }
+
+
+}

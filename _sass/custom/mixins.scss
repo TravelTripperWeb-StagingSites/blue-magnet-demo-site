@@ -94,9 +94,6 @@
     height: calc(100% - #{2 * $padding});
     border: $bw solid $bc;
   }
-  &:hover:before {
-    display: none;
-  }
   
 }
 @mixin outer-border($padding: 3px, $bw: $border-width, $bc: $border-color) {

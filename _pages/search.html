@@ -24,7 +24,7 @@ meta_tags:
         "Room_{{ room.reztrip_room_id }}": {
           "title": "{{ room.name | xml_escape }}",
           "content": {{ room.description | strip_html | strip_newlines | jsonify }},
-          "url": "{{ room.id | permalink: model_dir: 'rooms' }}"
+          "url": "{{ '_pages/rooms' | permalink }}"
         }
       ,
       {% endfor %}
@@ -32,7 +32,7 @@ meta_tags:
         "Offer_{{ offer.reztrip_offer_id }}": {
           "title": "{{ offer.name | xml_escape }}",
           "content": {{ offer.short_description | strip_html | strip_newlines | jsonify }},
-          "url": "{{ offer.id | permalink: model_dir: 'offers'}}"
+          "url": "{{ '_pages/offers.html' | permalink }}"
         }
         ,
       {% endfor %}

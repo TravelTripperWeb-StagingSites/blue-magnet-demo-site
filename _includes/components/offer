@@ -45,7 +45,7 @@
             {% if is_detail %}
               <span>{{ offer.name }}</span>
             {% else %}
-              <a href="{{ offer.id | permalink: model_dir: 'offers' }}">{{ offer.name }}</a>
+              {{ offer.name }}
             {% endif %}
           </div>
           <div class="offer__rate" ttweb-offer-component="CrossOutRateError">{% t 'offers.not_available' %}</div>    
