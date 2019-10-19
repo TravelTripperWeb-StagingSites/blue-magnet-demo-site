@@ -114,3 +114,28 @@ footer {
     }
   }
 }
+
+.offer, .room {
+  &__rate {
+    display: flex;      
+  }
+  .ttweb-cross-out-rate, .ttweb-loading-rates {
+    margin-right: 6px;
+    &__crossout {
+      margin:0 6px 0 0;
+    }
+    &__actual {
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+    }
+  }
+  .ttweb-cross-out-rate-error {
+    font-size: .75rem;
+    font-style: italic;
+    &__change-dates {
+      display: block;
+      font-style: normal;
+    }
+  }
+}

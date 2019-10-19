@@ -26,14 +26,14 @@
     .room-inner {
       @include make-container();
       max-width: $max-image-bleed-row-width;      
-    }
-    
-    .room-inner {
       display: flex;
     }
     
     .ttweb-room {
       height: 100%;
+    }
+    &__select {
+      margin-top: .5rem;
     }
   }
   .room__details {

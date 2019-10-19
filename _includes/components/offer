@@ -48,8 +48,6 @@
               {{ offer.name }}
             {% endif %}
           </div>
-          <div class="offer__rate" ttweb-offer-component="CrossOutRateError">{% t 'offers.not_available' %}</div>    
-          <div class="offer__rate" ttweb-offer-component="CrossOutRate" data-tt-pre-html="<span class='offer__rate-pre-label'>{% t 'offers.rate_pre_label' %}</span>" data-tt-post-html="<span class='offer__rate-post-label'>{% t 'offers.rate_post_label' %}</span>"></div>    
           {% if is_detail %}
             <div class="offer__description" >
               {{ offer.description | default: offer.short_description }}
@@ -59,6 +57,14 @@
               {{ offer.short_description }}
             </div>
           {% endif %}
+          
+          <div class="offer__rate">
+            <div ttweb-offer-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
+            <div ttweb-offer-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
+          </div>
+          <div ttweb-offer-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
+          
+          
           <div class="offer__select">
             <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
               {% t 'offers.buttons.book' %}

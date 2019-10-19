@@ -55,8 +55,7 @@
               <div class="room__name h3" >
                 {{ room.name }}
               </div>
-              <p class="room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></p>
-
+              
               <p class="room__short-description">
                 {{ room.short_description }}
               </p>
@@ -73,6 +72,13 @@
                   {% endfor %}
                 </div>
               </div>
+              
+              <div class="room__rate">
+                <div ttweb-room-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
+                <div ttweb-room-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
+              </div>
+              <div ttweb-room-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
+              
               <div class="room__select">
                 <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
                   {% t 'rooms.buttons.book' %}
