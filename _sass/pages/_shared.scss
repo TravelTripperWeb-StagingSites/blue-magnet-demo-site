@@ -139,3 +139,17 @@ footer {
     }
   }
 }
+
+.cc-banner {
+  background: $primary !important;
+  color: white !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  a, a:hover, a:visited {
+    color: white;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
