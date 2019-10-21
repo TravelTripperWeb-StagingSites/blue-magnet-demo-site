@@ -1,12 +1,12 @@
 {
   "name_localized": {
-    "en": "AAA & CAA Rate"
+    "en": "AAA Rate"
   },
   "short_description_localized": {
-    "en": "Book direct and save more! Members save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!  Rate does not include the Hotel Fee of $16.95 per night, plus tax."
+    "en": "AAA Member Exclusive\r\nValid Membership ID required at check-in."
   },
   "description_localized": {
-    "en": "<p style=\"font-family: -webkit-standard;\">Book direct and save more! Members save up to&nbsp;<strong>15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p style=\"font-family: -webkit-standard;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>\n<p>&nbsp;</p>"
+    "en": null
   },
   "image": {
     "name": "AAA-Rate-",
@@ -25,9 +25,9 @@
     "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617553/t8yuf0ry6zyik1ffg0aa.jpg",
     "resource_type": "image",
     "size": 172060,
-    "caption": "AAA logo",
+    "caption": "",
     "description": "",
-    "alt": "AAA logo",
+    "alt": "",
     "original_url": "https://d31f902anbz5po.cloudfront.net/1516/252000_2_master.jpg",
     "git_file_name": "_assets/image_data/AAA-Rate-.json"
   },
