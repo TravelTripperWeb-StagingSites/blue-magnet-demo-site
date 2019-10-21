@@ -69,3 +69,9 @@ footer:
     url_localized: ''
     page_id: _pages/sitemap.html
     items: 
+  - folder: false
+    url_localized:
+      en: "/privacy/"
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
