@@ -146,10 +146,26 @@ footer {
   text-align: center;
   display: flex;
   justify-content: center;
+  * {
+    font-family: $family-primary;    
+  }
   a, a:hover, a:visited {
     color: white;
     a:hover {
       text-decoration: underline;
+    }
+  }
+  .cc-message {
+    flex: inherit !important;   
+    font-size: 15px;
+    letter-spacing: .75px; 
+  }
+  .cc-compliance {
+    a.cc-btn, a.cc-btn:hover, a.cc-btn:visited {
+      font-weight: normal;
+      color: white;
+      padding: 0;
+      border: 0;
     }
   }
 }
