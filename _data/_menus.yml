@@ -60,6 +60,7 @@ footer:
       en: http://www.crrsv.com/careers/
     label_localized:
       en: Careers
+    target: _NEW
     items: 
   - folder: false
     url_localized: ''
