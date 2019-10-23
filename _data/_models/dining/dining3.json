@@ -19,7 +19,8 @@
   "menus": [
     {
       "label": "Menu",
-      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257608/dkfwdan4vh6jkdbs5xnr.pdf"
+      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257608/dkfwdan4vh6jkdbs5xnr.pdf",
+      "open_in_new_tab": true
     }
   ],
   "images": [
