@@ -85,7 +85,7 @@
                 <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton">
                   {% t 'rooms.buttons.book' %}
                 </div>
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton" data-url-format="https://{{site.data.crs_settings._portal_id}}/search?room_code=<roomcode>">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}/search?room_code=<roomcode>">
                   {% t 'rooms.buttons.book' %}
                 </div>
                 {% comment %}
