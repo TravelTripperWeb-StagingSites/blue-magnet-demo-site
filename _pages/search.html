@@ -84,33 +84,32 @@ meta_tags:
         }
         ,
         {% endfor %}
-        {% for pagesFullContent in site.data._regions[site.active_lang]._pages %}
-          {% for pageSection in pagesFullContent[1] %}
+        {% for page in site.pages %}
+          {% assign page_name = page.path | split: "." %}
+          {% assign page_name = page_name[0] %}
+          {% assign page_paths = page_name | split: '/' %}
+          {% assign pageContent = page.content %}
+          {% assign region_dir = site.data._regions[site.active_lang] %}
+          {% for dir in page_paths %}
+            {% assign region_dir = region_dir[dir] %}
+          {% endfor %}
+          {% for pageSection in region_dir %}
             {% for sectionContent in pageSection[1] %}
               {% assign requiredHTMLContent = sectionContent.header.content | append: sectionContent.post_header.content | append: sectionContent.col1_html.content | append: sectionContent.col2_html.content | append: sectionContent.content | append: sectionContent.html.content | replace: "'", "" | strip %}
               {% assign firstCharacter = requiredHTMLContent | slice: 0 %}
               {% if firstCharacter != "{" and requiredHTMLContent != undefined and requiredHTMLContent != "" %}
-                {% assign foundPage = '' %}
-                {% for page in site.pages %}
-                  {% assign page_name = page.path | split: "." %}
-                  {% assign page_name = page_name[0] %}
-                  {% assign region_page_name = "_pages/" | append: pagesFullContent[0] %}
-                  //{{page_name}}, {{region_page_name}}
-                  {% if page_name == region_page_name %}
-                    {% assign foundPage = page %}
-                  {% endif %}
-                {% endfor %}
-                {% if foundPage and foundPage != '' %}
-                  'Page_{{pagesFullContent[0]}}_{{pageSection[0]}}': {
-                    'title': '{{ foundPage.title }}',
-                    'content': '{{ requiredHTMLContent | newline_to_br | strip_newlines | replace: "<br />", " " | strip_html | strip }}',
-                    'url': '{{foundPage | permalink }}'
-                  }
-                  ,
-                {% endif %}
+                {% assign pageContent = pageContent | append: requiredHTMLContent %}
               {% endif %}
             {% endfor %}
           {% endfor %}
+          'Page_{{page_name}}': {
+            'title': '{{ page.title }}',
+            'content': '{{ pageContent | newline_to_br | strip_newlines | replace: "<br />", " " | strip_html | strip }}',
+            'url': '{{page | permalink }}'
+          }
+          ,
+          
       {% endfor %}
+
     };
 </script>
