@@ -29,3 +29,9 @@
     background-color: $secondary;
   }
 }
+
+.col, .c-2-col, .c-1-col {
+  ul {
+    margin-left: 20px;
+  }  
+}
