@@ -54,11 +54,19 @@
       @include make-container();
       display: flex;
       max-width: $max-image-bleed-row-width;      
+      flex-wrap: wrap;
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .offer__image-group {
+          padding: 0;
+        }
+        .offer__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
 
-    &__name {
-      @extend .h3;
-    }
     &__description {
       display: none;
     }

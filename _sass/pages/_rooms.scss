@@ -30,31 +30,41 @@
     }
   }
 
-  .room-rows {
-    &:nth-child(even) {
-      .room__content {
-        padding-right: 80px;
-        padding-left: 0px;
+  @media (min-width: $max-image-bleed-row-width) { 
+    .room-rows {
+      &:nth-child(even) {
+        .room__content {
+          padding-right: 80px;
+          padding-left: 0px;
+        }
+        .room__content-group {
+          order: 0;
+        }
+        .room__image-group {
+          order: 1;
+        }      
       }
-      .room__content-group {
-        order: 0;
-      }
-      .room__image-group {
-        order: 1;
-      }      
     }
   }
   .room__columns {
     @include overflow-image-item("room");
   }
   .room {
-    &__name.h3 {
-      margin-top: 0;
-    }
     .room-inner {
       @include make-container();
       max-width: $max-image-bleed-row-width;      
       display: flex;
+      flex-wrap: wrap;
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .room__image-group {
+          padding: 0;
+        }
+        .room__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
     
     .ttweb-room {
@@ -118,6 +128,18 @@
           line-height: 20px;
           display: inline-block;
 
+        }
+      }
+    }
+    @media (max-width: $max-image-bleed-row-width) {
+      .amenity-list-wrap {
+        ul {
+          li {
+            font-size: 15px;
+            line-height: 22px;
+            margin: 5px 0;
+            padding: 0 .5rem;
+          }
         }
       }
     }

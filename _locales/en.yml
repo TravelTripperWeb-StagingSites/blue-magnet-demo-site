@@ -1,4 +1,7 @@
 en:
+  nav:
+    menu: Menu
+    close: Close Menu
   dining:
     hours: Hours of Operation
   room:

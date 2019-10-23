@@ -97,12 +97,26 @@ footer {
     font-size: 14px;
     line-height: 24px;
   }
+  .phone-number {
+    display: inline-block;
+    + .phone-number {
+      margin-left: 1em;
+      &:before {
+        margin-right: 1em;
+        content: "|";
+        display: inline-block;
+      }
+    }
+  }
   .copyright {
     font-size: 12px;
     margin-top: 12px;
   }
   .logo-badges {
     text-align: right;
+    display: flex;
+    align-items: center;
+    
     img {
       margin-left: 21px;
     }
@@ -111,6 +125,52 @@ footer {
     }
     img.disney-hotel-neighbor {
       height: 83px;
+    }
+  }
+  .nav--footer {
+    margin: 1rem 0 34px;
+    .nav__item {
+      .nav__link {
+        margin: 0 1em 0 0;
+        font-size: .75rem;
+      }    
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+    .nav--footer {
+      margin-top: 35px;
+      justify-content: center !important;
+      .nav__item {
+        .nav__link {
+          margin: 0 .5em;
+          font-size: 14px;
+          line-height: 24px;
+        }    
+      }
+    }
+    .phone-number {
+      display: block;
+      + .phone-number {
+        margin-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .copyright {
+      margin-top: 24px;
+    }
+    .logo-badges {
+      img {
+        height: 100% !important;
+      }
+      margin: 2em 0;
+      height: 83px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
 }

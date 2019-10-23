@@ -41,7 +41,7 @@
     <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-md-6{% endif %}">
       <div class="offer__content-wrap">    
         <div class="offer__content">
-          <div class="offer__name">
+          <div class="offer__name h3">
             {% if is_detail %}
               <span>{{ offer.name }}</span>
             {% else %}

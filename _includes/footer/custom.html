@@ -55,13 +55,16 @@
       </strong>
       <div class="small-spaced">
         {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }}, {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
-        <br/>
-        {% t 'footer.contact.direct', editable:true %}
-        {{ site.data.hotel_settings.phone }} |
-        {% t 'footer.contact.reservations', editable:true %}
-        <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        <div class="phone-number">
+          {% t 'footer.contact.direct', editable:true %}
+          {{ site.data.hotel_settings.phone }}
+        </div>
+        <div class="phone-number">
+          {% t 'footer.contact.reservations', editable:true %}
+          <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        </div>
       </div>
-      <div class="copyright mt-2 text-xsmall small">
+      <div class="copyright">
         {% capture year %}
           &copy; {{ "now" | date: "%Y" }}
         {% endcapture %}

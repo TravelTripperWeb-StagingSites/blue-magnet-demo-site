@@ -23,6 +23,16 @@
       display: flex;
       flex-wrap: wrap;
       max-width: $max-image-bleed-row-width;      
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .dining__image-group {
+          padding: 0;
+        }
+        .dining__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
 
 

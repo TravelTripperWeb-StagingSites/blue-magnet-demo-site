@@ -53,14 +53,14 @@ footer:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
-    target: _NEW
+    target: _blank
     items: 
   - folder: false
     url_localized:
       en: http://www.crrsv.com/careers/
     label_localized:
       en: Careers
-    target: _NEW
+    target: _blank
     items: 
   - folder: false
     url_localized: ''

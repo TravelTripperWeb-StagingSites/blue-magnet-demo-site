@@ -151,6 +151,10 @@
         width: 100%;
         display: flex;
         align-items: stretch;
+        &__name.h3 {
+          margin-top: 0;
+        }
+        
         &__image-wrap {
           padding-top: 100%;
           position: relative;
@@ -192,18 +196,8 @@
     }
   
   
-  
-
-  
 }
 
-@mixin overflow-image() {
-  @include media-breakpoint-up(md) {
-    height: calc(100% + 2 * #{$image-bleed});
-    margin-top: - $image-bleed;
-    margin-bottom: - $image-bleed;
-  }
-}
 
 @mixin overflow-carousel() {
   .tns-controls {
@@ -227,6 +221,12 @@
       right: 0;
       background-image: url('/assets/images/icon-arrow-forward.svg');
     }
+    @media (max-width: $max-image-bleed-row-width) { 
+      button {
+        height: 51px;
+        width: 35px;
+      }
+    }
   }
   
   //@include overflow-image;
@@ -236,8 +236,13 @@
   }
   .tiny-slider {
     height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
     .item {
-      height: 100%;
+      //height: 100%;
+      display: block;
       img {
         height: 100%;
       }
