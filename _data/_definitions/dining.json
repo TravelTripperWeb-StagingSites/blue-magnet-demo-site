@@ -33,11 +33,19 @@
       },
       "url": {
         "type": "url"
+      },
+      "open_in_new_tab": {
+        "Label": "Open link in new tab?"
+        "type": boolean
       }
     }
   },
   "reservations_url": {
-    "type": "url"
+    "type": "url",
+    "open_in_new_tab": {
+      "Label": "Open link in new tab?"
+      "type": boolean
+    }
   },
   "order": {
     "type": "order"

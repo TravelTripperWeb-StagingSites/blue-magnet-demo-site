@@ -41,7 +41,7 @@
             {% if dining.menus and dining.menus.size > 0 %}
               <div class="dining__menus">
                 {% for menu in dining.menus %}
-                  <a class="btn btn--primary" href="{{menu.url}}">{{menu.label}}</a>
+                  <a class="btn btn--primary" href="{{menu.url}}" {%if menu.open_in_new_tab%}target="_blank" rel="noopener"{%endif%}>{{menu.label}}</a>
                 {% endfor %}
               </div>
             {% endif %}
