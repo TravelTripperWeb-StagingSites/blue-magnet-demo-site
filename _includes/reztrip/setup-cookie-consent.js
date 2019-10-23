@@ -2,7 +2,7 @@ window.cookieConsentConfig = {
   timeout: 5000,
   location: false,
   content: {
-    message: "This website uses cookies for best experience. By continuing you consent to our <a href=\"#\">Cookie Policy.</a>",
+    message: "This website uses cookies for best experience. By continuing you consent to our <a href=\"/privacy/\">Cookie Policy.</a>",
     dismiss: 'X',
   },
   elements: {
