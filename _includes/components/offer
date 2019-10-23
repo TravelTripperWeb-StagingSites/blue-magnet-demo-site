@@ -58,22 +58,27 @@
             </div>
           {% endif %}
           
+          
+          {% comment %}
           <div class="offer__rate">
             <div ttweb-offer-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
             <div ttweb-offer-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
           </div>
           <div ttweb-offer-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
-          
+          {% endcomment %}
           
           <div class="offer__select">
+            {% comment %} Use this for non-available always-on version
+            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="BookingButton" href="#">
+              {% t 'offers.buttons.book' %}
+            </a>
+            {% endcomment %}
             <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
               {% t 'offers.buttons.book' %}
             </a>
-            {% comment %}
-            {% if is_detail != true %}
-              <a class="btn btn--primary" href="{{offer.id | permalink: model_dir: 'offers' }}">{% t 'cta_primary', editable:true %}</a>
-            {% endif %}
-            {% endcomment %}
+            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferViewButton" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/special_offer?locale=en&rate_code[]=<offercode>">
+              {% t 'cta.learn_more' %}
+            </a>            
           </div>    
         </div>
       </div>

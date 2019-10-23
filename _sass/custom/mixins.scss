@@ -116,6 +116,7 @@
 }
 
 @mixin overflow-image-item($item-class) {  
+    
     margin: $image-bleed 0;
     width: 100%;    
     position: relative;
@@ -136,8 +137,11 @@
       
       &:nth-child(even) {
         .#{$item-class}__content {
+          padding-right: 80px;
+          padding-left: 0px;
+        }
+        .#{$item-class}__content-group {
           order: 0;
-          padding: 1rem 80px 1rem 0px;
         }
         .#{$item-class}__image-group {
           order: 1;
@@ -147,7 +151,7 @@
         width: 100%;
         display: flex;
         align-items: stretch;
-        &__content-wrap,   &__image-wrap {
+        &__image-wrap {
           padding-top: 100%;
           position: relative;
           width: 100%;
@@ -155,8 +159,12 @@
         &__image-group {
           height: 100%;
           padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
         }
-        &__image, &__content {
+        &__image {
           position: absolute; 
           height: auto;
           top: 0; left: 0; right: 0; bottom: 0;
@@ -171,11 +179,14 @@
             }
           }            
         }
+        &__content-wrap {
+          height: 100%;
+        }
         &__content {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding: 1rem 0px 1rem 80px;      
+          padding: calc(#{$image-bleed} + 1rem) 0px calc(#{$image-bleed} + 1rem)  80px;      
         }
       }
     }

@@ -73,14 +73,19 @@
                 </div>
               </div>
               
+              {% comment %}
               <div class="room__rate">
                 <div ttweb-room-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
                 <div ttweb-room-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
               </div>
               <div ttweb-room-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
+              {% endcomment %}
               
               <div class="room__select">
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="BookingButton">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton">
+                  {% t 'rooms.buttons.book' %}
+                </div>
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton" data-url-format="https://{{site.data.crs_settings._portal_id}}/search?room_code=<roomcode>">
                   {% t 'rooms.buttons.book' %}
                 </div>
                 {% comment %}

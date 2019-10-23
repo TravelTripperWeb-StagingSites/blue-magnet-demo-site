@@ -1,5 +1,17 @@
 // Rooms & Room Details Page Elements
 // ==========================================================================
+
+.ttweb-room-view-button {
+  display: none;
+}
+.ttweb-room-booking-button--disabled {
+  display: none;
+  &+ .ttweb-room-view-button {
+    display: inline-block;
+  }
+}
+
+
 .room-list {
   margin-bottom: 76px;
   .room__text-group {
@@ -18,11 +30,27 @@
     }
   }
 
+  .room-rows {
+    &:nth-child(even) {
+      .room__content {
+        padding-right: 80px;
+        padding-left: 0px;
+      }
+      .room__content-group {
+        order: 0;
+      }
+      .room__image-group {
+        order: 1;
+      }      
+    }
+  }
   .room__columns {
     @include overflow-image-item("room");
   }
   .room {
-    
+    &__name.h3 {
+      margin-top: 0;
+    }
     .room-inner {
       @include make-container();
       max-width: $max-image-bleed-row-width;      

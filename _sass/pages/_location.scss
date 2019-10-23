@@ -34,6 +34,11 @@
     height: $map-height-min;
     background: $light;
   }
+  &--contact {
+    .leaflet-map__map {
+      width: 100%;
+    }
+  }
   &__locations {
     order: 2;
     width: 30%;
@@ -41,7 +46,21 @@
     overflow-y: scroll;
     padding: 1rem;
     .location {
-      padding-bottom: .5em;
+      padding: .25em;
+      cursor: pointer;
+      .location-categories {
+        display: none;
+      }
+      .location-address {
+        font-size: .75rem;
+      }
+      &--selected {
+        background: $primary;
+        color: $white;
+        .location-label {
+          font-weight: bold;
+        }
+      }
     }
   }
 
