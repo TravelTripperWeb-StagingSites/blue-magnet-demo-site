@@ -33,6 +33,9 @@ main:
       en: Suites
   - page_id: _pages/offers.html
     items: 
+    url_localized: ''
+    label_localized:
+      en: Offers
   - folder: false
     url_localized: ''
     page_id: _pages/dining.html
