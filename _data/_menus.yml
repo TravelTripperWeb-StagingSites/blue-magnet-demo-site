@@ -74,6 +74,8 @@ footer:
     url_localized: ''
     page_id: _pages/user_created/faq.html
     items: 
+    label_localized:
+      en: FAQ
   - folder: false
     url_localized:
       en: http://www.crrsv.com/bvs/index.html
