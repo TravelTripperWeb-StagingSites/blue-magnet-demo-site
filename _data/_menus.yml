@@ -4,6 +4,9 @@ top:
   name: Super Menu
   items:
   - page_id: _pages/gallery.html
+    url_localized: ''
+    label_localized:
+      en: Gallery
   - page_id: _pages/user_created/private-members.html
     url_localized: ''
 main:
