@@ -68,6 +68,8 @@ footer:
     url_localized: ''
     page_id: _pages/user_created/reviews.html
     items: 
+    label_localized:
+      en: Reviews
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/faq.html
