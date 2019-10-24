@@ -62,6 +62,8 @@ footer:
     url_localized: ''
     page_id: _pages/contact.html
     items: 
+    label_localized:
+      en: Contact Us
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/reviews.html
