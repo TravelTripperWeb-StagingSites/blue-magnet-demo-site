@@ -46,10 +46,14 @@ main:
     url_localized: ''
     page_id: _pages/attractions.html
     items: 
+    label_localized:
+      en: Explore
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
     items: 
+    label_localized:
+      en: Events
 footer:
   depth: 1
   name: Footer Menu
