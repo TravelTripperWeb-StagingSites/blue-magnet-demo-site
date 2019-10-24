@@ -9,12 +9,17 @@ top:
       en: Gallery
   - page_id: _pages/user_created/private-members.html
     url_localized: ''
+    label_localized:
+      en: Private Members
 main:
   depth: 2
   name: Main Menu
   items:
   - page_id: _pages/about.html
     items: 
+    url_localized: ''
+    label_localized:
+      en: Out Hotel
   - page_id: _pages/rooms.html
     items:
     - folder: false
