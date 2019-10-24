@@ -26,6 +26,9 @@ main:
       url_localized: ''
       page_id: _pages/user_created/accessibility.html
       items: 
+    url_localized: ''
+    label_localized:
+      en: Suites
   - page_id: _pages/offers.html
     items: 
   - folder: false
