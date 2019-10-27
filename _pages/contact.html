@@ -85,7 +85,8 @@ label: Contact Us
             </p>
             <p>
               {% t 'footer.contact.reservations', editable:true %}<br/>
-              {{ site.data.hotel_settings.reservations_phone }}
+              {{ site.data.hotel_settings.reservations_phone }}<br/>
+              <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
             </p>
             {% regionblock extra-phones %}
               <p>
