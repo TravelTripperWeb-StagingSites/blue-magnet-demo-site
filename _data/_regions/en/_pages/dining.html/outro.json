@@ -48,6 +48,7 @@
         "outer: col--border"
       ],
       "style": "white text-primary"
-    }
+    },
+    "breakpoint": "lg"
   }
 ]
