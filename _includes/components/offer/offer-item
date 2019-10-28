@@ -25,7 +25,7 @@
 
 <div class="offer-wrap">
   <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer" {% tabindex %}>
-    <div class="offer__image-group   {% if is_detail != true %}col-md-6{% endif %} ">
+    <div class="offer__image-group   {% if is_detail != true %}col-lg-6{% endif %} ">
       <div class="offer__image-wrap">
         <div class="offer__image">
           {% include components/image image=offer.image max_width=600 %}
@@ -38,7 +38,7 @@
         <p><span class="fas fa-long-arrow-alt-left"></span> {% t 'offers.back', link:link %}</p>
       </div>
     {% endif %}
-    <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-md-6{% endif %}">
+    <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-lg-6{% endif %}">
       <div class="offer__content-wrap">    
         <div class="offer__content">
           <div class="offer__name h3">

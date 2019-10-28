@@ -77,7 +77,14 @@ label: Contact Us
           <div class="col-md-6">
             <div class="mb-1">
               Address<br/>
-              {% include components/hotel-address %}
+              <div class="address">
+                <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">
+                  <span class="street-address">{{address.street1}},</span>
+                  <span class="locality">{{address.city}},</span>
+                  <span class="region">{{address.state}}</span>
+                  <span class="postal-code">{{address.zip_code}}</span>
+                </a>
+              </div>
             </div>
             <p>
               {% t 'footer.contact.direct', editable:true %}<br/>

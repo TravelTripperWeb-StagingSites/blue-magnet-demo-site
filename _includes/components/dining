@@ -1,7 +1,7 @@
 <div class="dining-wrap">
   <div class="dining">
     <div class="dining-inner">
-      <div class="dining__image-group col-md-6">
+      <div class="dining__image-group col-lg-6">
         <div class="dining__image-wrap">
           <div class="dining__image">
             {% assign sliderImages = dining.images %}
@@ -17,7 +17,7 @@
           </div>    
         </div>  
       </div>
-      <div class="dining__content-group col-md-6">
+      <div class="dining__content-group col-lg-6">
         <div class="offer__content-wrap">    
           <div class="dining__content">
             {% if dining.tagline != '' %}

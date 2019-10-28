@@ -54,7 +54,7 @@
         {{ site.data.hotel_settings.name}}
       </strong>
       <div class="small-spaced">
-        {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }}, {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
+        <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">{{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }}, {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }}</a>
         <div class="phone-number">
           {% t 'footer.contact.direct', editable:true %}
           {{ site.data.hotel_settings.phone }}
