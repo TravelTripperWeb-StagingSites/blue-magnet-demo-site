@@ -9,4 +9,8 @@
   }
   
   @include standard-headers;
+  .col-md-6 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }

@@ -1,3 +1,5 @@
+
+
 .offer-detail .offer-wrap {
   margin: 2rem 0;
   .offer__image-group {
@@ -52,26 +54,37 @@
       @include make-container();
       display: flex;
       max-width: $max-image-bleed-row-width;      
+      flex-wrap: wrap;
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .offer__image-group {
+          padding: 0;
+        }
+        .offer__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
 
-    &__name {
-      @extend .h3;
-    }
     &__description {
       display: none;
     }
     &__short-description {
       margin: 1rem 0;
     }
-    &__rate {
-      display: none;
-    }
+    
     &__select {
-      margin-top: 1rem;
+      margin-top: .5rem;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: flex-start;
+      .btn {
+        margin: .5rem 1rem .5rem 0;
+      }
+      
       .ttweb-booking-button-offer {
         flex: 0 0 50%;
         .ttweb-booking-button {

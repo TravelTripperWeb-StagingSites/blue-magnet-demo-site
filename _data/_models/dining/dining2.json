@@ -19,11 +19,13 @@
   "menus": [
     {
       "label": "Dinner Menu",
-      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/pjzr5fhbfiam6rf4ao01.pdf"
+      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/pjzr5fhbfiam6rf4ao01.pdf",
+      "open_in_new_tab": true
     },
     {
       "label": "Reservations",
-      "url": "/dining-reservations/"
+      "url": "https://www.opentable.com/r/the-venetian-chop-house-caribe-royale-orlando",
+      "open_in_new_tab": true
     }
   ],
   "images": [

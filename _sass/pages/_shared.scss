@@ -97,12 +97,26 @@ footer {
     font-size: 14px;
     line-height: 24px;
   }
+  .phone-number {
+    display: inline-block;
+    + .phone-number {
+      margin-left: 1em;
+      &:before {
+        margin-right: 1em;
+        content: "|";
+        display: inline-block;
+      }
+    }
+  }
   .copyright {
     font-size: 12px;
     margin-top: 12px;
   }
   .logo-badges {
     text-align: right;
+    display: flex;
+    align-items: center;
+    
     img {
       margin-left: 21px;
     }
@@ -111,6 +125,167 @@ footer {
     }
     img.disney-hotel-neighbor {
       height: 83px;
+    }
+  }
+  .nav--footer {
+    margin: 1rem 0 34px;
+    .nav__item {
+      .nav__link {
+        margin: 0 1em 0 0;
+        font-size: .75rem;
+      }    
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+    .nav--footer {
+      margin-top: 35px;
+      justify-content: center !important;
+      .nav__item {
+        .nav__link {
+          margin: 0 .5em;
+          font-size: 14px;
+          line-height: 24px;
+        }    
+      }
+    }
+    .phone-number {
+      display: block;
+      + .phone-number {
+        margin-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .copyright {
+      margin-top: 24px;
+    }
+    .logo-badges {
+      img {
+        height: 100% !important;
+      }
+      margin: 2em 0;
+      height: 83px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+.offer, .room {
+  &__rate {
+    display: flex;      
+  }
+  .ttweb-cross-out-rate, .ttweb-loading-rates {
+    margin-right: 6px;
+    &__crossout {
+      margin:0 6px 0 0;
+    }
+    &__actual {
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+    }
+  }
+  .ttweb-cross-out-rate-error {
+    font-size: .75rem;
+    font-style: italic;
+    &__change-dates {
+      display: block;
+      font-style: normal;
+    }
+  }
+}
+
+.cc-banner {
+  background: $primary !important;
+  color: white !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  * {
+    font-family: $family-primary;    
+  }
+  a, a:hover, a:visited {
+    color: white;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .cc-message {
+    flex: inherit !important;   
+    font-size: 15px;
+    letter-spacing: .75px; 
+  }
+  .cc-compliance {
+    a.cc-btn, a.cc-btn:hover, a.cc-btn:visited {
+      font-weight: normal;
+      color: white;
+      padding: 0;
+      border: 0;
+    }
+  }
+}
+
+.modal-pop-up {
+  display: none;
+  &.show {
+    display: block;
+  }
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20000;
+  &__bg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;left:0; bottom: 0; right: 0;
+    background: $black;
+    opacity: 0.5;
+  }
+  &__close {
+    position: absolute;
+    top: .5rem;
+    right: .75rem;
+    font-size: 25px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  &__content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    max-width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    background: $white;
+    border: 10px solid $secondary;
+    padding: 1.5rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      color: $primary;
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 7px;
+      line-height: 42px;
+      text-transform: uppercase;
+    }
+    .text-small {
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
     }
   }
 }

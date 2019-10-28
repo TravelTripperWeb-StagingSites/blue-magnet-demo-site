@@ -1,6 +1,6 @@
 .btn {
   text-transform: uppercase;
-  &--secondary {
+  &--secondary, &--secondary:visited {
     // These are just styled links
     display: inline;
     background: none;
@@ -19,11 +19,12 @@
       color: $primary;
     }
   }
-  &--primary {
+  &--primary, &--primary:visited {
     font-size: 14px;
     line-height: 1em;
     padding-left: 18px;
     padding-right: 18px;
+    height: auto;
     min-width: 174px;
     border-color: $dark;
     background: $white;
@@ -33,6 +34,7 @@
     letter-spacing: 2.8px;
     position: relative;
     @include inner-border(3px);
+    
     &:hover {
       background: $primary;
       border-color: $primary;
@@ -41,9 +43,12 @@
         display: none;
       }
     }
-    &+.btn--primary {
-      margin-left: 1rem;
-    }
+  }
+  &.disabled, &.disabled:active, &.disabled:hover, &.disabled:visited {
+    background: $gray-400;
+    color: $gray-600;
+    border-color: $dark;
+    cursor: default;      
   }
 }
 

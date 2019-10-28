@@ -34,6 +34,7 @@ function getQueryVariable(variable) {
 }
 
 document.ready(function () {
+  var _this = this;
 
   var searchTerm = getQueryVariable('query');
   if (searchTerm) {
@@ -70,4 +71,46 @@ document.ready(function () {
     var results = idx.search(searchTerm); // Get lunr to perform a search
     displaySearchResults(searchTerm, results, store); // We'll write this in the next section
   }
+
+  var modalPopUpKey = "MODAL_DISMISSED";
+  var modalDismissalMemory = 1000 * 60 * 60 * 24 * 3; // 3 days
+
+  ttwebHotel.ready(function () {
+    var ad = document.querySelector("#modal-ad");
+    var closeButtons = ad.querySelectorAll("[data-modal-action=dismiss]");
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
+
+    try {
+      for (var _iterator = closeButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var button = _step.value;
+
+        button.addEventListener("click", function () {
+          ttwebHotel.UserData.saveInStorage(modalPopUpKey, true, modalDismissalMemory);
+          ad.classList.remove('show');
+          ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
+        }.bind(_this, ad));
+      }
+    } catch (err) {
+      _didIteratorError = true;
+      _iteratorError = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion && _iterator.return) {
+          _iterator.return();
+        }
+      } finally {
+        if (_didIteratorError) {
+          throw _iteratorError;
+        }
+      }
+    }
+
+    var shownModal = ttwebHotel.UserData.fetchFromStorage(modalPopUpKey);
+    if (!shownModal) {
+      ad.classList.add('show');
+      ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "1");
+    }
+  });
 });
