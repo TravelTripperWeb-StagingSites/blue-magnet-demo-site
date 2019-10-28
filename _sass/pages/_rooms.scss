@@ -1,5 +1,17 @@
 // Rooms & Room Details Page Elements
 // ==========================================================================
+
+.ttweb-room-view-button {
+  display: none;
+}
+.ttweb-room-booking-button--disabled {
+  display: none;
+  &+ .ttweb-room-view-button {
+    display: inline-block;
+  }
+}
+
+
 .room-list {
   margin-bottom: 76px;
   .room__text-group {
@@ -11,93 +23,56 @@
     display: none;
   }
   
-//  .room__text-wrap,   .room__image-wrap {
-//    padding-top: 100%;
-//    position: relative;
-//    width: 100%;
-//  }
-  .room__image-group {
-//    @include media-breakpoint-down(md) {
-//      padding: 0;
-//    }
-    
+  .room__image-group {    
     .room__image {
-//      &.ttweb-room-image-list {
-//        picture {
-//          img {
-//            width: 100%;
-//            height: 100%;
-//            object-fit: "contain";
-//            font-family: "object-fit";
-//          }
-//        }
-//      }
-//
-//      position: absolute;
-//      top: -$image-bleed;
-//      left: -$image-bleed;
-//      bottom: -$image-bleed;
-//      right: -$image-bleed;
-//      height: auto;
-      
-//      @include media-breakpoint-up(md) {
-//        height: calc(100% + 2 * #{$image-bleed});
-//        width: calc(100% + 2 * #{$image-bleed});
-//        margin-top: - $image-bleed;
-//        margin-bottom: - $image-bleed;
-//      }
       @include overflow-carousel();
       
     }
   }
 
+  @media (min-width: $max-image-bleed-row-width) { 
+    .room-rows {
+      &:nth-child(even) {
+        .room__content {
+          padding-right: 80px;
+          padding-left: 0px;
+        }
+        .room__content-group {
+          order: 0;
+        }
+        .room__image-group {
+          order: 1;
+        }      
+      }
+    }
+  }
   .room__columns {
     @include overflow-image-item("room");
   }
   .room {
-    
     .room-inner {
       @include make-container();
       max-width: $max-image-bleed-row-width;      
-    }
-    
-    .room-inner {
       display: flex;
+      flex-wrap: wrap;
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .room__image-group {
+          padding: 0;
+        }
+        .room__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
     
     .ttweb-room {
       height: 100%;
     }
-    
-//    .container {
-//      max-width: $max-image-bleed-row-width;
-//    }
-//    .room__image-group {
-//      order: 0;
-//    }
-//    .room__text-group {
-//      order: 1;
-//    }
-//    .room__text {
-//      position: absolute;
-//      top: 0; bottom: 0; left: 0; right: 0;
-//      padding: 1rem 0px 1rem 80px;
-//    }
-//    &:nth-child(even) {
-//      .room__text {
-//        padding: 1rem 80px 1rem 0px;
-//      }
-//    }
-//    @include media-breakpoint-up(md) {
-//      &:nth-child(even) {
-//        .room__image-group {
-//          order: 1;
-//        }
-//        .room__text-group {
-//          order: 0;
-//        }
-//      }
-//    }
+    &__select {
+      margin-top: .5rem;
+    }
   }
   .room__details {
     display: flex;
@@ -153,6 +128,18 @@
           line-height: 20px;
           display: inline-block;
 
+        }
+      }
+    }
+    @media (max-width: $max-image-bleed-row-width) {
+      .amenity-list-wrap {
+        ul {
+          li {
+            font-size: 15px;
+            line-height: 22px;
+            margin: 5px 0;
+            padding: 0 .5rem;
+          }
         }
       }
     }

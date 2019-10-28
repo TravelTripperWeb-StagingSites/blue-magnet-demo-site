@@ -1,0 +1,6 @@
+crs_source: reztrip
+root_path: https://rt3api-prd.ttaws.com
+_hotel_id: BVSO
+_portal_id: buenavistasuites
+
+__EDITABLE_FIELDS__: []

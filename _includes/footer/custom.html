@@ -13,7 +13,7 @@
             <a href="https://www.instagram.com/{{site.data.social.instagram.username}}/" target="_NEW">
               <img src="/assets/images/instagram.svg" alt="Instagram Icon">
             </a>
-            <a href="#">
+            <a href="https://www.tripadvisor.com/Hotel_Review-g34515-d85264-Reviews-Buena_Vista_Suites-Orlando_Florida.html">
               <img src="/assets/images/tripadvisor-logotype.svg" alt="Trip Advisor Icon"/>            
             </a>
           </div>
@@ -54,14 +54,17 @@
         {{ site.data.hotel_settings.name}}
       </strong>
       <div class="small-spaced">
-        {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
-        <br/>
-        {% t 'footer.contact.direct', editable:true %}
-        {{ site.data.hotel_settings.phone }} |
-        {% t 'footer.contact.reservations', editable:true %}
-        <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">{{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }}, {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }}</a>
+        <div class="phone-number">
+          {% t 'footer.contact.direct', editable:true %}
+          {{ site.data.hotel_settings.phone }}
+        </div>
+        <div class="phone-number">
+          {% t 'footer.contact.reservations', editable:true %}
+          <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        </div>
       </div>
-      <div class="copyright mt-2 text-xsmall small">
+      <div class="copyright">
         {% capture year %}
           &copy; {{ "now" | date: "%Y" }}
         {% endcapture %}
@@ -74,3 +77,4 @@
     </div>
   </div>
 </div>
+{% include modal-ad.html %}

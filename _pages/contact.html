@@ -61,7 +61,7 @@ label: Contact Us
       <div class="col-lg-6">
         <form class="w-80 contact-form">
           <input name="name" type="text" placeholder="Name*" required="true" />
-          <textarea name="address" placeholder="Address*" required="true" ></textarea>
+          <textarea name="address" placeholder="Address" ></textarea>
           <input name="email" type="email" placeholder="Email*" required="true" />
           <textarea name="message" placeholder="Message*" required="true" ></textarea>
           <label for="contact_form_accept_privacy_policy" class="checkbox-label">
@@ -77,7 +77,14 @@ label: Contact Us
           <div class="col-md-6">
             <div class="mb-1">
               Address<br/>
-              {% include components/hotel-address %}
+              <div class="address">
+                <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">
+                  <span class="street-address">{{address.street1}},</span>
+                  <span class="locality">{{address.city}},</span>
+                  <span class="region">{{address.state}}</span>
+                  <span class="postal-code">{{address.zip_code}}</span>
+                </a>
+              </div>
             </div>
             <p>
               {% t 'footer.contact.direct', editable:true %}<br/>
@@ -85,7 +92,8 @@ label: Contact Us
             </p>
             <p>
               {% t 'footer.contact.reservations', editable:true %}<br/>
-              {{ site.data.hotel_settings.reservations_phone }}
+              {{ site.data.hotel_settings.reservations_phone }}<br/>
+              <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
             </p>
             {% regionblock extra-phones %}
               <p>

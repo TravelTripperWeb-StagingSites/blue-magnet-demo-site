@@ -1,7 +1,7 @@
 <div class="dining-wrap">
   <div class="dining">
     <div class="dining-inner">
-      <div class="dining__image-group col-md-6">
+      <div class="dining__image-group col-lg-6">
         <div class="dining__image-wrap">
           <div class="dining__image">
             {% assign sliderImages = dining.images %}
@@ -17,13 +17,13 @@
           </div>    
         </div>  
       </div>
-      <div class="dining__content-group col-md-6">
+      <div class="dining__content-group col-lg-6">
         <div class="offer__content-wrap">    
           <div class="dining__content">
             {% if dining.tagline != '' %}
               <p class='dining__tagline'>{{dinging.tagline}}</p>
             {% endif %}
-            <h3 class='dining__name'>{{dining.name}}</h3>
+            <div class='dining__name h3'>{{dining.name}}</div>
             <p>{{dining.short_description}}</p>
             {% if dining.hours and dining.hours.size > 0 %}
               <div class='dining__hours'>
@@ -39,11 +39,11 @@
               </div>
             {% endif %}
             {% if dining.menus and dining.menus.size > 0 %}
-              <p>
+              <div class="dining__menus">
                 {% for menu in dining.menus %}
-                  <a class="btn btn--primary" href="{{menu.url}}">{{menu.label}}</a>
+                  <a class="btn btn--primary" href="{{menu.url}}" {%if menu.open_in_new_tab%}target="_blank" rel="noopener"{%endif%}>{{menu.label}}</a>
                 {% endfor %}
-              </p>
+              </div>
             {% endif %}
           </div>
         </div>

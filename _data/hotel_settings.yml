@@ -12,8 +12,6 @@ address:
   zip_code: '32821'
 default_currency: USD
 default_timezone: America/New_York
-_hotel_id: BVSO
-_portal_id: buenavistasuites
 __EDITABLE_FIELDS__:
   name:
     required: true
@@ -70,7 +68,7 @@ logo:
   alt: Buena Vista Suites Orlando
   caption: ''
   description: ''
-phone: "(407) 239-8588"
+phone: <a href="tel:+014072398588">(407) 239-8588</a>
 reservations_phone: <a href="tel:+018005377737">(800) 537 7737</a>
 google_location:
   name: Buena Vista Suites

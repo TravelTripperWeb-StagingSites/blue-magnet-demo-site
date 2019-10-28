@@ -25,7 +25,7 @@
 
 <div class="offer-wrap">
   <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer" {% tabindex %}>
-    <div class="offer__image-group   {% if is_detail != true %}col-md-6{% endif %} ">
+    <div class="offer__image-group   {% if is_detail != true %}col-lg-6{% endif %} ">
       <div class="offer__image-wrap">
         <div class="offer__image">
           {% include components/image image=offer.image max_width=600 %}
@@ -38,18 +38,16 @@
         <p><span class="fas fa-long-arrow-alt-left"></span> {% t 'offers.back', link:link %}</p>
       </div>
     {% endif %}
-    <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-md-6{% endif %}">
+    <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-lg-6{% endif %}">
       <div class="offer__content-wrap">    
         <div class="offer__content">
-          <div class="offer__name">
+          <div class="offer__name h3">
             {% if is_detail %}
               <span>{{ offer.name }}</span>
             {% else %}
-              <a href="{{ offer.id | permalink: model_dir: 'offers' }}">{{ offer.name }}</a>
+              {{ offer.name }}
             {% endif %}
           </div>
-          <div class="offer__rate" ttweb-offer-component="CrossOutRateError">{% t 'offers.not_available' %}</div>    
-          <div class="offer__rate" ttweb-offer-component="CrossOutRate" data-tt-pre-html="<span class='offer__rate-pre-label'>{% t 'offers.rate_pre_label' %}</span>" data-tt-post-html="<span class='offer__rate-post-label'>{% t 'offers.rate_post_label' %}</span>"></div>    
           {% if is_detail %}
             <div class="offer__description" >
               {{ offer.description | default: offer.short_description }}
@@ -59,15 +57,28 @@
               {{ offer.short_description }}
             </div>
           {% endif %}
+          
+          
+          {% comment %}
+          <div class="offer__rate">
+            <div ttweb-offer-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
+            <div ttweb-offer-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
+          </div>
+          <div ttweb-offer-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
+          {% endcomment %}
+          
           <div class="offer__select">
+            {% comment %} Use this for non-available always-on version
+            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="BookingButton" href="#">
+              {% t 'offers.buttons.book' %}
+            </a>
+            {% endcomment %}
             <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
               {% t 'offers.buttons.book' %}
             </a>
-            {% comment %}
-            {% if is_detail != true %}
-              <a class="btn btn--primary" href="{{offer.id | permalink: model_dir: 'offers' }}">{% t 'cta_primary', editable:true %}</a>
-            {% endif %}
-            {% endcomment %}
+            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferViewButton" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/special_offer?locale=en&rate_code[]=<offercode>">
+              {% t 'cta.learn_more' %}
+            </a>            
           </div>    
         </div>
       </div>

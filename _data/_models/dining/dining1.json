@@ -65,11 +65,13 @@
   "menus": [
     {
       "label": "Lunch Menu",
-      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/c53ltyhvmeezrhumidj4.pdf"
+      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/c53ltyhvmeezrhumidj4.pdf",
+      "open_in_new_tab": true
     },
     {
       "label": "Dinner Menu",
-      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/yguzwmdsucsbujapd8iy.pdf"
+      "url": "//res.cloudinary.com/traveltripperweb/raw/upload/v1571257609/yguzwmdsucsbujapd8iy.pdf",
+      "open_in_new_tab": true
     },
     {
       "label": "Reservations",

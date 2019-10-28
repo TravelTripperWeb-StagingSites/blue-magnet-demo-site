@@ -68,4 +68,28 @@ document.ready(function() {
       var results = idx.search(searchTerm); // Get lunr to perform a search
       displaySearchResults(searchTerm, results, store); // We'll write this in the next section
     }  
+    
+    
+    const modalPopUpKey = "MODAL_DISMISSED";
+    const modalDismissalMemory = 1000 * 60 * 60 * 24 * 3; // 3 days
+
+    ttwebHotel.ready(() => {
+      const ad = document.querySelector("#modal-ad");
+      const closeButtons = ad.querySelectorAll("[data-modal-action=dismiss]")
+      for(let button of closeButtons) {
+        button.addEventListener("click", function() {
+          ttwebHotel.UserData.saveInStorage(modalPopUpKey, true, modalDismissalMemory)
+          ad.classList.remove('show');          
+          ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
+        }.bind(this, ad))
+      }
+      let shownModal = ttwebHotel.UserData.fetchFromStorage(modalPopUpKey)
+      if (!shownModal) {
+        ad.classList.add('show');
+        ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "1");
+      }
+    })
 });
+
+
+

@@ -122,5 +122,28 @@
     "advanced_options": {
     },
     "h1_text_alignment": "text-center"
+  },
+  {
+    "advanced_options": {
+    },
+    "galleries": [
+      {
+        "label": "Hotel",
+        "gallery": "hotel"
+      },
+      {
+        "label": "Suites",
+        "gallery": "suites"
+      },
+      {
+        "label": "Restaurants",
+        "gallery": "restaurants"
+      },
+      {
+        "label": "Functional Space",
+        "gallery": "function_space"
+      }
+    ],
+    "_template": "galleries"
   }
 ]

@@ -1,4 +1,7 @@
 en:
+  nav:
+    menu: Menu
+    close: Close Menu
   dining:
     hours: Hours of Operation
   room:
@@ -24,5 +27,5 @@ en:
     member_line_2: Become a Private Member
     copyright: Copyright %{time} Buena Vista Suites | Orlando, Florida. All rights reserved
     contact:
-      direct: "Direct Line:"
-      reservations: "Reservations:"
+      direct: "Direct Line"
+      reservations: "Reservations"
