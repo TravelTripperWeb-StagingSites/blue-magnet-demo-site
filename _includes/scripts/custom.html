@@ -12,9 +12,9 @@ jQuery(document).ready(function() {
   //---------------------------------------------------------------------------------------------------------
   //  Append screen reader text to external links and PDF file links
   //---------------------------------------------------------------------------------------------------------
-  var string = "<span class=\"sr-only\">Opens in new window</span><em class=\"fa fa-external-link-square el\"></em>",
-    newWindowIcon = "<em class=\"fa fa-external-link-square el\"></em>",
-    stringPDF = "<span class=\"sr-only\">PDF file that opens in new window</span><em class=\"fa fa-external-link-square el\"></em>";
+  var string = "<span class=\"sr-only\">Opens in new window</span><em class=\"fa fa-external-link-square-alt el\"></em>",
+    newWindowIcon = "<em class=\"fa fa-external-link-square-alt el\"></em>",
+    stringPDF = "<span class=\"sr-only\">PDF file that opens in new window</span><em class=\"fa fa-external-link-square-alt el\"></em>";
   jQuery("a").each(function() {
     if (jQuery(this).find("img").length) jQuery(this).addClass('has-image');
     if (jQuery(this).attr("target") !== undefined) {

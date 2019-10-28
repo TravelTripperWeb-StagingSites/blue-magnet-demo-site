@@ -4,6 +4,13 @@
     .col-html-content {
       z-index: 1;
       position: relative;
+      padding: 2rem;
+      @include media-breakpoint-down(md) {
+        padding: 1rem;
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 0rem;
+      }
     }    
     padding: 20px 50px !important;
     

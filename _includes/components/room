@@ -25,7 +25,7 @@
   <div class="room__columns">
     <div class="room">
       <div class="room-inner">
-        <div class="room__image-group  col-md-6 ">
+        <div class="room__image-group  col-lg-6 ">
           <div class="room__image-wrap">
             <div class="room__image">
               {% assign sliderImages = room.images %}
@@ -49,7 +49,7 @@
           </div>          
         </div>
         
-        <div class="room__content-group col-md-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
+        <div class="room__content-group col-lg-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
           <div class="room__content-wrap">
             <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content">
               <div class="room__name h3" >

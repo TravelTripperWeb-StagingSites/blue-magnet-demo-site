@@ -103,8 +103,8 @@ meta_tags:
             {% endfor %}
           {% endfor %}
           'Page_{{page_name}}': {
-            'title': '{{ page.title }}',
-            'content': '{{ pageContent | newline_to_br | strip_newlines | replace: "<br />", " " | strip_html | strip }}',
+            'title': {{ page.title | jsonify}},
+            'content': {{ pageContent | newline_to_br | strip_newlines | replace: "<br />", " " | strip_html | strip | jsonify }},
             'url': '{{page | permalink }}'
           }
           ,
