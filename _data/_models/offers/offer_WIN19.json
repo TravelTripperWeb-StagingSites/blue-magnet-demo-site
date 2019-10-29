@@ -6,7 +6,7 @@
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package."
   },
   "description_localized": {
-    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package.&nbsp;&nbsp;&nbsp;</p>\n<ul>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n</ul>"
+    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package.&nbsp;&nbsp;&nbsp;</p>"
   },
   "image": {
     "name": "Winter-Getaway-Package-",
@@ -49,5 +49,8 @@
     "Travel Dates December 1, 2019 - March 31, 2020",
     "Located just 1.5 miles from the Walt Disney World® theme parks. Scheduled shuttle service available. "
   ],
-  "published": true
+  "published": true,
+  "description_override_localized": {
+    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. &nbsp;&nbsp;</p>"
+  }
 }
