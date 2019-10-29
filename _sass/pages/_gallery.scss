@@ -31,23 +31,12 @@
     background: $light;
     padding: 2rem;
     .filter-item {
-      padding: $grid-gutter-width/2 0;
-      flex: 0 0 100%;
-      max-width: 100%;
-      height: calc(100vw - 4rem + #{$grid-gutter-width});
+      padding: $grid-gutter-width/2;
+      flex: 0 0 50%;
+      max-width: 50%;
+      height: calc(50vw - 2rem);
       img {
         border: 1px solid $dark;        
-      }      
-    }
-    @include media-breakpoint-up(sm) {
-      .filter-item {
-        padding: $grid-gutter-width/2;
-        flex: 0 0 50%;
-        max-width: 50%;
-        height: calc(50vw - 2rem);
-        img {
-          border: 1px solid $dark;        
-        }      
       }      
     }
     @include media-breakpoint-up(md) {

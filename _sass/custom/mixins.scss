@@ -200,6 +200,7 @@
           flex-direction: column;
           justify-content: center;
           padding: calc(#{$image-bleed} + 1rem) 0px calc(#{$image-bleed} + 1rem)  80px;      
+          height: 100%;
         }
       }
     }

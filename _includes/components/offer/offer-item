@@ -52,6 +52,20 @@
             <div class="offer__description" >
               {{ offer.description | default: offer.short_description }}
             </div>
+            <div class="offer__addons" >
+              {% assign addons = offer.addons_override | default: offer.addons %}
+              {% if addons %}
+                {% assign addons_count = addons | size %}
+                {% if addons_count > 0 %}
+                  <p class='offer__addons-header'>{% t 'offers.addons.header' %}</p>
+                  <ul>
+                    {% for addon in addons %}
+                      <li>{{addon}}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              {% endif %}
+            </div>
           {% else %}
             <div class="offer__short-description">
               {{ offer.short_description }}
@@ -59,27 +73,24 @@
           {% endif %}
           
           
-          {% comment %}
-          <div class="offer__rate">
-            <div ttweb-offer-component="CrossOutRate" data-tt-post-html="/Night">Not Available</div>
-            <div ttweb-offer-component="SelectedDates" data-tt-on-click="open-booking-widget"></div>
-          </div>
-          <div ttweb-offer-component="CrossOutRateError" data-tt-on-click="open-booking-widget"></div>
-          {% endcomment %}
-          
           <div class="offer__select">
-            {% comment %} Use this for non-available always-on version
-            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="BookingButton" href="#">
-              {% t 'offers.buttons.book' %}
-            </a>
-            {% endcomment %}
-            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferBookingButton" href="#">
-              {% t 'offers.buttons.book' %}
-            </a>
-            <a data-tt-class-name="btn btn--primary" ttweb-offer-component="OfferViewButton" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/special_offer?locale=en&rate_code[]=<offercode>">
-              {% t 'cta.learn_more' %}
-            </a>            
+            <a class="btn btn--primary"  href="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?locale=en&rate_code={{offer.reztrip_offer_id}}">{% t 'offers.buttons.book' %}</a>
+           {% if is_detail != true %}
+              <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">
+                {% t 'cta.learn_more' %}
+              </a>            
+          {% endif %}
           </div>    
+          {% if is_detail %}
+            {% assign policy = offer.policy_override | default: offer.policy %}
+            {% if policy and policy != '' %}
+              <div class="offer__policy">
+                <p class="offer__policy-header">{% t 'offers.policy.header' %}</p>
+                {{ policy }}
+              </div>
+            {% endif %}
+          {% endif %}
+          
         </div>
       </div>
     </div>
