@@ -73,10 +73,10 @@ sass:
 permalink: pretty
 timezone: 
 page_gen:
-# - data: offers
-#   template: offer_layout
-#   dir: offers
-#   title_field: name
+- data: offers
+  template: offer_layout
+  dir: offers
+  title_field: name
 # - data: rooms
 #   template: room_layout
 #   dir: rooms
