@@ -1,6 +1,6 @@
 {
   "name_localized": {
-    "en": "Winter Getaway"
+    "en": "Winter Getaway Package"
   },
   "short_description_localized": {
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package."
@@ -52,5 +52,8 @@
   "published": true,
   "description_override_localized": {
     "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. &nbsp;&nbsp;</p>"
+  },
+  "name_override_localized": {
+    "en": "Winter Getaway Package"
   }
 }
