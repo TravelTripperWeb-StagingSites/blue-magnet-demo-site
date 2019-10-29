@@ -1,9 +1,9 @@
 {
   "name_localized": {
-    "en": "AAA Rate"
+    "en": "AAA & CAA Rate"
   },
   "short_description_localized": {
-    "en": "AAA Member Exclusive\r\nValid Membership ID required at check-in."
+    "en": "AAA Member Exclusive Valid Membership ID required at check-in."
   },
   "description_localized": {
     "en": "<p style=\"box-sizing: border-box; margin: 0px; padding: 0px; font-family: proxima-nova, sans-serif; font-size: 1.125rem; line-height: 1.875rem; text-rendering: optimizeLegibility; color: #222222; letter-spacing: 0.0625rem; word-spacing: -0.0625rem; caret-color: #222222;\">Book direct and save more! Members save up to&nbsp;<strong style=\"box-sizing: border-box; line-height: inherit; margin-bottom: 0px; margin-top: 0px;\">15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p style=\"box-sizing: border-box; margin: 1.75rem 0px 0px; padding: 0px; font-family: proxima-nova, sans-serif; font-size: 1.125rem; line-height: 1.875rem; text-rendering: optimizeLegibility; color: #222222; letter-spacing: 0.0625rem; word-spacing: -0.0625rem; caret-color: #222222;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
@@ -32,5 +32,20 @@
     "git_file_name": "_assets/image_data/AAA-Rate-.json"
   },
   "reztrip_offer_id": "AAA",
-  "featured_order": ""
+  "featured_order": "",
+  "name_override_localized": {
+    "en": "AAA & CAA Rate"
+  },
+  "short_description_override_localized": {
+    "en": "Book direct and save more! Members save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!"
+  },
+  "policy_localized": {
+    "en": "<p>AAA Member Exclusive Valid Membership ID required at check-in.&nbsp;Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
+  },
+  "policy_override_localized": {
+    "en": "<p>AAA Member Exclusive Valid Membership ID required at check-in.&nbsp;Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
+  },
+  "description_override_localized": {
+    "en": "<p><span style=\"caret-color: #222222; color: #222222; font-family: proxima-nova, sans-serif; font-size: 18px; letter-spacing: 1px; word-spacing: -1px;\">Book direct and save more! Members save up to&nbsp;</span><strong style=\"box-sizing: border-box; line-height: inherit; margin-bottom: 0px; margin-top: 0px;\">15%&nbsp;OFF</strong><span style=\"caret-color: #222222; color: #222222; font-family: proxima-nova, sans-serif; font-size: 18px; letter-spacing: 1px; word-spacing: -1px;\">&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</span></p>"
+  }
 }
