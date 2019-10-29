@@ -1,6 +1,21 @@
 // Shared Page Elements
 // ==========================================================================
 
+a.ext-link {
+  em.fa {
+    display: none;
+  }
+  &:hover, &:focus {
+    em.fa {
+      margin-left: 2px;
+      display: inline-block;
+    }    
+  }
+  &.has-image em.fa {
+    display: none;
+  }
+}
+
 form {
   input[type="text"], input[type="email"] {
     width: 100%;
@@ -73,6 +88,11 @@ form {
 }
 
 
+.back-link.col-12 {
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 .back-link p {
   font-size: 80%;
