@@ -31,12 +31,17 @@
     }
   }
   .tns-controls {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);        
+    height: 79px;
+    width: 100%;
     button {
       position: absolute;
-      z-index: 10;
-      top: 50%;
-      transform: translateY(-50%);        
       border:0;
+      top: 0;
       display: block;
       appearance: none;
       height: 79px;

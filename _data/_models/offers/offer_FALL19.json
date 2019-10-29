@@ -32,5 +32,13 @@
     "git_file_name": "_assets/image_data/Fall-Getaway-Package-.json"
   },
   "reztrip_offer_id": "FALL19",
-  "featured_order": ""
+  "featured_order": "",
+  "addons": [
+    "Dinner for two at The Vista Bistro"
+  ],
+  "policy_localized": {
+    "en": "<p>Terms &amp; Conditions All reservations require a credit card guarantee at time of booking. 1 night penalty applies if not cancelled 72 hours prior to arrival. | Daily $16.95 (+tax) hotel fee will be added as a separate charge on your folio | We value your privacy and recognize its importance. View our full Privacy Policy\" | Guarantee/Deposit and Change/Cancellation Fees will depend on selected dates and room/rate combination.</p>"
+  },
+  "published": true,
+  "order": 0
 }
