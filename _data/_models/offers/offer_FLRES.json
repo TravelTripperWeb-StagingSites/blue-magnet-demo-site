@@ -1,12 +1,12 @@
 {
   "name_localized": {
-    "en": "Florida/Georgia Resident Suite Special"
+    "en": "Florida & Georgia Resident Suite Special"
   },
   "short_description_localized": {
-    "en": "Book direct and save more! Florida & Georgia residents save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!  Rate does not include the Hotel Fee of $16.95 per night, plus tax."
+    "en": "Book direct and save more! Florida & Georgia residents save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!"
   },
   "description_localized": {
-    "en": "<p>Book direct and save more! Florida &amp; Georgia residents save up to&nbsp;<strong>15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
+    "en": "<p>Book direct and save more! Florida &amp; Georgia residents save up to&nbsp;<strong>15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p>&nbsp;</p>"
   },
   "image": {
     "name": "Florida-Georgia-Resident-Rate-",
@@ -32,5 +32,21 @@
     "git_file_name": "_assets/image_data/Florida-Georgia-Resident-Rate-.json"
   },
   "reztrip_offer_id": "FLRES",
-  "featured_order": ""
+  "featured_order": "",
+  "name_override_localized": {
+    "en": "Florida & Georgia Resident Suite Special"
+  },
+  "short_description_override_localized": {
+    "en": "Book direct and save more! Florida & Georgia residents save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!"
+  },
+  "policy_localized": {
+    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+  },
+  "policy_override_localized": {
+    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+  },
+  "published": true,
+  "description_override_localized": {
+    "en": "<p>Book direct and save more! Florida &amp; Georgia residents save up to&nbsp;<strong>15%&nbsp;OFF</strong>&nbsp;our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>"
+  }
 }
