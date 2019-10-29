@@ -19,7 +19,7 @@ main:
     items: 
     url_localized: ''
     label_localized:
-      en: Out Hotel
+      en: Our Hotel
   - page_id: _pages/rooms.html
     items:
     - folder: false
