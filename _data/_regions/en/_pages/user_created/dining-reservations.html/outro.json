@@ -2,5 +2,8 @@
   {
     "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
     "_template": "html"
+  },
+  {
+    "_template": "1_col"
   }
 ]
