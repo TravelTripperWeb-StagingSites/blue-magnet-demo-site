@@ -44,5 +44,6 @@
   },
   "policy_override_localized": {
     "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
-  }
+  },
+  "published": true
 }
