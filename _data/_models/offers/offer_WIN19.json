@@ -6,7 +6,7 @@
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package."
   },
   "description_localized": {
-    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package.&nbsp;&nbsp;&nbsp;</p>\n<ul>\n<li>Buy 3 nights, get the 4th&nbsp;night free</li>\n<li>Receive one extra large \"favorite combinations\" pizza from Vista Bistro</li>\n<li>1pm late checkout</li>\n<li>Plus, our daily signature hot breakfast buffet and parking are always FREE!</li>\n<li>Travel Dates December 1, 2019 - March 31, 2020</li>\n<li>Located just 1.5 miles from the Walt Disney World&reg; theme parks.&nbsp;<a href=\"https://www.buenavistasuites.com/faq-for-buena-vista-suites-,FAQ-en.html\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduled shuttle service available</a>. {FIX LINK }</li>\n</ul>\n<p>Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
+    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package.&nbsp;&nbsp;&nbsp;</p>\n<ul>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n<li></li>\n</ul>"
   },
   "image": {
     "name": "Winter-Getaway-Package-",
@@ -32,5 +32,22 @@
     "git_file_name": "_assets/image_data/Winter-Getaway-Package-.json"
   },
   "reztrip_offer_id": "WIN19",
-  "featured_order": ""
+  "featured_order": "",
+  "short_description_override_localized": {
+    "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. "
+  },
+  "policy_override_localized": {
+    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of $16.95 per night, plus tax.</span></p>"
+  },
+  "policy_localized": {
+    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of $16.95 per night, plus tax.</span></p>"
+  },
+  "addons_override": [
+    "Buy 3 nights, get the 4th night free",
+    "Receive one extra large \"favorite combinations\" pizza from Vista Bistro 1pm late checkout",
+    "Plus, our daily signature hot breakfast buffet and parking are always FREE!",
+    "Travel Dates December 1, 2019 - March 31, 2020",
+    "Located just 1.5 miles from the Walt Disney World® theme parks. Scheduled shuttle service available. "
+  ],
+  "published": true
 }
