@@ -58,6 +58,21 @@ form {
   }
 }
 
+.form-group > input.datepicker {
+	padding-right:40px;
+}
+.form-group > button {
+	position: absolute;
+	top:15px;
+	bottom:0;
+	left:auto;
+	right: 20px;
+	width:32px;
+	height: 30px;
+	margin:auto;
+}
+
+
 
 .back-link p {
   font-size: 80%;
