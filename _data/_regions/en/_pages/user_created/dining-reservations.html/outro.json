@@ -4,6 +4,9 @@
     "_template": "html"
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": ""
+    }
   }
 ]
