@@ -54,7 +54,7 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<p class=\"h3\">Buena Vista Suites GDS Codes</p>\n<p><strong>ADS&nbsp; </strong>XT1516</p>\n<p><strong style=\"font-size: 1rem;\">Amadeus&nbsp;</strong>XTORL239</p>\n<p><strong>Apollo/Galileo&nbsp;</strong><strong>&nbsp;</strong>XT41690</p>\n<p><strong>Sabre </strong>XT36375</p>\n<p><strong>Worldspan </strong>XT10239</p>"
+      "content": "<h3 class=\"h3\">Buena Vista Suites GDS Codes</h3>\n<p><strong>ADS&nbsp; </strong>XT1516</p>\n<p><strong style=\"font-size: 1rem;\">Amadeus&nbsp;</strong>XTORL239</p>\n<p><strong>Apollo/Galileo&nbsp;</strong><strong>&nbsp;</strong>XT41690</p>\n<p><strong>Sabre </strong>XT36375</p>\n<p><strong>Worldspan </strong>XT10239</p>"
     },
     "col2_html": {
       "content": "<p class=\"h3 h6\" style=\"text-align: center;\">COMMISSIONS ARE PAID PROMPTLY</p>",
