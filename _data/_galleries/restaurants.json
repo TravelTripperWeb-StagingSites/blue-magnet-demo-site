@@ -205,7 +205,8 @@
       "git_file_name": "_assets/image_data/Banquet-table-setting.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456395/ng1rb8f7kbpb2pdzkzxq.jpg",
       "file_size": null,
-      "alt": "Banquet table setting"
+      "alt": "Banquet table setting",
+      "caption": "Banquet Table Setting"
     }
   ],
   "description": "",
