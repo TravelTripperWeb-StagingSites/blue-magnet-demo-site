@@ -56,7 +56,7 @@
     "include_header": true,
     "include_footer": true,
     "header_html": {
-      "content": "<p>&nbsp;</p>\n<p class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;&nbsp;</p>"
+      "content": "<p>&nbsp;</p>\n<h3 class=\"h3\" style=\"text-align: center;\">Hotel Services &amp; Amenities&nbsp;&nbsp;</h3>"
     },
     "col1_html": {
       "content": "<ul>\n<li>100% Non-Smoking Suites</li>\n<li>Complimentary Full American Breakfast Buffet&nbsp;</li>\n<li>Complimentary Parking</li>\n<li>Scheduled Shuttle Service To/From Walt Disney World&reg;&nbsp; &nbsp; Ticket &amp; Transportation Center</li>\n<li>Scheduled Shuttle Service To/From Orlando Vineland Premium Outlets and Lake Buena Vista Factory Stores</li>\n</ul>"
