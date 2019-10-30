@@ -21,7 +21,7 @@
       "git_file_name": "_assets/image_data/front-page-scroll-approximate-size-1-1600x600-2x.png.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569449042/dlqraygl2blmxpqlalfu.png",
       "file_size": null,
-      "alt": "front-page-scroll-approximate-size-1-1600x600@2x",
+      "alt": "Exterior view of Buena Vista Suites at dusk.",
       "caption": "Exterior View"
     },
     {
@@ -43,7 +43,7 @@
       "size": 445147,
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569618936/vde73mnaas6vzqeggqpq.png",
       "file_size": null,
-      "alt": "Exterior Lobby Entrance",
+      "alt": "Front lobby entrance exterior and covered unloading area. ",
       "caption": "Front Lobby Entrance"
     },
     {
@@ -66,7 +66,8 @@
       "git_file_name": "_assets/image_data/bmp.0810.08-lower-high-res-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456396/h48jediwddnjqoinxfgc.jpg",
       "file_size": null,
-      "alt": "bmp.08 lower high res_rgb_hd.jpg"
+      "alt": "Front exterior of Buena Vista Suites and parking area.",
+      "caption": "Exterior View"
     },
     {
       "name": "bmp.08_rgb_hd-2.jpg",
@@ -88,7 +89,8 @@
       "git_file_name": "_assets/image_data/bmp.9886.08-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456397/vmypuptz7akmuijy6tvj.jpg",
       "file_size": null,
-      "alt": "bmp.08_rgb_hd-2.jpg"
+      "alt": "Buena Vista Suites entrance and sign.",
+      "caption": "Buena Vista Suites"
     },
     {
       "name": "OverPool_rgb_hd",
@@ -110,7 +112,8 @@
       "git_file_name": "_assets/image_data/OverPool-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457562/tr1mzqg4pgtvoreydllp.jpg",
       "file_size": null,
-      "alt": "OverPool_rgb_hd"
+      "alt": "View of pool and restaurant area.",
+      "caption": "Pool Area"
     },
     {
       "name": "Hotel exterior front entrance",
@@ -132,7 +135,8 @@
       "git_file_name": "_assets/image_data/bmp.8517.08-lower-high-res-rgb-hd-2x.png.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569875323/b2ambmzmxrhtre60nspa.png",
       "file_size": null,
-      "alt": "Hotel exterior front entrance"
+      "alt": "Hotel exterior front entrance",
+      "caption": "Front Entrance"
     },
     {
       "name": "Buena Vista Suites - Lobby - Front Desk - 1175469_rgb_hd-2",
@@ -154,7 +158,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Lobby---Front-Desk---1175469-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456405/o29fyr2xzfdmsqygvsrt.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Lobby - Front Desk - 1175469_rgb_hd-2"
+      "alt": "Lobby and front desk area.",
+      "caption": "Front Desk and Lobby"
     },
     {
       "name": "Lobby - 898481_rgb_hd",
@@ -176,7 +181,8 @@
       "git_file_name": "_assets/image_data/Lobby---898481-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457560/n03ia5kksvbc2huvjz6h.jpg",
       "file_size": null,
-      "alt": "Lobby - 898481_rgb_hd"
+      "alt": "Check in area and hallway",
+      "caption": "Lobby and Front Desk"
     },
     {
       "name": "Lobby - 898484_rgb_hd",
@@ -198,7 +204,8 @@
       "git_file_name": "_assets/image_data/Lobby---898484-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457561/pkbyehfnetiwgazqv17e.jpg",
       "file_size": null,
-      "alt": "Lobby - 898484_rgb_hd"
+      "alt": "Front entrance and lobby",
+      "caption": "Lobby Entrance"
     }
   ],
   "description": "",
