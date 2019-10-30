@@ -42,7 +42,7 @@
 <div class="container">    
   <div class="row">
     <div class="col-12">
-      <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start">
+      <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start" role="navigation" aria-label="footer navigation">
         {% assign items = site.data._menus.footer.items %}
         {% include nav/nav-item-list.html items=items %}
       </ul>

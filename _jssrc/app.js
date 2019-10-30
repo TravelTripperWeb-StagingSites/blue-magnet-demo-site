@@ -71,7 +71,7 @@ document.ready(function() {
     
     
     const modalPopUpKey = "MODAL_DISMISSED";
-    const modalDismissalMemory = 1000 * 60 * 60 * 24 * 3; // 3 days
+    const modalDismissalMemory = 1000 * 60  * 60 * 24 * 3; // 3 days
 
     ttwebHotel.ready(() => {
       const ad = document.querySelector("#modal-ad");
@@ -82,11 +82,38 @@ document.ready(function() {
           ad.classList.remove('show');          
           ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
         }.bind(this, ad))
+        button.addEventListener("keydown", (e) => {
+          if (e.keyCode == 32 || e.keyCode == 13) { //space or enter
+            button.click();
+            // ad.classList.remove('show');
+            // ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
+          }
+        })
+        
       }
       let shownModal = ttwebHotel.UserData.fetchFromStorage(modalPopUpKey)
       if (!shownModal) {
         ad.classList.add('show');
-        ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "1");
+        let adElements = [...ad.querySelectorAll('[tabindex="0"]')];
+        let startElement = ad.querySelector("#modal-ad-title");
+        console.log(startElement, adElements)
+        startElement.focus();
+        window.modalTabIdx = adElements.indexOf(startElement)
+        ad.addEventListener("keydown", (event)=> {
+          console.log(event.target, adElements)
+          if ((event.keyCode === 9) || (event.shiftKey && event.keyCode == 9)) {
+            event.preventDefault();
+            window.modalTabIdx = window.modalTabIdx + (event.shiftKey ? -1 : 1);
+            if (window.modalTabIdx < 0) {
+              window.modalTabIdx = adElements.length - 1;
+            }
+            if (window.modalTabIdx >= adElements.length) {
+              window.modalTabIdx = 0;
+            }
+            adElements[window.modalTabIdx].focus();
+          }
+        });
+        
       }
     })
 });

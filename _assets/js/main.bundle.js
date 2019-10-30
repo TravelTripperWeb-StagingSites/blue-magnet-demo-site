@@ -1,5 +1,7 @@
 'use strict';
 
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
 function displaySearchResults(term, results, store) {
 	console.log("Search Results");
 	//console.log(results);
@@ -83,7 +85,7 @@ document.ready(function () {
 		var _iteratorError = undefined;
 
 		try {
-			for (var _iterator = closeButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+			var _loop = function _loop() {
 				var button = _step.value;
 
 				button.addEventListener("click", function () {
@@ -91,6 +93,18 @@ document.ready(function () {
 					ad.classList.remove('show');
 					ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
 				}.bind(_this, ad));
+				button.addEventListener("keydown", function (e) {
+					if (e.keyCode == 32 || e.keyCode == 13) {
+						//space or enter
+						button.click();
+						// ad.classList.remove('show');
+						// ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
+					}
+				});
+			};
+
+			for (var _iterator = closeButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+				_loop();
 			}
 		} catch (err) {
 			_didIteratorError = true;
@@ -110,7 +124,25 @@ document.ready(function () {
 		var shownModal = ttwebHotel.UserData.fetchFromStorage(modalPopUpKey);
 		if (!shownModal) {
 			ad.classList.add('show');
-			ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "1");
+			var adElements = [].concat(_toConsumableArray(ad.querySelectorAll('[tabindex="0"]')));
+			var startElement = ad.querySelector("#modal-ad-title");
+			console.log(startElement, adElements);
+			startElement.focus();
+			window.modalTabIdx = adElements.indexOf(startElement);
+			ad.addEventListener("keydown", function (event) {
+				console.log(event.target, adElements);
+				if (event.keyCode === 9 || event.shiftKey && event.keyCode == 9) {
+					event.preventDefault();
+					window.modalTabIdx = window.modalTabIdx + (event.shiftKey ? -1 : 1);
+					if (window.modalTabIdx < 0) {
+						window.modalTabIdx = adElements.length - 1;
+					}
+					if (window.modalTabIdx >= adElements.length) {
+						window.modalTabIdx = 0;
+					}
+					adElements[window.modalTabIdx].focus();
+				}
+			});
 		}
 	});
 });

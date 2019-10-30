@@ -82,10 +82,10 @@
               {% endcomment %}
               
               <div class="room__select">
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton"  target="_blank" rel="noopener">
                   {% t 'rooms.buttons.book' %}
                 </div>
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?room_code=<roomcode>">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton"  target="_blank" rel="noopener" aria-label="{% t 'rooms.buttons.book' %}, opens in new window" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?room_code=<roomcode>">
                   {% t 'rooms.buttons.book' %}
                 </div>
                 {% comment %}
