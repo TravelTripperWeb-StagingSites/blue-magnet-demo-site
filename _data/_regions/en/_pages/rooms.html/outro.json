@@ -2,6 +2,7 @@
   {
     "_template": "2_col",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "background_image": {
       "image": {
