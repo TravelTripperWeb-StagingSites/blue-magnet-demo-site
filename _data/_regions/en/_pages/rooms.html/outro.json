@@ -55,6 +55,12 @@
     "footer_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
     },
-    "container_classes": ""
+    "container_classes": "",
+    "col1_image": {
+      "advanced_options": {
+        "custom_classes": "mobile-only",
+        "tabindex": "0"
+      }
+    }
   }
 ]
