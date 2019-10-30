@@ -112,7 +112,8 @@
       "git_file_name": "_assets/image_data/OverPool-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457562/tr1mzqg4pgtvoreydllp.jpg",
       "file_size": null,
-      "alt": "OverPool_rgb_hd"
+      "alt": "View of pool and restaurant area.",
+      "caption": "Pool Area"
     },
     {
       "name": "Hotel exterior front entrance",
