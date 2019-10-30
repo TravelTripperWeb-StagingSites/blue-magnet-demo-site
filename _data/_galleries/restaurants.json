@@ -2,28 +2,6 @@
   "name": "Restaurants",
   "photos": [
     {
-      "name": "Venitian Chop House",
-      "content_type": "image/jpeg",
-      "date_added": "2019-10-07-102752",
-      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "width": 514,
-      "height": 520,
-      "format": "jpg",
-      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "resource_type": "image",
-      "size": 76099,
-      "git_file_name": "_assets/image_data/Venitian-Chop-House.jpg.json",
-      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570458472/ejmz3safhwf4gaynxtqf.jpg",
-      "file_size": null,
-      "alt": "Venitian Chop House"
-    },
-    {
       "name": "Buena Vista Suites - Vista Bistro - 1175486_rgb_hd",
       "content_type": "image/jpeg",
       "date_added": "2019-10-07-101501",
@@ -43,7 +21,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Vista-Bistro---1175486-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457701/zskjhcxrvvwpv9mthish.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Vista Bistro - 1175486_rgb_hd"
+      "alt": "Vista Bistro restaurant dining room.",
+      "caption": "Dining Area"
     },
     {
       "name": "Buena Vista Suites - Vista Bistro - 1175488_rgb_hd",
@@ -65,7 +44,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Vista-Bistro---1175488-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457701/ycyol8ndtrpihh8meg5w.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Vista Bistro - 1175488_rgb_hd"
+      "alt": "Vista Bistro dining area and bar.",
+      "caption": "Dining Area and Bar"
     },
     {
       "name": "Buena Vista Suites - Bistro Pizza Express - 1175456_rgb_hd",
@@ -87,7 +67,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Bistro-Pizza-Express---1175456-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456400/tznribtfaubugugjf7nh.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Bistro Pizza Express - 1175456_rgb_hd"
+      "alt": "Bistro Pizza Express Entrance",
+      "caption": "Bistro Pizza Express Entrance"
     },
     {
       "name": "Buena Vista Suites - Bistro Pizza Express - 1175460_rgb_hd",
@@ -109,7 +90,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Bistro-Pizza-Express---1175460-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456402/dsaicj27mhonnay0pq3m.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Bistro Pizza Express - 1175460_rgb_hd"
+      "alt": "Bistro Pizza Express front counter.",
+      "caption": "Bistro Pizza Express Counter"
     },
     {
       "name": "Valencia Room_rgb_hd",
@@ -131,7 +113,8 @@
       "git_file_name": "_assets/image_data/Valencia-Room-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457568/adphlu02qwdtdcqhq4v8.jpg",
       "file_size": null,
-      "alt": "Valencia Room_rgb_hd"
+      "alt": "Valencia Room Dining Area",
+      "caption": "Valencia Room Dining Area"
     },
     {
       "name": "Valencia Room 03 web res_rgb_hd-2",
@@ -153,7 +136,8 @@
       "git_file_name": "_assets/image_data/Valencia-Room-03-web-res-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457566/g7ayfqyrkkrvysqx6p7z.jpg",
       "file_size": null,
-      "alt": "Valencia Room 03 web res_rgb_hd-2"
+      "alt": "Valencia Room breakfast buffet",
+      "caption": "Valencia Room Buffet Area"
     },
     {
       "name": "Valencia Room 01 web res_rgb_hd",
@@ -175,7 +159,8 @@
       "git_file_name": "_assets/image_data/Valencia-Room-01-web-res-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457565/nwbs4dheyg8t7ruxgxlt.jpg",
       "file_size": null,
-      "alt": "Valencia Room 01 web res_rgb_hd"
+      "alt": "Valencia Room salad bar",
+      "caption": "Salad Bar"
     },
     {
       "name": "Valencia Room 02 web res_rgb_hd-2",
@@ -197,7 +182,8 @@
       "git_file_name": "_assets/image_data/Valencia-Room-02-web-res-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457565/sfdhvkj2mg7xjh3clzsb.jpg",
       "file_size": null,
-      "alt": "Valencia Room 02 web res_rgb_hd-2"
+      "alt": "Valencia Room beverage area",
+      "caption": "Beverage Selections"
     },
     {
       "name": "Banquet table setting",
@@ -219,7 +205,8 @@
       "git_file_name": "_assets/image_data/Banquet-table-setting.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456395/ng1rb8f7kbpb2pdzkzxq.jpg",
       "file_size": null,
-      "alt": "Banquet table setting"
+      "alt": "Banquet table setting",
+      "caption": "Banquet Table Setting"
     }
   ],
   "description": "",

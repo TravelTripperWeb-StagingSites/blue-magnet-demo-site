@@ -18,9 +18,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617494/bsiu0rxgtbf6jctke3w7.jpg",
       "resource_type": "image",
       "size": 257360,
-      "caption": "",
+      "caption": "In-Room Microwave and Coffee Maker",
       "description": "",
-      "alt": "Full-King-Accessible-Suite-",
+      "alt": "Microwave, coffee maker and entertainment area.",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270988_1_master.jpg",
       "git_file_name": "_assets/image_data/Full-King-Accessible-Suite-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569617494/bsiu0rxgtbf6jctke3w7.jpg",
@@ -43,9 +43,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617493/mbrychoiidpdh68laqth.jpg",
       "resource_type": "image",
       "size": 295530,
-      "caption": "Bedroom",
+      "caption": "King Bed",
       "description": "",
-      "alt": "Bedroom",
+      "alt": "King bed with ocean paintings above headboard",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/251334_3_master.jpg",
       "git_file_name": "_assets/image_data/Full-King-Accessible-Suite-Bedroom.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569617493/mbrychoiidpdh68laqth.jpg",
@@ -96,7 +96,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Model-Suite-B---1297214-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456426/xixs7bu6pnc4umbvwyys.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Model Suite B - 1297214_rgb_hd"
+      "alt": "Suite living room with entertainment area.",
+      "caption": "Living Room"
     },
     {
       "name": "Buena Vista Suites - Model Suite A - 1297199_rgb_hd-2",
@@ -118,7 +119,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Model-Suite-A---1297199-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456424/f0cj6beoplevmlfwhlog.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Model Suite A - 1297199_rgb_hd-2"
+      "alt": "Living room and hallway leading to the bedroom.",
+      "caption": "Living Room"
     },
     {
       "name": "Buena Vista Suites - Guest Bathroom - 1297189_rgb_hd-2",
@@ -140,7 +142,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Guest-Bathroom---1297189-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456403/bn3wpkvoupgztnppi0jl.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Guest Bathroom - 1297189_rgb_hd-2"
+      "alt": "Bathroom area with view through hallway of bedroom.",
+      "caption": "Guest Bathroom"
     },
     {
       "name": "Buena Vista Suites - Model Suite A - 1297191_rgb_hd-2",
@@ -162,7 +165,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Model-Suite-A---1297191-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456423/fr5d075jziztw55ndthg.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Model Suite A - 1297191_rgb_hd-2"
+      "alt": "Two queen beds suite with entertainment area.",
+      "caption": "Two Queens Suite"
     },
     {
       "name": "Buena Vista Suites - Model Suite B - 1297206_rgb_hd-2",
@@ -184,7 +188,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Model-Suite-B---1297206-rgb-hd-2.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456425/a72mckqc4magowczmikm.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Model Suite B - 1297206_rgb_hd-2"
+      "alt": "King Suite with office area and view.",
+      "caption": "King Suite"
     },
     {
       "name": "Deluxe-King-Suite-",
@@ -203,9 +208,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617485/krfg6ssnkxeuzxgn87ql.jpg",
       "resource_type": "image",
       "size": 209794,
-      "caption": "",
+      "caption": "Office Area",
       "description": "",
-      "alt": "Deluxe-King-Suite-",
+      "alt": "Entertainment area and desk.",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270984_1_master.jpg",
       "git_file_name": "_assets/image_data/Deluxe-King-Suite-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569617485/krfg6ssnkxeuzxgn87ql.jpg",
@@ -253,9 +258,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617451/hkjkruj5t8i1c4fjicd6.jpg",
       "resource_type": "image",
       "size": 217600,
-      "caption": "",
+      "caption": "Sink and Amenities",
       "description": "",
-      "alt": "Queen-Suite--",
+      "alt": "Sink with premium amenity selection.",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270977_1_master.jpg",
       "git_file_name": "_assets/image_data/Queen-Suite--.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569617451/hkjkruj5t8i1c4fjicd6.jpg",
