@@ -46,7 +46,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p>&nbsp;</p>\n<h1 class=\"h1\" style=\"text-align: center;\">Hotel Venues &amp; Event Services</h1>\n<p>&nbsp;</p>"
+      "content": "<p>&nbsp;</p>\n<h3 class=\"h3\" style=\"text-align: center;\">Hotel Venues &amp; Event Services</h3>\n<p>&nbsp;</p>"
     }
   },
   {
