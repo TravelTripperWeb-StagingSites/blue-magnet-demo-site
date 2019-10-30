@@ -47,7 +47,10 @@
       "custom_classes": [
         "outer: col--border"
       ],
-      "style": "white text-primary"
+      "style": "white text-primary",
+      "advanced_options": {
+        "tabindex": "0"
+      }
     },
     "header_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
