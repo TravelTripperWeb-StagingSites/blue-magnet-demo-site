@@ -11,9 +11,6 @@ a.ext-link {
       display: inline-block;
     }    
   }
-  &.has-image em.fa {
-    display: none;
-  }
 }
 
 form {
@@ -119,6 +116,7 @@ footer {
   .social-links {
     a {
       margin: 0 1rem;
+      color: white;
       img {
         height: 45px;
       }
