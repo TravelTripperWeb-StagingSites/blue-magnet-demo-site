@@ -179,7 +179,7 @@
         "outer: col--border"
       ],
       "style": "white text-primary",
-      "content": "<p class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</p>\n<p style=\"text-align: center;\">Kick back and make yourself at home in one of our newly renovated Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>"
+      "content": "<h3 class=\"h3\" style=\"text-align: center;\">All-Suites Hotel</h3>\n<p style=\"text-align: center;\">Kick back and make yourself at home in one of our newly renovated Orlando suites, each offering separate living and sleeping areas, a microwave, mini-fridge, and flat-screen TVs in each room.</p>\n<p style=\"text-align: center;\"><a class=\"btn--primary btn\" href=\"suites/\">Learn More</a></p>"
     },
     "header_html": {
       "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
