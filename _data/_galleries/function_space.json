@@ -21,7 +21,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Prefunction-Area---1175480-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457699/obbd3cz6gkaj4ueu1ynt.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Prefunction Area - 1175480_rgb_hd"
+      "alt": "Prefunction seating area and lounge.",
+      "caption": "Prefunction Area"
     },
     {
       "name": "Buena Vista Suites - Prefunction Area - 1175479_rgb_hd",
@@ -43,7 +44,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Prefunction-Area---1175479-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457698/ehmzdbq7mjilbj1cflhf.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Prefunction Area - 1175479_rgb_hd"
+      "alt": "Prefunction seating area.",
+      "caption": "Prefunction Area"
     },
     {
       "name": "Buena Vista Suites Meeting Rooms Empty_rgb_hd",
@@ -65,7 +67,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites-Meeting-Rooms-Empty-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457704/rwzfpjgbkea6gupxiyeh.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites Meeting Rooms Empty_rgb_hd"
+      "alt": "Empty meeting room before setup.",
+      "caption": "Meeting Room"
     },
     {
       "name": "Buena Vista Suites Meeting Room_rgb_hd",
@@ -87,7 +90,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites-Meeting-Room-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457703/e997nezn8oxtzgtm0erq.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites Meeting Room_rgb_hd"
+      "alt": "Meeting room set up with long tables and speaker podium",
+      "caption": "Meeting Room"
     },
     {
       "name": "Buena Vista Suites - Prefunction Area - 1175478_rgb_hd",
@@ -109,7 +113,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Prefunction-Area---1175478-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456430/zzajgsvesazm5ramyyq1.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Prefunction Area - 1175478_rgb_hd"
+      "alt": "Prefunction lounge with view of outdoor patio.",
+      "caption": "Prefunction Area"
     },
     {
       "name": "Buena Vista Suites - Prefunction Area - 1175475_rgb_hd",
@@ -131,7 +136,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites---Prefunction-Area---1175475-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456428/xkarbdfy8ab6ralhkn5g.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites - Prefunction Area - 1175475_rgb_hd"
+      "alt": "Prefunction area with communal seating and view of outdoor patio.",
+      "caption": "Prefunction Area"
     },
     {
       "name": "Buena Vista Suites  Meeting Room 2_rgb_hd",
@@ -153,7 +159,8 @@
       "git_file_name": "_assets/image_data/Buena-Vista-Suites--Meeting-Room-2-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570456398/ofhc1b10rpenvf0wqkzm.jpg",
       "file_size": null,
-      "alt": "Buena Vista Suites  Meeting Room 2_rgb_hd"
+      "alt": "Meeting room set up with coffee and snack service.",
+      "caption": "Meeting Room"
     },
     {
       "name": "Executive Boardroom - 898510_rgb_hd",
@@ -175,7 +182,8 @@
       "git_file_name": "_assets/image_data/Executive-Boardroom---898510-rgb-hd.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457528/sorb8lxtsxbvginxwnmo.jpg",
       "file_size": null,
-      "alt": "Executive Boardroom - 898510_rgb_hd"
+      "alt": "Executive boardroom set up for meeting.",
+      "caption": "Executive Boardroom"
     }
   ],
   "description": "",
