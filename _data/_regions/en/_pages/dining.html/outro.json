@@ -9,12 +9,13 @@
       "image": {
         "alt": "",
         "caption": "",
-        "description": ""
+        "description": "",
+        "url": ""
       },
       "full_bleed": false
     },
-    "include_header": true,
-    "include_footer": true,
+    "include_header": false,
+    "include_footer": false,
     "layout": "7_5",
     "col1_type": "image",
     "col2_type": "html",
