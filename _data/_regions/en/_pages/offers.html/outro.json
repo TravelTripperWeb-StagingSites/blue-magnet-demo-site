@@ -54,7 +54,10 @@
         "inner: w-100 d-flex flex-column h-100 justify-content-center",
         "outer: col--border"
       ],
-      "style": "white text-primary"
+      "style": "white text-primary",
+      "advanced_options": {
+        "tabindex": "0"
+      }
     }
   }
 ]
