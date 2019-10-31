@@ -57,7 +57,10 @@
         "file_size": null,
         "alt": "Chef Dexter Breakfast at Buena Vista Suites"
       },
-      "_template": "image"
+      "_template": "image",
+      "advanced_options": {
+        "tabindex": "0"
+      }
     }
   }
 ]
