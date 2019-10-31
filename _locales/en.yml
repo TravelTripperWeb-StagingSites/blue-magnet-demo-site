@@ -1,16 +1,28 @@
 en:
+  nav:
+    menu: Menu
+    close: Close Menu
   dining:
     hours: Hours of Operation
   room:
+    book: Book Suite
+    wifi: High-Speed WIFI
     amenities: Amenities
     suite_amenities: Suite Amenities
     experience: The Experience
     name: SUITES
     back: Back to %{link}
+  rooms:
+    buttons:
+      book: Book Suite
   book_now: Reserve
   offers:
     name: OFFERS
     back: Back to %{link}
+    addons:
+      header: This offer includes
+    policy:
+      header: Terms & Conditions
     buttons:
       book: Book Now 
   buttons:
@@ -23,5 +35,5 @@ en:
     member_line_2: Become a Private Member
     copyright: Copyright %{time} Buena Vista Suites | Orlando, Florida. All rights reserved
     contact:
-      direct: "Direct Line:"
-      reservations: "Reservations:"
+      direct: "Direct Line"
+      reservations: "Reservations"

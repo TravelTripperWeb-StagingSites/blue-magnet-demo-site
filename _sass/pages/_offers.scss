@@ -1,12 +1,14 @@
-.offer-detail .c-offer-wrap {
-  margin: 2rem 0;
-  .c-offer__image-group {
+
+
+.offer-detail .offer-wrap {
+  margin: 2rem 0 0;
+  .offer__image-group {
     width: 100%;
     max-width: 100%;
     
     height: 50vh;
     max-height: 300px;
-    .c-offer__image {
+    .offer__image-wrap, .offer__image {
       width: 100%;
       height: 100%;
     }
@@ -17,7 +19,7 @@
       font-family: "object-fit";
     }
   }
-  .c-offer {
+  .offer {
     &__name {
       @extend .h1
     }
@@ -27,84 +29,95 @@
     }
     &__description {
       margin: 1rem auto;
-      max-width: 600px;
+      max-width: 80%;
     }
     &__select .ttweb-booking-button-offer{
       margin-top: 1rem;      
       align-items: center;
+    }
+    &__select {
+      margin: 2rem 0;
+    }
+    &__addons {
+      margin: 2rem 0;
+      li {
+        list-style: none;
+      }
+    }
+    &__addons-header {
+      margin: 0;
+      font-weight: bold;
+    }
+    &__policy {
+      background: $light;
+      margin: 42px 0-$grid-gutter-width 0;
+      padding: 42px;
+      text-align: center;
+      font-size: 14px;
+      text-transform: uppercase;
+      .offer__policy-header {
+        font-weight: bold;
+        margin: 0 auto 28px;
+      }
+      p {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 80%;
+      }
     }
   }
 }
 
 
 .c-offer-list {
+  width: 100%;
+  max-width: none;
   &__items {
     display: block;    
   }
-  .c-offer-wrap {
-    background: $light;
-    margin: 4rem 0;
-    width: 100%;    
-    &:nth-child(even) {
-      .c-offer__content {
-        order: 0;
-      }
-      .c-offer__image-group {
-        order: 1;
-      }      
-    }    
-    
+  
+  .offer-wrap {
+    @include overflow-image-item("offer");
   }
-  .c-offer {
-    max-width: 100%;
-    display: flex;
-    align-items: stretch;
-    
-    
+  .offer {
     .ttweb-offer {
+      @include make-container();
       display: flex;
-    }
-    &__image-group {
-      height: 100%;
-    }
-    &__image {
-      @include overflow-image;
-      picture {
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: "contain";
-          font-family: "object-fit";
+      max-width: $max-image-bleed-row-width;      
+      flex-wrap: wrap;
+      @media (max-width: $max-image-bleed-row-width) {
+        padding: 0;
+        .offer__image-group {
+          padding: 0;
         }
-      }      
+        .offer__content-wrap {
+          padding: 1rem $grid-gutter-width 2rem;
+          
+        }
+      }
     }
-    &__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      
-    }
-    &__name {
-      @extend .h3;
-    }
+
     &__description {
       display: none;
     }
     &__short-description {
       margin: 1rem 0;
     }
-    &__rate {
-      display: none;
-    }
+
     &__select {
-      margin-top: 1rem;
+      margin-top: .5rem;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: flex-start;
+      .btn {
+        margin: .5rem 1rem .5rem 0;
+      }
+      
       .ttweb-booking-button-offer {
         flex: 0 0 50%;
         .ttweb-booking-button {

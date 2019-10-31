@@ -1,0 +1,369 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Orlando Vineland Premium Outlets"
+  },
+  "sub_title_localized": {
+    "en": "Orlando Vineland Premium Outlets"
+  },
+  "featured": true,
+  "category": [
+    "Shopping Mall"
+  ],
+  "website_url": "https://www.premiumoutlets.com/outlet/orlando-vineland",
+  "location": {
+    "name": "Orlando Vineland Premium Outlets",
+    "address": "8200 Vineland Ave, Orlando, FL 32821, USA",
+    "phone": "(407) 238-7787",
+    "place_id": "ChIJfUTGO2uA3YgR8t5QlAd-jTY",
+    "reference": "ChIJfUTGO2uA3YgR8t5QlAd-jTY",
+    "latitude": 28.3871767,
+    "longitude": -81.4923607,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "8200",
+          "short_name": "8200",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Vineland Avenue",
+          "short_name": "Vineland Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">8200 Vineland Ave</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32821</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "8200 Vineland Ave, Orlando, FL 32821, USA",
+      "formatted_phone_number": "(407) 238-7787",
+      "geometry": {
+        "location": {
+          "lat": 28.3871767,
+          "lng": -81.4923607
+        },
+        "viewport": {
+          "south": 28.38573985000001,
+          "west": -81.49619244999997,
+          "north": 28.38917764999999,
+          "east": -81.48840265000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "80d6c37ccfa8b795bfd83dd8d75ee850ad0f52f7",
+      "international_phone_number": "+1 407-238-7787",
+      "name": "Orlando Vineland Premium Outlets",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571626800000
+            },
+            "open": {
+              "day": 0,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571580000000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571713200000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571799600000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571281200000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571367600000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571454000000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2300",
+              "hours": 23,
+              "minutes": 0,
+              "nextDate": 1571540400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 11:00 PM",
+          "Tuesday: 10:00 AM – 11:00 PM",
+          "Wednesday: 10:00 AM – 11:00 PM",
+          "Thursday: 10:00 AM – 11:00 PM",
+          "Friday: 10:00 AM – 11:00 PM",
+          "Saturday: 10:00 AM – 11:00 PM",
+          "Sunday: 10:00 AM – 11:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 800,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116051880041238649145/photos\">Orlando Vineland Premium Outlets</a>"
+          ],
+          "width": 1200
+        },
+        {
+          "height": 628,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116051880041238649145/photos\">Orlando Vineland Premium Outlets</a>"
+          ],
+          "width": 1116
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106439554597973240250/photos\">WaiTuck CHONG</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107229873917542704451/photos\">Monique Johnson</a>"
+          ],
+          "width": 2268
+        },
+        {
+          "height": 2160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117381186996540638360/photos\">FORREST L TENNON</a>"
+          ],
+          "width": 2880
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106439554597973240250/photos\">WaiTuck CHONG</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102714109837520554923/photos\">Alina Diaz</a>"
+          ],
+          "width": 2988
+        },
+        {
+          "height": 3464,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115654669648852629486/photos\">ADRIANO COSTA</a>"
+          ],
+          "width": 4618
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114220044868356681798/photos\">Mohammed Alfarraj</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105023772350203392919/photos\">Marlene Herrera</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJfUTGO2uA3YgR8t5QlAd-jTY",
+      "plus_code": {
+        "compound_code": "9GP5+V3 Orlando, Florida, United States",
+        "global_code": "76WW9GP5+V3"
+      },
+      "rating": 4.399999999999999,
+      "reference": "ChIJfUTGO2uA3YgR8t5QlAd-jTY",
+      "reviews": [
+        {
+          "author_name": "krystal daye",
+          "author_url": "https://www.google.com/maps/contrib/115559056399332072659/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-6qtjaRZkw1A/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdDacQDq7cHfDZLN6qi3ZD5II1Ywg/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a week ago",
+          "text": "Nice selection of stores. Was able to get everything I wanted while I was there. If you from out of town, it a great place to shop at. A decent food court that is similar to a mall food court.",
+          "time": 1570142661
+        },
+        {
+          "author_name": "Cary Brown",
+          "author_url": "https://www.google.com/maps/contrib/111644673136196029337/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAdpsIHQGU6MIT9osfH5X4qyEuhtLh0hnd6Z15ydQ=s128-c0x00000000-cc-rp-mo-ba7",
+          "rating": 3,
+          "relative_time_description": "2 months ago",
+          "text": "An aging outdoor shopping center.  Prices are reasonable. Booths are set up in several locations, offering for sale, discount tickets to Orlando's amusement parks. In the food court, there's a mix of American and Cuban foods.  \n\nSoft drink and snack machines are located near the bathrooms. Most of the local resorts offer free travel to the shopping center. Plenty of free parking which, like most of the facility is wheelchair accessible.",
+          "time": 1564624971
+        },
+        {
+          "author_name": "Dean Green",
+          "author_url": "https://www.google.com/maps/contrib/117635773628785613214/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDeMfoxA5UmnZRgJyLW5M8LbrjXeEKpEFoBkJsNew=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Amazing mall. They have a fantastic amount of choice and a lot of free parking. Stores are well priced and lots of them. All areas seemed clean and well looked after, no big gaps of unfilled shops",
+          "time": 1568051366
+        },
+        {
+          "author_name": "Denise Gainza",
+          "author_url": "https://www.google.com/maps/contrib/108963221003938524923/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAWkqJXldTZqpCH9TMR1Co2Jhdb43BdCn2k2XSy=s128-c0x00000000-cc-rp-mo-ba2",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "Really nice place to walk around.  It’s out in the open except the food court.  I think because it’s a tourist area the prices are the same as if you went to the mall.  You would think that because it’s an outlet mall things would be a bit cheaper than normal",
+          "time": 1571232501
+        },
+        {
+          "author_name": "Stewart Wright",
+          "author_url": "https://www.google.com/maps/contrib/115315733438870246080/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-9Su3lLnKC2s/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfkvJJhTTvphb-mndizAdg284I3eg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "Great place to shop.  Timberland associates were awesome.  Michelle was outstanding.  Pranda men associates was stereotyping me as soon as I walked me.  So i bought my lady a purse for $800 just to show them I was a serious buyer. Then I returned it for a full refund!!!",
+          "time": 1569793599
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=3930936620782509810",
+      "user_ratings_total": 21127,
+      "vicinity": "8200 Vineland Avenue, Orlando",
+      "website": "https://www.premiumoutlets.com/outlet/orlando-vineland",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

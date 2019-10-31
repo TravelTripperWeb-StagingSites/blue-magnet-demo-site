@@ -1,9 +1,10 @@
 ---
 latitude: 28.35793959999999
 longitude: -81.4957291
-map_zoom: 12
-name: Buena Vista Suites, Orlando
+map_zoom: 17
+name: Buena Vista Suites Orlando
 email: ''
+phone_number: 123-123-1234
 address:
   street1: 8203 World Center Drive
   state: FL
@@ -11,8 +12,6 @@ address:
   zip_code: '32821'
 default_currency: USD
 default_timezone: America/New_York
-_hotel_id: BVSO
-_portal_id: buenavistasuites
 __EDITABLE_FIELDS__:
   name:
     required: true
@@ -66,11 +65,11 @@ logo:
   size: 23434
   path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569448690/ixjcapqyleaauyodntdh.png"
   file_size: 
-  alt: Buena Vista Suites, Orlando
+  alt: Buena Vista Suites Orlando
   caption: ''
   description: ''
-phone: "(407) 239-8588"
-reservations_phone: "(800) 537 7737"
+phone: <a href="tel:+014072398588">(407) 239-8588</a>
+reservations_phone: <a href="tel:+018005377737">(800) 537 7737</a>
 google_location:
   name: Buena Vista Suites
   address: 8203 World Center Dr, Orlando, FL 32821, USA

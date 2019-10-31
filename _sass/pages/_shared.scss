@@ -1,6 +1,23 @@
 // Shared Page Elements
 // ==========================================================================
 
+a.ext-link {
+  em.fa {
+    display: none;
+  }
+  &:hover, &:focus {
+    em.fa {
+      margin-left: 2px;
+      display: inline-block;
+    }    
+  }
+}
+.ttweb-component--processed .ttweb-booking-widget-button a.ext-link {
+  em.fa {
+    display: none;
+  }
+}
+
 form {
   input[type="text"], input[type="email"] {
     width: 100%;
@@ -26,14 +43,159 @@ form {
     display: block;
   }
   &.search-form {
+    margin: 0px .5rem 0px 18px;
+    vertical-align: top;
+    height: 22px;
+    position: relative;
     input[type="text"] {
-      font-size: 80%;
-      padding: 2px !important;
+      vertical-align: top;
+      padding: 3px 6px !important;
       margin: 0 !important;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: $gray-900;
+      letter-spacing: .6px;
+      display: inline;
+      width: 177px;
+      height: 22px;
+    }
+    #search-icon {
+      position: relative;
+      display: block;
+      right: 3px;
+      top: 3px;
+      width: 17px;
+      font-weight: normal;
+      font-size: 14px;
+      position: absolute;
+      color: $dark;
+      height: 17px;
     }
   }
 }
+/* Datepicker //////////////////////////////////////////////////////*/
+fieldset .form-check {
+	display: inline-block;
+	padding-left: 30px;
+}
+fieldset .form-check > .form-check-input {
+	top: 0;
+	bottom: -1.25rem;
+	left: -1.25rem;
+}
 
+/* Datepicker //////////////////////////////////////////////////////*/
+.form-group_datepicker {
+	position:relative;
+}
+.form-group input.datepicker {
+	padding-right:40px;
+}
+.form-group .form-group_datepicker > button {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:auto;
+	right: 5px;
+	width:32px;
+	height: 30px;
+	margin:auto;
+}
+
+/* Errors /////////////////////////////////////////////////////////*/
+#error-summary {
+	display: none;
+	padding: 1em;
+	margin: 0 0 40px;
+	font-weight:700;
+	text-align: center;
+	background: #ffc0cb;
+	border: 3px dashed #e50000;
+	color: #000;
+	font-size: 15px;
+}
+#error-summary ul {
+	padding:.5rem;
+	margin:.5rem;
+	list-style: none;
+	color: #1a1712;
+}
+#error-summary ul a {
+	display: block;
+	color:#e50000;
+}
+#error-summary ul a:empty,
+#error-summary ul a:focus:empty {
+	display: none;
+}
+#error-summary .h3,
+.error-message {
+	background: #e50000;
+	color: #fff;
+	padding:.2rem .8rem;
+	display: block;
+	border: 1px solid #e50000;
+	margin-top: 0px;
+}
+.error-message { box-sizing: border-box; }
+#error-summary .h3 {
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 1.75rem;
+	padding-left: 40px;
+}
+#error-summary .h3:before {
+	content: '!';
+	background: #fff;
+	height: 1em;
+	width: 1em;
+	border-radius: 9px;
+	display: inline-block;
+	color: #e50000;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-left: -30px;
+	line-height: 1em;
+	text-align: center;
+}
+fieldset[aria-invalid="true"] {
+	border: 1px solid #e50000;
+	padding: 10px 10px 0px 10px;
+}
+fieldset[aria-invalid="true"] span.error-message {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+select + span.error-message { max-width: 320px; }
+
+.required > fieldset.errors,
+textarea[aria-invalid="true"],
+input[type="text"][aria-invalid="true"],
+input[type="email"][aria-invalid="true"],
+input[type="checkbox"][aria-invalid="true"],
+input[type="radio"][aria-invalid="true"],
+select[aria-invalid="true"] { border: 1px solid #e50000; }
+
+select[aria-invalid="true"] { margin-bottom: 0px; }
+
+textarea[aria-invalid="true"]:focus,
+input[type="text"][aria-invalid="true"]:focus,
+input[type="email"][aria-invalid="true"]:focus,
+select[aria-invalid="true"]:focus {
+	outline-offset: -2px;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: #e50000;
+}
+
+
+.back-link.col-12 {
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 .back-link p {
   font-size: 80%;
@@ -47,32 +209,222 @@ ul {
 
 
 footer {
+  font-size: 16px;
+  padding-bottom: 35px;
   .footer-cross-sell {
     padding: 50px;
+    .h5, .h6 {
+      margin: 0;
+    }
+    .h5 {
+      margin-bottom: 22px;
+    }
   }
   .social-links {
-    margin: 1rem 0;
     a {
       margin: 0 1rem;
+      color: white;
       img {
-        height: 50px;
-        width: 50px;
+        height: 45px;
       }
     }
   }
   strong {
     text-transform: uppercase;
   }
+  .small-spaced {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .phone-number {
+    display: inline-block;
+    + .phone-number {
+      margin-left: 1em;
+      &:before {
+        margin-right: 1em;
+        content: "|";
+        display: inline-block;
+      }
+    }
+  }
   .copyright {
-    font-size: 80%;
+    font-size: 12px;
+    margin-top: 12px;
   }
   .logo-badges {
     text-align: right;
+    display: flex;
+    align-items: center;
+    
+    img {
+      margin-left: 21px;
+    }
     img.green-lodging {
       height: 99px;
     }
     img.disney-hotel-neighbor {
       height: 83px;
+    }
+  }
+  .nav--footer {
+    margin: 1rem 0 34px;
+    .nav__item {
+      .nav__link {
+        margin: 0 1em 0 0;
+        font-size: .75rem;
+      }    
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+    .nav--footer {
+      margin-top: 35px;
+      justify-content: center !important;
+      .nav__item {
+        .nav__link {
+          margin: 0 .5em;
+          font-size: 14px;
+          line-height: 24px;
+        }    
+      }
+    }
+    .phone-number {
+      display: block;
+      + .phone-number {
+        margin-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .copyright {
+      margin-top: 24px;
+    }
+    .logo-badges {
+      img {
+        height: 100% !important;
+      }
+      margin: 2em 0;
+      height: 83px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+.offer, .room {
+  &__rate {
+    display: flex;      
+  }
+  .ttweb-cross-out-rate, .ttweb-loading-rates {
+    margin-right: 6px;
+    &__crossout {
+      margin:0 6px 0 0;
+    }
+    &__actual {
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+    }
+  }
+  .ttweb-cross-out-rate-error {
+    font-size: .75rem;
+    font-style: italic;
+    &__change-dates {
+      display: block;
+      font-style: normal;
+    }
+  }
+}
+
+.cc-banner {
+  background: $primary !important;
+  color: white !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  * {
+    font-family: $family-primary;    
+  }
+  a, a:hover, a:visited {
+    color: white;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .cc-message {
+    flex: inherit !important;   
+    font-size: 15px;
+    letter-spacing: .75px; 
+  }
+  .cc-compliance {
+    a.cc-btn, a.cc-btn:hover, a.cc-btn:visited {
+      font-weight: normal;
+      color: white;
+      padding: 0;
+      border: 0;
+    }
+  }
+}
+
+.modal-pop-up {
+  display: none;
+  &.show {
+    display: block;
+  }
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20000;
+  &__bg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;left:0; bottom: 0; right: 0;
+    background: $black;
+    opacity: 0.5;
+  }
+  &__close {
+    position: absolute;
+    top: .5rem;
+    right: .75rem;
+    font-size: 25px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  &__content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    max-width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    background: $white;
+    border: 10px solid $secondary;
+    padding: 1.5rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      color: $primary;
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 7px;
+      line-height: 42px;
+      text-transform: uppercase;
+    }
+    .text-small {
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
     }
   }
 }

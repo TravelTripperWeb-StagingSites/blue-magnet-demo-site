@@ -1,0 +1,168 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Disney Springs&trade;"
+  },
+  "sub_title_localized": {
+    "en": "Disney Springs&trade;"
+  },
+  "featured": true,
+  "category": [
+    "Shop"
+  ],
+  "website_url": "https://www.disneysprings.com/",
+  "location": {
+    "name": "Disney Springs",
+    "address": "Lake Buena Vista, FL 32830, USA",
+    "place_id": "ChIJv98Glod_3YgRrJPQ50UsZQg",
+    "reference": "ChIJv98Glod_3YgRrJPQ50UsZQg",
+    "latitude": 28.3703464,
+    "longitude": -81.52087990000001,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Lake Buena Vista",
+          "short_name": "Lake Buena Vista",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32830",
+          "short_name": "32830",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Lake Buena Vista</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32830</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Lake Buena Vista, FL 32830, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.3703464,
+          "lng": -81.52087990000001
+        },
+        "viewport": {
+          "south": 28.3671199,
+          "west": -81.5262098,
+          "north": 28.3750728,
+          "east": -81.5129321
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "625c4891677eb32f1e8703617c2ac2d92ac33bf1",
+      "name": "Disney Springs",
+      "photos": [
+        {
+          "height": 4632,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114662023665545389315/photos\">Fernanda Dias</a>"
+          ],
+          "width": 3474
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102300391406248155387/photos\">Ankur A</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102000134067704807227/photos\">Sunny P</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112960957431679988820/photos\">Chris Swan</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1932,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114247679180875081554/photos\">Mystic Salvia</a>"
+          ],
+          "width": 2576
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103451020764188846879/photos\">David Noce</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2218,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101382475906051121134/photos\">Donna Pelletier</a>"
+          ],
+          "width": 4656
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102000134067704807227/photos\">Sunny P</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102943964584069011691/photos\">Patricia Sznaidman</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112494560411525845548/photos\">Rochelle Monson</a>"
+          ],
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJv98Glod_3YgRrJPQ50UsZQg",
+      "reference": "ChIJv98Glod_3YgRrJPQ50UsZQg",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "premise",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?q=Lake+Buena+Vista,+FL+32830,+USA&ftid=0x88dd7f879606dfbf:0x8652c45e7d093ac",
+      "vicinity": "Lake Buena Vista",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

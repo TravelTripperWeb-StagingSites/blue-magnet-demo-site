@@ -1,50 +1,78 @@
-
-.navbar {
+.navbar, .navbar.is-fiexd-top {
+  z-index: 300;
+  &.is-fixed-top {
+    z-index: 5000;    
+  }
+  &--inner {
+    width: $max-menu-width;
+    flex-wrap: nowrap !important;
+    height: $primary-button-height;
+  }
   background-color: $white;
+  border-bottom: 1px solid #BBB9B9DE;
   .btn--primary {
     font-size: 17px;
     letter-spacing: 6.8px;
-    height: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    @include inner-border(2px);    
+    height: $primary-button-height;
+    padding: 24px 44px;
+    @include inner-border(4px);    
+    &:hover {
+      &:before {
+        display: none;
+      }
+    }
+    
   }
+
+  
   .nav__item {
+    a.nav__link {
+      height: 1em;
+      line-height: 1em;
+    }
     a.nav__link.active {
       color: $primary;
     }
   }
   .subnav {
+    padding-top: 14px;
     .nav__item {
+      height: 3em;
+      padding-top: 1em;
+      padding-bottom: 1em;
       background-color: $light;
+      &:hover {
+        background-color: $light;        
+      }
+      a.nav__link {
+        padding: 0; 
+      }
     }
   }
 }
 
 .nav--top {
   .nav__item {
-    .nav__link {
+    a.nav__link {
       font-size: 14px;
+      line-height: 1em;
+      height: 22px;
+      padding: 4px 0;
+      letter-spacing: .7px;
     }
-  }
-  input#search {
-    margin-right: .5rem;
   }
 }
 
 
 
 // Customize these breakpoints when menu is changed to handle different sizes
-$min-menu-width: 1120px;
 
-
-
-.navbar {
-  height: 124px;
+.navbar, .navbar.is-fixed-top {
   .navbar-brand {
     height: 100%;
     display: flex;
     align-items: center;
+    margin: 0;
     .nav__logo {
       img {
         width: 330px;
@@ -54,22 +82,26 @@ $min-menu-width: 1120px;
     
   }
   .menu-container {
-    height: calc(124px - 1.5rem);
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
   }
-  .break-column {
-    width: 0;
-    flex-basis: 100%;
-  }
   .nav--top {
-    height: 40%;
+    height: 22px;
     align-items: flex-end;
   }
   .nav--primary {
-    height: 60%;
+    height: 17px;
+    margin-top: 29px;
+    .nav__item {
+      a.nav__link {
+        height: 15px;
+//        margin-right:0;
+//        margin-left: 1rem;
+      }
+    }
   }
 
   
@@ -78,10 +110,13 @@ $min-menu-width: 1120px;
   }
 }
   
-@media (max-width: $min-menu-width) { 
+@media (max-width: $max-menu-width + 10) { 
   // Place the menu last
+  .navbar--inner {
+    width: $min-menu-width;
+  }
+  
   .navbar.is-fixed-top {
-    height: 124px;
     .navbar-brand {
       height: auto;
       .nav__logo {
@@ -103,33 +138,49 @@ $min-menu-width: 1120px;
       align-items: center;
     }
     .nav--primary {
-      justify-content: space-around !important;
+      justify-content: flex-end !important;
     }
   }
 }
 
-@include media-breakpoint-down(sm) {
-  .navbar {
+@media (max-width: 1065px) { 
+  .navbar, .navbar.is-fixed-top {
+    padding-top: .5rem !important;
     display: block;
-    &.is-fixed-top {
-      height: calc(74px + 2.5rem);
-      &+.main {
-        padding-top: calc(74px + 2.5rem);
-      }
-      
-      padding: 0;
-      .menu-container {
-        height: calc(74px);
-        justify-content: space-between;
-      }
+    &--inner {
+      width: 100%;
+      flex-wrap: wrap !important;
+    }
+//    &.is-fixed-top {
+//      height: calc(74px + 2.5rem);
+//      &+.main {
+//        padding-top: calc(74px + 2.5rem);
+//      }
+//
+//      padding: 0;
+//      .menu-container {
+//        height: calc(74px);
+//        justify-content: space-between;
+//      }
+//    }
+    
+    .navbar-brand {
+      margin-left: 24px;
+    }
+    .menu-container {
+      margin-right: 24px;
     }
     
-    .navabar-brand {
+    .navbar-brand {
       .nav__logo {
         img {
           width: 190px;
         }
       }
+    }
+    
+    .menu-container {
+      width: auto;
     }
     
   
@@ -146,13 +197,12 @@ $min-menu-width: 1120px;
       .btn--primary {
         width: 100%;
         border: none;
-        background: $secondary;
+        background: $primary;
         color: white;
         height: 2.5rem;
         font-size: 1rem;
         line-height: 1rem;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
+        padding: .75rem 1rem;
         &:before {
           display: none;
         }
@@ -170,15 +220,54 @@ $min-menu-width: 1120px;
       height: auto;
     }
     
+    .navbar__burger-wrap {
+      .navbar__burger {
+        width: 100%;
+        text-transform: uppercase;
+        &--close {
+          display: none;        
+        }
+        &--open {
+          width: 36px;      
+          text-align: center;
+          span {
+            width: 100%;
+            height: 2px;
+            left: 0;
+            color: #4D4435;
+            &:nth-child(1) {
+              top: calc(50% + 0px);
+            }
+            &:nth-child(2) {
+              top: calc(50% + 7px);
+            }
+            &:nth-child(3) {
+              top: calc(50% + 14px);
+            }
+          }
+          span.navbar__burger-label {
+            top: calc(50% - 20px);
+            height: 16px;
+            font-size: 12px;
+            letter-spacing: .3px;
+            background: none;
+          
+          }
+        }
+      }
+    }
+    
+    
     &.nav--active {
       .menu-container {
         position: fixed;
         padding: 0 !important;
         top: 0; bottom: 0;
         left: 0; right: 0;
+        margin: 0;
         height: auto;
         width: auto;
-        z-index: 31;
+        z-index: 5000;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -190,12 +279,37 @@ $min-menu-width: 1120px;
         }
         .navbar__burger-wrap {
           order: 0;
+          .navbar__burger {
+            &--close {
+              display: block;
+              width: 100%;
+              background: $primary;
+              color: $white;
+              height: 2.5em;
+              line-height: 1em;
+              font-weight: bold;
+              font-size: 16px;      
+              padding: .75em;
+              text-align: center;
+            }
+            &--open {
+              display: none;
+            }
+          }
         }
         .nav--primary {
           order: 1;
+          margin-top: 0;
         }
         .nav--top {
           order: 2;
+          margin-top: 1em;
+          
+          .nav__item {
+           .nav__link {
+             padding: .5em 0;
+           } 
+          }
         }
         .nav--primary, .nav--top {
           display: flex;
@@ -216,28 +330,50 @@ $min-menu-width: 1120px;
               text-align: center;
               width: 100%;
               margin: 0;
-              padding: 1em 0 0;
+              height: auto;
             }
+           
+          }
+          form.search-form {
+            display: block;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem;
             input#search {
-              margin-top: 1em;
+              width: 100%;
             }
           }
+          
         }
         .nav--primary {
           .nav__item {
             .nav__link {
               padding: 1em 0;
+              height: auto;
               border-bottom: $border-width solid $border-color;
               border-top: $border-width solid $border-color;
               margin-top: -1px;
             }
             &.has-subnav {
+              .nav__item {
+                
+              }
               .nav__link {
-                border-bottom: 0;                
+                border-bottom-width: 0;                
+                padding-bottom: 0;
               }
               .subnav {
+                .nav__item {
+                  height: auto;
+                  padding: 0;
+                }
                 .nav__link {
-                  border: 0;                  
+                  font-size: 15px;
+                  text-transform: none;
+                  padding-bottom: 1em;
+                  border: 0;
+                  border-bottom-width: $border-width;
                 }
               }
             }
@@ -260,12 +396,3 @@ $min-menu-width: 1120px;
   }          
 }
 
-.nav--footer {
-  margin: 1rem 0;
-  .nav__item {
-    .nav__link {
-      margin: 0 1em 0 0;
-      font-size: .75rem;
-    }    
-  }
-}

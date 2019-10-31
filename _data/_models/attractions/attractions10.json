@@ -1,0 +1,373 @@
+{
+  "order": "",
+  "featured": true,
+  "website_url": "https://www.universalorlando.com/web/en/us/index.html",
+  "name_localized": {
+    "en": "Universal Orlando Resort&trade;"
+  },
+  "location": {
+    "name": "Universal Orlando Resort",
+    "address": "6000 Universal Blvd, Orlando, FL 32819, USA",
+    "phone": "(407) 363-8000",
+    "place_id": "ChIJvRBCrN9-54gRGZuuaCLGrQE",
+    "reference": "ChIJvRBCrN9-54gRGZuuaCLGrQE",
+    "latitude": 28.4743207,
+    "longitude": -81.46781929999997,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "6000",
+          "short_name": "6000",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Universal Boulevard",
+          "short_name": "Universal Blvd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Southwest Orlando",
+          "short_name": "Southwest Orlando",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32819",
+          "short_name": "32819",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">6000 Universal Blvd</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32819</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "6000 Universal Blvd, Orlando, FL 32819, USA",
+      "formatted_phone_number": "(407) 363-8000",
+      "geometry": {
+        "location": {
+          "lat": 28.4743207,
+          "lng": -81.46781929999997
+        },
+        "viewport": {
+          "south": 28.4727498197085,
+          "west": -81.47111519999999,
+          "north": 28.4754477802915,
+          "east": -81.4579316
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "e86ec1baedc0dd3d1882ca148e05e89dd16f1d2a",
+      "international_phone_number": "+1 407-363-8000",
+      "name": "Universal Orlando Resort",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 1,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571630400000
+            },
+            "open": {
+              "day": 0,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571572800000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571716800000
+            },
+            "open": {
+              "day": 1,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571659200000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571803200000
+            },
+            "open": {
+              "day": 2,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571745600000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571284800000
+            },
+            "open": {
+              "day": 3,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571832000000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571371200000
+            },
+            "open": {
+              "day": 4,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571313600000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571457600000
+            },
+            "open": {
+              "day": 5,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571400000000
+            }
+          },
+          {
+            "close": {
+              "day": 0,
+              "time": "0000",
+              "hours": 0,
+              "minutes": 0,
+              "nextDate": 1571544000000
+            },
+            "open": {
+              "day": 6,
+              "time": "0800",
+              "hours": 8,
+              "minutes": 0,
+              "nextDate": 1571486400000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 8:00 AM – 12:00 AM",
+          "Tuesday: 8:00 AM – 12:00 AM",
+          "Wednesday: 8:00 AM – 12:00 AM",
+          "Thursday: 8:00 AM – 12:00 AM",
+          "Friday: 8:00 AM – 12:00 AM",
+          "Saturday: 8:00 AM – 12:00 AM",
+          "Sunday: 8:00 AM – 12:00 AM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106820780373503685424/photos\">Dionmy Castillo</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107755642697457687252/photos\">Mark Fryer</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 2160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107306619379628533169/photos\">Stephen Struss</a>"
+          ],
+          "width": 3840
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107619341666837349387/photos\">daniel wood</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101515237013030468978/photos\">Shadow Sqad vlogs</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101089455859414021252/photos\">Silvio Maia</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111374172528047911272/photos\">kate winter</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118103466732880901453/photos\">Gina Linnette Betancourt</a>"
+          ],
+          "width": 1960
+        },
+        {
+          "height": 4048,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109688306599864000433/photos\">Oscar Ocampo</a>"
+          ],
+          "width": 3036
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114954327725305770646/photos\">Luci Silva</a>"
+          ],
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJvRBCrN9-54gRGZuuaCLGrQE",
+      "plus_code": {
+        "compound_code": "FGFJ+PV Orlando, Florida, United States",
+        "global_code": "76WWFGFJ+PV"
+      },
+      "price_level": 3,
+      "rating": 4.699999999999999,
+      "reference": "ChIJvRBCrN9-54gRGZuuaCLGrQE",
+      "reviews": [
+        {
+          "author_name": "Carmen Cheree",
+          "author_url": "https://www.google.com/maps/contrib/116718919600990591419/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDP62aLv836FfTZcllu9Mg5jpBffPY_ygd23bV4=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 2,
+          "relative_time_description": "in the last week",
+          "text": "Don’t go if you’re pregnant. Period. I researched ahead of time and read on their site that there was still plenty to do. There truly isn’t. You will not get your money’s worth. You’ll pay the same price as everyone else, but will be able to do minimal activities. I should’ve known better. It may be better if you come on their horror nights. There may be more visual attractions. I’ll never know.",
+          "time": 1571070630
+        },
+        {
+          "author_name": "Stacy Niessing",
+          "author_url": "https://www.google.com/maps/contrib/115014906546139329174/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-PaiX9VUxpRU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfecnGtAB1-P11oyYGRZwqqfH27UA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "3 weeks ago",
+          "text": "A side from being an amazing place to experience, their customer service is excellent!\n I had to change the dates of an upcoming trip due to the death of my mother in law. I had purchased tickets for an event that were non refundable. I called universal and explained the situation. I asked if there was anything that could be done about the non - refundable tickets. They refunded me! They did not have to. The non-refund policy was clearly stated on the tickets I purchased. Way to go for a big company to have compassion of an individual going through a difficult time! A company with a heart!  So grateful. Can’t wait to go back in December!",
+          "time": 1569341107
+        },
+        {
+          "author_name": "sean baber",
+          "author_url": "https://www.google.com/maps/contrib/118116984176017223712/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-VACf3o6wgkY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfhV4EVvkFtvrtAr_RZq9rCO19h8g/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a week ago",
+          "text": "This theme park was amazing. Great employees who seem to love their jobs. Bathrooms were always sanitary and clean. Food was decent for a theme park. Drink deals make getting a souvenir cup worth the money.  Not once in 10 days did I feel like I was being extorted of my hard earned money, which has happened at other parks.",
+          "time": 1570287796
+        },
+        {
+          "author_name": "Jose Junior",
+          "author_url": "https://www.google.com/maps/contrib/102765698326775977120/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mC4f_dyPteix1m0-UDJMbLhaaEuPvaG9uXXfcqu=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Best park for teenagers. It’s a bit different concept from Disney, however, both parks are like a dream for the kids. The lines are so big during the weekend and holidays it’s recommended to get express passes or plan your vacation in low season which is much better to enjoy all the attractions and have a better experience. Regular parking costs 26 dollars and VIP parking 40 dollars if you want save money just take the regular parking which will be fine anyways. My whole family loved the Harry Potter Experience and Rides. It’s just the best!!!!",
+          "time": 1568096251
+        },
+        {
+          "author_name": "Abdel mash",
+          "author_url": "https://www.google.com/maps/contrib/104426901594092064790/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mASVXlFH3ieOnq_m7ICUbkpZTeO2ZljT7_1WLiB=s128-c0x00000000-cc-rp-mo-ba2",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "Best park for teenagers. It’s a bit different concept from Disney, however, both parks are like a dream for the kids. The lines are so big during the weekend and holidays it’s recommended to get express passes or plan your vacation in low …",
+          "time": 1571175704
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=120970616096332569",
+      "user_ratings_total": 96223,
+      "vicinity": "6000 Universal Boulevard, Orlando",
+      "website": "https://www.universalorlando.com/web/en/us/index.html",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

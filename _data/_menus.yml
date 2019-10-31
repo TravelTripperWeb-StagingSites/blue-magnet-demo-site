@@ -4,34 +4,56 @@ top:
   name: Super Menu
   items:
   - page_id: _pages/gallery.html
+    url_localized: ''
+    label_localized:
+      en: Gallery
   - page_id: _pages/user_created/private-members.html
     url_localized: ''
+    label_localized:
+      en: Private Members
 main:
   depth: 2
   name: Main Menu
   items:
   - page_id: _pages/about.html
     items: 
+    url_localized: ''
+    label_localized:
+      en: Our Hotel
   - page_id: _pages/rooms.html
     items:
     - folder: false
       url_localized: ''
       page_id: _pages/user_created/accessibility.html
       items: 
+      label_localized:
+        en: Accessibility
+    url_localized: ''
+    label_localized:
+      en: Suites
   - page_id: _pages/offers.html
     items: 
+    url_localized: ''
+    label_localized:
+      en: Offers
   - folder: false
     url_localized: ''
     page_id: _pages/dining.html
     items: 
+    label_localized:
+      en: Dining
   - folder: false
     url_localized: ''
     page_id: _pages/attractions.html
     items: 
+    label_localized:
+      en: Explore
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
     items: 
+    label_localized:
+      en: Events
 footer:
   depth: 1
   name: Footer Menu
@@ -40,34 +62,50 @@ footer:
     url_localized: ''
     page_id: _pages/contact.html
     items: 
+    label_localized:
+      en: Contact Us
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/reviews.html
     items: 
+    label_localized:
+      en: Reviews
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/faq.html
     items: 
+    label_localized:
+      en: FAQ
   - folder: false
     url_localized:
       en: http://www.crrsv.com/bvs/index.html
     label_localized:
       en: Pay Online
-    target: "_NEW"
+    target: _blank
     items: 
   - folder: false
-    url_localized: ''
-    page_id: _pages/user_created/careers.html
-    items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/terms.html
-    items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/sitemap.html
+    url_localized:
+      en: http://www.crrsv.com/careers/
+    label_localized:
+      en: Careers
+    target: _blank
     items: 
   - folder: false
     url_localized: ''
     page_id: _pages/user_created/travel-agents.html
     items: 
+    label_localized:
+      en: Travel Agents
+  - folder: false
+    url_localized:
+      en: "/privacy/"
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    items: 
+    label_localized:
+      en: Sitemap

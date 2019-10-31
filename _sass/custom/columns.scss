@@ -4,7 +4,25 @@
     .col-html-content {
       z-index: 1;
       position: relative;
+      padding: 2rem;
+      @include media-breakpoint-down(md) {
+        padding: 1rem;
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 0rem;
+      }
     }    
+    padding: 20px 50px !important;
+    
+
+    h3, .h3, h5, .h5, h6, .h6 {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    p {
+      margin-bottom: 24px;
+    }
+    
   }
   &--white.text-primary {
     p:not(.h3) {
@@ -16,5 +34,46 @@
 .c-2-col {
   &--dark {
     background-color: $secondary;
+  }
+}
+
+.col, .c-2-col, .c-1-col {
+  ul {
+    margin-left: 20px;
+  }  
+}
+
+@include media-breakpoint-up(lg) {
+  .image-col-as-background {
+    padding: 5rem 0;
+    position: relative;
+    max-width: none;
+    .c-2-col__row {
+      @include make-container-max-widths;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .col--image {
+      position: static;
+      .col-image-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .image-col-as-background {
+    padding: 0;
+    max-width: none;
+    
+    .container {
+      padding: 0;
+      max-width: none;
+    }
   }
 }

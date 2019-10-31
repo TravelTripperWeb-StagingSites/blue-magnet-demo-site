@@ -1,0 +1,369 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Lake Buena Vista Factory Stores"
+  },
+  "sub_title_localized": {
+    "en": "Lake Buena Vista Factory Stores"
+  },
+  "featured": true,
+  "category": [
+    "Shop"
+  ],
+  "website_url": "http://lbvfs.com/",
+  "location": {
+    "name": "Lake Buena Vista Factory Stores",
+    "address": "15657 S Apopka Vineland Rd, Orlando, FL 32821, USA",
+    "phone": "(407) 238-9301",
+    "place_id": "ChIJjRUQibCB3YgRc19RWjbKwrY",
+    "reference": "ChIJjRUQibCB3YgRc19RWjbKwrY",
+    "latitude": 28.3498312,
+    "longitude": -81.48745539999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "15657",
+          "short_name": "15657",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "South Apopka Vineland Road",
+          "short_name": "S Apopka Vineland Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">15657 S Apopka Vineland Rd</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32821</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "15657 S Apopka Vineland Rd, Orlando, FL 32821, USA",
+      "formatted_phone_number": "(407) 238-9301",
+      "geometry": {
+        "location": {
+          "lat": 28.3498312,
+          "lng": -81.48745539999999
+        },
+        "viewport": {
+          "south": 28.34709549999999,
+          "west": -81.48946233029153,
+          "north": 28.3523759,
+          "east": -81.48676436970845
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "2802f2fd5aab90de201d5a508e5d586097847f23",
+      "international_phone_number": "+1 407-238-9301",
+      "name": "Lake Buena Vista Factory Stores",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1900",
+              "hours": 19,
+              "minutes": 0,
+              "nextDate": 1571612400000
+            },
+            "open": {
+              "day": 0,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571580000000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571706000000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571792400000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571274000000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571360400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571446800000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571533200000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 9:00 PM",
+          "Tuesday: 10:00 AM – 9:00 PM",
+          "Wednesday: 10:00 AM – 9:00 PM",
+          "Thursday: 10:00 AM – 9:00 PM",
+          "Friday: 10:00 AM – 9:00 PM",
+          "Saturday: 10:00 AM – 9:00 PM",
+          "Sunday: 10:00 AM – 7:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2340,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113512287507072022127/photos\">Patricia Mouriño</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105664640688140906239/photos\">Abelardo Leao</a>"
+          ],
+          "width": 1280
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104382697400426593921/photos\">Alexandre Lima</a>"
+          ],
+          "width": 3984
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105481927834845529516/photos\">Luis Bencosme</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111017958898816022586/photos\">Osvaldo Fabián Bruno</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3840,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114171300724587682886/photos\">Maria Ysabel Sanchez</a>"
+          ],
+          "width": 2160
+        },
+        {
+          "height": 2340,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118219786257305819916/photos\">Kirubakaran Karunagaran</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 2992,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112313329752548091993/photos\">Olly Gosling</a>"
+          ],
+          "width": 4000
+        },
+        {
+          "height": 1268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107857628859973245187/photos\">Juan carlos Bengochea</a>"
+          ],
+          "width": 947
+        },
+        {
+          "height": 2272,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117197501697343309549/photos\">Claudia Pessoa</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJjRUQibCB3YgRc19RWjbKwrY",
+      "plus_code": {
+        "compound_code": "8GX7+W2 Hunters Creek, Florida, United States",
+        "global_code": "76WW8GX7+W2"
+      },
+      "rating": 4.399999999999999,
+      "reference": "ChIJjRUQibCB3YgRc19RWjbKwrY",
+      "reviews": [
+        {
+          "author_name": "Stephen Marquez",
+          "author_url": "https://www.google.com/maps/contrib/112338591386446588083/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-7ztPUOcaSp0/AAAAAAAAAAI/AAAAAAAAAAA/GaT5LLEaJII/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "a month ago",
+          "text": "Lots of good stores to choose from here and they are ever-changing. My favorite store closed down years ago but we go back occasionally to see what they have. in a span of three years we have shopped at two different swimsuit stores and had good products and service them both. If you're looking for outlet or Disney gifts from your trip there is probably something here for you. They also have a food court here but I have not been there yet.",
+          "time": 1567466278
+        },
+        {
+          "author_name": "Juan Prohias",
+          "author_url": "https://www.google.com/maps/contrib/118114162338483510868/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-Bf3mHf0S3TM/AAAAAAAAAAI/AAAAAAAAAAA/KOqMt1RmRF4/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "a month ago",
+          "text": "Always great food but last visit they made me wait 15 minutes while there were 5 booths empty",
+          "time": 1568397737
+        },
+        {
+          "author_name": "Todd Davis",
+          "author_url": "https://www.google.com/maps/contrib/104474213280737983427/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-PAW6nMU8gPc/AAAAAAAAAAI/AAAAAAAAAAA/6aVbcxYool8/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "Best shopping deals in town. But food court is lacking. So eat at frankie farrells irish pub.",
+          "time": 1570748073
+        },
+        {
+          "author_name": "E C",
+          "author_url": "https://www.google.com/maps/contrib/111594858700290800749/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-PdsC6ck4dL8/AAAAAAAAAAI/AAAAAAAAAAA/KJTCuycuOtg/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 months ago",
+          "text": "The only place I will ever go for my teens. When it comes to teens, they cannot be beat. I love going one place and getting everything done.",
+          "time": 1565215964
+        },
+        {
+          "author_name": "Angela Shaw",
+          "author_url": "https://www.google.com/maps/contrib/118407800026695630240/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-S8FIogb2bQU/AAAAAAAAAAI/AAAAAAAAAAA/erXXpJEHrHw/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a week ago",
+          "text": "Always traveling on this side of Florida and always wanted to so we finally do and so glad we did they is so many stores to shop at. It's a great layout but the restrooms need to be cleaner then they are also that's a lot of small restaurants around it 😣.",
+          "time": 1570468698
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=13169310595177078643",
+      "user_ratings_total": 4450,
+      "vicinity": "15657 South Apopka Vineland Road, Orlando",
+      "website": "http://www.lbvfs.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

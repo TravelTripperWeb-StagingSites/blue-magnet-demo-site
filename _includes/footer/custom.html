@@ -3,15 +3,17 @@
     <div class="row">
       <div class="col-md-6 text-center">
         <div class="w-100 d-flex flex-column h-100 justify-content-center">
-          <p class="h5">
+          <h5 class="h5">
             {% t 'footer.social_header', editable:true %}
-          </p>
+          </h5>
           <div class="d-flex justify-content-center social-links">
-            <a href="https://www.facebook.com/{{site.data.social.facebook.username}}/" target="_NEW">
+            <a href="https://www.facebook.com/{{site.data.social.facebook.username}}/" target="_blank" rel="noopener" title="Buena Vista Suites Orlando Facebook Page">
               <img src="/assets/images/facebook-seeklogo.com.svg" alt="Facebook Icon"/>
             </a>
-            <a href="https://www.instagram.com/{{site.data.social.instagram.username}}/" target="_NEW">Insta</a>
-            <a href="#">
+            <a href="https://www.instagram.com/{{site.data.social.instagram.username}}/" target="_blank" rel="noopener" title="Buena Vista Suites Orlando Instagram Page">
+              <img src="/assets/images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a  target="_blank" rel="noopener"  title="Buena Vista Suites Orlando Trip Advisor Page" href="https://www.tripadvisor.com/Hotel_Review-g34515-d85264-Reviews-Buena_Vista_Suites-Orlando_Florida.html">
               <img src="/assets/images/tripadvisor-logotype.svg" alt="Trip Advisor Icon"/>            
             </a>
           </div>
@@ -19,15 +21,14 @@
       </div>
       <div class="col-md-6 text-center">
         <div class="w-100 d-flex flex-column h-100 justify-content-center">
-          <p class="h6">
+          <h6 class="h6">
             {% t 'footer.member_line_1', editable:true %}
-          </p>      
-          <p class="h5">
+          </h6>      
+          <h5 class="h5">
             {% t 'footer.member_line_2', editable:true %}
-          </p>
-          <br/>
-          <p class="mb-0">
-            <a class="btn btn--primary" href="{{ '_pages/user_created/private-members.html' | permalink }}">
+          </h5>
+          <p class="m-0">
+            <a class="btn btn--primary" href="{{ '_pages/user_created/private-members.html' | permalink }}" title="Private Members Page">
               {%t 'cta_primary', editable: true %}
             </a>
           <p>
@@ -38,10 +39,10 @@
   </div>
 </div>
 
-<div class="container small">    
+<div class="container">    
   <div class="row">
     <div class="col-12">
-      <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start">
+      <ul class=" nav nav--footer align-items-center text-uppercase justify-content-start" role="navigation" aria-label="footer navigation">
         {% assign items = site.data._menus.footer.items %}
         {% include nav/nav-item-list.html items=items %}
       </ul>
@@ -52,15 +53,19 @@
       <strong>
         {{ site.data.hotel_settings.name}}
       </strong>
-      <br/>
-      {{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }} 
-      <br/>
-      {% t 'footer.contact.direct', editable:true %}
-      {{ site.data.hotel_settings.phone }} |
-      {% t 'footer.contact.reservations', editable:true %}
-      <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
-        
-      <div class="copyright mt-2 text-xsmall small">
+      <div class="small-spaced">
+        <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">{{ site.data.hotel_settings.address.street1 }}, {{ site.data.hotel_settings.address.city }}, {{ site.data.hotel_settings.address.state }} {{ site.data.hotel_settings.address.zip_code }}</a>
+        <br/>
+        <div class="phone-number">
+          {% t 'footer.contact.direct', editable:true %}
+          {{ site.data.hotel_settings.phone }}
+        </div>
+        <div class="phone-number">
+          {% t 'footer.contact.reservations', editable:true %}
+          <span data-live-edit-settings='hotel_settings' data-live-edit-settings-field='reservations_phone'>{{ site.data.hotel_settings.reservations_phone }}</span>
+        </div>
+      </div>
+      <div class="copyright">
         {% capture year %}
           &copy; {{ "now" | date: "%Y" }}
         {% endcapture %}
@@ -68,8 +73,9 @@
       </div>
     </div>
     <div class="col-md-4 logo-badges">
-      <img class="green-lodging" src="/assets/images/green-lodging-medium@2x.png" />
-      <img class="disney-hotel-neighbor" src="/assets/images/disney-hotel-medium@2x.png" />
+      <img class="green-lodging" src="/assets/images/green-lodging-medium@2x.png" alt="Green Lodging Florida" />
+      <img class="disney-hotel-neighbor" src="/assets/images/disney-hotel-medium@2x.png" alt="Walt Disney World Good Neighbor Hotel" />
     </div>
   </div>
 </div>
+{% include modal-ad.html %}

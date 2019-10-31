@@ -1,0 +1,259 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Amway Center"
+  },
+  "website_url": "https://www.amwaycenter.com/",
+  "sub_title_localized": {
+    "en": "Amway Center"
+  },
+  "featured": true,
+  "category": [
+    "Stadium"
+  ],
+  "location": {
+    "name": "Amway Center",
+    "address": "400 W Church St #200, Orlando, FL 32801, USA",
+    "phone": "(407) 440-7900",
+    "place_id": "ChIJVcr7Ufp654gRkJGTJZILyfc",
+    "reference": "ChIJVcr7Ufp654gRkJGTJZILyfc",
+    "latitude": 28.5392214,
+    "longitude": -81.38385349999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "200",
+          "short_name": "200",
+          "types": [
+            "subpremise"
+          ]
+        },
+        {
+          "long_name": "400",
+          "short_name": "400",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "West Church Street",
+          "short_name": "W Church St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Parramore",
+          "short_name": "Parramore",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32801",
+          "short_name": "32801",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">400 W Church St #200</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32801</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "400 W Church St #200, Orlando, FL 32801, USA",
+      "formatted_phone_number": "(407) 440-7900",
+      "geometry": {
+        "location": {
+          "lat": 28.5392214,
+          "lng": -81.38385349999999
+        },
+        "viewport": {
+          "south": 28.5383546197085,
+          "west": -81.38522053029152,
+          "north": 28.5410525802915,
+          "east": -81.3825225697085
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "cfd7cba5fff56da6c284887c7797ee4c0d8905b6",
+      "international_phone_number": "+1 407-440-7900",
+      "name": "Amway Center",
+      "photos": [
+        {
+          "height": 2304,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104910238487696703325/photos\">Xesus Pereira</a>"
+          ],
+          "width": 4096
+        },
+        {
+          "height": 1356,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113191061025207473946/photos\">Amway Center</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 680,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113191061025207473946/photos\">Amway Center</a>"
+          ],
+          "width": 1024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111952206571072993837/photos\">Wilson Júnior</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109416623454727209270/photos\">Yuriy Prodan</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2322,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112104389810293091306/photos\">Pablo Julian Bruno</a>"
+          ],
+          "width": 4128
+        },
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116812640177583966258/photos\">André Braga</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 1080,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116606554968244367281/photos\">ricardo rincon</a>"
+          ],
+          "width": 1920
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108099742908288843921/photos\">Ivan Rivera</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110522141028034277578/photos\">Ricardo M Delgado</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJVcr7Ufp654gRkJGTJZILyfc",
+      "plus_code": {
+        "compound_code": "GJQ8+MF Orlando, Florida, United States",
+        "global_code": "76WWGJQ8+MF"
+      },
+      "price_level": 3,
+      "rating": 4.6,
+      "reference": "ChIJVcr7Ufp654gRkJGTJZILyfc",
+      "reviews": [
+        {
+          "author_name": "Eileen Strembel",
+          "author_url": "https://www.google.com/maps/contrib/102561724116694028581/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-2ZRB_BuhnoY/AAAAAAAAAAI/AAAAAAAAAAA/9mt4an8ZEwU/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 1,
+          "relative_time_description": "3 weeks ago",
+          "text": "It was not what I expected. My sister and I had seats In row 107. I am disabled and thought it will be fine they handle this all the time. WRONG!!! We ended up (me with my scooter) up on a level in an area not even close to where we should be. We were directed by personal that didn't have a clue. \n  My sister ran around looking for someone that had some kind of knowledge as to where we needed to go.\n  After about 20 -30 minutes we ended up where we should've been in the first place.\n We did get to see Alan Jackson after all but still had problems getting out.\n   Over all it was my worst experience at a venue.",
+          "time": 1569040367
+        },
+        {
+          "author_name": "Leslie O'Connor",
+          "author_url": "https://www.google.com/maps/contrib/117982699201315262299/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-MJ8Jq7EkVy4/AAAAAAAAAAI/AAAAAAAAAAA/1Kli0PthJPY/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "3 months ago",
+          "text": "The lighting they did for the concert was amazing. There were times that I was more impressed with the lights than I was the music. It was fairly easy to navigate around the stadium. Prices for food and drinks were high, like you might expect. I think it was $10 for a Wicked hard seltzer water for example. What made me give it a 4 star instead of 5 is the seating. The seats are uncomfortable and run on the smaller side. The person who sat next to me was pretty large and they were practically sitting on my lap the entire time. If the seats had just been a tiny bit wider, it wouldn't have been an issue. So if you get claustrophobic, feel self-conscious about how much room you take up in a seat, or just don't want the risk of your neighbor sitting on your lap -- maybe consider a different venue if possible. That being said, it really was a nice light show. Pictures can't express.",
+          "time": 1562382293
+        },
+        {
+          "author_name": "Wishin I'mFishin",
+          "author_url": "https://www.google.com/maps/contrib/116800759784813132744/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/--SwoTSXj3o8/AAAAAAAAAAI/AAAAAAAAAAA/PFu4JI5WW-k/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 2,
+          "relative_time_description": "a week ago",
+          "text": "Beautiful facility, but uncomfortable seats and overzealous security/coordinators acting ILLEGALLY under state law. Regardless of the fact that they try to restrict normal items expressly allowed by their policy, they CANNOT restrict legally concealed firearms at non-sporting events if the event host specifically allows them. Security berated me about this when I didn't even have a firearm and threatened to call the police when I politely and concisely told them they were breaking the law by doing so, even if I did so in a cordial and appropriate manner.",
+          "time": 1570482176
+        },
+        {
+          "author_name": "Valerie Snider",
+          "author_url": "https://www.google.com/maps/contrib/115092269354436192477/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-lQ5xh6whgzo/AAAAAAAAAAI/AAAAAAAAAAA/qfclBkD8X7A/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "What an AMAZING PLACE!\nI had never been to the Amway Center before! This is just unbelievable.  I am handicapped and had always been scared to go to the shows or the games!\n\nFrom the time we parked the car, and went in was a pleasure.  The place is spotless, and OMG what friendly,  helpful staff they had. Heck, if they hired handicapped people like me Ii would not be asking, but begging for a job there.\n\nThey offered me wheelchair assistant to our seats right away. You did not have to go searching for assistance not once! They were extra helpful to me bcuz I had a full brace/cast on from my ankle to my thigh. When we arrived at our seats they DID NOT EVEN ATTEMPT TO PUT ME IN ANY KIND OF DANGER TRYING TO CRAM ME INTO THE SEAT WHICH WAS ONE SECTION DOWN. INSTEAD THEY MOVED ME AND MY CARE TAKER UP TO A PLACE WHERE I COULD MOVE AND ENJOY THE SHOW!\n\nThere's an array of shops, food and beverage store conveniently located at every turn. The Bathrooms were also spotless. There were no stampeding lines to get in to them. That's an Ace in the hole right there! ;×)\n\nAs you can see from the pictures the show had pyrotechnics! Which they didn't skimp on them either.\n\nI can't wait until I am able to go see a ball game there. ANY FEARS I HAD OUR GONE. THE AMWAY CENTER IS THE STATE OF THE ART EVENT CENTER! Please go for a visit and see for yourself I hope you have as much fun as I did! Plus the show was killer!\nMuch Thanks for everything and the A++++ service! I wish there were more places like this in Orlando!",
+          "time": 1569971258
+        },
+        {
+          "author_name": "Ray J",
+          "author_url": "https://www.google.com/maps/contrib/100453082100467361193/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-rRVE6PK4TFo/AAAAAAAAAAI/AAAAAAAAAAA/23ADVQMdLmA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Really cool place to be. They have Stuff the mascot that does crazy small shows and Orlando Magic games are cheap with you order way before. The foods is pretty good with different varieties and the staff is friendly.",
+          "time": 1570982639
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=17854814920010600848",
+      "user_ratings_total": 10506,
+      "vicinity": "400 West Church Street #200, Orlando",
+      "website": "http://www.amwaycenter.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

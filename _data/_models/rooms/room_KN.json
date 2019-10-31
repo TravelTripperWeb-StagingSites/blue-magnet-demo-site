@@ -3,13 +3,22 @@
     "en": "Deluxe King Suite"
   },
   "short_description_localized": {
-    "en": "Make yourself comfortable in our spacious Deluxe King Suites, which offer 553 square feet of space."
+    "en": "Our modern 553 sq. ft. Deluxe King Suites feature a private bedroom with king bed, as well as a separate living room with a microwave, mini-fridge, and queen-size sofa bed. "
   },
   "description_localized": {
-    "en": "Our Deluxe King Suites are 553 square feet and offers one king bed and a flat-screen TV in the bedroom. The separate living area includes a pullout sofa bed, a flat-screen TV, an ergonomic work desk and chair, a coffee maker, and a microwave and mini refrigerator. The bathroom features two separate vanity sinks."
+    "en": "<p class=\"MsoNormal\" style=\"margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;\">Our modern 553 sq. ft. Deluxe King Suites feature a private bedroom with king bed, as well as a separate living room with a microwave, mini-fridge, and queen-size sofa bed.&nbsp;<span style=\"font-size: 11pt;\">You&rsquo;ll also enjoy additional amenities including high-speed Wi-Fi, and flat-screen TVs in both the bedroom and the living room.</span></p>"
   },
   "amenities": [
-    "room_amenities1"
+    "room_amenities3",
+    "room_amenities13",
+    "room_amenities5",
+    "room_amenities6",
+    "room_amenities7",
+    "room_amenities8",
+    "room_amenities9",
+    "room_amenities10",
+    "room_amenities1",
+    "room_amenities12"
   ],
   "images": [
     {
@@ -29,9 +38,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617483/jumlsqnynv7h5hpmylyi.jpg",
       "resource_type": "image",
       "size": 295021,
-      "caption": "King Deluxe Bedroom",
+      "caption": "King Deluxe room with bed and seating area.",
       "description": "",
-      "alt": "King Deluxe Bedroom",
+      "alt": "King Deluxe room with bed and seating area.",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/251335_4_master.jpg"
     },
     {
@@ -51,9 +60,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617483/ia0xy6pgsleq6kymoufx.jpg",
       "resource_type": "image",
       "size": 295530,
-      "caption": "King Deluxe Living Room",
+      "caption": "King Deluxe Bed",
       "description": "",
-      "alt": "King Deluxe Living Room",
+      "alt": "King Deluxe Bed",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/251336_4_master.jpg"
     },
     {
@@ -73,9 +82,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617484/sroce89xa3fegjvkzhe1.jpg",
       "resource_type": "image",
       "size": 293531,
-      "caption": "",
+      "caption": "King Deluxe Living Room ",
       "description": "",
-      "alt": "",
+      "alt": "King Deluxe Living Room ",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270983_1_master.jpg"
     },
     {
@@ -95,9 +104,9 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1569617485/krfg6ssnkxeuzxgn87ql.jpg",
       "resource_type": "image",
       "size": 209794,
-      "caption": "",
+      "caption": "King Deluxe Desk ",
       "description": "",
-      "alt": "",
+      "alt": "King Deluxe Desk",
       "original_url": "https://d31f902anbz5po.cloudfront.net/1516/270984_1_master.jpg"
     },
     {
@@ -124,12 +133,15 @@
     }
   ],
   "reztrip_room_id": "KN",
-  "order": 3,
+  "order": 2,
   "guest_size_max": 4,
   "size": "553 ft<sup>2</sup>",
   "room_category": null,
   "ada_room": false,
   "bed_types": [
     "bed_type_KN"
-  ]
+  ],
+  "url_friendly_name_localized": {
+    "en": "deluxe-king-suite"
+  }
 }

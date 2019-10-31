@@ -1,0 +1,367 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Disney’s Hollywood Studios"
+  },
+  "sub_title_localized": {
+    "en": "Disney"
+  },
+  "featured": true,
+  "website_url": "https://disneyworld.disney.go.com/destinations/hollywood-studios/",
+  "location": {
+    "name": "Disney's Hollywood Studios",
+    "address": "351 S Studio Dr, Lake Buena Vista, FL 32830, USA",
+    "phone": "(407) 939-5277",
+    "place_id": "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+    "reference": "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+    "latitude": 28.3575294,
+    "longitude": -81.55827140000002,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "351",
+          "short_name": "351",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "South Studio Drive",
+          "short_name": "S Studio Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Lake Buena Vista",
+          "short_name": "Lake Buena Vista",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32830",
+          "short_name": "32830",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">351 S Studio Dr</span>, <span class=\"locality\">Lake Buena Vista</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32830</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "351 S Studio Dr, Lake Buena Vista, FL 32830, USA",
+      "formatted_phone_number": "(407) 939-5277",
+      "geometry": {
+        "location": {
+          "lat": 28.3575294,
+          "lng": -81.55827140000002
+        },
+        "viewport": {
+          "south": 28.35653919999999,
+          "west": -81.56154140000001,
+          "north": 28.3605,
+          "east": -81.54897139999997
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "707d43e4b661725d16ae9bcdffb9faca9b2e8519",
+      "international_phone_number": "+1 407-939-5277",
+      "name": "Disney's Hollywood Studios",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571623200000
+            },
+            "open": {
+              "day": 0,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571576400000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571709600000
+            },
+            "open": {
+              "day": 1,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571662800000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571796000000
+            },
+            "open": {
+              "day": 2,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571749200000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571277600000
+            },
+            "open": {
+              "day": 3,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571835600000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571364000000
+            },
+            "open": {
+              "day": 4,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571317200000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571450400000
+            },
+            "open": {
+              "day": 5,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571403600000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1571536800000
+            },
+            "open": {
+              "day": 6,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1571490000000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 9:00 AM – 10:00 PM",
+          "Tuesday: 9:00 AM – 10:00 PM",
+          "Wednesday: 9:00 AM – 10:00 PM",
+          "Thursday: 9:00 AM – 10:00 PM",
+          "Friday: 9:00 AM – 10:00 PM",
+          "Saturday: 9:00 AM – 10:00 PM",
+          "Sunday: 9:00 AM – 10:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111390115915535470133/photos\">Rodrigo Corbalan</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115482057898852656309/photos\">Carel Muñoz</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114795986854718870212/photos\">Craig butterick</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100536242454606979435/photos\">Milva Santa Cruz</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115148476303246242326/photos\">Cody Harmon</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100550727587066335091/photos\">Arely Martinez</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102852595728977250263/photos\">Mark Kinsel</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 3265,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116675651666387553596/photos\">Samantha Rodriguez</a>"
+          ],
+          "width": 4898
+        },
+        {
+          "height": 5312,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103798089189355777387/photos\">Troy Laurienti</a>"
+          ],
+          "width": 2988
+        },
+        {
+          "height": 3456,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115476680196953633221/photos\">Gabi P.</a>"
+          ],
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+      "plus_code": {
+        "compound_code": "9C5R+2M Lake Buena Vista, Florida, United States",
+        "global_code": "76WW9C5R+2M"
+      },
+      "rating": 4.6,
+      "reference": "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+      "reviews": [
+        {
+          "author_name": "eric weed",
+          "author_url": "https://www.google.com/maps/contrib/107763464916502827505/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-syKK8Ydnpe0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfFzPaLf196MEB5cp7Tde3d5AiBog/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Disney is the epitome of what a theme park should be.  The grounds are extremely well kept considering the volume of people and the staff are wildly helpful.  If you stop for a moment looking confused one of the staff from an actor to a grounds keeper will stop to give directions.  The park not only has rides but mini shows such as storm troopers from Star Wars patrolling the streets or army men from Toy Story marching past.  Even the staff in theme areas do not break character so prepare your movie knowledge to have fun conversations.  The rides are amazing for kids and still very enjoyably for adults.  The best advice I can give is to understand how to schedule your fast passes well.  We rode nearly ever ride and some twice in a single day, but be ready to walk a lot.  When I say a lot I mean 20,000 or more steps.  All in all, this is a 'magical' place where movies do come to life.",
+          "time": 1571153919
+        },
+        {
+          "author_name": "Regina Wolfe",
+          "author_url": "https://www.google.com/maps/contrib/105653233636779443727/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAB0eLtO1JHwO3hm7G5ElwdPw3ZPt0iNzSZYvvw=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "We had a blast here today. Every cast member we met was so polite and stopped to talk with me.  We even met 2 cast members who shares the same name as my daughter and her best friend. When we mentioned that they shared the same name, they said they were \"name buddies\"and gave them free ice cream!! This place rocks and we WILL be coming back as soon as we can",
+          "time": 1570757495
+        },
+        {
+          "author_name": "Vivek Gopalakrishnan",
+          "author_url": "https://www.google.com/maps/contrib/108544346993508083334/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-D-7OPuKe8N4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfPyUOlOLQsDSKEZErICc8ntd27lg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "Visited the park today. It's good for kids and adults who don't like scary rides. Got vast parking spaces and shuttles frequently picks you and drops you to and fro the parking area. All the eatables are heavily priced inside the park. Outside food is allowed, so it's better to take some food. Do a research on fast passes. I took it for Indiana Jones, but it was unnecessary as it had vast space. The shows are very good. Wait time for some rides are beyond 1 hr most times.",
+          "time": 1570848118
+        },
+        {
+          "author_name": "Megan Henning",
+          "author_url": "https://www.google.com/maps/contrib/112064958319991825975/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mC2FIjXwYNlC47Egtg-sA_sjn-TDjMuSYi2fp4AAQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "We recently moved to New York after living in Winter Garden for the last 5 years, and visiting the parks every weekend and during the week. Despite missing our friends and family, we greatly miss the magic of Disney. We had an opportunity to come \"home\" this week and spent some time at Hollywood Studios - our favorite Disney park. In addition to the parks always being in pristine condition, the Cast Members always go out of their way to make sure we have the best time - whether we're Florida residents or not! Huge shout out to Robert on the tram, he made sure the Disney magic continued from our way out of the park to our car. \"Ain't no party like a Disney party, Hollywood STUDIOS!\" Thank you Disney, Robert, and all of the Cast Members for a magical day! We'll see ya real soon!",
+          "time": 1570030572
+        },
+        {
+          "author_name": "Zawnbre",
+          "author_url": "https://www.google.com/maps/contrib/115142130610245940180/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDifnLZEVKRpmNoTm7cNGUU3XLyqq3DttPHr2Oc=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "First time here ever with some friends and it's definitely my favorite park, especially the Toy Story one! I'm a kid at heart and the way You Story Land was themed with various toys from my childhood along with the bubbly atmosphere made it for an awesome park! The attention to detail was also really amazing and made for an awesomely fun park! Also really enjoyed the Tower of Terror! So much awesome stuff to do, you won't be disappointed! Especially with Star Wars Land just opening up, which is awesome by the way!! We started out at 6 AM and the wait times were insanely short, like, 5 minutes short and some not even having a wait time!",
+          "time": 1568288849
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=13546773404549640463",
+      "user_ratings_total": 73321,
+      "vicinity": "351 South Studio Drive, Lake Buena Vista",
+      "website": "https://disneyworld.disney.go.com/destinations/hollywood-studios/?CMP=OKC-wdw_themeparks_gmap_119A",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

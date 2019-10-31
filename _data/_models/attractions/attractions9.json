@@ -1,0 +1,368 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Aquatica"
+  },
+  "sub_title_localized": {
+    "en": "Disney"
+  },
+  "featured": true,
+  "website_url": "https://aquatica.com/orlando/",
+  "location": {
+    "name": "Aquatica Orlando",
+    "address": "5800 Water Play Way, Orlando, FL 32821, USA",
+    "phone": "(407) 545-5550",
+    "place_id": "ChIJcR49vyR-54gREbUPNUjImmY",
+    "reference": "ChIJcR49vyR-54gREbUPNUjImmY",
+    "latitude": 28.4157174,
+    "longitude": -81.45650599999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "5800",
+          "short_name": "5800",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Water Play Way",
+          "short_name": "Water Play Way",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">5800 Water Play Way</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32821</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "5800 Water Play Way, Orlando, FL 32821, USA",
+      "formatted_phone_number": "(407) 545-5550",
+      "geometry": {
+        "location": {
+          "lat": 28.4157174,
+          "lng": -81.45650599999999
+        },
+        "viewport": {
+          "south": 28.4127663,
+          "west": -81.46040720000002,
+          "north": 28.4167735,
+          "east": -81.4552056
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "9258aa0264f916c65fd70ce3283b2daef9f49ad5",
+      "international_phone_number": "+1 407-545-5550",
+      "name": "Aquatica Orlando",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571605200000
+            },
+            "open": {
+              "day": 0,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571580000000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571691600000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571778000000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571259600000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571346000000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571432400000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1571518800000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 5:00 PM",
+          "Tuesday: 10:00 AM – 5:00 PM",
+          "Wednesday: 10:00 AM – 5:00 PM",
+          "Thursday: 10:00 AM – 5:00 PM",
+          "Friday: 10:00 AM – 5:00 PM",
+          "Saturday: 10:00 AM – 5:00 PM",
+          "Sunday: 10:00 AM – 5:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115986936702041737179/photos\">Miguel Salgado</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106917736032486305662/photos\">Luis Fernando Landivar Bustamante</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106931135835526537737/photos\">Coralie Morales</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113086542728233765943/photos\">Lauren Vlogs</a>"
+          ],
+          "width": 3120
+        },
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103451963835784196884/photos\">jorge paz</a>"
+          ],
+          "width": 4000
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103799165634035276550/photos\">T. Maas</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113810551239895146854/photos\">Fredson Cavalcante</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4618,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106270464886339778857/photos\">charlie austin</a>"
+          ],
+          "width": 3464
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108115641024782331402/photos\">Emilly Thieme</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109678313705352868640/photos\">Johnny Weissenberg</a>"
+          ],
+          "width": 4128
+        }
+      ],
+      "place_id": "ChIJcR49vyR-54gREbUPNUjImmY",
+      "plus_code": {
+        "compound_code": "CG8V+79 Orlando, Florida, United States",
+        "global_code": "76WWCG8V+79"
+      },
+      "price_level": 3,
+      "rating": 4.5,
+      "reference": "ChIJcR49vyR-54gREbUPNUjImmY",
+      "reviews": [
+        {
+          "author_name": "Jamie DeRita",
+          "author_url": "https://www.google.com/maps/contrib/114232346710557912444/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-y68pZeAgJEk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdk0hcj90Av32KfXxfsIShyzzPU0w/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "Great for all ages. They have something for everyone. The lazy river takes you to an fun ride as well as through 2 different viewing windows with fish and dolphins. The Rapids river is the MOST fun. Grab a vest and float on through. We do it at least 4-6 times every time we go. It's an absolute blast! There are fast slides and slower slides for all levels of bravery. There are also 2 wave pools which is great so that its not so crowded. The food is very good at any watery you go to. People walk around and take pictures of you and your family for you to view and buy in the photo gallery which is great for memories since most people aren't carrying their phones around. All in all it's a great waterpark.",
+          "time": 1569589191
+        },
+        {
+          "author_name": "Ellen Linsen",
+          "author_url": "https://www.google.com/maps/contrib/116573808059565457653/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mAyfwMcEL9lgVD6HqljCVtZtA6ml5rC54nTsKOqeg=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "On a cloudy Monday in October, it was great.  No crowds, and we could easily ride to our heart's content.  Staff was nice.  Park is clean.  There are good rides for the entire family.  It was my 8 year old granddaughter's favorite place in Orlando.  \n\nFood is a little pricey, but I didn't eat enough to get the value from my all day dining pass.  The food my granddaughter wanted wasn't included in the plan, so we had to spend more on food.  Would have been better to pay as we went.  Wish I had gotten a bracelet to charge to my card.  We had to go back and forth to the lockers to get money every time we wanted to make a purchase.",
+          "time": 1570816949
+        },
+        {
+          "author_name": "Shaquana McCargo",
+          "author_url": "https://www.google.com/maps/contrib/111252637148575475862/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDEz7bjLzJ2D9Krj1XFiktii0WwyfVkeVAc6d8b=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Best place ever. Love the rides, the attractions. All dining pass is nice! BUT! I stood by and watched a employee clean #2 off of toilets in bathroom, People that are visiting need to assist there kids, nobody should have to clean a mess like that after a person. I think that people need to stop making the employees jobs hard, and help them control these issues by practice better hygiene methods. Other then that can't wait to come back",
+          "time": 1567826095
+        },
+        {
+          "author_name": "al Judah",
+          "author_url": "https://www.google.com/maps/contrib/109060867908040759297/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-iybG1fk8mP8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rf0tM7vOwLA1vLjiWg63driCgR9VA/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a month ago",
+          "text": "Aquatica is my favorite place to go when I visit Florida. It's  a good place to have water fun with family and friends. I love the rapid river and what I call the play house. Some of my issues are with the dining all day system, which I find needs attention and the smell that is around the eating areas. I also have an issue with one smoking area next a dining area. Would have love to speak to a supervisor to give a few suggestions whilst I was there.",
+          "time": 1567432180
+        },
+        {
+          "author_name": "Nicole Valladares",
+          "author_url": "https://www.google.com/maps/contrib/115458803499642762309/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDOMU4xKq3lCDJeQvqvCRSYZheQ_S_qiVkIFzJ1EQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "3 weeks ago",
+          "text": "Coming as soon as they open on September in a weekday was the best decision I ever made. I was able to go to every single ride w max 5min of waiting time. The staff is also super friendly and knowledgeable, I had an awesome time!",
+          "time": 1569344717
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=7393441950735512849",
+      "user_ratings_total": 17756,
+      "vicinity": "5800 Water Play Way, Orlando",
+      "website": "https://aquatica.com/orlando/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

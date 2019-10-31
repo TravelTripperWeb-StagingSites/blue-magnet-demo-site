@@ -1,3 +1,86 @@
+@mixin standard-headers {
+  h1, .h1, .h2, .h3, .h5, .h6  {
+    text-transform: uppercase;
+  }
+
+  h1, .h1, .h3 {
+    margin: .5rem 0;
+  }
+
+  h1, .h1 {
+    color: $primary;
+    font-size: 40px;
+  //  margin-top: 40px;
+  //  margin-bottom: 0px;
+  
+    letter-spacing: 1px;
+    font-weight: 700;
+    @include media-breakpoint-down(sm) {
+      font-size: 25px;
+      margin: 1rem 0;
+    }
+  }
+
+  .h2 {
+    letter-spacing: 3.4px;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 36px;
+    font-weight: normal;
+  }
+
+  .h3, .h5, .h6 {
+    letter-spacing: 1.35px;
+    color: $primary;
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    line-height: 32px;
+    @include media-breakpoint-down(sm) {
+      font-size: 20px;
+    }
+  
+  }
+
+  .h5 {
+    font-size: 25px;
+    margin-top: 25px;
+  
+    letter-spacing: 1.88px;
+  
+    @include media-breakpoint-down(sm) {
+      font-size: 18px;
+    }
+  
+  }
+  .h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  
+    font-weight: 600;
+    letter-spacing: 2px;
+    @include media-breakpoint-down(sm) {
+      font-size: 17px;
+    }
+  
+  }
+
+  .h4 {
+    font-weight: bold;
+    font-size: 24px; 
+  
+    line-height: 32px;
+    @include media-breakpoint-down(sm) {
+      font-size: 22px;
+    }
+  
+  }
+}
+
+
 @mixin inner-border($padding: 3px, $bw: $border-width, $bc: $border-color) {
   &:before {
     display: block;
@@ -9,7 +92,7 @@
     width: calc(100% - #{2 * $padding});
     height: calc(100% - #{2 * $padding});
     border: $bw solid $bc;
-  }  
+  }
   
 }
 @mixin outer-border($padding: 3px, $bw: $border-width, $bc: $border-color) {
@@ -31,16 +114,101 @@
   
 }
 
-@mixin overflow-image() {
-  @include media-breakpoint-up(md) {
-    height: calc(100% + 3rem);
-    margin-top: -1.5rem;
-    margin-bottom: -1.5rem;
-  }
+@mixin overflow-image-item($item-class) {  
+    
+    margin: $image-bleed 0;
+    width: 100%;    
+    position: relative;
+    
+    
+    @media (max-width: $max-image-bleed-row-width) { 
+      background: $light;
+      padding: 0;
+      .#{$item-class}__image-group {
+        padding: 0;
+      }
+      .#{$item-class}__content-wrap {
+        padding: 1rem $grid-gutter-width 2rem;        
+      }
+    }
+  
+    @media (min-width: $max-image-bleed-row-width) { 
+      &:before {
+        content: "";
+        position: absolute;
+        background: $light;
+        display: block;
+        top: $image-bleed;
+        bottom: $image-bleed;
+        left: 0; right: 0;
+      }
+      
+      &:nth-child(even) {
+        .#{$item-class}__content {
+          padding-right: 80px;
+          padding-left: 0px;
+        }
+        .#{$item-class}__content-group {
+          order: 0;
+        }
+        .#{$item-class}__image-group {
+          order: 1;
+        }      
+      }    
+      .#{$item-class} {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        &__name.h3 {
+          margin-top: 0;
+        }
+        
+        &__image-wrap {
+          padding-top: 100%;
+          position: relative;
+          width: 100%;
+        }
+        &__image-group {
+          height: 100%;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+        &__image {
+          position: absolute; 
+          height: auto;
+          top: 0; left: 0; right: 0; bottom: 0;
+        }
+        &__image {
+          picture {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: "contain";
+              font-family: "object-fit";
+            }
+          }            
+        }
+        &__content-wrap {
+          height: 100%;
+        }
+        &__content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: calc(#{$image-bleed} + 1rem) 0px calc(#{$image-bleed} + 1rem)  80px;      
+          height: 100%;
+        }
+      }
+    }
+  
+  
 }
 
+
 @mixin overflow-carousel() {
-  height: 100%;
   .tns-controls {
     button {
       position: absolute;
@@ -54,41 +222,36 @@
       width: 54px;
       background: $primary;
       color: rgba(0,0,0,0);
-      &:after {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        color: white;
-        font-family: "Font Awesome 5 Free"; font-weight: 900; 
-        content: "\f053";
-        font-size: 2rem;
-        height: 2rem;
-        line-height: 2rem;
-      }
+      background: $primary url('/assets/images/icon-arrow-back.svg') no-repeat center center;
+      background-size: 25%;
+
     }
     button[data-controls="next"] {
       right: 0;
-      &:after {
-        content: "\f054";
+      background-image: url('/assets/images/icon-arrow-forward.svg');
+    }
+    @media (max-width: $max-image-bleed-row-width) { 
+      button {
+        height: 51px;
+        width: 35px;
       }
     }
   }
   
-  @include overflow-image;
+  //@include overflow-image;
   
   .tns-outer, .tns-inner, .tns-ovh {
     height: 100%;
   }
   .tiny-slider {
     height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
     .item {
-      height: 100%;
+      //height: 100%;
+      display: block;
       img {
         height: 100%;
       }

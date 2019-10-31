@@ -1,0 +1,251 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Camping World Stadium"
+  },
+  "sub_title_localized": {
+    "en": "Camping World Stadium"
+  },
+  "featured": true,
+  "category": [
+    "Stadium"
+  ],
+  "website_url": "http://www.campingworldstadium.com/",
+  "location": {
+    "name": "Camping World Stadium",
+    "address": "1 Citrus Bowl Place, Orlando, FL 32805, USA",
+    "phone": "(407) 440-5700",
+    "place_id": "ChIJExJCtLR754gR3vVJ4JWP_Sg",
+    "reference": "ChIJExJCtLR754gR3vVJ4JWP_Sg",
+    "latitude": 28.5390742,
+    "longitude": -81.40274039999997,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1",
+          "short_name": "1",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Citrus Bowl Place",
+          "short_name": "Citrus Bowl Place",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Lorna Doone",
+          "short_name": "Lorna Doone",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32805",
+          "short_name": "32805",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1 Citrus Bowl Place</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32805</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "1 Citrus Bowl Place, Orlando, FL 32805, USA",
+      "formatted_phone_number": "(407) 440-5700",
+      "geometry": {
+        "location": {
+          "lat": 28.5390742,
+          "lng": -81.40274039999997
+        },
+        "viewport": {
+          "south": 28.53521884999999,
+          "west": -81.40736750000002,
+          "north": 28.54180545,
+          "east": -81.3993183
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "a66c3e5eb5e15ff3a7e82e4f8961f6056f111a5e",
+      "international_phone_number": "+1 407-440-5700",
+      "name": "Camping World Stadium",
+      "photos": [
+        {
+          "height": 843,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102235057861320135698/photos\">Camping World Stadium</a>"
+          ],
+          "width": 1500
+        },
+        {
+          "height": 1771,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109263762505697673515/photos\">Mitch Mahan</a>"
+          ],
+          "width": 6211
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115396181385916710798/photos\">Kevin Stuck</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100249304843355799433/photos\">Charles Baron</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116106339159827874100/photos\">La Pandilla Monterrey</a>"
+          ],
+          "width": 800
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107652262147172335080/photos\">Heather Tenison</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102437080894789537246/photos\">mike kohl</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106704214376502218552/photos\">Willie Johnson</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114457621807844530362/photos\">Yoja Gamboa</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103973034557280597713/photos\">Cody Dixon</a>"
+          ],
+          "width": 9392
+        }
+      ],
+      "place_id": "ChIJExJCtLR754gR3vVJ4JWP_Sg",
+      "plus_code": {
+        "compound_code": "GHQW+JW Orlando, Florida, United States",
+        "global_code": "76WWGHQW+JW"
+      },
+      "rating": 4.2,
+      "reference": "ChIJExJCtLR754gR3vVJ4JWP_Sg",
+      "reviews": [
+        {
+          "author_name": "Casey Bickford",
+          "author_url": "https://www.google.com/maps/contrib/111069528087363582961/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-0A5GC6MXZIM/AAAAAAAAAAI/AAAAAAAAAAA/BqX-Bf7xMGU/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 1,
+          "relative_time_description": "a month ago",
+          "text": "The organizational process of entering and exiting the stadium was horrendous. The guest service staff needs to be retrained on customer service because there was none. When you pay a lot of money for a game they should have a little bit of common courtesy. We had one guest service member walking and pacing in front of us the entire game blocking the view. Case in point- train your staff better.",
+          "time": 1566741987
+        },
+        {
+          "author_name": "Steve Futch",
+          "author_url": "https://www.google.com/maps/contrib/115664519865852433887/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-7xXBOpPOhN8/AAAAAAAAAAI/AAAAAAAAAAA/dma_mNodRmg/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a month ago",
+          "text": "Our trip was much better this time, because we won. They need more restrooms. Otherwise our seats were good, and the Johnny Rockets had great food. Sorry about the Gator Band Director that was assaulted by a Miami fan. We were walking long with him and the Band, just a few minutes before it happened. The ride home is so much better with a Win!",
+          "time": 1567567960
+        },
+        {
+          "author_name": "David Lieberman",
+          "author_url": "https://www.google.com/maps/contrib/108464154608476250261/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.ggpht.com/-oOONCew5oKM/AAAAAAAAAAI/AAAAAAAAAAA/wtqRIitxtts/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 2,
+          "relative_time_description": "a month ago",
+          "text": "Hot, humid and poor ventilation throughout the interior of the stadium. It's hard to believe this is their renovation from a few years ago after Camping World RV company became their sponsor and changed the venerable Citrus Bowl to it's current name and incarnation. However, the Levy Foods heralded and maintained food/concession venues are excellent, clean, diverse and well run. Other than the high roller locales throughout the upper part and in select locales throughout the stadium which are always generously supplied with excellent stadium fare, you can get almost anything at the regular concessions from pizza to Southern barbeque items, decent drinks and beer/wine at various bars throughout, and some fun souvenirs based on the venue you're attending from football to concerts. Just wish they had thought of a better, more efficient ventilation system.",
+          "time": 1567451648
+        },
+        {
+          "author_name": "Roger Lavalley",
+          "author_url": "https://www.google.com/maps/contrib/115494209050534753287/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-AVCFyEhHibk/AAAAAAAAAAI/AAAAAAAAAAA/v-o44nSEaZA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "a month ago",
+          "text": "The slow process of getting into the stadium needs to be improved. Long lines where it seems one person ever 15 minutes goes through. If it's to make it safe I get it and I want to feel safe. They need more entry places to go in or you need to go in 2 hours before the game and sit in the 100 degree weather",
+          "time": 1566732524
+        },
+        {
+          "author_name": "Cindy Silverbach",
+          "author_url": "https://www.google.com/maps/contrib/103333589009064718274/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-7FxFos0buQ4/AAAAAAAAAAI/AAAAAAAAAAA/sMTytux_oGA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Watching the Gators VS Hurricanes game on August 24 celebrating 150 years of College Football!  The venue is great and moved a ton of people through the stadium at the end of the game. The Gators got the \"W\" and that was great!",
+          "time": 1566741914
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "stadium",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=2953674804500755934",
+      "user_ratings_total": 4557,
+      "vicinity": "1 Citrus Bowl Place, Orlando",
+      "website": "http://www.campingworldstadium.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}

@@ -1,1 +1,47 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js"></script>
+
+
+
+<script>
+ttwebHotel.ready(function() {
+  //---------------------------------------------------------------------------------------------------------
+  //  Append screen reader text to external links and PDF file links
+  //---------------------------------------------------------------------------------------------------------
+  var string = "<span class=\"sr-only\">Opens in new window</span><em class=\"fa fa-external-link-square-alt el\"></em>",
+    newWindowIcon = "<em class=\"fa fa-external-link-square-alt el\"></em>",
+    stringPDF = "<span class=\"sr-only\">PDF file that opens in new window</span><em class=\"fa fa-external-link-square-alt el\"></em>";
+  jQuery("a").each(function() {
+    if (jQuery(this).find("img").length) jQuery(this).addClass('has-image');
+    if (jQuery(this).attr("target") !== undefined) {
+      if (jQuery(this).attr("target") == "_blank") {
+        if (jQuery(this).attr("href").indexOf(".pdf") > -1) {
+          jQuery(this).addClass('ext-link').append(stringPDF);
+        } else {
+          if (jQuery(this).attr('aria-label') != "") {
+            jQuery(this).addClass('ext-link').append(newWindowIcon);
+            var text = jQuery(this).text();
+            if (jQuery(this).attr('title')) {
+              text = text + " " + jQuery(this).attr('title');
+            }
+
+            jQuery(this).attr('aria-label', text + ', opens in new window');
+          }
+          else jQuery(this).addClass('ext-link').append(string);
+        };
+      };
+    } else if (jQuery(this).attr("onclick") !== undefined) {
+      if (jQuery(this).attr("onclick").indexOf("window.open") > -1) {
+        if (jQuery(this).attr("onclick").indexOf(".pdf") > -1) {
+          jQuery(this).addClass('ext-link').append(stringPDF);
+        } else {
+          if (jQuery(this).attr('aria-label') != "") jQuery(this).addClass('ext-link').append(newWindowIcon).attr('aria-label', jQuery(this).text() + ', opens in new window');
+          else jQuery(this).addClass('ext-link').append(string);
+        };
+      };
+    }
+  });
+});
+</script> 
+
+<script>
+</script>

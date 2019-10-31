@@ -1,0 +1,378 @@
+{
+  "order": "",
+  "name_localized": {
+    "en": "Mall at Millenia"
+  },
+  "sub_title_localized": {
+    "en": "Mall at Millenia"
+  },
+  "featured": true,
+  "category": [
+    "Shopping Mall"
+  ],
+  "website_url": "https://www.mallatmillenia.com/",
+  "location": {
+    "name": "The Mall at Millenia",
+    "address": "4200 Conroy Rd, Orlando, FL 32839, USA",
+    "phone": "(407) 363-3555",
+    "place_id": "ChIJV9nGk6h-54gRdODVBCpxrOM",
+    "reference": "ChIJV9nGk6h-54gRdODVBCpxrOM",
+    "latitude": 28.4854807,
+    "longitude": -81.43155530000001,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "4200",
+          "short_name": "4200",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Conroy Road",
+          "short_name": "Conroy Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Southwest Orlando",
+          "short_name": "Southwest Orlando",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32839",
+          "short_name": "32839",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">4200 Conroy Rd</span>, <span class=\"locality\">Orlando</span>, <span class=\"region\">FL</span> <span class=\"postal-code\">32839</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "4200 Conroy Rd, Orlando, FL 32839, USA",
+      "formatted_phone_number": "(407) 363-3555",
+      "geometry": {
+        "location": {
+          "lat": 28.4854807,
+          "lng": -81.43155530000001
+        },
+        "viewport": {
+          "south": 28.47937030000001,
+          "west": -81.43835684999999,
+          "north": 28.4923147,
+          "east": -81.42532145000001
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "374b5b2238b539789dc4bf25319259365221aba3",
+      "international_phone_number": "+1 407-363-3555",
+      "name": "The Mall at Millenia",
+      "opening_hours": {
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1900",
+              "hours": 19,
+              "minutes": 0,
+              "nextDate": 1571612400000
+            },
+            "open": {
+              "day": 0,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1571583600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571706000000
+            },
+            "open": {
+              "day": 1,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571666400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571792400000
+            },
+            "open": {
+              "day": 2,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571752800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571274000000
+            },
+            "open": {
+              "day": 3,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571839200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571360400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571320800000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571446800000
+            },
+            "open": {
+              "day": 5,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571407200000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1571533200000
+            },
+            "open": {
+              "day": 6,
+              "time": "1000",
+              "hours": 10,
+              "minutes": 0,
+              "nextDate": 1571493600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 10:00 AM – 9:00 PM",
+          "Tuesday: 10:00 AM – 9:00 PM",
+          "Wednesday: 10:00 AM – 9:00 PM",
+          "Thursday: 10:00 AM – 9:00 PM",
+          "Friday: 10:00 AM – 9:00 PM",
+          "Saturday: 10:00 AM – 9:00 PM",
+          "Sunday: 11:00 AM – 7:00 PM"
+        ],
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116916829825253470315/photos\">Luis Rodríguez</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109849374753644291635/photos\">Ghanshyam R Mehta</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2340,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110236655928412442026/photos\">John desanto</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111381586679198907381/photos\">Kam Yeung</a>"
+          ],
+          "width": 3120
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115499229265824046677/photos\">chr S</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2322,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111055733370894044450/photos\">A N</a>"
+          ],
+          "width": 4128
+        },
+        {
+          "height": 640,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107912719225245776438/photos\">The Mall at Millenia</a>"
+          ],
+          "width": 960
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104687060103863881188/photos\">FPV - Mgunit13</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2240,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102403121870611399080/photos\">Yasir Mansouri</a>"
+          ],
+          "width": 3968
+        },
+        {
+          "height": 2416,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104757128145741140135/photos\">Alexander Burnham</a>"
+          ],
+          "width": 3220
+        }
+      ],
+      "place_id": "ChIJV9nGk6h-54gRdODVBCpxrOM",
+      "plus_code": {
+        "compound_code": "FHP9+59 Orlando, Florida, United States",
+        "global_code": "76WWFHP9+59"
+      },
+      "price_level": 3,
+      "rating": 4.6,
+      "reference": "ChIJV9nGk6h-54gRdODVBCpxrOM",
+      "reviews": [
+        {
+          "author_name": "JoAnna Cohen",
+          "author_url": "https://www.google.com/maps/contrib/104636670798894726603/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mDeunO5TmV1oPdIQIdpg7hDN2qmewWsDU2SmshK=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 4,
+          "relative_time_description": "3 weeks ago",
+          "text": "Great mall. One of the last few worth visiting. Parking is almost always a nightmare but it's because this is a destination. Great restaurants, shops, high and medium end stores. Everything from Gucci to American Eagle. Clean and beautiful ambiance. I'm from up north where indoor malls were considered a valid date night destination. This place elevates the whole experience. We love the PF Chang's here. Get a little toasted at the bar and go window shopping.",
+          "time": 1569183821
+        },
+        {
+          "author_name": "Ally Firkins",
+          "author_url": "https://www.google.com/maps/contrib/107102255675273670114/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBghKa_werZnOADD8D5kq4qf5O0jQZCP5XqRLUtPg=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Such a beautiful mall with tons of stores! Always super busy so make sure to go on a day where you have time to park far from the door and spend time making your way through a crowd. We will definitely go back during the holiday season for Christmas shopping. It's nice to see a mall that isn't dying.",
+          "time": 1566930356
+        },
+        {
+          "author_name": "MAX POLOZANI",
+          "author_url": "https://www.google.com/maps/contrib/104986282903447858346/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBHQeKzxqK9J8oITK8Tx8zhL3crdh83h0qfhP_e1cY=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Spectacular mall!\nVery well built. Very clean and stylish!\n\nGreat options to dine both lunch and dinner. \nSome of the best fashion stores are located at the Mall at Millenia.",
+          "time": 1571244454
+        },
+        {
+          "author_name": "Gillian Fox",
+          "author_url": "https://www.google.com/maps/contrib/110397154585710763756/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AAuE7mBxdzqp-Jpy8ek_FQ83BaSlFGXIO9dcbbS8UmIZFA=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 4,
+          "relative_time_description": "2 months ago",
+          "text": "This is a lovely mall with large open spaces. The range of shops was good but on the pricier side. However, it has both a Sephora and a Bath and Body Works! The food court was great and was very clean, with staff available and visible at all times. Toilets were clean and tidy. Parking was great and plentiful. Worth a visit!",
+          "time": 1564835312
+        },
+        {
+          "author_name": "Keith Kay",
+          "author_url": "https://www.google.com/maps/contrib/115663074012808098479/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-OdRAI51TYoQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfdRdf8kkhTxLzfSPyjjh_OaNpAnA/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Very clean, spacious and with a classy feel. Great range of stores and places to eat. Love it here. Not many 'deal's ' to be had but quality stuff.",
+          "time": 1571192935
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=16405611967887564916",
+      "user_ratings_total": 16640,
+      "vicinity": "4200 Conroy Road, Orlando",
+      "website": "http://www.mallatmillenia.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240,
+      "utc_offset": -240
+    }
+  }
+}
