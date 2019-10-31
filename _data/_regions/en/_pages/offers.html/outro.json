@@ -65,7 +65,10 @@
           "height": 1922
         }
       },
-      "_template": "image"
+      "_template": "image",
+      "advanced_options": {
+        "tabindex": "0"
+      }
     },
     "breakpoint": "lg"
   }
