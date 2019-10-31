@@ -94,7 +94,7 @@
       "_template": "image",
       "advanced_options": {
         "tabindex": "0",
-        "custom_classes": "mobile-only"
+        "custom_classes": ""
       }
     },
     "breakpoint": "lg"
