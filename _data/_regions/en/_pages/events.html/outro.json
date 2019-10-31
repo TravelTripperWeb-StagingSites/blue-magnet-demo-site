@@ -2,7 +2,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p>&nbsp;</p>\n<p class=\"h1\" style=\"text-align: center;\">Request for Proposal</p>\n<p>&nbsp;</p>"
+      "content": "<p>&nbsp;</p>\n<h3 class=\"h3\" style=\"text-align: center;\">Request for Proposal</h3>\n<p>&nbsp;</p>"
     }
   }
 ]
