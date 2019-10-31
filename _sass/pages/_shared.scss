@@ -73,10 +73,15 @@ form {
     }
   }
 }
-
 /* Datepicker //////////////////////////////////////////////////////*/
 fieldset .form-check {
 	display: inline-block;
+	padding-left: 30px;
+}
+fieldset .form-check > .form-check-input {
+	top: 0;
+	bottom: -1.25rem;
+	left: -1.25rem;
 }
 
 /* Datepicker //////////////////////////////////////////////////////*/
@@ -168,6 +173,7 @@ select + span.error-message { max-width: 320px; }
 .required > fieldset.errors,
 textarea[aria-invalid="true"],
 input[type="text"][aria-invalid="true"],
+input[type="email"][aria-invalid="true"],
 input[type="checkbox"][aria-invalid="true"],
 input[type="radio"][aria-invalid="true"],
 select[aria-invalid="true"] { border: 1px solid #e50000; }
@@ -176,6 +182,7 @@ select[aria-invalid="true"] { margin-bottom: 0px; }
 
 textarea[aria-invalid="true"]:focus,
 input[type="text"][aria-invalid="true"]:focus,
+input[type="email"][aria-invalid="true"]:focus,
 select[aria-invalid="true"]:focus {
 	outline-offset: -2px;
 	outline-style: solid;
