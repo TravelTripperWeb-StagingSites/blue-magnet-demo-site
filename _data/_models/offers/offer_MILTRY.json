@@ -6,7 +6,7 @@
     "en": "Active & Reserve Military Package"
   },
   "description_localized": {
-    "en": "<p style=\"box-sizing: border-box; margin: 0px; padding: 0px; font-family: proxima-nova, sans-serif; font-size: 1.125rem; line-height: 1.875rem; text-rendering: optimizeLegibility; color: #222222; letter-spacing: 0.0625rem; word-spacing: -0.0625rem; caret-color: #222222;\">We're proud to extend a special value package to our men and women in the active and reserve U.S. Armed Forces. With nightly rates starting from $109, plus tax, you'll enjoy one-bedroom suite accommodations, a $10 nightly food&nbsp;and beverage credit and a 1pm late check-out.&nbsp; Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p style=\"box-sizing: border-box; margin: 1.75rem 0px 0px; padding: 0px; font-family: proxima-nova, sans-serif; font-size: 1.125rem; line-height: 1.875rem; text-rendering: optimizeLegibility; color: #222222; letter-spacing: 0.0625rem; word-spacing: -0.0625rem; caret-color: #222222;\">&nbsp;</p>"
+    "en": "<p>We're proud to extend a special value package to our men and women in the active and reserve U.S. Armed Forces. With nightly rates starting from $109, plus tax, you'll enjoy one-bedroom suite accommodations, a $10 nightly food and beverage credit and a 1pm late check-out.&nbsp; Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>"
   },
   "image": {
     "name": "Government-Military-",
@@ -48,7 +48,7 @@
     "en": "We're proud to extend a special value package to our men and women in the active and reserve U.S. Armed Forces."
   },
   "description_override_localized": {
-    "en": "<p style=\"box-sizing: border-box; margin: 0px; padding: 0px; font-family: proxima-nova, sans-serif; font-size: 1.125rem; line-height: 1.875rem; text-rendering: optimizeLegibility; color: #222222; letter-spacing: 0.0625rem; word-spacing: -0.0625rem; caret-color: #222222;\">We're proud to extend a special value package to our men and women in the active and reserve U.S. Armed Forces. With nightly rates starting from $109, plus tax, you'll enjoy one-bedroom suite accommodations, a $10 nightly food&nbsp;and beverage credit and a 1pm late check-out.&nbsp; Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>\n<p>&nbsp;</p>"
+    "en": "<p>We're proud to extend a special value package to our men and women in the active and reserve U.S. Armed Forces. With nightly rates starting from $109, plus tax, you'll enjoy one-bedroom suite accommodations, a $10 nightly food and beverage credit and a 1pm late check-out.&nbsp; Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>"
   },
   "published": true
 }
