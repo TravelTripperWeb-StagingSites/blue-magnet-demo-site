@@ -95,11 +95,11 @@ label: Contact Us
         </form>
       </div>
       <div class="col-lg-6">
-        <p class="h5 mb-2">Hotel Info</p>
+        <h5 class="h5 mb-2">Hotel Info</h5>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-xl-6">
             <div class="mb-1">
-              Address<br/>
+              <h6>Address</h6>
               <div class="address">
                 <a href="{{site.data.hotel_settings.google_location.google_place.url}}"  target="_blank" rel="noopener">
                   <span class="street-address">{{address.street1}},</span>
@@ -109,36 +109,40 @@ label: Contact Us
                 </a>
               </div>
             </div>
+            
+            <h6>{% t 'footer.contact.direct', editable:true %}</h6>
+            
             <p>
-              {% t 'footer.contact.direct', editable:true %}<br/>
               {{ site.data.hotel_settings.phone }}
             </p>
+            
+            
+            <h6>{% t 'footer.contact.reservations', editable:true %}</h6>              
             <p>
-              {% t 'footer.contact.reservations', editable:true %}<br/>
               {{ site.data.hotel_settings.reservations_phone }}<br/>
               <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
             </p>
             {% regionblock extra-phones %}
+              <h6>Administration</h6>
               <p>
-                Administration<br/>
                 (407) 239-8588
               </p>
             {% endregionblock %} 
           </div>
-          <div class="col-md-6">
+          <div class="col-xl-6">
             {% regionblock extra-contacts %}
+              <h6>Convention Services</h6>
               <p>
-                Convention Services<br/>
                 (407) 238-6106
               </p>
+              <h6>Sales & Marketing</h6>
               <p>
-                Sales & Marketing<br/>
                 (407) 238-6107<br/>
                 Fax (407) 239-1401<br/>
                 <a href="mailto:reservations@bvsuites.com">reservations@bvsuites.com</a>
               </p>
+              <h6>UPS Package Services (Shipping/Receiving)</h6>
               <p>
-                UPS Package Services (Shipping/Receiving)<br/>
                 (407) 238-8436<br/>
                 <a href="mailto:store6855@theupsstore.com">store6855@theupsstore.com</a>                
               </p>

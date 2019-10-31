@@ -21,7 +21,7 @@
 {% endcomment %}
 
 
-<div class="room-rows"  {% tabindex %}>
+<div class="room-rows">
   <div class="room__columns">
     <div class="room">
       <div class="room-inner">
@@ -51,10 +51,10 @@
         
         <div class="room__content-group col-lg-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
           <div class="room__content-wrap">
-            <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content">
-              <div class="room__name h3" >
+            <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content" {% tabindex %}>
+              <h3 class="room__name h3" >
                 {{ room.name }}
-              </div>
+              </h3>
               
               <p class="room__short-description">
                 {{ room.short_description }}
@@ -101,15 +101,15 @@
   <div class="room__amenities text-center" >
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <p class="h3">
+        <div class="col-12"  >
+          <h3 class="h3" {% tabindex %}>
             <span>{{ room.name }}</span>
             {% t 'room.amenities' %}
-          </p>
-          <div class="amenity-list-wrap">
+          </h3>
+          <div class="amenity-list-wrap" >
             <ul>
               {% for amenity in room.amenities %}
-                <li>{{ amenity.name }}</li>
+                <li {% tabindex %}> {{ amenity.name }}</li>
               {% endfor %}
             </ul>
           </div>

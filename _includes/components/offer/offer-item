@@ -24,7 +24,7 @@
 {% assign is_detail = include.detail %}
 
 <div class="offer-wrap">
-  <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer" {% tabindex %}>
+  <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
     <div class="offer__image-group   {% if is_detail != true %}col-lg-6{% endif %} ">
       <div class="offer__image-wrap">
         <div class="offer__image">
@@ -40,16 +40,16 @@
     {% endif %}
     <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-lg-6{% endif %}">
       <div class="offer__content-wrap">    
-        <div class="offer__content">
-          <div class="offer__name h3">
+        <div class="offer__content" >
+          <h3 class="offer__name h3"  {% tabindex %}>
             {% if is_detail %}
               <span>{{ offer.name }}</span>
             {% else %}
               {{ offer.name }}
             {% endif %}
-          </div>
+          </h3>
           {% if is_detail %}
-            <div class="offer__description" >
+            <div class="offer__description"  {% tabindex %}>
               {{ offer.description | default: offer.short_description }}
             </div>
             <div class="offer__addons" >
@@ -57,17 +57,17 @@
               {% if addons %}
                 {% assign addons_count = addons | size %}
                 {% if addons_count > 0 %}
-                  <p class='offer__addons-header'>{% t 'offers.addons.header' %}</p>
+                  <p class='offer__addons-header'  {% tabindex %}>{% t 'offers.addons.header' %}</p>
                   <ul>
                     {% for addon in addons %}
-                      <li>{{addon}}</li>
+                      <li {% tabindex %}>{{addon}}</li>
                     {% endfor %}
                   </ul>
                 {% endif %}
               {% endif %}
             </div>
           {% else %}
-            <div class="offer__short-description">
+            <div class="offer__short-description"  {% tabindex %}>
               {{ offer.short_description }}
             </div>
           {% endif %}
@@ -84,7 +84,7 @@
           {% if is_detail %}
             {% assign policy = offer.policy_override | default: offer.policy %}
             {% if policy and policy != '' %}
-              <div class="offer__policy">
+              <div class="offer__policy" {% tabindex %}>
                 <p class="offer__policy-header">{% t 'offers.policy.header' %}</p>
                 {{ policy }}
               </div>
