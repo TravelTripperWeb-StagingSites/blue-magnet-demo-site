@@ -42,3 +42,36 @@
     margin-left: 20px;
   }  
 }
+
+@include media-breakpoint-up(lg) {
+  .image-col-as-background {
+    padding: 5rem 0;
+    position: relative;
+    max-width: none;
+    .c-2-col__row {
+      @include make-container-max-widths;
+    }
+    .col--image {
+      position: static;
+      .col-image-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .image-col-as-background {
+    padding: 0;
+    max-width: none;
+    
+    .container {
+      padding: 0;
+      max-width: none;
+    }
+  }
+}
