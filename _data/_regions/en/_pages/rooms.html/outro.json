@@ -3,7 +3,7 @@
     "_template": "2_col",
     "advanced_options": {
       "tabindex": "-1",
-      "custom_classes": "mobile-no-bg"
+      "custom_classes": "desktop-background-content"
     },
     "background_image": {
       "image": {
@@ -39,8 +39,8 @@
       },
       "full_bleed": true
     },
-    "include_header": true,
-    "include_footer": true,
+    "include_header": false,
+    "include_footer": false,
     "col1_type": "image",
     "col2_type": "html",
     "col2_html": {
