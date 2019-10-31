@@ -1,3 +1,14 @@
+window.handleZoomChange = function(newZoom) {
+  if (newZoom >= 4) {
+    document.querySelector("nav.navbar.nav--main").classList.remove('is-fixed-top')
+    document.querySelector("#main").classList.remove('nav-is-fixed-top')
+  } else {
+    document.querySelector("nav.navbar.nav--main").classList.add('is-fixed-top')
+    document.querySelector("#main").classList.add('nav-is-fixed-top')
+  
+  }
+}
+
 function displaySearchResults(term, results, store) {
   console.log("Search Results");
   //console.log(results);

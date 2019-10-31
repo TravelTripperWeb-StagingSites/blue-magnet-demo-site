@@ -1,6 +1,16 @@
-'use strict';
+"use strict";
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+window.handleZoomChange = function (newZoom) {
+	if (newZoom >= 4) {
+		document.querySelector("nav.navbar.nav--main").classList.remove('is-fixed-top');
+		document.querySelector("#main").classList.remove('nav-is-fixed-top');
+	} else {
+		document.querySelector("nav.navbar.nav--main").classList.add('is-fixed-top');
+		document.querySelector("#main").classList.add('nav-is-fixed-top');
+	}
+};
 
 function displaySearchResults(term, results, store) {
 	console.log("Search Results");
