@@ -186,7 +186,10 @@
         "file_size": null,
         "alt": "Queen bed with painting and large window"
       },
-      "_template": "image"
+      "_template": "image",
+      "advanced_options": {
+        "tabindex": "0"
+      }
     }
   }
 ]
