@@ -1,14 +1,13 @@
 @mixin standard-headers {
-  h1, h2, h3, h5,  h6,
   .h1, .h2, .h3, .h5, .h6  {
     text-transform: uppercase;
   }
 
-  h1, .h1, h3, .h3 {
+  .h1, .h3 {
     margin: .5rem 0;
   }
 
-  h1, .h1 {
+  .h1 {
     color: $primary;
     font-size: 40px;
   //  margin-top: 40px;
@@ -22,7 +21,7 @@
     }
   }
 
-  h2, .h2 {
+  .h2 {
     letter-spacing: 3.4px;
     font-size: 17px;
     margin-top: 0px;
@@ -30,7 +29,7 @@
     font-weight: normal;
   }
 
-  h3, .h3, h5, .h5, h6, .h6 {
+  .h3, .h5, .h6 {
     letter-spacing: 1.35px;
     color: $primary;
     font-weight: 700;
@@ -44,7 +43,7 @@
   
   }
 
-  h5, .h5, .h5 {
+  .h5 {
     font-size: 25px;
     margin-top: 25px;
   
@@ -55,13 +54,13 @@
     }
   
   }
-  h6, .h6 {
+  .h6 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
   
   
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
     @include media-breakpoint-down(sm) {
       font-size: 17px;
@@ -69,7 +68,7 @@
   
   }
 
-  h4, .h4 {
+  .h4 {
     font-weight: bold;
     font-size: 24px; 
   

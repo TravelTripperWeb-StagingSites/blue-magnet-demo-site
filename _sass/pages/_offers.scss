@@ -40,6 +40,9 @@
     }
     &__addons {
       margin: 2rem 0;
+      li {
+        list-style: none;
+      }
     }
     &__addons-header {
       margin: 0;

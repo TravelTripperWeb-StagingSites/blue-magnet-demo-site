@@ -19,11 +19,11 @@
       </div>
       <div class="dining__content-group col-lg-6">
         <div class="offer__content-wrap">    
-          <div class="dining__content">
+          <div class="dining__content" {% tabindex %}>
             {% if dining.tagline != '' %}
               <p class='dining__tagline'>{{dinging.tagline}}</p>
             {% endif %}
-            <div class='dining__name h3'>{{dining.name}}</div>
+            <h3 class='dining__name h3'>{{dining.name}}</h3>
             <p>{{dining.short_description}}</p>
             {% if dining.hours and dining.hours.size > 0 %}
               <div class='dining__hours'>

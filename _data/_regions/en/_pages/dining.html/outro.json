@@ -2,9 +2,43 @@
   {
     "_template": "2_col",
     "advanced_options": {
+      "custom_classes": "image-col-as-background",
+      "tabindex": "-1"
     },
     "background_image": {
       "image": {
+        "alt": "",
+        "caption": "",
+        "description": "",
+        "url": ""
+      },
+      "full_bleed": false
+    },
+    "include_header": false,
+    "include_footer": false,
+    "layout": "7_5",
+    "col1_type": "image",
+    "col2_type": "html",
+    "header_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "footer_html": {
+      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "col2_html": {
+      "content": "<p class=\"h3\" style=\"text-align: center;\">MEET OUR CHEF</p>\n<p style=\"text-align: center;\"><strong>Dexter Scott, Chef De Cuisine</strong></p>\n<p style=\"text-align: center;\">Chef Dexter trained at Le Cordon Bleu and is passionate about life and food. He oversees the culinary team at Buena Vista Suites. He believes your eggs at breakfast must be cooked-to-order just the way you like them so your day begins right. And when you dine in the Vista Bistro-Italian Eatery, you&rsquo;ll enjoy Italian specialties prepared with the freshest ingredients and spices.</p>\n<p style=\"text-align: center;\">Chef Dexter loves the atmosphere at our hotel &ndash; where the employees treat each other and their guests like family. Each employee truly cares about the quality of your stay and everyone works together to make sure your experience is extra special.</p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center",
+        "outer: col--border"
+      ],
+      "style": "white text-primary",
+      "advanced_options": {
+        "tabindex": "0"
+      }
+    },
+    "breakpoint": "lg",
+    "col1_image": {
+      "content": {
         "name": "BVS Breakfast Chef Dexter v2",
         "content_type": "image/jpeg",
         "date_added": "2019-10-14-133318",
@@ -21,33 +55,15 @@
         "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1571074398/eve4a7idmre2oey5suqw.jpg",
         "resource_type": "image",
         "size": 1307513,
+        "git_file_name": "_assets/image_data/BVS-Breakfast-Chef-Dexter-v2.jpg.json",
         "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1571074398/eve4a7idmre2oey5suqw.jpg",
         "file_size": null,
-        "alt": "BVS Breakfast Chef Dexter v2",
-        "caption": "",
-        "description": ""
+        "alt": "Chef Dexter Breakfast at Buena Vista Suites"
       },
-      "full_bleed": true
-    },
-    "include_header": true,
-    "include_footer": true,
-    "layout": "7_5",
-    "col1_type": "html",
-    "col2_type": "html",
-    "header_html": {
-      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
-    },
-    "footer_html": {
-      "content": "<p>&nbsp;</p>\n<p>&nbsp;</p>"
-    },
-    "col2_html": {
-      "content": "<p class=\"h3\" style=\"text-align: center;\">MEET OUR CHEF</p>\n<p style=\"text-align: center;\"><strong>Dexter Scott, Chef De Cuisine</strong></p>\n<p style=\"text-align: center;\">Chef Dexter trained at Le Cordon Bleu and is passionate about life and food. He oversees the culinary team at Buena Vista Suites. He believes your eggs at breakfast must be cooked-to-order just the way you like them so your day begins right. And when you dine in the Vista Bistro-Italian Eatery, you&rsquo;ll enjoy Italian specialties prepared with the freshest ingredients and spices.</p>\n<p style=\"text-align: center;\">Chef Dexter loves the atmosphere at our hotel &ndash; where the employees treat each other and their guests like family. Each employee truly cares about the quality of your stay and everyone works together to make sure your experience is extra special.</p>",
-      "custom_classes": [
-        "inner: w-100 d-flex flex-column h-100 justify-content-center",
-        "outer: col--border"
-      ],
-      "style": "white text-primary"
-    },
-    "breakpoint": "lg"
+      "_template": "image",
+      "advanced_options": {
+        "tabindex": "0"
+      }
+    }
   }
 ]

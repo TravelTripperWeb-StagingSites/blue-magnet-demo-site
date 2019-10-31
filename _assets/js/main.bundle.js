@@ -1,4 +1,16 @@
-'use strict';
+"use strict";
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+window.handleZoomChange = function (newZoom) {
+	if (newZoom >= 4) {
+		document.querySelector("nav.navbar.nav--main").classList.remove('is-fixed-top');
+		document.querySelector("#main").classList.remove('nav-is-fixed-top');
+	} else {
+		document.querySelector("nav.navbar.nav--main").classList.add('is-fixed-top');
+		document.querySelector("#main").classList.add('nav-is-fixed-top');
+	}
+};
 
 function displaySearchResults(term, results, store) {
 	console.log("Search Results");
@@ -83,7 +95,7 @@ document.ready(function () {
 		var _iteratorError = undefined;
 
 		try {
-			for (var _iterator = closeButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+			var _loop = function _loop() {
 				var button = _step.value;
 
 				button.addEventListener("click", function () {
@@ -91,6 +103,18 @@ document.ready(function () {
 					ad.classList.remove('show');
 					ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
 				}.bind(_this, ad));
+				button.addEventListener("keydown", function (e) {
+					if (e.keyCode == 32 || e.keyCode == 13) {
+						//space or enter
+						button.click();
+						// ad.classList.remove('show');
+						// ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "-1");
+					}
+				});
+			};
+
+			for (var _iterator = closeButtons[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+				_loop();
 			}
 		} catch (err) {
 			_didIteratorError = true;
@@ -110,103 +134,27 @@ document.ready(function () {
 		var shownModal = ttwebHotel.UserData.fetchFromStorage(modalPopUpKey);
 		if (!shownModal) {
 			ad.classList.add('show');
-			ad.querySelector(".modal-pop-up__content").setAttribute("tabindex", "1");
-		}
-	});
-});
-
-// ADA Complaint Datepicker
-//
-// Instructions:
-// 1. Replace jQuery('#wrapper') with your page wrapper ID (two instances)
-// 2. Add applicable options to your datepicker init
-//    showOn: 'button',
-//    buttonImage: 'calendar.png',
-//    buttonImageOnly: false,
-//    buttonText: 'Calendar View',
-//    showButtonPanel: true,
-//    closeText: 'Close',
-//    onClose: removeAria
-// /////////////////////////////////////////////////////////////////////////
-
-jQuery(function () {
-	/* Content area */
-	// Initialize DatePicker in Content Area
-	var contentDatePicker = jQuery('.datepicker');
-	contentDatePicker.datepicker({
-		minDate: '+0D',
-		onSelect: function onSelect() {
-			var checkInDate = jQuery('.datepicker').datepicker('getDate'),
-
-			//var checkInDate = contentDatePicker.datepicker('getDate'),
-			day = checkInDate.getDate(),
-			    month = jQuery.datepicker.formatDate("M", checkInDate),
-			    year = checkInDate.getFullYear();
-
-			jQuery(".hasDatepicker").datepicker("hide");
-			checkInDate.setDate(checkInDate.getDate() + 2);
-		},
-		showOn: 'button',
-		//buttonImage: 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
-		//buttonImage: '/getmedia/02db9910-23ba-4627-acb8-637805b7774f/new_cal/',
-		//buttonImage: '/getmedia/e114a270-563a-49b5-b79b-fd5e27a94234/cal-orange/',
-		buttonImageOnly: false,
-		buttonText: '<em class="fa fa-th" aria-hidden="true"></em>', //'Calendar View',
-		showButtonPanel: true,
-		closeText: 'Close',
-		onClose: removeAria
-	});
-	contentDatePicker.datepicker({});
-	contentDatePicker.focus(function () {
-		//console.log('focus: ' + Date.now());
-		jQuery(this).addClass('view').datepicker("show");
-	});
-	contentDatePicker.addClass('ada-datepicker');
-
-	// ...
-	jQuery(".hasDatepicker, .ui-datepicker, .FormPanel .ui-datepicker-trigger").on('keydown', function (keyVent) {
-		var which = keyVent.which;
-		//console.log(which);
-		if (which === 13) {
-			// ENTER
-			keyVent.stopPropagation();
-		}
-	});
-
-	// ...
-	jQuery(".hasDatepicker, .ui-datepicker, .ui-datepicker-trigger").click(function (event) {
-		event.stopPropagation();
-	});
-
-	// ...
-	jQuery("body").on("click touchstart", function (e) {
-		if (jQuery(window).width() > 767) {
-			if (jQuery(e.target).closest('div#ui-datepicker-div').length == 1) {} else {
-				if (jQuery(window).width() > 767) {
-					jQuery('.datepicker').each(function () {
-						if (!jQuery(this).hasClass('view')) {
-							jQuery('.datepicker').datepicker("hide");
-							jQuery('.datepicker').removeClass('view').blur();
-							//$('.selectbox').parent().focus();
-						}
-					});
+			var adElements = [].concat(_toConsumableArray(ad.querySelectorAll('[tabindex="0"]')));
+			var startElement = ad.querySelector("#modal-ad-title");
+			console.log(startElement, adElements);
+			startElement.focus();
+			window.modalTabIdx = adElements.indexOf(startElement);
+			ad.addEventListener("keydown", function (event) {
+				console.log(event.target, adElements);
+				if (event.keyCode === 9 || event.shiftKey && event.keyCode == 9) {
+					event.preventDefault();
+					window.modalTabIdx = window.modalTabIdx + (event.shiftKey ? -1 : 1);
+					if (window.modalTabIdx < 0) {
+						window.modalTabIdx = adElements.length - 1;
+					}
+					if (window.modalTabIdx >= adElements.length) {
+						window.modalTabIdx = 0;
+					}
+					adElements[window.modalTabIdx].focus();
 				}
-			}
+			});
 		}
 	});
-
-	// Add aria-describedby to the button referring to the label
-	jQuery('.ui-datepicker-trigger').each(function (index) {
-		if (jQuery(this).closest('.bookingMask').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
-		} else if (jQuery(this).closest('.EditingFormControlNestedControl').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
-		}
-		jQuery(this).attr('aria-describedby', 'datepickerLabel' + index);
-		//jQuery(this).attr('aria-describedby', 'datepickerLabel');
-	});
-	// call dayTripper();
-	dayTripper();
 });
 
 function dayTripper() {
@@ -220,7 +168,7 @@ function dayTripper() {
 			// from screen readers to prevent document navigation
 			// (by headings, etc.) while the popup is open
 			//jQuery("main").attr('id','dp-container');
-			jQuery("#wrapper").attr('aria-hidden', 'true');
+			//jQuery("#wrapper").attr('aria-hidden','true');
 
 			// Hide the "today" button because it doesn't do what
 			// you think it supposed to do
@@ -390,52 +338,19 @@ function datePickHandler() {
 }
 
 function closeCalendar(input) {
-	//document.addEventListener('keypress', function (KeyVent) {
-	//jQuery(document).on('click', '#ui-datepicker-div .ui-datepicker-close', function () {
-	/*jQuery(".ui-datepicker-trigger").on('keydown', function (keyVent) {
- 	// If the clicked element doesn't have the right selector, bail
- 	var which = keyVent.which;
- 	console.log('inclosing: ',which);
- 	if (which === 13) { // ENTER
- 		//if (!event.target.matches('.ui-datepicker-trigger')) return;
- 		// Don't follow the link
- 		//event.preventDefault();
- 		// Log the clicked element in the console
- 		console.log('in...', event.target);
- 			var container = jQuery('#ui-datepicker-div');
- 		jQuery(container).off('keydown');
- 		var input = jQuery(event.target).prev('input');
- 		jQuery(input).datepicker('hide');
- 		input.focus();
- 			console.log(input);
- 		console.log(jQuery(input));
- 	}
- });*/
-	//}, false);
-
-	/*var container = jQuery('#ui-datepicker-div');
- jQuery(container).off('keydown');
- //var input = jQuery('#datepicker')[0];
- var input = jQuery('.datepicker1')[0];
- //console.log(jQuery(button));
- //var input = button.prev('input');
- 	console.log(input);
- console.log(jQuery(input));
- 	jQuery(input).datepicker('hide');
- input.focus();*/
-
-	//var input = input || jQuery('.datepicker1')[1];
-	var input = input || jQuery('.datepicker')[1];
+	var input = input || jQuery('.datepicker');
 	var container = jQuery('#ui-datepicker-div');
 	container.off('keydown');
 	input.datepicker('hide');
+	//input.next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
 	input.focus();
 }
 
 function removeAria() {
 	// make the rest of the page accessible again:
-	jQuery("#wrapper").removeAttr('aria-hidden');
+	//jQuery("#wrapper").removeAttr('aria-hidden');
 	//jQuery("#dp-container").removeAttr('aria-hidden');
+	jQuery('.datepicker').next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
 }
 
 ///////////////////////////////
@@ -878,3 +793,211 @@ function appendOffscreenMonthText(button) {
 function firstToCap(s) {
 	return s.charAt(0).toUpperCase() + s.slice(1);
 }
+
+// END ADA Complaint Datepicker
+// /////////////////////////////////////////////////////////////////
+
+// auto scroll for error message (ADA)
+function autoScroll(name, animated, distance) {
+	var scrollDistance = 300;
+	var scrollTarget = jQuery("*[name='" + name + "']");
+
+	console.log('name:', name);
+	console.log('scrollTarget.offset().top:', scrollTarget.offset().top);
+
+	if (jQuery("*[name='" + name + "']").length > 0) {
+		if (animated) {
+			jQuery('html, body').animate({ scrollTop: scrollTarget.offset().top - scrollDistance }, 500);
+		} else {
+			jQuery('html, body').scrollTop(scrollTarget.offset().top - scrollDistance);
+		}
+	}
+}
+// Form Validation
+function validateForm() {
+	var errorSummary = jQuery('#error-summary ul');
+	errorSummary.empty();
+	jQuery('#error-summary').hide();
+	jQuery('.error-message').remove();
+
+	jQuery('[aria-required="true"]').each(function (index) {
+		if (jQuery(this).closest('.form-check')) {
+			if (!jQuery(this).find('input:checked').length > 0) {
+				jQuery(this).attr('aria-invalid', true);
+				var errortxt = jQuery(this).closest('label').text();
+				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
+				jQuery(this).closest('fieldset').addClass('errors').append('<span role="alert" class="error-message">Please choose an option</span>');
+			} else {
+				jQuery(this).closest('fieldset').removeClass('errors');
+				jQuery(this).attr('aria-invalid', false);
+			}
+		}
+		if (jQuery(this).is('input[type="text"], textarea')) {
+			if (jQuery(this).val() == '') {
+				jQuery(this).attr('aria-invalid', true);
+				var errortxt = jQuery(this).is('.datepicker') ? jQuery(this).closest('.form-group').find('label').text() : jQuery(this).prev('label').text();
+				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
+				if (jQuery(this).is('.datepicker')) jQuery(this).closest('.form-group').append('<span role="alert" class="error-message">Please enter text</span>');else jQuery(this).parent().append('<span role="alert" class="error-message">Please enter text</span>');
+			} else {
+				jQuery(this).attr('aria-invalid', false);
+			}
+		}
+		if (jQuery(this).is('select')) {
+			if (jQuery(this).val() < 0) {
+				jQuery(this).attr('aria-invalid', true);
+				var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
+				errorSummary.append('<li>' + errortxt + '</li>');
+				jQuery(this).parent().append('<span role="alert" class="error-message">Please select an option</span>');
+			} else {
+				jQuery(this).attr('aria-invalid', false);
+			}
+		}
+	});
+
+	// -- Accesssible foucs on error message when page loads
+	//console.log(errorSummary.find('li:first-child a').text());
+	//errorSummary.find('li:first-child a').focus();
+
+	if (jQuery('[aria-invalid="true"]').length > 0) {
+		console.log('Errors!');
+		// show the Error Summary now
+		jQuery('#error-summary').fadeIn();
+		// -- Accesssible foucs on error message when page loads
+		console.log(errorSummary.find('li:first-child a').text());
+		var firstFocusLink = errorSummary.find('li:first-child a').focus();
+		var getHash = firstFocusLink.attr('name');
+		autoScroll(getHash, true, 0);
+		//window.scrollTo(0,0);
+		return false;
+	} else {
+		console.log('Send form!');
+		// ajax post data
+		jQuery('form[name^="form_"]').submit();
+		/*jQuery('form[name^="form_"]').submit(function(){
+  	var fields = jQuery("input", this).serializeArray();
+  	var saveData = jQuery.ajax({
+  		type: 'POST',
+  		url: jQuery('form[name^="form_"]').attr('action') + "?action=saveData",
+  		data: fields,
+  		//dataType: "text",
+  		success: function(resultData) { alert("Save Complete") }
+  	});
+  	saveData.error(function() { alert("Something went wrong"); });
+  });*/
+		return true;
+	}
+}
+
+jQuery(function () {
+	// Initialize DatePicker for ANY FORM with a .datepicker
+	var contentDatePicker = jQuery('.datepicker').wrap('<div class="form-group_datepicker"></div>');
+	contentDatePicker.datepicker({
+		minDate: '+0D',
+		onSelect: function onSelect() {
+			var checkInDate = jQuery('.datepicker').datepicker('getDate'),
+
+			//var checkInDate = contentDatePicker.datepicker('getDate'),
+			_console = console.log('checkInDate:', checkInDate),
+			    day = checkInDate.getDate(),
+			    month = jQuery.datepicker.formatDate("M", checkInDate),
+			    year = checkInDate.getFullYear();
+
+			jQuery(".hasDatepicker").datepicker("hide");
+			checkInDate.setDate(checkInDate.getDate() + 2);
+		},
+		showOn: 'button',
+		//buttonImage: 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
+		buttonImageOnly: false,
+		buttonText: '<em class="fa fa-th" aria-hidden="true"></em>', //'Calendar View',
+		showButtonPanel: true,
+		closeText: 'Close',
+		onClose: removeAria
+		//onClose: function(dateText, inst) {
+		//console.log(inst);
+		//jQuery('button').attr('aria-expanded','false');
+		//jQuery('main').attr('aria-hidden','false');
+		//},
+	});
+	contentDatePicker.datepicker({});
+	contentDatePicker.focus(function () {
+		//console.log('focus: ' + Date.now());
+		jQuery(this).addClass('view').datepicker("show");
+	});
+	contentDatePicker.addClass('ada-datepicker');
+
+	// prevent the enter from submitting the form when the BUTTON tag is hit
+	jQuery(".hasDatepicker, .ui-datepicker, .FormPanel .ui-datepicker-trigger").on('keydown', function (keyVent) {
+		var which = keyVent.which;
+		//console.log(which);
+		if (which === 13) {
+			// ENTER
+			keyVent.stopPropagation();
+		}
+	});
+
+	// prevent the datepicker BUTTON tag from submitted
+	jQuery(".hasDatepicker, .ui-datepicker, .ui-datepicker-trigger").click(function (event) {
+		event.stopPropagation();
+	});
+
+	// Hide datepicker if mouse clicked outside of the calendar
+	jQuery("body").on("click touchstart", function (e) {
+		if (jQuery(window).width() > 767) {
+			if (jQuery(e.target).closest('div#ui-datepicker-div').length == 1) {} else {
+				if (jQuery(window).width() > 767) {
+					jQuery('.datepicker').each(function () {
+						if (!jQuery(this).hasClass('view')) {
+							jQuery('.datepicker').datepicker("hide");
+							jQuery('.datepicker').removeClass('view').blur();
+							//$('.selectbox').parent().focus();
+						}
+					});
+				}
+			}
+		}
+	});
+
+	// Add aria-describedby to the button referring to the label
+	jQuery('.ui-datepicker-trigger').each(function (index) {
+		if (jQuery(this).closest('.bookingMask').find('[id*="datepickerLabel"]').length == 0) {
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
+		} else if (jQuery(this).closest('.EditingFormControlNestedControl').find('[id*="datepickerLabel"]').length == 0) {
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
+		}
+		jQuery(this).attr('aria-describedby', 'datepickerLabel' + index);
+		//jQuery(this).attr('aria-describedby', 'datepickerLabel');
+	});
+
+	// Toggle aria-expanded on the BUTTON tag on the Datepicker ADA
+	jQuery('.ui-datepicker-trigger').attr('aria-expanded', 'false').on('click', function (e) {
+		var btnItem = jQuery(e.currentTarget);
+		if (btnItem.attr('aria-expanded') === 'true') {
+			jQuery(this).attr('aria-expanded', 'false');
+		} else {
+			jQuery(this).attr('aria-expanded', 'true');
+		}
+	});
+
+	// call dayTripper();
+	dayTripper();
+
+	// set autocomplete on all INPUT text type
+	jQuery('input[type="text"]').attr('autocomplete');
+	// add .required class to elements with [aria-required="true"]
+	jQuery('[aria-required="true"]').each(function () {
+		jQuery(this).parents('.form-group').addClass('required');
+	});
+	// validate form
+	jQuery('form[name^="form_"]').find('input[type="submit"]').click(function (e) {
+		e.preventDefault();
+		validateForm();
+	});
+	// To manage the interaction with the mouse, simply change the value of the aria-checked attribute when a checkbox is clicked.
+	jQuery("[type=checkbox], [type=radio]").on("click", function () {
+		if (jQuery(this).prop("checked")) {
+			jQuery(this).parent().attr("aria-checked", "true");
+		} else {
+			jQuery(this).parent().attr("aria-checked", "false");
+		}
+	});
+});
