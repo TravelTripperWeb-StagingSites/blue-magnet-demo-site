@@ -157,6 +157,20 @@ document.ready(function () {
 	});
 });
 
+// ADA Complaint Datepicker
+//
+// Instructions:
+// 1. Replace jQuery('#wrapper') with your page wrapper ID (two instances)
+// 2. Add applicable options to your datepicker init
+//    showOn: 'button',
+//    buttonImage: 'calendar.png',
+//    buttonImageOnly: false,
+//    buttonText: 'Calendar View',
+//    showButtonPanel: true,
+//    closeText: 'Close',
+//    onClose: removeAria
+// /////////////////////////////////////////////////////////////////////////
+
 function dayTripper() {
 	jQuery('.ui-datepicker-trigger').click(function () {
 		setTimeout(function () {
@@ -832,7 +846,7 @@ function validateForm() {
 				jQuery(this).attr('aria-invalid', false);
 			}
 		}
-		if (jQuery(this).is('input[type="text"], textarea')) {
+		if (jQuery(this).is('input[type="text"], input[type="email"], textarea')) {
 			if (jQuery(this).val() == '') {
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).is('.datepicker') ? jQuery(this).closest('.form-group').find('label').text() : jQuery(this).prev('label').text();
