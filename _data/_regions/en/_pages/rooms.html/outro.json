@@ -2,7 +2,8 @@
   {
     "_template": "2_col",
     "advanced_options": {
-      "tabindex": "-1"
+      "tabindex": "-1",
+      "custom_classes": "mobile-no-bg"
     },
     "background_image": {
       "image": {
@@ -87,6 +88,7 @@
         "tabindex": "0",
         "custom_classes": "mobile-only"
       }
-    }
+    },
+    "breakpoint": "lg"
   }
 ]
