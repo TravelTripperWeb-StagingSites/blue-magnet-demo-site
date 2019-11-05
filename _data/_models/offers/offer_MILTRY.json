@@ -36,10 +36,10 @@
   "reztrip_offer_id": "MILTRY",
   "featured_order": "",
   "policy_override_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
   },
   "policy_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
   },
   "name_override_localized": {
     "en": "Active & Reserve Military Package"
