@@ -12,6 +12,7 @@ include:
 - _ttio_templates
 - _pages
 exclude:
+- _assets
 - _ttio_templates/zom
 - _ttio_templates/bedrock/assets
 - _ttio_templates/bedrock/node_modules
@@ -44,7 +45,6 @@ exclude:
 - tmp
 - vendor
 keep_files:
-- ".git"
 - assets
 - ttio_templates/bedrock/assets
 - ttio_templates/zom/assets
