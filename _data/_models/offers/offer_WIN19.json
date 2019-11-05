@@ -37,21 +37,17 @@
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. "
   },
   "policy_override_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of $16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
   },
   "policy_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of $16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
   },
   "addons_override": [
-    "Buy 3 nights, get the 4th night free",
-    "Receive one extra large \"favorite combinations\" pizza from Vista Bistro 1pm late checkout",
-    "Plus, our daily signature hot breakfast buffet and parking are always FREE!",
-    "Travel Dates December 1, 2019 - March 31, 2020",
-    "Located just 1.5 miles from the Walt Disney World® theme parks. Scheduled shuttle service available. "
+    ""
   ],
   "published": true,
   "description_override_localized": {
-    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. &nbsp;&nbsp;</p>"
+    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. &nbsp;&nbsp;</p>\n<ul>\n<li>Buy 3 nights, get the 4th night free</li>\n<li>Receive one extra large \"favorite combinations\" pizza from Vista Bistro 1pm late checkout</li>\n<li>Plus, our daily signature hot breakfast buffet and parking are always FREE!</li>\n<li>Travel Dates December 1, 2019 - March 31, 2020</li>\n<li>Located just 1.5 miles from the Walt Disney World&reg; theme parks. <a href=\"//res.cloudinary.com/traveltripperweb/raw/upload/v1571938453/y0agafw0nmowgrl7rmdj.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduled shuttle service available.</a></li>\n</ul>"
   },
   "name_override_localized": {
     "en": "Winter Getaway Package"
