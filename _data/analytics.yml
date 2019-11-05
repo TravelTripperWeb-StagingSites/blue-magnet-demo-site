@@ -1,10 +1,10 @@
 ---
 ga_tracking_id: 
 gtm_tracking_id: GTM-KKV8RC
-custom_head: 
-  <!--START Flipto Integration--> <script async src="https://integration.flip.to/57P6LVC"></script>
-  <!--END Flipto Integration-->
-  <!-- cendynkeyword -->
+custom_head: '<style> a.ext-link:hover em.fa, a.ext-link:focus em.fa { position: absolute;
+  }.offer__description > ul { list-style-type: none; } </style><!--START Flipto Integration-->
+  <script async src="https://integration.flip.to/57P6LVC"></script> <!--END Flipto
+  Integration--> <!-- cendynkeyword -->'
 custom_body: ''
 __EDITABLE_FIELDS__:
   ga_tracking_id:

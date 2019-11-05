@@ -40,10 +40,10 @@
     "en": "Book direct and save more! Florida & Georgia residents save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!"
   },
   "policy_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
   },
   "policy_override_localized": {
-    "en": "<p><span style=\"font-family: -webkit-standard; font-size: medium;\">Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</span></p>"
+    "en": "<p>Rate does not include the Hotel Fee of&nbsp;$16.95 per night, plus tax.</p>"
   },
   "published": true,
   "description_override_localized": {
