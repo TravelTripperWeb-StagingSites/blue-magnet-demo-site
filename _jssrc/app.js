@@ -800,13 +800,18 @@ function validateForm() {
 	jQuery('.error-message').remove();
 
 	jQuery('[aria-required="true"]').each(function(index){
-		if(jQuery(this).closest('.form-check')){
-			if(!jQuery(this).find('input:checked').length > 0){
+		if(jQuery(this).closest('.form-check').length){
+			console.log('ID:',jQuery(this).attr('id'));
+			console.log('what we checking..:',jQuery(this).closest('label').find('input:checked').length);
+			console.log('the actual condition:',!jQuery(this).closest('label').find('input:checked').length);
+			if(!jQuery(this).closest('label').find('input:checked').length){
+			//if(!jQuery(this).find('input:checked').length > 0){
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).closest('label').text();
 				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 				jQuery(this).closest('fieldset').addClass('errors').append('<span role="alert" class="error-message">Please choose an option</span>');
 			} else {
+				jQuery(this).val(jQuery(this).closest('label').text());
 				jQuery(this).closest('fieldset').removeClass('errors');
 				jQuery(this).attr('aria-invalid', false);
 			}
@@ -840,12 +845,13 @@ function validateForm() {
 	//console.log(errorSummary.find('li:first-child a').text());
 	//errorSummary.find('li:first-child a').focus();
 
+	console.log('how many?',jQuery('[aria-invalid="true"]').length);
+
 	if(jQuery('[aria-invalid="true"]').length > 0 ){
 		console.log('Errors!');
 		// show the Error Summary now
 		jQuery('#error-summary').fadeIn();
 		// -- Accesssible foucs on error message when page loads
-		console.log(errorSummary.find('li:first-child a').text());
 		var firstFocusLink = errorSummary.find('li:first-child a').focus();
 		var getHash = firstFocusLink.attr('name');
 		autoScroll(getHash, true, 0);
