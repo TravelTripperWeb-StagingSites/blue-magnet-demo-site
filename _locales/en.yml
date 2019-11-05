@@ -5,7 +5,7 @@ en:
   dining:
     hours: Hours of Operation
   room:
-    book: Book Suite
+    book: Book Now
     wifi: High-Speed WIFI
     amenities: Amenities
     suite_amenities: Suite Amenities
@@ -14,8 +14,8 @@ en:
     back: Back to %{link}
   rooms:
     buttons:
-      book: Book Suite
-  book_now: Reserve
+      book: Book Now
+  book_now: Book Now
   offers:
     name: OFFERS
     back: Back to %{link}
