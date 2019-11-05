@@ -22,6 +22,11 @@
 
 {% assign sync = include.sync_content %}
 {% assign is_detail = include.detail %}
+{% assign header_tag = "h3" %}
+{% if is_detail %}
+  {% assign header_tag = "h1" %}
+{% endif %}
+
 
 <div class="offer-wrap">
   <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
@@ -41,13 +46,13 @@
     <div class="offer__content-group  {% if is_detail %}col-12{%else%}col-lg-6{% endif %}">
       <div class="offer__content-wrap">    
         <div class="offer__content" >
-          <h3 class="offer__name h3"  {% tabindex %}>
+          <{{header_tag}} class="offer__name h3"  {% tabindex %}>
             {% if is_detail %}
               <span>{{ offer.name }}</span>
             {% else %}
               {{ offer.name }}
             {% endif %}
-          </h3>
+          </{{header_tag}}>
           {% if is_detail %}
             <div class="offer__description"  {% tabindex %}>
               {{ offer.description | default: offer.short_description }}
