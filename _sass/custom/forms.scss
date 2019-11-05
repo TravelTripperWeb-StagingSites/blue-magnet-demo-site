@@ -1,0 +1,116 @@
+/* Datepicker //////////////////////////////////////////////////////*/
+fieldset .form-check {
+	display: inline-block;
+	padding-left: 30px;
+}
+fieldset .form-check > .form-check-input {
+	top: 0;
+	bottom: -1.25rem;
+	left: -1.25rem;
+}
+
+/* Datepicker //////////////////////////////////////////////////////*/
+.form-group_datepicker {
+	position:relative;
+}
+.form-group input.datepicker {
+	padding-right:40px;
+}
+.form-group .form-group_datepicker > button {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:auto;
+	right: 5px;
+	width:32px;
+	height: 30px;
+	margin:auto;
+}
+
+/* Errors /////////////////////////////////////////////////////////*/
+#error-summary {
+	display: none;
+	padding: 1em;
+	margin: 0 0 40px;
+	font-weight:700;
+	text-align: center;
+	background: #ffc0cb;
+	border: 3px dashed #e50000;
+	color: #000;
+	font-size: 15px;
+}
+#error-summary ul {
+	padding:.5rem;
+	margin:.5rem;
+	list-style: none;
+	color: #1a1712;
+}
+#error-summary ul a {
+	display: block;
+	color:#e50000;
+}
+#error-summary ul a:empty,
+#error-summary ul a:focus:empty {
+	display: none;
+}
+#error-summary .h3,
+.error-message {
+	background: #e50000;
+	color: #fff;
+	padding:.2rem .8rem;
+	display: block;
+	border: 1px solid #e50000;
+	margin-top: 0px;
+}
+.error-message { box-sizing: border-box; }
+#error-summary .h3 {
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 1.75rem;
+	padding-left: 40px;
+}
+#error-summary .h3:before {
+	content: '!';
+	background: #fff;
+	height: 1em;
+	width: 1em;
+	border-radius: 9px;
+	display: inline-block;
+	color: #e50000;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-left: -30px;
+	line-height: 1em;
+	text-align: center;
+}
+fieldset[aria-invalid="true"] {
+	border: 1px solid #e50000;
+	padding: 10px 10px 0px 10px;
+}
+fieldset[aria-invalid="true"] span.error-message {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+select + span.error-message { max-width: 320px; }
+
+.required > fieldset.errors,
+textarea[aria-invalid="true"],
+input[type="text"][aria-invalid="true"],
+input[type="email"][aria-invalid="true"],
+input[type="checkbox"][aria-invalid="true"],
+input[type="radio"][aria-invalid="true"],
+select[aria-invalid="true"] { border: 1px solid #e50000; }
+
+select[aria-invalid="true"] { margin-bottom: 0px; }
+
+textarea[aria-invalid="true"]:focus,
+input[type="text"][aria-invalid="true"]:focus,
+input[type="email"][aria-invalid="true"]:focus,
+select[aria-invalid="true"]:focus {
+	outline-offset: -2px;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: #e50000;
+}
