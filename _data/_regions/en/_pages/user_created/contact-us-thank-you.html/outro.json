@@ -30,16 +30,16 @@
     }
   },
   {
-    "_template": "1_col",
-    "html": {
-      "content": "<p style=\"text-align: center;\">Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>"
-    }
-  },
-  {
     "_template": "intro",
     "header": {
       "content": "Thank you",
       "_template": "header"
+    }
+  },
+  {
+    "_template": "1_col",
+    "html": {
+      "content": "<p style=\"text-align: center;\">Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>"
     }
   }
 ]
