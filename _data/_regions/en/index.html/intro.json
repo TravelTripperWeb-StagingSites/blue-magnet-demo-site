@@ -229,6 +229,12 @@
         }
       },
       "content": "<p>Test Test</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
-    }
+    },
+    "advanced_options": {
+    },
+    "background_image": {
+      "full_bleed": true
+    },
+    "container_classes": " "
   }
 ]
