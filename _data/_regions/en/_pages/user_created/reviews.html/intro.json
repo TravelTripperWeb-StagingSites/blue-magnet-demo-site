@@ -1,5 +1,8 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<h1 style=\"text-align: center;\">Reviews</h1>"
+    }
   }
 ]
