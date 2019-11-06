@@ -33,7 +33,11 @@
     "_template": "intro",
     "advanced_options": {
     },
-    "h1_text_alignment": "text-center"
+    "h1_text_alignment": "text-center",
+    "header": {
+      "content": "Thank you",
+      "_template": "header"
+    }
   },
   {
     "_template": "1_col",
