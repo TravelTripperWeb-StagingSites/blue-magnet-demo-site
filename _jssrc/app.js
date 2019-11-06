@@ -830,7 +830,7 @@ function validateForm() {
 			}
 		}
 		if(jQuery(this).is('select')){
-			if(!jQuery(this).val()){
+			if(jQuery(this).val() === ''){
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
 				errorSummary.append('<li>' + errortxt + '</li>');
