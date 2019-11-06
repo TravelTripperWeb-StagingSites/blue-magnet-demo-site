@@ -32,7 +32,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p>Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>"
+      "content": "<p style=\"text-align: center;\">Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>"
     }
   }
 ]
