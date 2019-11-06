@@ -1,6 +1,10 @@
 [
   {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Thank you",
+      "_template": "header"
+    }
   },
   {
     "content": "<p style=\"text-align: center;\">Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>",
