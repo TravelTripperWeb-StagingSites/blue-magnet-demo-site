@@ -33,7 +33,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p class=\"h1\" style=\"text-align: center;\">Dining Reservations</p>"
+      "content": "<h1 class=\"h1\" style=\"text-align: center;\">Dining Reservations</h1>"
     }
   }
 ]
