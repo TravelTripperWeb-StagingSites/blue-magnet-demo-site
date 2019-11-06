@@ -43,7 +43,10 @@
     "en": "<p>Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
   },
   "addons_override": [
-    ""
+    "Buy 3 nights, get the 4th night free",
+    "Receive one extra large \"favorite combinations\" pizza from Vista Bistro 1pm late checkout",
+    "Plus, our daily signature hot breakfast buffet and parking are always FREE!",
+    "Travel Dates December 1, 2019 - March 31, 2020"
   ],
   "published": true,
   "description_override_localized": {
@@ -53,9 +56,6 @@
     "en": "Winter Getaway Package"
   },
   "addons": [
-    "Buy 3 nights, get the 4th night free",
-    "Receive one extra large \"favorite combinations\" pizza from Vista Bistro 1pm late checkout",
-    "Plus, our daily signature hot breakfast buffet and parking are always FREE!",
-    "Travel Dates December 1, 2019 - March 31, 2020"
+    ""
   ]
 }
