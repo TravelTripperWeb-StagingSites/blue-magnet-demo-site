@@ -36,6 +36,9 @@
     }
   },
   {
-    "_template": "intro"
+    "_template": "intro",
+    "pre_header": {
+      "content": "<p class=\"h1\" style=\"text-align: center;\">Thank You</p>"
+    }
   }
 ]
