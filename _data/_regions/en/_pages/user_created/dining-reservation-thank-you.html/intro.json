@@ -1,8 +1,10 @@
 [
+  null,
   {
-    "_template": "hero"
-  },
-  {
-    "_template": "intro"
+    "_template": "intro",
+    "header": {
+      "content": "Thank you",
+      "_template": "header"
+    }
   }
 ]
