@@ -1,5 +1,8 @@
 [
   {
     "_template": "hero"
+  },
+  {
+    "_template": "intro"
   }
 ]
