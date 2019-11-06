@@ -21,28 +21,13 @@
         "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1573062814/skdoncgb6uezkmqcrqdb.jpg",
         "resource_type": "image",
         "size": 1846590,
+        "git_file_name": "_assets/image_data/Buena-Vista-Suites---Lobby---Front-Desk02.jpg.json",
         "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1573062814/skdoncgb6uezkmqcrqdb.jpg",
         "file_size": null,
         "alt": "Buena Vista Suites Lobby Front Desk",
         "caption": "",
         "description": ""
       }
-    }
-  },
-  {
-    "_template": "intro",
-    "advanced_options": {
-    },
-    "h1_text_alignment": "text-center",
-    "header": {
-      "content": "Thank you",
-      "_template": "header"
-    }
-  },
-  {
-    "_template": "1_col",
-    "html": {
-      "content": "<p style=\"text-align: center;\">Thank you for contacting us. We have received your information and a representative will contact you shortly.</p>"
     }
   }
 ]
