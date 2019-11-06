@@ -830,6 +830,7 @@ function validateForm() {
 			}
 		}
 		if(jQuery(this).is('select')){
+			console.log("checking select box");
 			if(jQuery(this).val() === ''){
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
