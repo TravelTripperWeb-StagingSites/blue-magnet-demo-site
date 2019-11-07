@@ -830,10 +830,10 @@ function validateForm() {
 			}
 		}
 		if(jQuery(this).is('select')){
-			if(jQuery(this).val() < 0 ){
+			if(jQuery(this).val() == ""){
 				jQuery(this).attr('aria-invalid', true);
-				var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
-				errorSummary.append('<li>' + errortxt + '</li>');
+				var errortxt = jQuery(this).closest('.form-group').find('label').text();
+				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 				jQuery(this).parent().append('<span role="alert" class="error-message">Please select an option</span>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
