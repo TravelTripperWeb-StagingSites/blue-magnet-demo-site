@@ -114,3 +114,8 @@ select[aria-invalid="true"]:focus {
 	outline-width: 2px;
 	outline-color: #e50000;
 }
+
+form select {
+	margin-bottom: .75rem !important;
+}
+
