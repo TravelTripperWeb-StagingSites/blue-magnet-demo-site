@@ -55,5 +55,6 @@
     "caption": "",
     "description": ""
   },
-  "published": true
+  "published": true,
+  "order": 0
 }
