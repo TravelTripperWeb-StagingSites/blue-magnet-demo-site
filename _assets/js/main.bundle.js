@@ -862,9 +862,10 @@ function validateForm() {
 			}
 		}
 		if (jQuery(this).is('select')) {
-			if (jQuery(this).val() < 0) {
+			if (jQuery(this).val() == "") {
 				jQuery(this).attr('aria-invalid', true);
-				var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
+				//var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
+				var errortxt = jQuery(this).prev('label').text();
 				errorSummary.append('<li>' + errortxt + '</li>');
 				jQuery(this).parent().append('<span role="alert" class="error-message">Please select an option</span>');
 			} else {
