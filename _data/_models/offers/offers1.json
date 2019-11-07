@@ -1,5 +1,5 @@
 {
-  "featured_order": 0,
+  "featured_order": "",
   "name_localized": {
     "en": "Black Friday / Cyber Monday Rates"
   },
@@ -15,7 +15,7 @@
   "addons": [
     ""
   ],
-  "featured": true,
+  "featured": false,
   "name_override_localized": {
     "en": "Black Friday / Cyber Monday Rates"
   },
@@ -54,5 +54,6 @@
     "alt": "Buena Vista Suites - Model Suite A - 1297191_rgb_hd-2",
     "caption": "",
     "description": ""
-  }
+  },
+  "published": true
 }
