@@ -1,0 +1,85 @@
+{% assign attractions = attractions | default: site.data._models.attractions %}
+{% if attractions %}
+  {% assign all_categories = "" %}
+
+  {% capture locations %}
+    <div class="leaflet-map__locations">
+      <!-- location object for the hotel //-->
+      <div class="location location--main" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}">
+        <div class="location-text">
+          <div class="location-label">{{site.data.hotel_settings.name}}</div>
+          <div class="location-address">{% include components/hotel-address %}</div>        
+        </div>
+        <div class="location-popup">
+          {% assign locationDirectionUrl = site.data.hotel_settings.google_location.google_place.url %}
+          <span class="location-popup__name">{{site.data.hotel_settings.name}}</span>
+          <div class="location-popup__address">{% include components/hotel-address %}</div>
+          <a class="location-popup__directions" href="{{locationDirectionUrl}}">{% t 'attractions.buttons.get_directions' %}</a>
+        </div>      
+      </div>
+
+      {% for attraction in attractions %}
+        {% assign locationUrl = attraction.website_url | default: attraction.location.google_place.website | default: attraction.location.google_place.url %}
+        {% assign locationDirectionUrl = attraction.location.google_place.url %}
+        {% assign locationAddress = attraction.location.google_place.adr_address %}
+        <div class="location" data-latitude="{{attraction.location.latitude}}" data-longitude="{{attraction.location.longitude}}" data-website-url="{{attraction.website_url}}">
+          <div class="location-popup" tabindex="0">
+            <a class="location-popup__name" href="{{locationUrl}}">{{attraction.name}}</a>
+            <div class="location-popup__address">{{ locationAddress }}</div>
+            <a class="location-popup__directions" href="{{locationDirectionUrl}}">{% t 'attractions.buttons.get_directions' %}</a>
+          </div>
+          <div class="location-text" data-select-location="true" role="button" aria-pressed="false" tabindex="0">
+            <div class="location-label">{{ attraction.name }}</div>
+            <div class="location-sub-title">{{ attraction.sub_title }}</div>
+            <div class="location-categories">
+              {% for c in attraction.category %}
+                <div class="location-category">{{ c }}</div>
+              {% endfor %}
+            </div>
+            <div class="location-description">{{ attraction.description }}</div>
+            <div class="location-address">{{ locationAddress }}</div>
+          </div>
+          <div class="location-image">
+            {{ include componens/image image=attraction.image }}
+          </div>
+          {% for category in attraction.category %}
+            {% if all_categories != "" %}
+              {% assign all_categories = all_categories | append: ":::"  %}
+            {% endif %}
+            {% assign all_categories = all_categories |  append: category %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endcapture %}
+
+
+
+
+  <div class="leaflet-map"> 
+    <div class="leaflet-map__categories">
+      {% assign category_list = all_categories | split: ":::" %}
+      {% assign category_list = category_list  | uniq %}
+      {% assign category_list = category_list  | sort %}
+      <ul tabindex="0" role="navigation" aria-label="{% t 'attractions.categories.label' %}">
+        <li data-select-category="__ALL__"><a href="#" role="button" aria-pressed="true">{% t 'attractions.categories.all' %}</a></li>
+        {% for category in category_list %}
+          <li data-select-category="{{ category }}"><a role="button" aria-pressed="false" href="#">{{ category }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {{ locations }}    
+    <div class="leaflet-map__map"
+      data-latitude="{{site.data.hotel_settings.latitude}}" 
+      data-longitude="{{site.data.hotel_settings.longitude}}"
+      data-zoom="{{site.data.hotel_settings.map_zoom}}"
+      data-custom-icons="true"
+      data-max-zoom="18"
+      data-min-zoom="10"
+      data-auto-fit-bounds="true"
+      data-tile-style="light_all"
+      
+    >
+    </div>
+  </div>
+{% endif %}
