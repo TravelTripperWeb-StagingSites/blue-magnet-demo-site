@@ -25,11 +25,12 @@
         "git_file_name": "_assets/image_data/Valencia-Room-03-web-res-rgb-hd-2.jpg.json",
         "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1570457566/g7ayfqyrkkrvysqx6p7z.jpg",
         "file_size": null,
-        "alt": "Valencia Room 03 web res_rgb_hd-2",
+        "alt": "Valencia Room",
         "caption": "",
         "description": ""
       }
-    }
+    },
+    "skip_h1": true
   },
   {
     "_template": "intro",
