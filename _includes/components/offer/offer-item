@@ -22,7 +22,7 @@
 
 {% assign sync = include.sync_content %}
 {% assign is_detail = include.detail %}
-{% assign header_tag = "h3" %}
+{% assign header_tag = "h2" %}
 {% if is_detail %}
   {% assign header_tag = "h1" %}
 {% endif %}
@@ -79,9 +79,9 @@
           
           
           <div class="offer__select">
-            <a class="btn btn--primary" target="_blank" rel="noopener" href="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?locale=en&rate_code={{offer.reztrip_offer_id}}">{% t 'offers.buttons.book' %}</a>
+            <a class="btn btn--primary" target="_blank" rel="noopener" href="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?locale=en&rate_code={{offer.reztrip_offer_id}}" aria-label="{% t 'offers.buttons.book' %}, {{ offer.name}}">{% t 'offers.buttons.book' %}</a>
            {% if is_detail != true %}
-              <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">
+              <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}" aria-label="{% t 'cta.learn_more' %}, {{ offer.name}}">
                 {% t 'cta.learn_more' %}
               </a>            
           {% endif %}
@@ -90,7 +90,7 @@
             {% assign policy = offer.policy_override | default: offer.policy %}
             {% if policy and policy != '' %}
               <div class="offer__policy" {% tabindex %}>
-                <p class="offer__policy-header">{% t 'offers.policy.header' %}</p>
+                <h2 class="offer__policy-header">{% t 'offers.policy.header' %}</h2>
                 {{ policy }}
               </div>
             {% endif %}

@@ -52,9 +52,9 @@
         <div class="room__content-group col-lg-6" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" >
           <div class="room__content-wrap">
             <div class=" d-flex flex-column w-100 h-100 justify-content-center room__content" {% tabindex %}>
-              <h3 class="room__name h3" >
+              <h2 class="room__name h3" >
                 {{ room.name }}
-              </h3>
+              </h2>
               
               <p class="room__short-description">
                 {{ room.short_description }}
@@ -82,10 +82,10 @@
               {% endcomment %}
               
               <div class="room__select">
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton"  target="_blank" rel="noopener">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomBookingButton"  target="_blank" rel="noopener" data-tt-aria-label="{% t 'rooms.buttons.book' %}, {{ room.name}}" aria-label="{% t 'rooms.buttons.book' %}, {{ room.name}}">
                   {% t 'rooms.buttons.book' %}
                 </div>
-                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton"  target="_blank" rel="noopener" aria-label="{% t 'rooms.buttons.book' %}, opens in new window" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?room_code=<roomcode>">
+                <div data-tt-class-name="btn btn--primary" ttweb-room-component="RoomViewButton"  target="_blank" rel="noopener" data-tt-aria-label="{% t 'rooms.buttons.book' %}, {{room.name}}" aria-label="{% t 'rooms.buttons.book' %}, {{room.name}}" data-tt-url-format="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?room_code=<roomcode>">
                   {% t 'rooms.buttons.book' %}
                 </div>
                 {% comment %}
