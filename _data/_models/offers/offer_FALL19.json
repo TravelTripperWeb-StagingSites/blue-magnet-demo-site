@@ -57,12 +57,10 @@
   "description_override_localized": {
     "en": "<p>Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! Getaway this fall and receive:</p>"
   },
-  "meta": {
-    "meta_title_prefix": {
-      "en": "Fall Getaway Package"
-    },
-    "meta_description": {
-      "en": "Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! "
-    }
+  "meta_title_prefix": {
+    "en": "Fall Getaway Package"
+  },
+  "meta_description": {
+    "en": "Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! "
   }
 }
