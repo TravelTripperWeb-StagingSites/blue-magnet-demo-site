@@ -2,6 +2,7 @@
   {
     "_template": "hero",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "hero_image": {
       "image": {

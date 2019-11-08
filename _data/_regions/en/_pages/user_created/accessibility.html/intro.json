@@ -2,6 +2,7 @@
   {
     "_template": "hero",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "hero_image": {
       "image": {
@@ -28,7 +29,8 @@
         "caption": "Buena Vista Suites - Lobby - Front Desk ",
         "description": ""
       }
-    }
+    },
+    "skip_h1": true
   },
   {
     "_template": "intro",
