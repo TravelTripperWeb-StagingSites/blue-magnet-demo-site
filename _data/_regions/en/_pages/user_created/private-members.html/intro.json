@@ -2,6 +2,7 @@
   {
     "_template": "hero",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "hero_image": {
       "image": {
@@ -29,7 +30,8 @@
         "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1569617449/gzureto2fqpl1duajnqa.jpg",
         "file_size": null
       }
-    }
+    },
+    "skip_h1": true
   },
   {
     "_template": "intro",
