@@ -13,6 +13,7 @@
 
 .c-hero-slider {
   .tns-outer {
+    position: relative;
     button[data-action=stop], button[data-action=start] {
       position: absolute;
       z-index: 10;
