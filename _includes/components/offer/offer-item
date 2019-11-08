@@ -29,7 +29,7 @@
 
 
 <div class="offer-wrap">
-  <div class="offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+  <div class="offer" >
     <div class="offer__image-group   {% if is_detail != true %}col-lg-6{% endif %} ">
       <div class="offer__image-wrap">
         <div class="offer__image">
@@ -79,7 +79,9 @@
           
           
           <div class="offer__select">
-            <a class="btn btn--primary" target="_blank" rel="noopener" href="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?locale=en&rate_code={{offer.reztrip_offer_id}}" aria-label="{% t 'offers.buttons.book' %}, {{ offer.name}}">{% t 'offers.buttons.book' %}</a>
+            {% if offer.reztrip_offer_id && offer.reztrip_offer_id != '' %}
+              <a class="btn btn--primary" target="_blank" rel="noopener" href="https://{{site.data.crs_settings._portal_id}}.reztrip.com/search?locale=en&rate_code={{offer.reztrip_offer_id}}" aria-label="{% t 'offers.buttons.book' %}, {{ offer.name}}">{% t 'offers.buttons.book' %}</a>
+            {% endif %}
            {% if is_detail != true %}
               <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}" aria-label="{% t 'cta.learn_more' %}, {{ offer.name}}">
                 {% t 'cta.learn_more' %}
