@@ -866,7 +866,7 @@ function validateForm() {
 				jQuery(this).attr('aria-invalid', true);
 				//var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
 				var errortxt = jQuery(this).prev('label').text();
-				errorSummary.append('<li>' + errortxt + '</li>');
+				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 				jQuery(this).parent().append('<span role="alert" class="error-message">Please select an option</span>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
