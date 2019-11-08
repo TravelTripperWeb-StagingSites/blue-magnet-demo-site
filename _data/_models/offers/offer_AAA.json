@@ -49,5 +49,11 @@
     "en": "<p>Book direct and save more! Members save up to 15% OFF our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always FREE!</p>"
   },
   "published": true,
-  "order": 5
+  "order": 5,
+  "meta_description_localized": {
+    "en": "Book direct and save more! Members save up to 15% off our Best Available Rates. Plus, our daily signature hot breakfast buffet and parking are always free!"
+  },
+  "meta_title_localized": {
+    "en": "AAA & CAA Rate"
+  }
 }
