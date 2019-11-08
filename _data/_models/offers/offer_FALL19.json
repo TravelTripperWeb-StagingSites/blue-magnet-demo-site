@@ -56,5 +56,11 @@
   ],
   "description_override_localized": {
     "en": "<p>Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! Getaway this fall and receive:</p>"
+  },
+  "meta_title_prefix_localized": {
+    "en": "Fall Getaway Package"
+  },
+  "meta_description_localized": {
+    "en": "Getaway this fall and receive dinner for two at The Vista Bistro - Italian Eatery, a $25.00 Disney gift card, late checkout, plus free breakfast & parking!"
   }
 }
