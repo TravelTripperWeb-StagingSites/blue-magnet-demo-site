@@ -19,7 +19,7 @@ ttwebHotel.ready(function() {
         } else {
           if (jQuery(this).attr('aria-label') != "") {
             jQuery(this).addClass('ext-link').append(newWindowIcon);
-            var text = jQuery(this).text();
+            var text = jQuery(this).attr('aria-label') ;
             if (jQuery(this).attr('title')) {
               text = text + " " + jQuery(this).attr('title');
             }
@@ -34,7 +34,7 @@ ttwebHotel.ready(function() {
         if (jQuery(this).attr("onclick").indexOf(".pdf") > -1) {
           jQuery(this).addClass('ext-link').append(stringPDF);
         } else {
-          if (jQuery(this).attr('aria-label') != "") jQuery(this).addClass('ext-link').append(newWindowIcon).attr('aria-label', jQuery(this).text() + ', opens in new window');
+          if (jQuery(this).attr('aria-label') != "") jQuery(this).addClass('ext-link').append(newWindowIcon).attr('aria-label', jQuery(this).attr('aria-label') + ', opens in new window');
           else jQuery(this).addClass('ext-link').append(string);
         };
       };

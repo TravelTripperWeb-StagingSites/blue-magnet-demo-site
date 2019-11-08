@@ -54,5 +54,11 @@
     "en": "<p>2-night minimum stay.&nbsp; Rate does not include the Hotel Fee of $16.95 per night, plus tax.&nbsp;</p>"
   },
   "published": true,
-  "order": 3
+  "order": 3,
+  "meta_description_localized": {
+    "en": "Buy 1 night at our hotel & get 25% off every second night. Receive a $50 credit at Vista Bistro - Italian Eatery, 50% off resort fees, and late checkout."
+  },
+  "meta_title_localized": {
+    "en": "Spring Fever Package"
+  }
 }

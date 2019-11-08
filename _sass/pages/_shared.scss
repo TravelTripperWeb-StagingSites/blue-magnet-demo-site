@@ -104,6 +104,16 @@ footer {
     .h5 {
       margin-bottom: 22px;
     }
+    @include media-breakpoint-down(sm) {
+     .h5 {
+       font-size: 15pt;
+       font-weight: bold;
+     } 
+     .h6 {
+       font-size: 14pt;
+       font-weight: bold;
+     }
+    }
   }
   .social-links {
     a {
