@@ -6,7 +6,7 @@
         {% assign image=slide.image %}
         {% assign image_url = image.url_xlarge | default: image.url %}
         <div class="slider-item">
-          <div style="background-image: url({{image_url}})" class="hero">
+          <div style="background-image: url({{image_url}})" class="hero" aria-label="{{image.alt}}">
             <div class='h1 hero__title'>{{slide.title}}</div>
             <div class='hero__body'>{{slide.sub_title}}</div>
           </div>
