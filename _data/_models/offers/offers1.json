@@ -56,5 +56,6 @@
     "description": ""
   },
   "published": true,
-  "order": 0
+  "order": 0,
+  "reztrip_offer_id": "BAR"
 }
