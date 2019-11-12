@@ -827,6 +827,7 @@ function autoScroll(name, animated, distance) {
 		}
 	}
 }
+
 // Form Validation
 function validateForm() {
 	var errorSummary = jQuery('#error-summary ul');
@@ -873,6 +874,15 @@ function validateForm() {
 			}
 		}
 	});
+
+	//validate google recaptcha
+	var response = grecaptcha.getResponse();
+	if (response.length === 0) {
+		errorSummary.append('<li><a href="#g-recatcha" name="google recapthca">You must validate the recaptcha</a></li>');
+		jQuery('#g-recatcha').attr('aria-invalid', true);
+	} else {
+		jQuery('#g-recatcha').attr('aria-invalid', false);
+	}
 
 	// -- Accesssible foucs on error message when page loads
 	//console.log(errorSummary.find('li:first-child a').text());
