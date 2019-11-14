@@ -1,12 +1,12 @@
 {% assign slides = item.slides %}
 {% assign container_style = '' %}
 <section class="c-hero-slider {{item.advanced_options.custom_classes}}" {% if item.advanced_options.custom_id and item.advanced_options.custom_id != "" %}id="{{item.advanced_options.custom_id}}"{% endif %} {{container_style}}>
-  <div class="tiny-slider "  data-tns-controls="true" data-tns-nav="false" data-tns-autoplay-button-output="true"  >
+  <div class="tiny-slider " data-tns-controls="true" data-tns-nav="false" data-tns-autoplay-button-output="true"  >
       {% for slide in slides %}
         {% assign image=slide.image %}
         {% assign image_url = image.url_xlarge | default: image.url %}
         <div class="slider-item">
-          <div style="background-image: url({{image_url}})" class="hero">
+          <div style="background-image: url({{image_url}})" class="hero" aria-label="{{image.alt}}">
             <div class='h1 hero__title'>{{slide.title}}</div>
             <div class='hero__body'>{{slide.sub_title}}</div>
           </div>
