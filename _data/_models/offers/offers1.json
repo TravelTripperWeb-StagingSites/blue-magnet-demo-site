@@ -1,6 +1,6 @@
 {
   "name_localized": {
-    "en": "Fall Getaway Package-copy"
+    "en": "Mid-December Special"
   },
   "short_description_localized": {
     "en": "Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! "
@@ -45,22 +45,21 @@
     "en": "Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! "
   },
   "policy_override_localized": {
-    "en": "<p>3-night minimum stay.&nbsp; Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
+    "en": "<p>Rate does not include the Hotel Fee of $16.95 per night, plus tax.</p>"
   },
   "addons_override": [
-    "Dinner for two at The Vista Bistro - Italian Eatery (one antipasti and dessert to share and two entrees - $80 value)",
-    "$25.00 Disney gift card",
-    "1pm late checkout",
+    "$25 credit at The Vista Bistro - Italian Eatery (one-time)",
+    "50% off resort fee",
     "Plus, our daily signature hot breakfast buffet and parking are always FREE!",
-    "For travel September 1 - November 30, 2019"
+    "For travel December 11 - 22, 2019"
   ],
   "description_override_localized": {
     "en": "<p>Enjoy the beautiful Florida fall weather, newly renovated suites and the many Orlando attractions! Getaway this fall and receive:</p>"
   },
   "meta_title_prefix_localized": {
-    "en": "Fall Getaway Package"
+    "en": "Mid-December Special"
   },
   "meta_description_localized": {
-    "en": "Getaway this fall and receive dinner for two at The Vista Bistro - Italian Eatery, a $25.00 Disney gift card, late checkout, plus free breakfast & parking!"
+    "en": "Rates from $105, 50% off resort fee, plus free breakfast & parking!"
   }
 }
