@@ -837,15 +837,10 @@ function validateForm() {
 
 	jQuery('[aria-required="true"]').each(function (index) {
 		if (jQuery(this).closest('.form-check').length) {
-			console.log('ID:', jQuery(this).attr('id'));
-			console.log('what we checking..:', jQuery(this).closest('label').find('input:checked').length);
-			console.log('the actual condition:', !jQuery(this).closest('label').find('input:checked').length);
 			if (!jQuery(this).closest('label').find('input:checked').length) {
-				//if(!jQuery(this).find('input:checked').length > 0){
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).closest('label').text();
 				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
-				jQuery(this).closest('fieldset').addClass('errors').append('<span role="alert" class="error-message">Please choose an option</span>');
 			} else {
 				jQuery(this).val(jQuery(this).closest('label').text());
 				jQuery(this).closest('fieldset').removeClass('errors');
@@ -857,7 +852,6 @@ function validateForm() {
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).is('.datepicker') ? jQuery(this).closest('.form-group').find('label').text() : jQuery(this).prev('label').text();
 				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
-				if (jQuery(this).is('.datepicker')) jQuery(this).closest('.form-group').append('<span role="alert" class="error-message">Please enter text</span>');else jQuery(this).parent().append('<span role="alert" class="error-message">Please enter text</span>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
 			}
@@ -868,7 +862,6 @@ function validateForm() {
 				//var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
 				var errortxt = jQuery(this).prev('label').text();
 				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
-				jQuery(this).parent().append('<span role="alert" class="error-message">Please select an option</span>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
 			}
@@ -885,10 +878,7 @@ function validateForm() {
 	}
 
 	// -- Accesssible foucs on error message when page loads
-	//console.log(errorSummary.find('li:first-child a').text());
-	//errorSummary.find('li:first-child a').focus();
 
-	console.log('how many?', jQuery('[aria-invalid="true"]').length);
 
 	if (jQuery('[aria-invalid="true"]').length > 0) {
 		console.log('Errors!');
@@ -904,17 +894,7 @@ function validateForm() {
 		console.log('Send form!');
 		// ajax post data
 		jQuery('form[name^="form_"]').submit();
-		/*jQuery('form[name^="form_"]').submit(function(){
-  	var fields = jQuery("input", this).serializeArray();
-  	var saveData = jQuery.ajax({
-  		type: 'POST',
-  		url: jQuery('form[name^="form_"]').attr('action') + "?action=saveData",
-  		data: fields,
-  		//dataType: "text",
-  		success: function(resultData) { alert("Save Complete") }
-  	});
-  	saveData.error(function() { alert("Something went wrong"); });
-  });*/
+
 		return true;
 	}
 }
