@@ -61,5 +61,8 @@
   },
   "meta_description_localized": {
     "en": "Rates from $105, 50% off resort fee, plus free breakfast & parking!"
+  },
+  "url_friendly_name_localized": {
+    "en": "mid-december-rates"
   }
 }
