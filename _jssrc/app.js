@@ -106,7 +106,7 @@ document.ready(function() {
       if (!shownModal) {
         ad.classList.add('show');
         let adElements = [...ad.querySelectorAll('[tabindex="0"]')];
-        let startElement = ad.querySelector("#modal-ad-title");
+        let startElement = ad.querySelector("#modal-close-button");
         console.log(startElement, adElements)
         startElement.focus();
         window.modalTabIdx = adElements.indexOf(startElement)
@@ -976,3 +976,4 @@ jQuery(function(){
 		}
 	});
 });
+

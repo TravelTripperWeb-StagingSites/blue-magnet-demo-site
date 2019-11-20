@@ -135,7 +135,7 @@ document.ready(function () {
 		if (!shownModal) {
 			ad.classList.add('show');
 			var adElements = [].concat(_toConsumableArray(ad.querySelectorAll('[tabindex="0"]')));
-			var startElement = ad.querySelector("#modal-ad-title");
+			var startElement = ad.querySelector("#modal-close-button");
 			console.log(startElement, adElements);
 			startElement.focus();
 			window.modalTabIdx = adElements.indexOf(startElement);

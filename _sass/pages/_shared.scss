@@ -323,6 +323,7 @@ footer {
     }
   }
 }
- *:hover, *:active {
-    outline: none;
-  }    
+
+[data-whatintent='mouse'] *:focus {
+  outline: none;
+}
