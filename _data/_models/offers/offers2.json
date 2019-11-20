@@ -1,0 +1,35 @@
+{
+  "featured_order": "",
+  "name_localized": {
+    "en": "Test"
+  },
+  "name_override_localized": {
+    "en": "Test"
+  },
+  "meta_title_localized": {
+    "en": "Test"
+  },
+  "meta_title_prefix_localized": {
+    "en": "Test"
+  },
+  "meta_description_localized": {
+    "en": "Test"
+  },
+  "url_friendly_name_localized": {
+    "en": "test"
+  },
+  "short_description_localized": {
+    "en": "Test"
+  },
+  "short_description_override_localized": {
+    "en": "Test"
+  },
+  "description_localized": {
+    "en": "<p>Test</p>"
+  },
+  "description_override_localized": {
+    "en": "<p>Test</p>"
+  },
+  "published": true,
+  "order": 8
+}
