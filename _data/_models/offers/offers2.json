@@ -55,5 +55,16 @@
     "alt": "Buena Vista Suites Lobby Front Desk02",
     "caption": "",
     "description": ""
-  }
+  },
+  "links": [
+    {
+      "label": "Test",
+      "url": "https://www.cendyn.com",
+      "open_in_new_tab": true
+    },
+    {
+      "label": "Test 2",
+      "url": "https://www.cendyn.com"
+    }
+  ]
 }
