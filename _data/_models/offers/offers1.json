@@ -56,7 +56,14 @@
     "caption": "",
     "description": ""
   },
+
   "published": true,
   "order": 0,
-  "reztrip_offer_id": "BAR"
+  "reztrip_offer_id": "BAR",
+  "meta_description_localized": {
+    "en": "Rates from $105, 50% off resort fee, plus free breakfast & parking!"
+  },
+  "url_friendly_name_localized": {
+    "en": "mid-december-rates"
+  }
 }
