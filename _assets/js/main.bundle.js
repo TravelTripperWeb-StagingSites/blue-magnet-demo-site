@@ -135,7 +135,7 @@ document.ready(function () {
 		if (!shownModal) {
 			ad.classList.add('show');
 			var adElements = [].concat(_toConsumableArray(ad.querySelectorAll('[tabindex="0"]')));
-			var startElement = ad.querySelector("#modal-ad-title");
+			var startElement = ad.querySelector("#modal-close-button");
 			console.log(startElement, adElements);
 			startElement.focus();
 			window.modalTabIdx = adElements.indexOf(startElement);
@@ -351,13 +351,19 @@ function datePickHandler() {
 	});
 }
 
-function closeCalendar(input) {
-	var input = input || jQuery('.datepicker');
+function closeCalendar() {
+	var input = jQuery('.datepicker.view');
 	var container = jQuery('#ui-datepicker-div');
 	container.off('keydown');
 	input.datepicker('hide');
 	//input.next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
-	input.focus();
+	//input.focus();
+	input.each(function () {
+		$this = jQuery(this);
+		//console.log($this.prev().text());
+		//console.log($this.next('[aria-expanded="true"]').attr('aria-describedby'));
+		$this.focus();
+	});
 }
 
 function removeAria() {

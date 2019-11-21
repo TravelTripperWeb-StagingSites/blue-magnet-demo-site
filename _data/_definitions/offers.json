@@ -1,0 +1,110 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "name_override": {
+    "localizable": true,
+    "instructions": "Provide custom text that won't be changed from an import"
+  },
+  "meta_title": {
+    "localizable": true,
+    "instructions": "Explicit SEO title used if this model generates dynamic pages"
+  },
+  "meta_title_prefix": {
+    "localizable": true,
+    "instructions": "First part of SEO title that gets combined with default site title values if this model generates dynamic pages"
+  },
+  "meta_description": {
+    "localizable": true,
+    "instructions": "SEO meta description used if this model generates dynamic pages"
+  },
+
+  "url_friendly_name": {
+    "label": "URL Friendly Name",
+    "type": "url_slug",
+    "localizable": true
+  },  
+  "short_description": {
+    "localizable": true,
+    "type": "text"
+  },
+  "short_description_override": {
+    "localizable": true,
+    "type": "text",
+    "instructions": "Provide custom text that won't be changed from an import"
+  },
+  "description": {
+    "localizable": true,
+    "type": "richtext"
+  },
+  "description_override": {
+    "localizable": true,
+    "type": "richtext",
+    "instructions": "Provide custom text that won't be changed from an import"
+  },
+  "addons": {
+    "type": "string",
+    "multiple": true
+  },
+  "addons_override": {
+    "type": "string",
+    "multiple": true,
+    "instructions": "Provide custom list that won't be changed from an import"
+  },
+  "policy": {
+    "localizable": true,
+    "type": "richtext"
+  },
+  "policy_override": {
+    "localizable": true,
+    "type": "richtext",
+    "instructions": "Provide custom text that won't be changed from an import"
+  },
+  "image": {
+    "type": "image"
+  },
+  "image_override": {
+    "type": "image",
+    "instructions": "Provide a custom image that won't be changed from an import"
+  },
+  "reztrip_offer_id": {
+    "Label": "Reztrip ID",
+    "instructions": "The reztrip ID for this offer"
+  },
+  "links": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "label": {
+        "type": "string"
+      },
+      "url": {
+        "type": "url"
+      },
+      "open_in_new_tab": {
+        "label": "Open link in new tab?",
+        "type": "boolean"
+      }
+    }
+  },
+  "published": {
+    "type": "boolean"
+  },
+  "order": {
+    "type": "order"
+  },
+  "featured": {
+    "type": "boolean",
+    "label": "Featured Offer?"
+  },
+  "featured_order": {
+    "type": "order"
+  },
+  "__META__": {
+    "remote": {
+      "type": "reztrip_offers",
+      "key": "reztrip_offer_id"
+    }
+  }
+}
