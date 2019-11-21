@@ -310,13 +310,19 @@ function datePickHandler() {
 	});
 }
 
-function closeCalendar(input) {
-	var input = input || jQuery('.datepicker');
-	var container = jQuery('#ui-datepicker-div');
-	container.off('keydown');
-	input.datepicker('hide');
-	//input.next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
-	input.focus();
+function closeCalendar() {
+    var input = jQuery('.datepicker.view');
+    var container = jQuery('#ui-datepicker-div');
+    container.off('keydown');
+    input.datepicker('hide');
+    //input.next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
+    //input.focus();
+    input.each(function(){
+        $this = jQuery(this);
+        //console.log($this.prev().text());
+        //console.log($this.next('[aria-expanded="true"]').attr('aria-describedby'));
+        $this.focus();
+    });
 }
 
 function removeAria() {
