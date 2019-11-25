@@ -1,5 +1,5 @@
 {
-  "featured_order": "",
+  "featured_order": 0,
   "name_localized": {
     "en": "Black Friday / Cyber Monday Rates"
   },
@@ -25,15 +25,12 @@
   },
   "policy_localized": {
     "en": "<p><em>Rate does not include taxes. Subject to availability. *<strong>Blackout dates may apply: November 28-30, December 3-10; 26-31, January 29-30, February 14-16, March 5-8; 13-15.</strong> Does not apply to existing bookings or group reservations. Hotel Fee of $16.95 plus tax, per night.</em></p>"
-
   },
   "policy_override_localized": {
     "en": "<p><em>Rate does not include taxes. Subject to availability. *<strong>Blackout dates may apply: November 28-30, December 3-10; 26-31, January 29-30, February 14-16, March 5-8; 13-15.</strong> Does not apply to existing bookings or group reservations. Hotel Fee of $16.95 plus tax, per night.</em></p>"
   },
-
   "description_override_localized": {
     "en": "<p>Black Friday savings: <strong>25% off of a one-bedroom suite.</strong> Hurry, this once a year savings won&rsquo;t last long. Book now* for your next vacation!</p>"
-
   },
   "image": {
     "name": "Buena Vista Suites - Model Suite A - 1297191_rgb_hd-2",
@@ -59,14 +56,10 @@
     "caption": "",
     "description": ""
   },
-
   "published": true,
   "order": 0,
   "reztrip_offer_id": "BAR",
   "meta_description_localized": {
     "en": "Rates from $105, 50% off resort fee, plus free breakfast & parking!"
-  },
-  "url_friendly_name_localized": {
-    "en": "mid-december-rates"
   }
 }
