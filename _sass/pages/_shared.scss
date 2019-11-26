@@ -327,3 +327,7 @@ footer {
 [data-whatintent='mouse'] *:focus {
   outline: none;
 }
+
+.hidden-all {
+  display: none !important;
+}
