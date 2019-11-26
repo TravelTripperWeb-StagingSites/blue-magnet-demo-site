@@ -1,6 +1,9 @@
 [
   {
     "_template": "html",
-    "content": "<p class=\"h1\" style=\"text-align: center;\">holidays at buena vista suites</p>"
+    "content": "<p>New HTML Content</p>"
+  },
+  {
+    "_template": "hero"
   }
 ]
