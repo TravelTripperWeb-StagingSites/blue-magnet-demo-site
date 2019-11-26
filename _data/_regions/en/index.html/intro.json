@@ -196,5 +196,8 @@
         "tabindex": "0"
       }
     }
+  },
+  {
+    "_template": "hero"
   }
 ]
