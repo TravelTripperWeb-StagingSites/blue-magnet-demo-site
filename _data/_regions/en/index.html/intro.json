@@ -126,12 +126,6 @@
     "h1_header_type": "h1"
   },
   {
-    "_template": "1_col",
-    "html": {
-      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\"><a class=\"btn btn--secondary\" href=\"members/\">BECOME A PRIVATE MEMBER</a>&nbsp;for access to our lowest available rates and benefits.&nbsp;</p>"
-    }
-  },
-  {
     "_template": "hero",
     "advanced_options": {
     },
@@ -159,6 +153,12 @@
         "caption": "",
         "description": ""
       }
+    }
+  },
+  {
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h4\" style=\"text-align: center;\">Ready to save even more on your next Orlando vacation?</p>\n<p style=\"text-align: center;\"><a class=\"btn btn--secondary\" href=\"members/\">BECOME A PRIVATE MEMBER</a>&nbsp;for access to our lowest available rates and benefits.&nbsp;</p>"
     }
   },
   {
