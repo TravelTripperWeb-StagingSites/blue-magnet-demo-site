@@ -245,13 +245,13 @@
   }
   .tiny-slider {
     height: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: stretch;
+    //    display: flex;
+    //    flex-wrap: nowrap;
+    //    flex-direction: row;
+    //    align-items: stretch;
     .item {
-      //height: 100%;
-      display: block;
+      height: 100%;
+      //display: block;
       img {
         height: 100%;
       }
