@@ -1,5 +1,5 @@
-  {
-  "featured_order": "",
+{
+  "featured_order": 0,
   "name_localized": {
     "en": "Mid-December Special"
   },
@@ -33,7 +33,6 @@
     "description": ""
   },
   "reztrip_offer_id": "PROMO2",
-  "featured_order": "",
   "addons": [
     ""
   ],
@@ -41,7 +40,7 @@
     "en": "<p>Terms &amp; Conditions All reservations require a credit card guarantee at time of booking. 1 night penalty applies if not cancelled 72 hours prior to arrival. | Daily $16.95 (+tax) hotel fee will be added as a separate charge on your folio | We value your privacy and recognize its importance. View our full Privacy Policy\" | Guarantee/Deposit and Change/Cancellation Fees will depend on selected dates and room/rate combination.</p>"
   },
   "published": true,
-  "order": 7,
+  "order": 0,
   "short_description_override_localized": {
     "en": "Now is the time to stay in one of our newly renovated suites with a low rate and 50% off our resort fee.! "
   },
