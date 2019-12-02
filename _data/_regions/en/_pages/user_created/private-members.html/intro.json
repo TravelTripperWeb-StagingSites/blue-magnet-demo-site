@@ -46,7 +46,7 @@
     },
     "h1_text_alignment": "text-center",
     "pre_header": {
-      "content": "<p>&nbsp;</p>\n<hr />\n<p>&nbsp;</p>"
+      "content": ""
     }
   }
 ]
