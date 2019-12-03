@@ -3,7 +3,7 @@
   {% assign all_categories = "" %}
 
   {% capture locations %}
-    <div class="leaflet-map__locations">
+    <div class="leaflet-map__locations" role="navigation" aria-label="{% t 'attractions.categories.all' %}">
       <!-- location object for the hotel //-->
       <div class="location location--main" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}">
         <div class="location-text">
@@ -61,10 +61,10 @@
       {% assign category_list = all_categories | split: ":::" %}
       {% assign category_list = category_list  | uniq %}
       {% assign category_list = category_list  | sort %}
-      <ul tabindex="0" role="navigation" aria-label="{% t 'attractions.categories.label' %}">
-        <li data-select-category="__ALL__"><a href="#" role="button" aria-pressed="true">{% t 'attractions.categories.all' %}</a></li>
+      <ul role="navigation" aria-label="{% t 'attractions.categories.label' %}">
+        <li data-select-category="__ALL__" role="none"><a href="#" role="button" aria-pressed="true">{% t 'attractions.categories.all' %}</a></li>
         {% for category in category_list %}
-          <li data-select-category="{{ category }}"><a role="button" aria-pressed="false" href="#">{{ category }}</a></li>
+          <li data-select-category="{{ category }}" role="none"><a role="button" aria-pressed="false" href="#">{{ category }}</a></li>
         {% endfor %}
       </ul>
     </div>
