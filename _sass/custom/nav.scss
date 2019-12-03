@@ -102,6 +102,11 @@
 //        margin-right:0;
 //        margin-left: 1rem;
       }
+      .subnav {
+        a.nav__link {
+          margin-left: .5em;
+        }        
+      }
     }
   }
 
@@ -368,9 +373,6 @@
                 .nav__item {
                   height: auto;
                   padding: 0;
-                }
-                a.nav__link {
-                  margin-left: .5em;
                 }
                 .nav__link {
                   font-size: 15px;
