@@ -1,0 +1,24 @@
+---
+layout: generic
+---
+
+{% for menu in site.data._menus %}
+  <ul class="{{menu[0]}}">
+    {% assign items = menu[1].items %}
+    {% include nav/nav-item-list.html items=items %}
+  </ul>
+{% endfor %}
+
+{% comment %}
+
+  Name:
+
+    Sitemap Page
+
+  Description:
+
+    Dynamically generated content from _menus.yml file.
+
+  Usage:
+
+{% endcomment %}
