@@ -1023,4 +1023,5 @@ jQuery(function () {
 var removeRoleNone = document.querySelectorAll("#main li");
 removeRoleNone.forEach(function (item) {
 	item.removeAttribute("role");
+	console.log("Attribute remove");
 });
