@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p>New HTML Content</p>"
+    "content": "<p><a class=\"skip-main\" href=\"#flipsocial\">Skip to Social Connected</a></p>"
   }
 ]
