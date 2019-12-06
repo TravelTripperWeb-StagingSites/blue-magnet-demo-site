@@ -2,6 +2,7 @@
   {
     "_template": "hero_slider",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "slides": [
       {
