@@ -1,5 +1,5 @@
 @mixin standard-headers {
-  h1, .h1, .h2, .h3, .h5, .h6  {
+  h1, .h1, .h2, .h3, .h5, .h6, .h2-h3  {
     text-transform: uppercase;
   }
 
@@ -29,7 +29,7 @@
     font-weight: normal;
   }
 
-  .h3, .h5, .h6 {
+  .h3, .h5, .h6, .h2-h3 {
     letter-spacing: 1.35px;
     color: $primary;
     font-weight: 700;

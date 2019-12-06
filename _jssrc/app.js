@@ -983,3 +983,10 @@ jQuery(function(){
 	});
 });
 
+
+//removing the role none from li for main nav
+	var removeRoleNone = document.querySelectorAll("#main li");
+		removeRoleNone.forEach(item => {
+			item.removeAttribute("role");
+		})
+
