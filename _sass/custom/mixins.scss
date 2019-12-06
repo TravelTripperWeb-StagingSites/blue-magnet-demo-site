@@ -164,7 +164,7 @@
         }
         
         &__image-wrap {
-          padding-top: 100%;
+          padding-top: 70%; 
           position: relative;
           width: 100%;
         }
@@ -177,7 +177,7 @@
           flex-direction: column;
         }
         &__image {
-          position: absolute; 
+          position: relative ; 
           height: auto;
           top: 0; left: 0; right: 0; bottom: 0;
         }
