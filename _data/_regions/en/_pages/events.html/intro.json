@@ -80,7 +80,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p>&nbsp;</p>\n<h3 class=\"h3\" style=\"text-align: center;\">Request for Proposal</h3>\n<p>&nbsp;</p>"
+      "content": "<p>&nbsp;</p>\n<h2 class=\"h2-h3\" style=\"text-align: center;\">Request for Proposal</h2>\n<p>&nbsp;</p>"
     }
   }
 ]
