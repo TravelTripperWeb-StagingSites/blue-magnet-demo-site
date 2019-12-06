@@ -981,23 +981,16 @@ jQuery(function(){
 			jQuery(this).parent().attr("aria-checked", "false");
 		}
 	});
-});
 
-
-//removing the role none from li for main nav
+	//removing the role none from li for main nav
 	var removeRoleNone = document.querySelectorAll(".main li");
-		console.log(removeRoleNone);
-		console.log('removing attribute now');
-		removeRoleNone.forEach(function(item){
+		removeRoleNone.forEach(item => {
 			item.removeAttribute("role");
 			console.log("Attribute remove");
 		})
-		console.log('finish removing attribute');
-
-
-var el = document.querySelectorAll(".top li");
-el.forEach(function(item){
-
-item.removeAttribute('role');
+		
 
 });
+
+
+
