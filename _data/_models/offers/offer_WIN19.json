@@ -6,7 +6,7 @@
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package."
   },
   "description_localized": {
-    "en": "<p>Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package.&nbsp;Located just 1.5 miles from the Walt Disney World&reg; theme parks.&nbsp;<a href=\"//res.cloudinary.com/traveltripperweb/raw/upload/v1571938453/y0agafw0nmowgrl7rmdj.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduled shuttle service available.</a></p>"
+    "en": "<p>Escape the cold and enjoy Florida's beautiful weather with this incredibly priced package. Get the best value for your Orlando getaway just minutes aways from Walt DisneyWorld&reg; theme parks and other local attractions.&nbsp;<a href=\"//res.cloudinary.com/traveltripperweb/raw/upload/v1571938453/y0agafw0nmowgrl7rmdj.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduled shuttle service available.</a></p>"
   },
   "image": {
     "name": "Family of four on blanket",
@@ -32,7 +32,7 @@
     "description": ""
   },
   "reztrip_offer_id": "WIN19",
-  "featured_order": "",
+  "featured_order": 0,
   "short_description_override_localized": {
     "en": "Escape the cold and enjoy Florida's beautiful weather and many attractions with this incredibly priced package. "
   },
