@@ -331,3 +331,8 @@ footer {
 .hidden-all {
   display: none !important;
 }
+
+a.btn.btn--secondary.ext-link:focus{
+  text-decoration:underline;
+  color:#53785D;
+}
