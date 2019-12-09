@@ -991,6 +991,7 @@ jQuery(function(){
 
 	//removing the undefined from the aria label  for external links
 	var ariaLabelEle = document.querySelectorAll(" a[aria-label]");
+		console.log(ariaLabelEle);
 		ariaLabelEle.forEach(item => {
 			var getAriaValue = item.getAttribute('aria-label');
 				if(getAriaValue.includes("undefined")){
@@ -998,7 +999,7 @@ jQuery(function(){
 					console.log(getAriaValue);
 					ariaLabelEle.setAttribute('aria-label',updateArialAttr);
 				}
-		})
+		});
 		
 
 });

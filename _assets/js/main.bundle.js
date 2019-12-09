@@ -1027,6 +1027,7 @@ jQuery(function () {
 
 	//removing the undefined from the aria label  for external links
 	var ariaLabelEle = document.querySelectorAll(" a[aria-label]");
+	console.log(ariaLabelEle);
 	ariaLabelEle.forEach(function (item) {
 		var getAriaValue = item.getAttribute('aria-label');
 		if (getAriaValue.includes("undefined")) {
