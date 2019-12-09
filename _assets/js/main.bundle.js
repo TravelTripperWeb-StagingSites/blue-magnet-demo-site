@@ -1024,4 +1024,15 @@ jQuery(function () {
 		item.removeAttribute("role");
 		console.log("Attribute remove");
 	});
+
+	//removing the undefined from the aria label  for external links
+	var ariaLabelEle = document.querySelectorAll(" a[aria-label]");
+	ariaLabelEle.forEach(function (item) {
+		var getAriaValue = item.getAttribute('aria-label');
+		if (getAriaValue.includes("undefined")) {
+			var updateArialAttr = getAriaValue.substring(10);
+			console.log(getAriaValue);
+			ariaLabelEle.setAttribute('aria-label', updateArialAttr);
+		}
+	});
 });
