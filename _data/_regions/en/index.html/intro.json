@@ -40,7 +40,7 @@
   {
     "_template": "hero_slider",
     "advanced_options": {
-      "custom_classes": "hidden-all"
+      "custom_classes": ""
     },
     "slides": [
       {
