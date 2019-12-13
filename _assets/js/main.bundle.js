@@ -977,9 +977,9 @@ jQuery(function () {
 	// Add aria-describedby to the button referring to the label
 	jQuery('.ui-datepicker-trigger').each(function (index) {
 		if (jQuery(this).closest('.bookingMask').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar ' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
 		} else if (jQuery(this).closest('.EditingFormControlNestedControl').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar ' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
 		}
 		jQuery(this).attr('aria-labelledby', 'datepickerLabel' + index);
 		//jQuery(this).attr('aria-describedby', 'datepickerLabel');
