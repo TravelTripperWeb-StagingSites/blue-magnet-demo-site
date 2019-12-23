@@ -318,7 +318,7 @@ function closeCalendar() {
     //input.next('.ui-datepicker-trigger').attr('aria-expanded', 'false');
     //input.focus();
     input.each(function(){
-        $this = jQuery(this);
+        var $this = jQuery(this);
         //console.log($this.prev().text());
         //console.log($this.next('[aria-expanded="true"]').attr('aria-describedby'));
         $this.focus();

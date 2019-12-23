@@ -109,3 +109,58 @@ footer:
     items: 
     label_localized:
       en: Sitemap
+sitemap-additions:
+  depth: 1
+  name: Sitemap Additions
+  items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/contact.html
+    items: 
+    label_localized:
+      en: Contact Us
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/reviews.html
+    items: 
+    label_localized:
+      en: Reviews
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/faq.html
+    items: 
+    label_localized:
+      en: FAQ
+  - folder: false
+    url_localized:
+      en: http://www.crrsv.com/bvs/index.html
+    label_localized:
+      en: Pay Online
+    target: _blank
+    items: 
+  - folder: false
+    url_localized:
+      en: http://www.crrsv.com/careers/
+    label_localized:
+      en: Careers
+    target: _blank
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/user_created/travel-agents.html
+    items: 
+    label_localized:
+      en: Travel Agents
+  - folder: false
+    url_localized:
+      en: "/privacy/"
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    items: 
+    label_localized:
+      en: Sitemap
