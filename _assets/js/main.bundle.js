@@ -846,7 +846,7 @@ function validateForm() {
 			if (!jQuery(this).closest('label').find('input:checked').length) {
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).closest('label').text();
-				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
+				errorSummary.append('<li role="none"><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 			} else {
 				jQuery(this).val(jQuery(this).closest('label').text());
 				jQuery(this).closest('fieldset').removeClass('errors');
@@ -857,7 +857,7 @@ function validateForm() {
 			if (jQuery(this).val() == '') {
 				jQuery(this).attr('aria-invalid', true);
 				var errortxt = jQuery(this).is('.datepicker') ? jQuery(this).closest('.form-group').find('label').text() : jQuery(this).prev('label').text();
-				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
+				errorSummary.append('<li role="none"><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
 			}
@@ -867,7 +867,7 @@ function validateForm() {
 				jQuery(this).attr('aria-invalid', true);
 				//var errortxt = jQuery(this).parents('.select-wrapper').prev('label').text();
 				var errortxt = jQuery(this).prev('label').text();
-				errorSummary.append('<li><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
+				errorSummary.append('<li role="none"><a href="javascript:document.getElementById(\'' + jQuery(this).attr('id') + '\').focus()" name="index' + index + '">' + errortxt + '</a></li>');
 			} else {
 				jQuery(this).attr('aria-invalid', false);
 			}
@@ -877,7 +877,7 @@ function validateForm() {
 	//validate google recaptcha
 	var response = grecaptcha.getResponse();
 	if (response.length === 0) {
-		errorSummary.append('<li><a href="#g-recatcha" name="google recapthca">You must validate the recaptcha</a></li>');
+		errorSummary.append('<li role="none"><a href="#g-recatcha" name="google recapthca">You must validate the recaptcha</a></li>');
 		jQuery('#g-recatcha').attr('aria-invalid', true);
 	} else {
 		jQuery('#g-recatcha').attr('aria-invalid', false);
@@ -977,11 +977,11 @@ jQuery(function () {
 	// Add aria-describedby to the button referring to the label
 	jQuery('.ui-datepicker-trigger').each(function (index) {
 		if (jQuery(this).closest('.bookingMask').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar ' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
 		} else if (jQuery(this).closest('.EditingFormControlNestedControl').find('[id*="datepickerLabel"]').length == 0) {
-			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar' + index + '</div>');
+			jQuery(this).closest('div').prepend('<div id="datepickerLabel' + index + '" class="sr-only">Datepicker Calendar ' + jQuery(this).closest('div').find('input').attr('placeholder') + '</div>');
 		}
-		jQuery(this).attr('aria-describedby', 'datepickerLabel' + index);
+		jQuery(this).attr('aria-labelledby', 'datepickerLabel' + index);
 		//jQuery(this).attr('aria-describedby', 'datepickerLabel');
 	});
 
@@ -997,6 +997,11 @@ jQuery(function () {
 
 	// call dayTripper();
 	dayTripper();
+
+	// set roles, ids and labels for error summary
+	var errorSummary = jQuery('#error-summary ul').attr('role', 'region');
+	errorSummary.closest('div').find('.h3').attr('id', 'error-summary-title');
+	errorSummary.attr('aria-labelledby', 'error-summary-title');
 
 	// set autocomplete on all INPUT text type
 	jQuery('input[type="text"]').attr('autocomplete');
@@ -1016,5 +1021,12 @@ jQuery(function () {
 		} else {
 			jQuery(this).parent().attr("aria-checked", "false");
 		}
+	});
+
+	//removing the role none from li for main nav
+	var removeRoleNone = document.querySelectorAll(".main li");
+	removeRoleNone.forEach(function (item) {
+		item.removeAttribute("role");
+		console.log("Attribute remove");
 	});
 });
