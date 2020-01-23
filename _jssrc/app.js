@@ -994,7 +994,11 @@ jQuery(function(){
 			console.log("Attribute remove");
 		})
 
-	
+	//update the map links
+	var mapElem = document.querySelectorAll('.location-label');
+		mapElem.forEach(function(links) {
+			links.style.textDecoration = "underline";
+		})
 		
 
 });
