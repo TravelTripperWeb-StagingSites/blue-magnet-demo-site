@@ -1029,4 +1029,10 @@ jQuery(function () {
 		item.removeAttribute("role");
 		console.log("Attribute remove");
 	});
+
+	//update the map links
+	var mapElem = document.querySelectorAll('.leaflet-map__categories a');
+	mapElem.forEach(function (links) {
+		links.style.textDecoration = "underline";
+	});
 });
