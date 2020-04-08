@@ -1,0 +1,34 @@
+{
+  "name_localized": {
+    "en": "AAA Member Discount"
+  },
+  "short_description_localized": {
+    "en": "AAA Member Discount"
+  },
+  "description_localized": {
+    "en": null
+  },
+  "image": {
+    "name": "AAA-Member-Discount-AAA-Member-Discount",
+    "content_type": null,
+    "date_added": "2020-04-08-142058",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "width": 1100,
+    "height": 700,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1586370058/bmqbbzx4ozpmk53dlemu.jpg",
+    "resource_type": "image",
+    "size": 170043,
+    "caption": "AAA Member Discount",
+    "description": "",
+    "alt": "AAA Member Discount",
+    "original_url": "https://d31f902anbz5po.cloudfront.net/440/21598_6_master.jpeg"
+  },
+  "reztrip_offer_id": "AAAD"
+}
