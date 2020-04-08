@@ -12,6 +12,9 @@ address:
   zip_code: '32821'
 default_currency: USD
 default_timezone: America/New_York
+_hotel_id: WDCCAP
+_portal_id: capitolhillhotel-dc
+
 __EDITABLE_FIELDS__:
   name:
     required: true
