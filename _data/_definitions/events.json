@@ -1,0 +1,41 @@
+{
+  "title": {
+    "required": true,
+    "localizable": true,
+    "label": "Event Name"
+  },
+  
+  "meta_title": {
+    "localizable": true,
+    "instructions": "Explicit SEO title used if this model generates dynamic pages"
+  },
+  "meta_title_prefix": {
+    "localizable": true,
+    "instructions": "First part of SEO title that gets combined with default site title values if this model generates dynamic pages"
+  },
+  "meta_description": {
+    "localizable": true,
+    "instructions": "SEO meta description used if this model generates dynamic pages"
+  },
+  
+  
+  "description": {
+    "type": "text",
+    "localizable": true
+  },
+  "image": {
+    "type": "image"
+  },
+  "start_date": {
+    "type": "date"
+  },
+  "end_date": {
+    "type": "date"
+  },
+  "published": {
+    "type": "boolean"
+  },  
+  "location": {
+    "type": "text"
+  }
+}
