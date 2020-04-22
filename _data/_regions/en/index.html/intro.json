@@ -147,10 +147,10 @@
       },
       "full_bleed": false
     },
-    "include_header": false,
-    "include_footer": false,
+    "include_header": true,
+    "include_footer": true,
     "breakpoint": "lg",
-    "layout": "7_5",
+    "layout": "4_8",
     "col1_type": "image",
     "col2_type": "html",
     "col2_html": {
