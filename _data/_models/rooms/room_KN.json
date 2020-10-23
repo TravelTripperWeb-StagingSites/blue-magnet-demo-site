@@ -139,7 +139,8 @@
   "room_category": null,
   "ada_room": false,
   "bed_types": [
-    "bed_type_KN"
+    "bed_type_2QB",
+    ""
   ],
   "url_friendly_name_localized": {
     "en": "deluxe-king-suite"

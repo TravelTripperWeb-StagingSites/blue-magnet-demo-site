@@ -10,7 +10,7 @@ items:
     - id: room_bed_types
       
   - id: offers
-  - id: dining
+  #- id: dining
   - id: attractions
     label: Explore Attractions
   - id: events
