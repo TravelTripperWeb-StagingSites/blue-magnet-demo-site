@@ -8,6 +8,7 @@ repository:
 default_lang: en
 languages:
 - en
+- it
 include:
 - _ttio_templates
 - _pages
@@ -45,13 +46,13 @@ exclude:
 - tmp
 - vendor
 keep_files:
-  - assets
-  - ttio_templates/bedrock/assets
-  - ttio_templates/zom/assets
+- assets
+- ttio_templates/bedrock/assets
+- ttio_templates/zom/assets
 rsync_copy:
-  - _assets
-  - _ttio_templates/bedrock/assets
-  - _ttio_templates/zom/assets
+- _assets
+- _ttio_templates/bedrock/assets
+- _ttio_templates/zom/assets
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
